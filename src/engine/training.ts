@@ -4,6 +4,8 @@ import {
   accuracyRequired, hitRate, elementMultiplier, ATTACK_SPEED_SECONDS, SKILL_ELEMENTS,
 } from './damage'
 
+const MAGIC_CLASSES = new Set(['Magician','F/P Wizard','I/L Wizard','Cleric'])
+
 export interface MapMobEntry extends Monster {
   count: number
   mob_time: number
@@ -111,9 +113,10 @@ export function scoreMap(
     const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
 
     const accReq = accuracyRequired(char.level, mob.level, mob.eva)
-    const hr = hitRate(derived.accuracy, accReq)
+    // Magic attacks always hit (spells don't use the accuracy stat)
+    const hr = MAGIC_CLASSES.has(char.className) ? 1.0 : hitRate(derived.accuracy, accReq)
 
-    const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * mob.count
+    const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr
 
     totalExpPerHour += expPerHourMob
     totalMobCount += mob.count
@@ -228,6 +231,7 @@ export interface TieredMaps {
   avgOptimal: MapScore[]
   lessOptimal: MapScore[]
   dangerous: MapScore[]
+  ignored: MapScore[]
 }
 
 export function rankMaps(
@@ -275,9 +279,9 @@ export function rankMaps(
       const respawnCycle = mob.mob_time > 0 ? mob.mob_time : 30
       const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
       const accReq = accuracyRequired(char.level, mob.level, mob.eva)
-      const hr = hitRate(derived.accuracy, accReq)
+      const hr = MAGIC_CLASSES.has(char.className) ? 1.0 : hitRate(derived.accuracy, accReq)
       const killsPerHour = 3600 / Math.max(timeToKill, respawnCycle / Math.max(1, mob.count))
-      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * mob.count
+      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr
 
       totalExpPerHour += expPerHourMob
       totalMobCount += mob.count
@@ -333,15 +337,27 @@ export function rankMaps(
     })
   }
 
-  // Split dangerous maps out
-  const dangerous = scores.filter(s => s.isDangerous)
-  const safe = scores.filter(s => !s.isDangerous).sort((a, b) => b.score - a.score)
+  // Filter out maps with effectively zero score (over-leveled / under-leveled)
+  const MIN_USEFUL_EXP = 100  // at least 100 EXP/hr to be worth showing
+  const useful = scores.filter(s => s.expPerHour >= MIN_USEFUL_EXP)
+  const useless = scores.filter(s => s.expPerHour < MIN_USEFUL_EXP && !s.isDangerous)
 
-  const third = Math.ceil(safe.length / 3)
+  // Split dangerous maps out
+  const dangerous = useful.filter(s => s.isDangerous)
+  const safe = useful.filter(s => !s.isDangerous).sort((a, b) => b.score - a.score)
+
+  // Exclude LOW EXP maps from recommended unless there's nothing else to show
+  const isLowExp = (s: MapScore) => s.tags.some(t => t.label === 'LOW EXP')
+  const safeNonLow = safe.filter(s => !isLowExp(s))
+  const mostOptimalSource = safeNonLow.length > 0 ? safeNonLow : safe
+
+  const third = Math.max(1, Math.ceil(safe.length / 3))
   return {
-    mostOptimal: safe.slice(0, Math.min(5, third)),
-    avgOptimal: safe.slice(third, Math.min(third + 5, third * 2)),
-    lessOptimal: safe.slice(third * 2, Math.min(third * 2 + 3, safe.length)),
-    dangerous: dangerous.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 5),
+    mostOptimal:  mostOptimalSource.slice(0, 3),
+    avgOptimal:   safe.slice(third, Math.min(third + 5, third * 2)),
+    lessOptimal:  safe.slice(third * 2, Math.min(third * 2 + 3, safe.length)),
+    dangerous:    dangerous.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 5),
+    // Low-value maps shown at bottom for reference
+    ignored:      useless.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 3),
   }
 }

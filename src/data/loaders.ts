@@ -23,7 +23,18 @@ export async function loadAppData(): Promise<AppData> {
 
   const maps: MapEntry[] = mapsJson.regions.flatMap(r => r.maps)
 
-  const equipment: Item[] = itemsJson.items.filter(i => i.category === 'Equipment')
+  // Strip GM/test items — unrealistic stats that can't be obtained in normal play
+  const equipment: Item[] = itemsJson.items.filter(i => {
+    if (i.category !== 'Equipment') return false
+    const s = i.stats
+    if ((s.incSTR ?? 0) > 100) return false
+    if ((s.incDEX ?? 0) > 100) return false
+    if ((s.incINT ?? 0) > 100) return false
+    if ((s.incLUK ?? 0) > 100) return false
+    if ((s.incPAD ?? 0) > 150) return false
+    if ((s.incMAD ?? 0) > 150) return false
+    return true
+  })
   const scrolls: Scroll[] = itemsJson.scrolls
 
   // ── Derived: mobsByMap ─────────────────────────────────────────────────────
@@ -48,10 +59,22 @@ export async function loadAppData(): Promise<AppData> {
   // ── Derived: scrollsBySlot ─────────────────────────────────────────────────
   const scrollsBySlot = new Map<string, Scroll[]>()
   for (const scroll of scrolls) {
+    // Skip scrolls with stat_type 'Other' (Crit Rate, Jump, DEF-other — not tracked in damage model)
+    if (scroll.stat_type === 'Other') continue
     const arr = scrollsBySlot.get(scroll.equip_slot) ?? []
     arr.push(scroll)
     scrollsBySlot.set(scroll.equip_slot, arr)
   }
+  // The JSON stores Hat/Topwear/Bottomwear scrolls all under 'Other' equip_slot.
+  // Split them out by name prefix so each item type shows the right scrolls.
+  const otherScrolls = scrollsBySlot.get('Other') ?? []
+  const capScrolls   = otherScrolls.filter(s => s.name.startsWith('Hat'))
+  const coatScrolls  = otherScrolls.filter(s => s.name.startsWith('Topwear'))
+  const pantsScrolls = otherScrolls.filter(s => s.name.startsWith('Bottomwear'))
+  if (capScrolls.length)   scrollsBySlot.set('Cap',   capScrolls)
+  if (coatScrolls.length)  scrollsBySlot.set('Coat',  coatScrolls)
+  if (pantsScrolls.length) scrollsBySlot.set('Pants', pantsScrolls)
+  scrollsBySlot.delete('Other')  // clean up — remaining items are pet equip scrolls
 
   // ── Derived: skillsByClass ─────────────────────────────────────────────────
   const skillsByClass = new Map<string, Skill[]>()
@@ -79,5 +102,6 @@ export async function loadAppData(): Promise<AppData> {
     mobById,
     scrollsBySlot,
     skillsByClass,
+    weaponTypesByClass: itemsJson.equipment_meta.weapon_types_by_class,
   }
 }

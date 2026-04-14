@@ -6,14 +6,20 @@ interface MapCardProps {
   mapScore: MapScore
   rank?: number
   highlight?: boolean
+  charLevel?: number
 }
 
-export default function MapCard({ mapScore, rank, highlight }: MapCardProps) {
+export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCardProps) {
   const [expanded, setExpanded] = useState(false)
-  const { mapName, region, mobs, expPerHour, tags, breakdown } = mapScore
+  const { mapName, region, mobs, tags, breakdown } = mapScore
 
-  // Show top 3 mobs by count
-  const topMobs = [...mobs].sort((a, b) => b.count - a.count).slice(0, 3)
+  // Sort mobs by level descending so the most relevant mobs appear first
+  const sortedMobs = [...mobs].sort((a, b) => b.level - a.level)
+
+  const mobLevels = mobs.map(m => m.level)
+  const minLvl = Math.min(...mobLevels)
+  const maxLvl = Math.max(...mobLevels)
+  const levelRange = minLvl === maxLvl ? `Lv.${minLvl}` : `Lv.${minLvl}–${maxLvl}`
 
   return (
     <div
@@ -39,27 +45,34 @@ export default function MapCard({ mapScore, rank, highlight }: MapCardProps) {
           <div className="text-xs text-[#5C5B57] mt-0.5">{region}</div>
         </div>
         <div className="text-right shrink-0">
-          <div className="text-sm font-semibold text-[#5AC47E]">
-            {Math.round(expPerHour).toLocaleString()}
-          </div>
-          <div className="text-[10px] text-[#5C5B57]">EXP/hr</div>
+          <div className="text-sm font-semibold text-[#5AC47E]">{levelRange}</div>
+          <div className="text-[10px] text-[#5C5B57]">mob levels</div>
         </div>
       </div>
 
-      {/* Mobs */}
-      <div className="text-xs text-[#8B8A85] mb-2">
-        {topMobs.map(m => (
-          <span key={m.id} className="mr-2">
-            {m.name} (Lv{m.level}) ×{m.count}
-          </span>
-        ))}
-        {mobs.length > 3 && <span className="text-[#5C5B57]">+{mobs.length - 3} more</span>}
+      {/* Mobs — sorted highest level first, all shown */}
+      <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-[#8B8A85] mb-2">
+        {sortedMobs.map(m => {
+          const tooLow = charLevel !== undefined && charLevel - m.level > 10
+          return (
+            <span key={m.id} className={`inline-flex items-center gap-1 ${tooLow ? 'opacity-35' : ''}`}>
+              <img
+                src={`${import.meta.env.BASE_URL}${m.thumbnail}`}
+                alt={m.name}
+                className="w-5 h-5 object-contain flex-shrink-0"
+                style={{ imageRendering: 'pixelated' }}
+                onError={e => { (e.target as HTMLImageElement).style.display = 'none' }}
+              />
+              {m.name} <span className="text-[#5C5B57]">Lv{m.level}</span> ×{m.count}
+            </span>
+          )
+        })}
       </div>
 
       {/* Stats row */}
       <div className="flex flex-wrap gap-3 text-xs mb-3">
         <span>
-          <span className="text-[#5C5B57]">Hits: </span>
+          <span className="text-[#5C5B57]">Hits to kill: </span>
           <span className="text-[#E8E6E1]">{breakdown.avgAttacksToKill.toFixed(1)}</span>
         </span>
         <span>
@@ -69,7 +82,7 @@ export default function MapCard({ mapScore, rank, highlight }: MapCardProps) {
           </span>
         </span>
         <span>
-          <span className="text-[#5C5B57]">Survival: </span>
+          <span className="text-[#5C5B57]">Safety: </span>
           <span className={breakdown.survivalRating < 0.5 ? 'text-[#E85A5A]' : 'text-[#5AC47E]'}>
             {mapScore.isDangerous ? 'Dangerous' : breakdown.survivalRating >= 0.8 ? 'Safe' : 'Caution'}
           </span>
@@ -123,7 +136,7 @@ export default function MapCard({ mapScore, rank, highlight }: MapCardProps) {
 
           {/* Per-mob breakdown */}
           <div className="space-y-1">
-            {mobs.map(mob => (
+            {sortedMobs.map(mob => (
               <div key={mob.id} className="text-xs text-[#5C5B57] flex justify-between">
                 <span>{mob.name} Lv{mob.level}</span>
                 <span>{mob.hp.toLocaleString()} HP · {mob.exp} EXP · ×{mob.count}</span>

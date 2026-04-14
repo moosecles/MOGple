@@ -1,6 +1,28 @@
 import type { Item, CharacterState, DerivedStats } from '../types'
 import { calcDamage, getStatConfig } from './damage'
 
+// Weapon types actually usable by each class's skills.
+// Empty array means no restriction (use all equippable weapons).
+export const SKILL_WEAPON_TYPES: Record<string, string[]> = {
+  // 1st job
+  Warrior:     [],  // all warrior weapons
+  Magician:    ['Wand', 'Staff'],
+  Archer:      ['Bow', 'Crossbow'],
+  Rogue:       ['Claw', 'Dagger'],
+  Beginner:    [],
+  // 2nd job
+  Fighter:     ['1H Sword', '1H Axe', '1H Blunt Weapon', '2H Sword', '2H Axe', '2H Blunt Weapon'],
+  Page:        ['1H Sword', '1H Blunt Weapon'],
+  Spearman:    ['Spear', 'Polearm'],
+  'F/P Wizard': ['Wand', 'Staff'],
+  'I/L Wizard': ['Wand', 'Staff'],
+  Cleric:      ['Wand', 'Staff'],
+  Hunter:      ['Bow'],
+  Crossbowman: ['Crossbow'],
+  Assassin:    ['Claw'],
+  Bandit:      ['Dagger'],
+}
+
 export interface ScrollScenario {
   label: string
   expectedATK: number
@@ -15,6 +37,8 @@ export interface GearCandidate {
   meetsRequirements: boolean
   levelToEquip: number
   deltaFromCurrent: number  // expected damage avg diff vs current
+  // For armor: isolated stat contribution to max/min/avg damage
+  statContrib: { max: number; min: number; avg: number }
 }
 
 function expectedSuccesses(slots: number, rate: number): number {
@@ -24,7 +48,8 @@ function expectedSuccesses(slots: number, rate: number): number {
 export function computeWeaponCandidates(
   items: Item[],
   char: CharacterState,
-  derived: DerivedStats
+  derived: DerivedStats,
+  preferredWeaponTypes?: string[]
 ): GearCandidate[] {
   const config = getStatConfig(char.className)
   const isMage = config.isMagic
@@ -43,9 +68,14 @@ export function computeWeaponCandidates(
     return jobBits[className] ?? 0
   })()
 
+  // Use passed types, or fall back to class skill weapon types
+  const effectivePreferred = preferredWeaponTypes ?? SKILL_WEAPON_TYPES[char.className] ?? []
+  const preferredSet = new Set(effectivePreferred)
   const weapons = items.filter(item => {
     if (item.sub_category !== 'Weapon') return false
     if (item.stats.reqJob !== 0 && (item.stats.reqJob & classDef) === 0) return false
+    // Filter to skill-relevant weapon types when the class has a defined preference
+    if (preferredSet.size > 0 && item.weapon_type && !preferredSet.has(item.weapon_type)) return false
     return true
   })
 
@@ -103,10 +133,15 @@ export function computeWeaponCandidates(
       meetsRequirements,
       levelToEquip: item.stats.reqLevel,
       deltaFromCurrent: expectedDmg - currentDamageAvg,
+      statContrib: { max: 0, min: 0, avg: 0 },  // N/A for weapons (use deltaFromCurrent)
     })
   }
 
-  return candidates.sort((a, b) => b.eds.expected - a.eds.expected)
+  return candidates.sort((a, b) => {
+    // Equippable items always rank above unequippable ones
+    if (a.meetsRequirements !== b.meetsRequirements) return a.meetsRequirements ? -1 : 1
+    return b.eds.expected - a.eds.expected
+  })
 }
 
 export function computeArmorCandidates(
@@ -157,7 +192,9 @@ export function computeArmorCandidates(
   }
 
   const candidates: GearCandidate[] = slotItems.map(item => {
-    const dmgVal = statDamageValue(item)
+    const dmgValMax = statDamageValue(item)  // max contribution (no mastery factor)
+    const dmgValMin = dmgValMax * derived.mastery
+    const dmgValAvg = (dmgValMax + dmgValMin) / 2
     const meetsRequirements =
       item.stats.reqLevel <= char.level &&
       item.stats.reqSTR <= derived.totalStats.STR &&
@@ -166,19 +203,23 @@ export function computeArmorCandidates(
       item.stats.reqLUK <= derived.totalStats.LUK
 
     const scenarios: ScrollScenario[] = [
-      { label: 'Clean', expectedATK: 0, expectedDamageAvg: dmgVal },
+      { label: 'Clean', expectedATK: 0, expectedDamageAvg: dmgValAvg },
     ]
 
     return {
       item,
       baseATK: item.stats.incPAD ?? 0,
       scrollScenarios: scenarios,
-      eds: { floor: dmgVal, expected: dmgVal, ceiling: dmgVal },
+      eds: { floor: dmgValAvg, expected: dmgValAvg, ceiling: dmgValAvg },
       meetsRequirements,
       levelToEquip: item.stats.reqLevel,
       deltaFromCurrent: 0,
+      statContrib: { max: dmgValMax, min: dmgValMin, avg: dmgValAvg },
     }
   })
 
-  return candidates.sort((a, b) => b.eds.expected - a.eds.expected)
+  return candidates.sort((a, b) => {
+    if (a.meetsRequirements !== b.meetsRequirements) return a.meetsRequirements ? -1 : 1
+    return b.eds.expected - a.eds.expected
+  })
 }

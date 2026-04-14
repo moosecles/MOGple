@@ -80,10 +80,11 @@ export function calcDamage(input: DamageInput): DamageResult {
   const config = CLASS_STAT_CONFIG[input.className] ?? CLASS_STAT_CONFIG.Beginner
 
   if (config.isMagic) {
-    // Approximate magic formula (flagged as approximate in spec)
+    // Classic MapleStory magic formula: (M.ATK² / 1000 + M.ATK + INT / 200) × skill%
     const matk = input.weaponMAD + input.flatAttackPower
-    const max = Math.floor(((matk * matk / 1000 + matk) / 30 + input.stats.INT / 200) * input.skillPercent)
-    const min = Math.floor(max * input.mastery)
+    const matkMod = matk * matk / 1000 + matk + input.stats.INT / 200
+    const max = Math.floor(matkMod * input.skillPercent)
+    const min = Math.floor(matkMod * input.mastery * input.skillPercent)
     return { max, min, avg: (max + min) / 2 }
   }
 
@@ -165,10 +166,10 @@ export function elementMultiplier(
 // ─── Scroll bonuses ────────────────────────────────────────────────────────────
 
 export const SCROLL_BONUSES: Record<string, Record<string, number>> = {
-  Lesser:       { Attack: 1, STR: 1, DEX: 1, INT: 1, LUK: 1, HP: 5,  MP: 5,  Accuracy: 1, Avoidability: 1 },
-  Intermediate: { Attack: 2, STR: 2, DEX: 2, INT: 2, LUK: 2, HP: 10, MP: 10, Accuracy: 2, Avoidability: 2 },
-  Greater:      { Attack: 3, STR: 3, DEX: 3, INT: 3, LUK: 3, HP: 15, MP: 15, Accuracy: 3, Avoidability: 3 },
-  Chaos:        { Attack: 5, STR: 5, DEX: 5, INT: 5, LUK: 5, HP: 30, MP: 30, Accuracy: 5, Avoidability: 5 },
+  Lesser:       { Attack: 1, STR: 1, DEX: 1, INT: 1, LUK: 1, HP: 5,  MP: 5,  Accuracy: 1, Avoidability: 1, Defense: 2  },
+  Intermediate: { Attack: 2, STR: 2, DEX: 2, INT: 2, LUK: 2, HP: 10, MP: 10, Accuracy: 2, Avoidability: 2, Defense: 3  },
+  Greater:      { Attack: 3, STR: 3, DEX: 3, INT: 3, LUK: 3, HP: 15, MP: 15, Accuracy: 3, Avoidability: 3, Defense: 5  },
+  Chaos:        { Attack: 5, STR: 5, DEX: 5, INT: 5, LUK: 5, HP: 30, MP: 30, Accuracy: 5, Avoidability: 5, Defense: 7  },
 }
 
 export const SCROLL_RATES: Record<string, number> = {

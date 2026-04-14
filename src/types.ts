@@ -157,19 +157,20 @@ export interface CharStats {
 
 export type ScrollTier = 'Lesser' | 'Intermediate' | 'Greater' | 'Chaos';
 
-export interface ScrollApplication {
+export interface ScrollBundle {
+  stat: string;       // 'Attack', 'STR', 'DEX', 'INT', 'LUK', 'HP', 'MP', 'Accuracy', 'Avoidability', 'Defense'
   tier: ScrollTier;
-  stat: string;
-  success: boolean;
-  slotIndex: number;
+  hits: number;       // successful scroll applications (grants bonus)
+  attempts: number;   // total slot uses including failures (hits ≤ attempts ≤ tuc)
+  scrollId?: number;  // identifies which specific scroll is selected (scroll.id)
 }
 
 export interface EquippedItem {
   itemId: number;
-  scrolls: ScrollApplication[];
+  scrolls: ScrollBundle[];
 }
 
-export type EquipSlot = 'weapon' | 'helmet' | 'top' | 'bottom' | 'shoes' | 'gloves' | 'cape' | 'earrings' | 'ring';
+export type EquipSlot = 'weapon' | 'helmet' | 'top' | 'bottom' | 'shoes' | 'gloves' | 'cape' | 'earrings' | 'shield';
 
 export interface DerivedStats {
   totalStats: CharStats;
@@ -207,12 +208,12 @@ export interface AppData {
   items: Item[];
   scrolls: Scroll[];
   skills: SkillsJson;
-  // derived
   mobsByMap: Map<number, Array<Monster & { count: number; mob_time: number }>>;
   equipById: Map<number, Item>;
   mobById: Map<number, Monster>;
   scrollsBySlot: Map<string, Scroll[]>;
   skillsByClass: Map<string, Skill[]>;
+  weaponTypesByClass: Record<string, string[]>;
 }
 
 export type AppTab = 'builder' | 'training' | 'items';
