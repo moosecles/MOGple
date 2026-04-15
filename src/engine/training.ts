@@ -39,6 +39,12 @@ export interface MapScore {
   mobs: MapMobEntry[]
   score: number
   expPerHour: number
+  /** Relative meso ranking score: kills/hr × mob.level summed across scored mobs. Not an actual meso amount. */
+  mesoScore: number
+  /** Hits to kill the highest-level scored mob (same as breakdown.hitsToKillTop). Used for meso tier ranking. */
+  minShotsForMeso: number
+  /** Per-mob shot counts for scored mobs only (mob.id → attacksToKill). Unscored mobs (grey/out-of-range) are absent. */
+  mobShotCounts: Record<number, number>
   tags: Tag[]
   breakdown: ScoreBreakdown
   isDangerous: boolean
@@ -201,6 +207,9 @@ export function scoreMap(
     mobs,
     score: finalScore,
     expPerHour: totalExpPerHour,
+    mesoScore: 0,
+    minShotsForMeso: 999,
+    mobShotCounts: {},
     tags,
     isDangerous,
     breakdown: {
@@ -287,6 +296,8 @@ export interface TieredMaps {
   lessOptimal: MapScore[]
   dangerous: MapScore[]
   ignored: MapScore[]
+  /** Maps ranked by estimated meso/hr from one-shot kills. */
+  topMeso: MapScore[]
 }
 
 export function rankMaps(
@@ -338,6 +349,8 @@ export function rankMaps(
     const flyingPenaltyForMap = flyingEfficiencyPenalty(char, derived, totalMapSpawns)
 
     let totalExpPerHour = 0
+    let totalMesoScore = 0
+    const mobShotCounts: Record<number, number> = {}
     let totalMobCount = 0
     let flyingMobCount = 0
     let totalRespawn = 0
@@ -406,9 +419,19 @@ export function rankMaps(
 
       // Flying mobs: penalty depends on class attack reach + map size
       const flyingPenalty = isFlying ? flyingPenaltyForMap : 1.0
-      // Party EXP formula: total pool is boosted, then split evenly among members
-      const partyExpMult = partySize > 1 ? (1 + 0.1 * (partySize - 1)) / partySize : 1.0
+      // Party EXP formula (confirmed from CBT footage):
+      // Killer keeps 100% of their kill's XP. Each other active member receives a bonus %.
+      // Bonus rate per member: 25% for 2-person, +5% more per additional member beyond 2.
+      // partyExpMult = (1 + bonusRate × (n−1)) / n  [converts total kills → one player's EXP]
+      const bonusRatePerMember = partySize >= 2 ? 0.25 + 0.05 * Math.max(0, partySize - 2) : 0
+      const partyExpMult = (1 + bonusRatePerMember * (partySize - 1)) / partySize
       const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * flyingPenalty * partyExpMult
+
+      // Meso ranking: relative signal (no drop data). minShotsForMeso = hitsToKillTop
+      // so the TOP mob defines the tier — a low-level Slime on the same map as 4-shot
+      // Ligators doesn't make the whole map label "ONE-SHOT".
+      totalMesoScore += killsPerHour * mob.level * hr * flyingPenalty
+      mobShotCounts[mob.id] = attacksToKill
 
       totalExpPerHour += expPerHourMob
       totalMobCount += mob.count
@@ -454,6 +477,9 @@ export function rankMaps(
       mobs: mobsArr,
       score: finalScore,
       expPerHour: totalExpPerHour,
+      mesoScore: totalMesoScore,
+      minShotsForMeso: hitsToKillTop,   // top mob defines the tier — not the lowest mob on the map
+      mobShotCounts,
       tags,
       isDangerous,
       breakdown: {
@@ -491,7 +517,17 @@ export function rankMaps(
     avgOptimal:   safe.slice(third, Math.min(third + 5, third * 2)),
     lessOptimal:  safe.slice(third * 2, Math.min(third * 2 + 3, safe.length)),
     dangerous:    dangerous.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 5),
-    // Low-value maps shown at bottom for reference
     ignored:      useless.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 3),
+    topMeso: (() => {
+      const viable = scores.filter(s => s.minShotsForMeso < 999)
+      if (viable.length === 0) return []
+      // Find the globally best (lowest) shot count achievable, then show those maps.
+      // Falls back to 2-shot, 3-shot, etc. automatically — never returns empty.
+      const bestShots = Math.min(...viable.map(s => s.minShotsForMeso))
+      return viable
+        .filter(s => s.minShotsForMeso <= bestShots)
+        .sort((a, b) => b.mesoScore - a.mesoScore)
+        .slice(0, 5)
+    })(),
   }
 }

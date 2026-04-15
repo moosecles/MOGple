@@ -7,14 +7,14 @@ interface MapCardProps {
   rank?: number
   highlight?: boolean
   charLevel?: number
+  mesoMode?: boolean
 }
 
-export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCardProps) {
+export default function MapCard({ mapScore, rank, highlight, charLevel, mesoMode }: MapCardProps) {
   const [expanded, setExpanded] = useState(false)
   const [minimapOpen, setMinimapOpen] = useState(false)
   const { mapName, region, mobs, tags, breakdown } = mapScore
 
-  // Close overlay on Escape
   useEffect(() => {
     if (!minimapOpen) return
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') setMinimapOpen(false) }
@@ -22,7 +22,6 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
     return () => window.removeEventListener('keydown', handler)
   }, [minimapOpen])
 
-  // Sort mobs by level descending so the most relevant mobs appear first
   const sortedMobs = [...mobs].sort((a, b) => b.level - a.level)
 
   const mobLevels = mobs.map(m => m.level)
@@ -54,15 +53,28 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
           <div className="text-xs text-[#5C5B57] mt-0.5">{region}</div>
         </div>
         <div className="text-right shrink-0">
-          <div className="text-sm font-semibold text-[#5AC47E]">{levelRange}</div>
-          <div className="text-[10px] text-[#5C5B57]">mob levels</div>
+          {mesoMode && mapScore.minShotsForMeso < 999 ? (
+            <>
+              <div className="text-sm font-semibold text-[#E8913A]">
+                {mapScore.minShotsForMeso === 1 ? 'ONE-SHOT' : `${mapScore.minShotsForMeso}-SHOT`}
+              </div>
+              <div className="text-[10px] text-[#5C5B57]">{levelRange}</div>
+            </>
+          ) : (
+            <>
+              <div className="text-sm font-semibold text-[#5AC47E]">{levelRange}</div>
+              <div className="text-[10px] text-[#5C5B57]">mob levels</div>
+            </>
+          )}
         </div>
       </div>
 
-      {/* Mobs — sorted highest level first, all shown */}
+      {/* Mobs — sorted highest level first */}
       <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-[#8B8A85] mb-2">
         {sortedMobs.map(m => {
           const tooLow = charLevel !== undefined && charLevel - m.level > 10
+          const isUndead = m.undead === 1
+          const shots = mapScore.mobShotCounts[m.id]
           return (
             <span key={m.id} className={`inline-flex items-center gap-1 ${tooLow ? 'opacity-35' : ''}`}>
               <img
@@ -72,7 +84,25 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
                 style={{ imageRendering: 'pixelated' }}
                 onError={e => { (e.target as HTMLImageElement).style.display = 'none' }}
               />
-              {m.name} <span className="text-[#5C5B57]">Lv{m.level}</span> ×{m.count}
+              {isUndead && (
+                <span title="Undead — Holy element deals bonus damage" className="text-[10px]">☠</span>
+              )}
+              {m.name}
+              {isUndead && (
+                <span className="text-[#8B6FD4] text-[9px] border border-[rgba(139,111,212,0.3)] rounded px-1">UNDEAD</span>
+              )}
+              <span className="text-[#5C5B57]">Lv{m.level}</span> ×{m.count}
+              {shots !== undefined && (
+                <span className={`text-[9px] rounded px-1 border ${
+                  shots === 1
+                    ? 'text-[#5AC47E] border-[rgba(90,196,126,0.35)]'
+                    : shots <= 3
+                      ? 'text-[#E8913A] border-[rgba(232,145,58,0.35)]'
+                      : 'text-[#E85A5A] border-[rgba(232,90,90,0.35)]'
+                }`}>
+                  {shots === 1 ? '1-HIT' : `${shots}-HIT`}
+                </span>
+              )}
             </span>
           )
         })}
@@ -80,9 +110,12 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
 
       {/* Stats row */}
       <div className="flex flex-wrap gap-3 text-xs mb-3">
-        <span title="Hits to kill the highest-level mob on this map (hardest target)">
-          <span className="text-[#5C5B57]">Hits to kill: </span>
-          <span className="text-[#E8E6E1]">{breakdown.hitsToKillTop}</span>
+        <span title="Hits needed to kill the highest-level mob on this map with your current skill">
+          <span className="text-[#5C5B57]">Hits to kill top mob: </span>
+          <span className={breakdown.hitsToKillTop === 1 ? 'text-[#5AC47E] font-semibold' : 'text-[#E8E6E1]'}>
+            {breakdown.hitsToKillTop}
+            {breakdown.hitsToKillTop === 1 && <span className="text-[#5AC47E] ml-1 text-[10px]">ONE-SHOT</span>}
+          </span>
         </span>
         <span>
           <span className="text-[#5C5B57]">Acc: </span>
@@ -144,17 +177,29 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
               <span className="text-[#5C5B57]">Level penalty: </span>
               <span className="text-[#E8E6E1]">{Math.round(breakdown.levelPenalty * 100)}%</span>
             </div>
+            {mapScore.minShotsForMeso < 999 && (
+              <div className="col-span-2">
+                <span className="text-[#5C5B57]">Min hits to kill any mob: </span>
+                <span className="text-[#E8913A]">{mapScore.minShotsForMeso}</span>
+                <span className="text-[#5C5B57] ml-1 text-[10px]">
+                  {mapScore.minShotsForMeso === 1 ? '— you can one-shot here' : `— ${mapScore.minShotsForMeso}-shot required`}
+                </span>
+              </div>
+            )}
           </div>
 
           {/* Per-mob breakdown */}
           <div className="space-y-1">
             {sortedMobs.map(mob => {
               const isFlying = !!(mob as typeof mob & { gifs?: { fly?: string } }).gifs?.fly
+              const isUndead = mob.undead === 1
               return (
                 <div key={mob.id} className="text-xs text-[#5C5B57] flex justify-between">
                   <span className="flex items-center gap-1">
                     {isFlying && <span title="Flying mob">🪽</span>}
+                    {isUndead && <span title="Undead">☠</span>}
                     {mob.name} Lv{mob.level}
+                    {isUndead && <span className="text-[#8B6FD4]">(undead)</span>}
                   </span>
                   <span>{mob.hp.toLocaleString()} HP · {mob.exp} EXP · ×{mob.count}</span>
                 </div>

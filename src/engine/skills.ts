@@ -4,6 +4,7 @@
  * For magic skills "Basic Attack X" → skillPercent = X / 100
  * hits: number of hits per cast
  * targets: max mobs hit per cast (1 = single target)
+ * weaponTypes: if set, skill only usable with these weapon types
  */
 
 export interface SkillDamageInfo {
@@ -17,6 +18,7 @@ export interface SkillDamageInfo {
   isLucky7: boolean      // uses Lucky Seven special formula (no DEX/mastery/AP)
   element?: string       // elemental type for magic
   classNames: string[]   // which classes can use this
+  weaponTypes?: string[] // if set, skill requires one of these weapon types to use
 }
 
 export const DAMAGE_SKILLS: SkillDamageInfo[] = [
@@ -46,36 +48,39 @@ export const DAMAGE_SKILLS: SkillDamageInfo[] = [
     skillPercent: 1.2, hits: 2, targets: 1, animation: 'ranged', isLucky7: false,
     classNames: ['Archer', 'Hunter', 'Crossbowman'],
   },
-  // ── Hunter 2nd job ────────────────────────────────────────────────────────
+  // ── Hunter 2nd job — Bow only ─────────────────────────────────────────────
   {
     id: '3101002', name: 'Power Knockback',
     thumbnail: 'images/skills/3101002.png',
     skillPercent: 2.0, hits: 1, targets: 4, animation: 'ranged', isLucky7: false,
     classNames: ['Hunter'],
+    weaponTypes: ['Bow'],
   },
-  // ── Crossbowman 2nd job ───────────────────────────────────────────────────
+  // ── Crossbowman 2nd job — Crossbow only ──────────────────────────────────
   {
     id: '3201004', name: 'Iron Arrow',
     thumbnail: 'images/skills/3201004.png',
     skillPercent: 1.9, hits: 1, targets: 4, animation: 'ranged', isLucky7: false,
     classNames: ['Crossbowman'],
+    weaponTypes: ['Crossbow'],
   },
-  // ── Rogue / Bandit 1st job ────────────────────────────────────────────────
+  // ── Rogue / Bandit — Dagger only ─────────────────────────────────────────
   {
     id: '4001002', name: 'Double Stab',
     thumbnail: 'images/skills/4001002.png',
     skillPercent: 1.6, hits: 2, targets: 1, animation: 'stab', isLucky7: false,
     classNames: ['Rogue', 'Bandit'],
+    weaponTypes: ['Dagger'],
   },
-  // ── Assassin / Rogue — Lucky Seven ────────────────────────────────────────
+  // ── Assassin / Rogue — Claw only ─────────────────────────────────────────
   {
     id: '4001003', name: 'Lucky Seven',
     thumbnail: 'images/skills/4001003.png',
     skillPercent: 1.2, hits: 2, targets: 1, animation: 'ranged', isLucky7: true,
     classNames: ['Rogue', 'Assassin'],
+    weaponTypes: ['Claw'],
   },
   // ── Magician 1st job ─────────────────────────────────────────────────────
-  // "Basic Attack X" → skillPercent = X / 100
   {
     id: '2001002', name: 'Energy Bolt',
     thumbnail: 'images/skills/2001002.png',
@@ -128,10 +133,14 @@ export const DAMAGE_SKILLS: SkillDamageInfo[] = [
   },
 ]
 
-/** Returns the effective single-target DPS coefficient for comparing skills.
- *  = skillPercent × hits  (ignores AoE since single-target TTK is the base) */
+/** Single-target DPS coefficient for bossing: skillPercent × hits */
 export function singleTargetCoeff(skill: SkillDamageInfo): number {
   return skill.skillPercent * skill.hits
+}
+
+/** Training efficiency coefficient: weights AoE by raw target count for mass-clear speed */
+export function trainingCoeff(skill: SkillDamageInfo): number {
+  return skill.skillPercent * skill.hits * skill.targets
 }
 
 /** All damage skills available to a given class name. */
@@ -139,9 +148,38 @@ export function getClassSkills(className: string): SkillDamageInfo[] {
   return DAMAGE_SKILLS.filter(s => s.classNames.includes(className))
 }
 
+/** Skills usable by a class with the given equipped weapon type. */
+export function getCompatibleSkills(className: string, weaponType: string): SkillDamageInfo[] {
+  return getClassSkills(className).filter(s =>
+    !s.weaponTypes || s.weaponTypes.includes(weaponType)
+  )
+}
+
+/**
+ * Best skill for training maps: prefers AoE over single-target.
+ * Filters out skills incompatible with the equipped weapon type.
+ */
+export function getBestTrainingSkill(className: string, weaponType?: string): SkillDamageInfo | undefined {
+  const skills = weaponType
+    ? getCompatibleSkills(className, weaponType)
+    : getClassSkills(className)
+  return [...skills].sort((a, b) => trainingCoeff(b) - trainingCoeff(a))[0]
+}
+
+/**
+ * Best single-target DPS skill for bossing.
+ * Filters out skills incompatible with the equipped weapon type.
+ */
+export function getBestSTSkill(className: string, weaponType?: string): SkillDamageInfo | undefined {
+  const skills = weaponType
+    ? getCompatibleSkills(className, weaponType)
+    : getClassSkills(className)
+  return [...skills].sort((a, b) => singleTargetCoeff(b) - singleTargetCoeff(a))[0]
+}
+
 /**
  * Returns the top N damage skills for a class, ranked by single-target coefficient.
- * These are always shown at their MAX level (advisory).
+ * Used in the Character Builder skill comparison panel.
  */
 export function getRankedSkills(className: string, topN = 3): SkillDamageInfo[] {
   return getClassSkills(className)
