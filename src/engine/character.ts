@@ -148,11 +148,12 @@ export const CRIT_DMG_SKILLS: Record<string, (level: number) => number> = {
 export function computeGearStats(
   equipment: Partial<Record<EquipSlot, EquippedItem>>,
   equipById: Map<number, Item>
-): { stats: Partial<CharStats>; accBonus: number; evaBonus: number; pddBonus: number } {
+): { stats: Partial<CharStats>; accBonus: number; evaBonus: number; pddBonus: number; speedBonus: number } {
   const stats: Partial<CharStats> = {}
   let accBonus = 0
   let evaBonus = 0
   let pddBonus = 0
+  let speedBonus = 0
 
   for (const slot of Object.keys(equipment) as EquipSlot[]) {
     const eq = equipment[slot]
@@ -170,6 +171,7 @@ export function computeGearStats(
     if (s.incACC) accBonus += s.incACC
     if (s.incEVA) evaBonus += s.incEVA
     if (s.incPDD) pddBonus += s.incPDD
+    if (s.incSpeed) speedBonus += s.incSpeed
     // Apply scroll stat bonuses (non-ATK stats; ATK handled separately in computeDerived)
     for (const bundle of (eq.scrolls ?? [])) {
       if (bundle.hits === 0) continue
@@ -187,13 +189,13 @@ export function computeGearStats(
       // 'Other' stat_type (Crit Rate, Jump, etc.) — not tracked in damage model
     }
   }
-  return { stats, accBonus, evaBonus, pddBonus }
+  return { stats, accBonus, evaBonus, pddBonus, speedBonus }
 }
 
 export function computeDerived(char: CharacterState, data: AppData): DerivedStats {
   const { equipment, skills, activeBuffs, baseStats, className } = char
 
-  const { stats: gearStats, accBonus, evaBonus, pddBonus } = computeGearStats(equipment, data.equipById)
+  const { stats: gearStats, accBonus, evaBonus, pddBonus, speedBonus } = computeGearStats(equipment, data.equipById)
 
   const totalStats: CharStats = {
     STR: baseStats.STR + (gearStats.STR ?? 0),
@@ -273,6 +275,7 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
     critRate,
     critDmg,
     totalPDD: pddBonus,
+    walkSpeed: Math.min(140, 100 + speedBonus),
   }
 }
 

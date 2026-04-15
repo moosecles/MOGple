@@ -294,7 +294,8 @@ export function rankMaps(
   char: CharacterState,
   derived: DerivedStats,
   attackSpeedLabel: string,
-  bestSkill?: SkillDamageInfo
+  bestSkill?: SkillDamageInfo,
+  partySize: number = 1
 ): TieredMaps {
   const atkSec = ATTACK_SPEED_SECONDS[attackSpeedLabel] ?? 0.6
   // Effective damage multiplier from the best skill (hits × skillPercent).
@@ -366,15 +367,48 @@ export function rankMaps(
       const respawnCycle = mob.mob_time > 0 ? mob.mob_time : 30
       const accReq = accuracyRequired(char.level, mob.level, mob.eva)
       const hr = MAGIC_CLASSES.has(char.className) ? 1.0 : hitRate(derived.accuracy, accReq)
-      // Base kill rate; AoE skills clear multiple mobs per cast (capped by respawn ceiling)
-      const baseKills = 3600 / Math.max(timeToKill, respawnCycle / Math.max(1, mob.count))
-      const maxKillsFromRespawn = (mob.count / respawnCycle) * 3600
-      const killsPerHour = skillTargets > 1
-        ? Math.min(baseKills * Math.min(skillTargets, mob.count), maxKillsFromRespawn)
-        : baseKills
+
+      // ── Walk overhead per cast position ────────────────────────────────────
+      // How long does it take to walk to the next mob (or mob cluster for AoE)?
+      //
+      // Map size proxy: more total spawns = larger map = longer travel distances.
+      // Mob density within the map: if this mob type is dense, they're closer together.
+      const densityRatio = mob.count / Math.max(1, totalMapSpawns)
+      const mapBaseWalkSec = totalMapSpawns >= 40 ? 3.5
+        : totalMapSpawns >= 25 ? 2.2
+        : totalMapSpawns >= 12 ? 1.2
+        : 0.6
+      // Denser mob distribution = shorter average travel to next target
+      const densityReduction = Math.min(0.65, densityRatio * 1.2)
+      const baseWalkSec = mapBaseWalkSec * (1 - densityReduction)
+
+      // Walk speed: faster character reaches the next mob sooner
+      const walkSpeedFactor = derived.walkSpeed / 100  // 1.0 at base 100, 1.4 at cap 140
+
+      // Attack reach: ranged/magic attacks from distance → less repositioning needed.
+      // Each extra AoE target further reduces repositioning (hit a cluster, move less often).
+      const isRangedCast = bestSkill?.animation === 'ranged' || bestSkill?.animation === 'magic'
+      const rangedReach   = isRangedCast ? 0.45 : 0.0
+      const aoeReach      = skillTargets > 1 ? Math.min(0.50, (skillTargets - 1) * 0.12) : 0
+      const reachReduction = Math.min(0.75, rangedReach + aoeReach)
+
+      const walkOverheadSec = (baseWalkSec * (1 - reachReduction)) / walkSpeedFactor
+
+      // ── Kills per cycle ────────────────────────────────────────────────────
+      // Time budget per cast position = TTK (kill N mobs) + walk to next position.
+      // AoE kills skillTargets mobs per cast; solo fits floor(cycle / budget) casts.
+      const timePerCastPosition = timeToKill + walkOverheadSec
+      const castsPerCycleSolo   = Math.max(1, Math.floor(respawnCycle / timePerCastPosition))
+      const killsPerCycleSolo   = Math.min(mob.count, castsPerCycleSolo * skillTargets)
+      // Party scales clearance: each member covers their own cast positions
+      const killsPerCycle = Math.min(mob.count, killsPerCycleSolo * partySize)
+      const killsPerHour  = (killsPerCycle / respawnCycle) * 3600
+
       // Flying mobs: penalty depends on class attack reach + map size
       const flyingPenalty = isFlying ? flyingPenaltyForMap : 1.0
-      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * flyingPenalty
+      // Party EXP formula: total pool is boosted, then split evenly among members
+      const partyExpMult = partySize > 1 ? (1 + 0.1 * (partySize - 1)) / partySize : 1.0
+      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * flyingPenalty * partyExpMult
 
       totalExpPerHour += expPerHourMob
       totalMobCount += mob.count

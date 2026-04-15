@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import type { CharacterState, DerivedStats } from '../../types'
 import type { AppData } from '../../types'
 import { rankMaps } from '../../engine/training'
@@ -40,6 +40,8 @@ function MissingGearWarning({ character, derived }: { character: CharacterState;
 }
 
 export default function TrainingAdvisor({ data, character, derived }: TrainingAdvisorProps) {
+  const [partySize, setPartySize] = useState(1)
+
   const attackSpeedLabel = useMemo(() => {
     const weaponEquip = character.equipment.weapon
     if (!weaponEquip) return 'Normal'
@@ -51,8 +53,8 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
   const bestSkill = useMemo(() => getRankedSkills(character.className, 1)[0], [character.className])
 
   const tiered = useMemo(
-    () => rankMaps(data, character, derived, attackSpeedLabel, bestSkill),
-    [data, character, derived, attackSpeedLabel, bestSkill]
+    () => rankMaps(data, character, derived, attackSpeedLabel, bestSkill, partySize),
+    [data, character, derived, attackSpeedLabel, bestSkill, partySize]
   )
 
   const atkSec = ATTACK_SPEED_SECONDS[attackSpeedLabel] ?? 0.72
@@ -143,6 +145,42 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
               {' '}at max level · scores update as you change gear
             </span>
           </div>
+        )}
+      </div>
+
+      {/* Party toggle */}
+      <div className="bg-[#13161F] border border-[rgba(255,255,255,0.06)] rounded-xl p-3 flex items-center gap-3 flex-wrap">
+        <div className="text-[10px] uppercase tracking-widest text-[#5C5B57] shrink-0">Party</div>
+        <div className="flex items-center gap-1">
+          <button
+            onClick={() => setPartySize(1)}
+            className={`px-3 py-1 rounded-lg text-xs font-medium transition-colors ${
+              partySize === 1
+                ? 'bg-[rgba(90,156,232,0.2)] text-[#5A9DE8] border border-[rgba(90,156,232,0.4)]'
+                : 'text-[#5C5B57] hover:text-[#8B8A85] border border-transparent'
+            }`}
+          >
+            Solo
+          </button>
+          {[2, 3, 4, 5].map(n => (
+            <button
+              key={n}
+              onClick={() => setPartySize(n)}
+              className={`w-8 h-7 rounded-lg text-xs font-medium transition-colors ${
+                partySize === n
+                  ? 'bg-[rgba(90,156,232,0.2)] text-[#5A9DE8] border border-[rgba(90,156,232,0.4)]'
+                  : 'text-[#5C5B57] hover:text-[#8B8A85] border border-transparent'
+              }`}
+            >
+              {n}
+            </button>
+          ))}
+        </div>
+        {partySize > 1 && (
+          <span className="text-[10px] text-[#5C5B57]">
+            EXP/member: <span className="text-[#5A9DE8]">{Math.round((1 + 0.1 * (partySize - 1)) / partySize * 100)}%</span> per kill
+            <span className="ml-2 text-[#5C5B57]">· Party clears {partySize}× more mobs per cycle</span>
+          </span>
         )}
       </div>
 

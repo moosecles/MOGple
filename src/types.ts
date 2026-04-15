@@ -191,6 +191,8 @@ export interface DerivedStats {
   /** Total crit damage bonus % (20 base + skill bonuses). */
   critDmg: number;
   totalPDD: number;
+  /** Walk speed stat (base 100 + gear incSpeed, capped at 140). */
+  walkSpeed: number;
 }
 
 export interface CharacterState {
