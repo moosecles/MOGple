@@ -162,7 +162,7 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
           >
             Solo
           </button>
-          {[2, 3, 4, 5].map(n => (
+          {[2, 3, 4, 5, 6].map(n => (
             <button
               key={n}
               onClick={() => setPartySize(n)}
@@ -179,7 +179,7 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
         {partySize > 1 && (
           <span className="text-[10px] text-[#5C5B57]">
             EXP/member: <span className="text-[#5A9DE8]">{Math.round((1 + 0.1 * (partySize - 1)) / partySize * 100)}%</span> per kill
-            <span className="ml-2 text-[#5C5B57]">· Party clears {partySize}× more mobs per cycle</span>
+            <span className="ml-2 text-[#5C5B57]">· Party clears {partySize}× as many mobs per cycle</span>
           </span>
         )}
       </div>
