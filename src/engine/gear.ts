@@ -94,7 +94,7 @@ export function computeWeaponCandidates(
         weaponATK: isMage ? derived.weaponATK : atkVal,
         weaponMAD: isMage ? atkVal : derived.weaponMAD,
         flatAttackPower: derived.flatAttackPower,
-        mastery: derived.mastery,
+        masteryLevel: derived.masteryLevel,
         skillPercent: 1.0,
       }).avg
     }

@@ -1,24 +1,26 @@
 import type { CharStats } from '../types'
 
 // ─── Weapon multipliers ────────────────────────────────────────────────────────
+// Source: meowdb.com/msclassic/guides/explaining-the-damage-formula
+// Swing is the multiplier for swing-animation skills; stab for stab-animation skills.
 
-interface WeaponMult { swing: number; stab?: number }
+interface WeaponMult { swing: number; stab: number }
 
 const WEAPON_MULT: Record<string, WeaponMult> = {
-  '1H Sword':        { swing: 4.0 },
-  '1H Axe':          { swing: 4.4, stab: 3.2 },
-  '1H Blunt Weapon': { swing: 4.4, stab: 3.2 },
-  '2H Sword':        { swing: 4.6 },
-  '2H Axe':          { swing: 4.8, stab: 3.4 },
-  '2H Blunt Weapon': { swing: 4.8, stab: 3.4 },
-  'Spear':           { swing: 3.0, stab: 5.0 },
-  'Polearm':         { swing: 5.0, stab: 3.0 },
-  'Claw':            { swing: 3.6 },
-  'Dagger':          { swing: 3.6 },
-  'Bow':             { swing: 3.4 },
-  'Crossbow':        { swing: 3.6 },
-  'Wand':            { swing: 4.4, stab: 3.2 },
-  'Staff':           { swing: 4.4, stab: 3.2 },
+  '1H Sword':        { swing: 1.5, stab: 1.5 },
+  '1H Axe':          { swing: 2.0, stab: 1.0 },
+  '1H Blunt Weapon': { swing: 2.0, stab: 1.0 },
+  '2H Sword':        { swing: 2.5, stab: 2.5 },
+  '2H Axe':          { swing: 3.0, stab: 2.0 },
+  '2H Blunt Weapon': { swing: 3.0, stab: 2.0 },
+  'Spear':           { swing: 1.5, stab: 3.5 },
+  'Polearm':         { swing: 3.5, stab: 1.5 },
+  'Claw':            { swing: 2.5, stab: 2.5 },
+  'Dagger':          { swing: 1.0, stab: 2.0 },
+  'Bow':             { swing: 2.5, stab: 2.5 },
+  'Crossbow':        { swing: 2.5, stab: 2.5 },
+  'Wand':            { swing: 1.4, stab: 1.4 }, // magic weapons — mult rarely used directly
+  'Staff':           { swing: 1.4, stab: 1.4 },
 }
 
 // ─── Stat config by class ──────────────────────────────────────────────────────
@@ -26,31 +28,32 @@ const WEAPON_MULT: Record<string, WeaponMult> = {
 interface StatConfig {
   primary: (s: CharStats) => number
   secondary: (s: CharStats) => number
-  weaponMult: (weaponType: string) => number
+  /** Returns swing multiplier by default (most skills are swing-tagged) */
+  weaponMult: (weaponType: string, animation?: 'swing' | 'stab') => number
   isMagic: boolean
 }
 
 const CLASS_STAT_CONFIG: Record<string, StatConfig> = {
-  // Warriors
-  Warrior:  { primary: s => s.STR, secondary: s => s.DEX, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 4.0, isMagic: false },
-  Fighter:  { primary: s => s.STR, secondary: s => s.DEX, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 4.0, isMagic: false },
-  Page:     { primary: s => s.STR, secondary: s => s.DEX, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 4.0, isMagic: false },
-  Spearman: { primary: s => s.STR, secondary: s => s.DEX, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 5.0, isMagic: false },
-  // Mages
-  Magician:    { primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 4.4, isMagic: true },
-  'F/P Wizard':{ primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 4.4, isMagic: true },
-  'I/L Wizard':{ primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 4.4, isMagic: true },
-  Cleric:      { primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 4.4, isMagic: true },
-  // Bowmen
-  Archer:      { primary: s => s.DEX, secondary: s => s.STR, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 3.4, isMagic: false },
-  Hunter:      { primary: s => s.DEX, secondary: s => s.STR, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 3.4, isMagic: false },
-  Crossbowman: { primary: s => s.DEX, secondary: s => s.STR, weaponMult: wt => WEAPON_MULT[wt]?.swing ?? 3.6, isMagic: false },
-  // Thieves
-  Rogue:    { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: _ => 3.6, isMagic: false },
-  Assassin: { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: _ => 3.6, isMagic: false },
-  Bandit:   { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: _ => 3.6, isMagic: false },
+  // Warriors — swing mult for Power Strike / Slash Blast (the standard 1st-job skills)
+  Warrior:  { primary: s => s.STR, secondary: s => s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Fighter:  { primary: s => s.STR, secondary: s => s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Page:     { primary: s => s.STR, secondary: s => s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Spearman: { primary: s => s.STR, secondary: s => s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 3.5, isMagic: false },
+  // Mages — use magic formula, mult not used
+  Magician:    { primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 1.0, isMagic: true },
+  'F/P Wizard':{ primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 1.0, isMagic: true },
+  'I/L Wizard':{ primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 1.0, isMagic: true },
+  Cleric:      { primary: s => s.INT, secondary: s => s.LUK, weaponMult: _ => 1.0, isMagic: true },
+  // Bowmen — bows/crossbows use swing mult (same for both columns)
+  Archer:      { primary: s => s.DEX, secondary: s => s.STR, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Hunter:      { primary: s => s.DEX, secondary: s => s.STR, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Crossbowman: { primary: s => s.DEX, secondary: s => s.STR, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  // Thieves — Bandit uses dagger stab; Assassin/Rogue handled by Lucky Seven formula separately
+  Rogue:    { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: (wt, a='stab') => WEAPON_MULT[wt]?.[a] ?? 2.0, isMagic: false },
+  Assassin: { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 2.5, isMagic: false },
+  Bandit:   { primary: s => s.LUK, secondary: s => s.STR + s.DEX, weaponMult: (wt, a='stab') => WEAPON_MULT[wt]?.[a] ?? 2.0, isMagic: false },
   // Beginner
-  Beginner: { primary: s => s.STR, secondary: s => s.DEX, weaponMult: _ => 4.0, isMagic: false },
+  Beginner: { primary: s => s.STR, secondary: s => s.DEX, weaponMult: (wt, a='swing') => WEAPON_MULT[wt]?.[a] ?? 1.5, isMagic: false },
 }
 
 export function getStatConfig(className: string): StatConfig {
@@ -66,8 +69,14 @@ export interface DamageInput {
   weaponATK: number
   weaponMAD: number
   flatAttackPower: number
-  mastery: number
+  /** Raw weapon mastery skill level (0–20, capped at 10 in the formula).
+   *  Mages use 10 (max spell mastery is built into the skill, not a separate passive). */
+  masteryLevel: number
   skillPercent: number
+  /** If true, use the Lucky Seven formula (Assassin L7: only LUK + W.ATK, no DEX/mastery/AP). */
+  isLucky7?: boolean
+  /** Skill animation — determines which weapon mult column to read ('swing' | 'stab'). */
+  animation?: 'swing' | 'stab' | 'ranged' | 'magic'
 }
 
 export interface DamageResult {
@@ -76,43 +85,70 @@ export interface DamageResult {
   avg: number
 }
 
+/**
+ * Physical damage formula (source: meowdb.com/msclassic/guides/explaining-the-damage-formula):
+ *   MAX = round((1.0 + (Primary × Mult + Secondary + AP) / 100) × W.ATK × SkillPercent)
+ *   MIN = round((0.8 + (Primary × Mult × ((0.1 + min(MasteryLvl,10)/10) × 0.8) + Secondary + AP) / 100) × W.ATK × SkillPercent)
+ *
+ * Lucky Seven formula (provisional, no DEX/mastery/AP):
+ *   MAX = round((1.0 + LUK × 3.0 / 100) × W.ATK × SkillPercent)
+ *   MIN = round((1.0 + LUK × 1.5 / 100) × W.ATK × SkillPercent)
+ *
+ * Magic formula (verified against live CBT data):
+ *   matkMod = MATK × INT / 10
+ *   MAX = round(matkMod × SkillPercent)
+ *   MIN = round(matkMod × masteryFactor × SkillPercent)
+ *   where masteryFactor = (0.1 + min(masteryLevel,10)/10) × 0.8
+ *   (Mages always use masteryLevel=10 so masteryFactor=0.88)
+ */
 export function calcDamage(input: DamageInput): DamageResult {
   const config = CLASS_STAT_CONFIG[input.className] ?? CLASS_STAT_CONFIG.Beginner
+  const { skillPercent, weaponATK, masteryLevel } = input
+  const cappedMastery = Math.min(masteryLevel, 10)
+  const masteryFactor = (0.1 + cappedMastery / 10) * 0.8
 
+  // ── Magic formula ──────────────────────────────────────────────────────────
   if (config.isMagic) {
-    // Classic MapleStory magic formula: (M.ATK² / 1000 + M.ATK + INT / 200) × skill%
-    const matk = input.weaponMAD + input.flatAttackPower
-    const matkMod = matk * matk / 1000 + matk + input.stats.INT / 200
-    const max = Math.floor(matkMod * input.skillPercent)
-    const min = Math.floor(matkMod * input.mastery * input.skillPercent)
+    const matk = input.weaponMAD  // Meditation bonus is already folded into weaponMAD by computeDerived
+    if (matk <= 0) return { max: 0, min: 0, avg: 0 }
+    const matkMod = matk * input.stats.INT / 10
+    const max = Math.round(matkMod * skillPercent)
+    const min = Math.round(matkMod * masteryFactor * skillPercent)
+    return { max, min: Math.min(min, max), avg: (max + Math.min(min, max)) / 2 }
+  }
+
+  // ── Lucky Seven formula ────────────────────────────────────────────────────
+  if (input.isLucky7) {
+    const luk = config.primary(input.stats)  // primary stat for Assassin/Rogue is LUK
+    const max = Math.round((1.0 + luk * 3.0 / 100) * weaponATK * skillPercent)
+    const min = Math.round((1.0 + luk * 1.5 / 100) * weaponATK * skillPercent)
     return { max, min, avg: (max + min) / 2 }
   }
 
-  const mult = config.weaponMult(input.weaponType)
+  // ── Physical formula ───────────────────────────────────────────────────────
+  const anim = input.animation === 'stab' ? 'stab' : 'swing'
+  const mult = config.weaponMult(input.weaponType, anim)
   const primary = config.primary(input.stats)
   const secondary = config.secondary(input.stats)
+  const ap = input.flatAttackPower
 
-  const innerMax = primary * mult + secondary + input.flatAttackPower
-  const innerMin = primary * mult * 0.9 * input.mastery + secondary + input.flatAttackPower
+  if (weaponATK <= 0) return { max: 0, min: 0, avg: 0 }
 
-  const max = Math.floor((innerMax * input.weaponATK / 100) * input.skillPercent)
-  const min = Math.floor((innerMin * input.weaponATK / 100) * input.skillPercent)
-  const avg = (max + min) / 2
+  const max = Math.round((1.0 + (primary * mult + secondary + ap) / 100) * weaponATK * skillPercent)
+  const min = Math.round((0.8 + (primary * mult * masteryFactor + secondary + ap) / 100) * weaponATK * skillPercent)
 
-  return { max, min, avg }
+  return { max, min: Math.min(min, max), avg: (max + Math.min(min, max)) / 2 }
 }
 
 // ─── Mastery ───────────────────────────────────────────────────────────────────
 
-const MELEE_CLASSES = ['Warrior','Fighter','Page','Spearman','Rogue','Bandit']
-const RANGED_CLASSES = ['Assassin','Hunter','Crossbowman','Archer']
-
+/** Returns a display-friendly 0–1 mastery ratio for the StatPanel.
+ *  At MasteryLvl 10 (max): masteryFactor = (0.1 + 1.0) × 0.8 = 0.88 → MIN is 88% of MAX.
+ *  Mages get mastery 10 automatically since it's baked into their spells. */
 export function computeMastery(className: string, masterySkillLevel: number): number {
-  const base = MELEE_CLASSES.includes(className) ? 0.20
-    : RANGED_CLASSES.includes(className) ? 0.15
-    : 0.25
-  const bonus = (masterySkillLevel / 20) * 0.50
-  return Math.min(base + bonus, 1.0)
+  const isMage = ['Magician','F/P Wizard','I/L Wizard','Cleric'].includes(className)
+  const lvl = isMage ? 10 : Math.min(masterySkillLevel, 10)
+  return (0.1 + lvl / 10) * 0.8   // 0.08 at lvl 0 → 0.88 at lvl 10
 }
 
 // ─── Accuracy ─────────────────────────────────────────────────────────────────
@@ -154,11 +190,13 @@ export function elementMultiplier(
   mobUndead: number
 ): number {
   if (!skillElement) return 1.0
-  if (skillElement === 'Holy' && mobUndead === 1) return 2.0
+  // Holy vs undead: +25% damage (same tier as Weak)
+  if (skillElement === 'Holy' && mobUndead === 1) return 1.25
   if (!mobElements) return 1.0
   const status = mobElements[skillElement]
-  if (status === 'Weak') return 2.0
-  if (status === 'Strong') return 0.5
+  // Source: meowdb.com — Weak=1.25x, Resist (Strong)=0.75x, Immune=0x
+  if (status === 'Weak')   return 1.25
+  if (status === 'Strong') return 0.75
   if (status === 'Immune') return 0.0
   return 1.0
 }

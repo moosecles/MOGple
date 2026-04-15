@@ -3,6 +3,7 @@ import type { AppData } from '../types'
 import {
   accuracyRequired, hitRate, elementMultiplier, ATTACK_SPEED_SECONDS, SKILL_ELEMENTS,
 } from './damage'
+import type { SkillDamageInfo } from './skills'
 
 const MAGIC_CLASSES = new Set(['Magician','F/P Wizard','I/L Wizard','Cleric'])
 
@@ -18,9 +19,10 @@ export interface Tag {
 }
 
 export interface ScoreBreakdown {
-  avgAttacksToKill: number
+  hitsToKillTop: number       // hits to kill the highest-level scored mob
   avgTimeToKill: number
   totalMobCount: number
+  flyingMobCount: number
   avgRespawnTime: number
   cycleExpPerHour: number
   survivalRating: number
@@ -33,6 +35,7 @@ export interface MapScore {
   mapId: number
   mapName: string
   region: string
+  minimap?: string
   mobs: MapMobEntry[]
   score: number
   expPerHour: number
@@ -59,13 +62,46 @@ function getBestElementalMult(char: CharacterState, mob: Monster): number {
 }
 
 function levelPenaltyMultiplier(playerLevel: number, mobLevel: number): number {
-  const gap = playerLevel - mobLevel
-  const negGap = mobLevel - playerLevel
-  if (negGap > 20) return 0
-  if (negGap > 5) return 0.7
-  if (gap > 20) return 0
-  if (gap > 10) return 0.7
-  return 1.0
+  const gap = playerLevel - mobLevel  // positive when player is above mob
+  const negGap = mobLevel - playerLevel  // positive when mob is above player
+  if (negGap > 5) return 0    // mob more than 5 levels above player — don't consider it
+  if (gap > 10) return 0      // mob greyed out — no one hunts these (>10 below)
+  if (gap > 5)  return 0.7   // mob 5–10 levels below — reduced XP
+  return 1.0                  // sweet spot: within ±5 levels
+}
+
+/** Level-difference damage penalty when fighting a mob above your level.
+ *  Source: meowdb.com/msclassic/guides/explaining-the-damage-formula */
+function levelDamagePenalty(playerLevel: number, mobLevel: number): number {
+  const diff = mobLevel - playerLevel
+  if (diff <= 0) return 1.0
+  if (diff < 10) return 1 / (diff * diff * 0.005 + 1)
+  return 1 / (diff * 0.05 + 1)
+}
+
+/**
+ * Flying mob efficiency penalty.
+ * Two independent factors multiplied together:
+ *  1. Vertical reach — flying mobs oscillate up/down; melee barely catches them, spells/arrows cover more vertical space
+ *  2. Map size — large maps mean flying mobs are spread far apart; takes ages to walk between them
+ */
+function flyingEfficiencyPenalty(char: CharacterState, derived: DerivedStats, totalMapSpawns: number): number {
+  // Vertical reach factor
+  const isMage = MAGIC_CLASSES.has(char.className)
+  const wt = derived.weaponType.toLowerCase()
+  const isRanged = wt.includes('bow') || wt.includes('crossbow')
+  const isClaw = wt.includes('claw')  // throwing stars arc upward — decent vertical
+
+  let reachFactor: number
+  if (isMage) reachFactor = 0.85      // spells cover a tall/wide area, catch mobs as they pass through
+  else if (isRanged) reachFactor = 0.80  // arrows can aim upward but still mostly horizontal
+  else if (isClaw) reachFactor = 0.72    // stars arc and reach above but not reliable for high oscillations
+  else reachFactor = 0.50             // melee swing — flat hitbox, flying mobs spend most time out of range
+
+  // Map size factor — more total spawns = larger map = more walking between flying targets
+  const mapSizeFactor = totalMapSpawns >= 40 ? 0.80 : totalMapSpawns >= 20 ? 0.90 : 1.0
+
+  return reachFactor * mapSizeFactor
 }
 
 export function scoreMap(
@@ -89,18 +125,28 @@ export function scoreMap(
   let totalExpPerHour = 0
   let totalMobCount = 0
   let totalRespawn = 0
-  let totalAttacksToKill = 0
   let totalTimeToKill = 0
+  let hitsToKillTop = 0
   let worstSurvival = 1.0
   let bestAccuracy = 1.0
   let bestElemental = 1.0
   let mobProcessed = 0
 
-  const levelPenalty = mobs.reduce((acc, m) => {
-    return acc + levelPenaltyMultiplier(char.level, m.level) * m.count
-  }, 0) / mobs.reduce((acc, m) => acc + m.count, 0)
+  // Only score the top 3 mob types by level within the viable range (≤5 above, ≤10 below).
+  // Players focus on the best targets — low-level stragglers or excess mob types don't factor in.
+  const scoringMobs = [...mobs]
+    .filter(m => levelPenaltyMultiplier(char.level, m.level) > 0)
+    .sort((a, b) => b.level - a.level)
+    .slice(0, 3)
 
-  for (const mob of mobs) {
+  const viableCount = scoringMobs.reduce((acc, m) => acc + m.count, 0)
+  const levelPenalty = viableCount > 0
+    ? scoringMobs.reduce((acc, m) => acc + levelPenaltyMultiplier(char.level, m.level) * m.count, 0) / viableCount
+    : 0
+
+  for (const mob of scoringMobs) {
+    const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
+
     const elMult = getBestElementalMult(char, mob)
     const effAvgDmg = derived.damageRange.avg * elMult
     if (effAvgDmg <= 0) continue
@@ -110,7 +156,6 @@ export function scoreMap(
     const respawnCycle = mob.mob_time > 0 ? mob.mob_time : 30
 
     const killsPerHour = 3600 / Math.max(timeToKill, respawnCycle / Math.max(1, mob.count))
-    const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
 
     const accReq = accuracyRequired(char.level, mob.level, mob.eva)
     // Magic attacks always hit (spells don't use the accuracy stat)
@@ -121,8 +166,8 @@ export function scoreMap(
     totalExpPerHour += expPerHourMob
     totalMobCount += mob.count
     totalRespawn += respawnCycle * mob.count
-    totalAttacksToKill += attacksToKill * mob.count
     totalTimeToKill += timeToKill * mob.count
+    if (mobProcessed === 0) hitsToKillTop = attacksToKill
     if (hr < bestAccuracy) bestAccuracy = hr
     if (elMult > bestElemental) bestElemental = elMult
 
@@ -136,7 +181,6 @@ export function scoreMap(
 
   if (mobProcessed === 0) return null
 
-  const avgAttacksToKill = totalAttacksToKill / totalMobCount
   const avgTimeToKill = totalTimeToKill / totalMobCount
   const avgRespawnTime = totalRespawn / totalMobCount
 
@@ -147,7 +191,7 @@ export function scoreMap(
   const finalScore = totalExpPerHour * accuracyRating * Math.min(1.0, survivalRating + 0.3)
 
   const tags = computeTags({
-    mobs, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount
+    mobs, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount, flyingMobCount: 0
   })
 
   return {
@@ -160,9 +204,10 @@ export function scoreMap(
     tags,
     isDangerous,
     breakdown: {
-      avgAttacksToKill,
+      hitsToKillTop,
       avgTimeToKill,
       totalMobCount,
+      flyingMobCount: 0,
       avgRespawnTime,
       cycleExpPerHour: totalExpPerHour,
       survivalRating,
@@ -174,7 +219,7 @@ export function scoreMap(
 }
 
 function computeTags({
-  mobs, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount
+  mobs, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount, flyingMobCount
 }: {
   mobs: MapMobEntry[]
   char: CharacterState
@@ -183,6 +228,7 @@ function computeTags({
   bestElemental: number
   isDangerous: boolean
   totalMobCount: number
+  flyingMobCount: number
 }): Tag[] {
   const tags: Tag[] = []
 
@@ -208,6 +254,15 @@ function computeTags({
     tags.push({ label: 'FEW MOBS', variant: 'warning', tooltip: 'Low mob count limits EXP/hr potential' })
   }
 
+  if (flyingMobCount > 0) {
+    const flyPct = Math.round((flyingMobCount / totalMobCount) * 100)
+    tags.push({
+      label: 'FLYING MOBS',
+      variant: 'warning',
+      tooltip: `${flyingMobCount} of ${totalMobCount} spawns are flying (${flyPct}%) — they oscillate vertically (hard to reach without tall/ranged attacks) and are spread across the map. EXP/hr adjusted for your attack reach + map size.`,
+    })
+  }
+
   if (accuracyRating < 0.85) {
     tags.push({ label: 'ACC ISSUE', variant: 'warning', tooltip: `~${Math.round(accuracyRating * 100)}% hit rate — you'll miss frequently` })
   }
@@ -219,7 +274,7 @@ function computeTags({
   }
 
   // Check for over-leveled
-  if (mobs.every(m => char.level - m.level > 10)) {
+  if (mobs.every(m => char.level - m.level > 5)) {
     tags.push({ label: 'LOW EXP', variant: 'warning', tooltip: 'You are much higher level than these mobs — reduced EXP' })
   }
 
@@ -238,9 +293,15 @@ export function rankMaps(
   data: AppData,
   char: CharacterState,
   derived: DerivedStats,
-  attackSpeedLabel: string
+  attackSpeedLabel: string,
+  bestSkill?: SkillDamageInfo
 ): TieredMaps {
   const atkSec = ATTACK_SPEED_SECONDS[attackSpeedLabel] ?? 0.6
+  // Effective damage multiplier from the best skill (hits × skillPercent).
+  // Training assumes the player uses this skill as their primary attack.
+  const skillDmgMult = bestSkill ? bestSkill.hits * bestSkill.skillPercent : 1.0
+  // AoE factor: for skills that hit multiple targets, one cast clears more mobs.
+  const skillTargets = bestSkill ? bestSkill.targets : 1
 
   const allMapIds = Array.from(data.mobsByMap.keys())
   const scores: MapScore[] = []
@@ -258,75 +319,114 @@ export function rankMaps(
 
     // Re-score with correct attack speed
     const mobsArr = mobs as MapMobEntry[]
+
+    // Skip maps where ANY mob is more than 8 levels above the player.
+    // Even if only some mobs are farmable, the high-level mobs roaming the same map will kill you.
+    const maxMobLevel = Math.max(...mobsArr.map(m => m.level))
+    if (maxMobLevel > char.level + 8) continue
+
+    // Score only the top 3 mob types by level within the viable range (≤5 above, ≤10 below).
+    // Players focus on the best targets — low-level stragglers don't factor into the decision.
+    const scoringMobsArr = [...mobsArr]
+      .filter(m => levelPenaltyMultiplier(char.level, m.level) > 0)
+      .sort((a, b) => b.level - a.level)
+      .slice(0, 3)
+
+    const totalMapSpawns = mobsArr.reduce((sum, m) => sum + m.count, 0)
+    // Flying penalty = vertical reach × map size (both independently reduce efficiency)
+    const flyingPenaltyForMap = flyingEfficiencyPenalty(char, derived, totalMapSpawns)
+
     let totalExpPerHour = 0
     let totalMobCount = 0
+    let flyingMobCount = 0
     let totalRespawn = 0
-    let totalAttacksToKill = 0
     let totalTimeToKill = 0
+    let hitsToKillTop = 0   // hits to kill the highest-level scored mob (first in sorted arr)
     let worstSurvival = 1.0
     let bestAccuracy = 1.0
     let bestElemental = 1.0
     let mobProcessed = 0
     let isDangerous = false
 
-    for (const mob of mobsArr) {
-      const elMult = getBestElementalMult(char, mob)
-      const effAvgDmg = derived.damageRange.avg * elMult
-      if (effAvgDmg <= 0) continue
+    for (const mob of scoringMobsArr) {
+      const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
+      const isFlying = !!(mob as MapMobEntry & { gifs?: { fly?: string } }).gifs?.fly
 
-      const attacksToKill = Math.ceil(mob.hp / Math.max(1, effAvgDmg))
+      const elMult = getBestElementalMult(char, mob)
+      // Effective damage: base × elemental × skill multiplier × level-difference penalty (when mob is above player)
+      const dmgLevelPenalty = levelDamagePenalty(char.level, mob.level)
+      const rawAvgDmg = derived.damageRange.avg * elMult * skillDmgMult * dmgLevelPenalty
+      // Subtract monster's physical or magic defense from effective damage
+      const mobDef = MAGIC_CLASSES.has(char.className) ? (mob.MDDamage ?? 0) : (mob.PDDamage ?? 0)
+      const effAvgDmg = Math.max(1, rawAvgDmg - mobDef)
+      if (rawAvgDmg <= 0) continue
+
+      const attacksToKill = Math.ceil(mob.hp / effAvgDmg)
       const timeToKill = attacksToKill * atkSec
       const respawnCycle = mob.mob_time > 0 ? mob.mob_time : 30
-      const mobLevelPenalty = levelPenaltyMultiplier(char.level, mob.level)
       const accReq = accuracyRequired(char.level, mob.level, mob.eva)
       const hr = MAGIC_CLASSES.has(char.className) ? 1.0 : hitRate(derived.accuracy, accReq)
-      const killsPerHour = 3600 / Math.max(timeToKill, respawnCycle / Math.max(1, mob.count))
-      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr
+      // Base kill rate; AoE skills clear multiple mobs per cast (capped by respawn ceiling)
+      const baseKills = 3600 / Math.max(timeToKill, respawnCycle / Math.max(1, mob.count))
+      const maxKillsFromRespawn = (mob.count / respawnCycle) * 3600
+      const killsPerHour = skillTargets > 1
+        ? Math.min(baseKills * Math.min(skillTargets, mob.count), maxKillsFromRespawn)
+        : baseKills
+      // Flying mobs: penalty depends on class attack reach + map size
+      const flyingPenalty = isFlying ? flyingPenaltyForMap : 1.0
+      const expPerHourMob = killsPerHour * mob.exp * mobLevelPenalty * hr * flyingPenalty
 
       totalExpPerHour += expPerHourMob
       totalMobCount += mob.count
+      if (isFlying) flyingMobCount += mob.count
       totalRespawn += respawnCycle * mob.count
-      totalAttacksToKill += attacksToKill * mob.count
       totalTimeToKill += timeToKill * mob.count
+      if (mobProcessed === 0) hitsToKillTop = attacksToKill  // first = highest level (sorted desc)
       if (hr < bestAccuracy) bestAccuracy = hr
       if (elMult > bestElemental) bestElemental = elMult
 
+      // Survival: HP / 3 simulates potion healing between hits
       const mobDmgPerHit = Math.max(0, mob.PADamage - derived.totalPDD)
       const survFrac = mobDmgPerHit > 0 ? Math.min(1.0, derived.totalStats.HP / 3 / mobDmgPerHit) : 1.0
       if (survFrac < worstSurvival) worstSurvival = survFrac
-      if (mob.PADamage - derived.totalPDD >= derived.totalStats.HP) isDangerous = true
+      // isDangerous only from survival rating — one-shot check removed since low HP is a builder issue
+      if (survFrac < 0.1) isDangerous = true
 
       mobProcessed++
     }
 
     if (mobProcessed === 0) continue
 
-    const avgAttacksToKill = totalAttacksToKill / totalMobCount
     const avgTimeToKill = totalTimeToKill / totalMobCount
     const avgRespawnTime = totalRespawn / totalMobCount
     const accuracyRating = bestAccuracy
     const survivalRating = worstSurvival
-    const levelPenalty = mobsArr.reduce((acc, m) => acc + levelPenaltyMultiplier(char.level, m.level) * m.count, 0) / mobsArr.reduce((acc, m) => acc + m.count, 0)
+    const scoringCount = scoringMobsArr.reduce((acc, m) => acc + m.count, 0)
+    const levelPenalty = scoringCount > 0
+      ? scoringMobsArr.reduce((acc, m) => acc + levelPenaltyMultiplier(char.level, m.level) * m.count, 0) / scoringCount
+      : 0
 
     const finalScore = totalExpPerHour * accuracyRating * Math.min(1.0, survivalRating + 0.3)
 
     const tags = computeTags({
-      mobs: mobsArr, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount
+      mobs: scoringMobsArr, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount, flyingMobCount
     })
 
     scores.push({
       mapId,
       mapName,
       region,
+      minimap: mapEntry?.minimap ?? undefined,
       mobs: mobsArr,
       score: finalScore,
       expPerHour: totalExpPerHour,
       tags,
       isDangerous,
       breakdown: {
-        avgAttacksToKill,
+        hitsToKillTop,
         avgTimeToKill,
         totalMobCount,
+        flyingMobCount,
         avgRespawnTime,
         cycleExpPerHour: totalExpPerHour,
         survivalRating,

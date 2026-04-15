@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { MapScore } from '../../engine/training'
 import Badge from '../common/Badge'
 
@@ -11,7 +11,16 @@ interface MapCardProps {
 
 export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCardProps) {
   const [expanded, setExpanded] = useState(false)
+  const [minimapOpen, setMinimapOpen] = useState(false)
   const { mapName, region, mobs, tags, breakdown } = mapScore
+
+  // Close overlay on Escape
+  useEffect(() => {
+    if (!minimapOpen) return
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') setMinimapOpen(false) }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [minimapOpen])
 
   // Sort mobs by level descending so the most relevant mobs appear first
   const sortedMobs = [...mobs].sort((a, b) => b.level - a.level)
@@ -71,9 +80,9 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
 
       {/* Stats row */}
       <div className="flex flex-wrap gap-3 text-xs mb-3">
-        <span>
+        <span title="Hits to kill the highest-level mob on this map (hardest target)">
           <span className="text-[#5C5B57]">Hits to kill: </span>
-          <span className="text-[#E8E6E1]">{breakdown.avgAttacksToKill.toFixed(1)}</span>
+          <span className="text-[#E8E6E1]">{breakdown.hitsToKillTop}</span>
         </span>
         <span>
           <span className="text-[#5C5B57]">Acc: </span>
@@ -114,11 +123,14 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
 
       {/* Expanded breakdown */}
       {expanded && (
-        <div className="mt-3 pt-3 border-t border-[rgba(255,255,255,0.06)] space-y-2">
+        <div className="mt-3 pt-3 border-t border-[rgba(255,255,255,0.06)] space-y-3">
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div>
               <span className="text-[#5C5B57]">Total spawns: </span>
               <span className="text-[#E8E6E1]">{breakdown.totalMobCount}</span>
+              {breakdown.flyingMobCount > 0 && (
+                <span className="text-[#E8913A] ml-1">({breakdown.flyingMobCount} flying)</span>
+              )}
             </div>
             <div>
               <span className="text-[#5C5B57]">Avg respawn: </span>
@@ -136,13 +148,75 @@ export default function MapCard({ mapScore, rank, highlight, charLevel }: MapCar
 
           {/* Per-mob breakdown */}
           <div className="space-y-1">
-            {sortedMobs.map(mob => (
-              <div key={mob.id} className="text-xs text-[#5C5B57] flex justify-between">
-                <span>{mob.name} Lv{mob.level}</span>
-                <span>{mob.hp.toLocaleString()} HP · {mob.exp} EXP · ×{mob.count}</span>
-              </div>
-            ))}
+            {sortedMobs.map(mob => {
+              const isFlying = !!(mob as typeof mob & { gifs?: { fly?: string } }).gifs?.fly
+              return (
+                <div key={mob.id} className="text-xs text-[#5C5B57] flex justify-between">
+                  <span className="flex items-center gap-1">
+                    {isFlying && <span title="Flying mob">🪽</span>}
+                    {mob.name} Lv{mob.level}
+                  </span>
+                  <span>{mob.hp.toLocaleString()} HP · {mob.exp} EXP · ×{mob.count}</span>
+                </div>
+              )
+            })}
           </div>
+
+          {/* Map layout minimap */}
+          {mapScore.minimap && (
+            <div>
+              <div className="text-[10px] uppercase tracking-widest text-[#5C5B57] mb-1.5">Map Layout</div>
+              <button
+                onClick={() => setMinimapOpen(true)}
+                className="group relative block"
+                title="Click to enlarge"
+              >
+                <img
+                  src={`${import.meta.env.BASE_URL}${mapScore.minimap}`}
+                  alt={`${mapName} minimap`}
+                  className="rounded border border-[rgba(255,255,255,0.08)] bg-[#0E1018] max-w-full transition-opacity group-hover:opacity-75"
+                  style={{ imageRendering: 'pixelated', maxHeight: '160px' }}
+                  onError={e => { (e.currentTarget as HTMLImageElement).closest('button')!.style.display = 'none' }}
+                />
+                <span className="absolute bottom-1 right-1 text-[10px] text-[#5C5B57] bg-[#0E1018] bg-opacity-80 px-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                  enlarge
+                </span>
+              </button>
+            </div>
+          )}
+
+          {/* Minimap lightbox overlay */}
+          {minimapOpen && mapScore.minimap && (
+            <div
+              className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm"
+              onClick={() => setMinimapOpen(false)}
+            >
+              <div
+                className="relative bg-[#0E1018] border border-[rgba(255,255,255,0.12)] rounded-xl p-4 max-w-[90vw] max-h-[90vh] flex flex-col gap-3"
+                onClick={e => e.stopPropagation()}
+              >
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-sm font-semibold text-[#E8E6E1]">{mapName}</div>
+                    <div className="text-xs text-[#5C5B57]">{region}</div>
+                  </div>
+                  <button
+                    onClick={() => setMinimapOpen(false)}
+                    className="text-[#5C5B57] hover:text-[#E8E6E1] transition-colors text-lg leading-none ml-6"
+                  >
+                    ✕
+                  </button>
+                </div>
+                <img
+                  src={`${import.meta.env.BASE_URL}${mapScore.minimap}`}
+                  alt={`${mapName} minimap`}
+                  className="rounded border border-[rgba(255,255,255,0.08)] bg-[#13161F] max-w-full max-h-[70vh] object-contain"
+                  style={{ imageRendering: 'pixelated' }}
+                />
+                <p className="text-[10px] text-[#5C5B57] text-center">Press Esc or click outside to close</p>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

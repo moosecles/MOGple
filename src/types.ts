@@ -26,6 +26,7 @@ export interface Monster {
   is_boss: boolean;
   maps: MonsterMap[];
   thumbnail: string;
+  gifs?: { fly?: string; hit1?: string; die1?: string };
 }
 
 export interface MonstersJson {
@@ -178,11 +179,17 @@ export interface DerivedStats {
   weaponMAD: number;
   weaponType: string;
   flatAttackPower: number;
+  /** Display ratio 0–1 (e.g. 0.88 = 88% MIN/MAX). Derived from masteryLevel. */
   mastery: number;
+  /** Raw mastery level 0–10 passed to the damage formula. */
+  masteryLevel: number;
   accuracy: number;
   avoid: number;
   damageRange: { min: number; max: number; avg: number };
+  /** Base crit rate % (5 base + skill bonuses). */
   critRate: number;
+  /** Total crit damage bonus % (20 base + skill bonuses). */
+  critDmg: number;
   totalPDD: number;
 }
 

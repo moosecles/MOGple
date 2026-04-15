@@ -11,6 +11,7 @@ import StatPanel from './StatPanel'
 import EquipSlotButton from './EquipSlotButton'
 import ItemPickerModal from './ItemPickerModal'
 import SkillBuilder from './SkillBuilder'
+import BestSkillPanel from './BestSkillPanel'
 
 // ─── Free-type number input that commits on blur/Enter ──────────────────────
 function StatInput({ value, min, max, onCommit }: {
@@ -407,6 +408,9 @@ export default function CharacterBuilder({ data, char, setChar }: CharacterBuild
                   </div>
                 </div>
               )}
+
+              {/* Best skill panel */}
+              <BestSkillPanel character={char} derived={derived} />
             </div>
           )}
 

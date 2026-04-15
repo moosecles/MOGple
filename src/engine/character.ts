@@ -130,8 +130,17 @@ export const MASTERY_SKILL_IDS: Partial<Record<string, string>> = {
   Bandit:       '4200000',
 }
 
-export const CRIT_SKILLS: Record<string, (level: number) => number> = {
-  '4100001': level => level * 0.02,
+/** Maps skill ID → crit rate bonus per level (as a 0–1 fraction) */
+export const CRIT_RATE_SKILLS: Record<string, (level: number) => number> = {
+  '3000000': level => level * (20 / 15) / 100,  // Critical Shot (Archer): +20% at max lv15
+  '4100001': level => level * (15 / 30) / 100,  // Critical Throw (Assassin): +15% at max lv30
+  '4200001': level => level * (20 / 20) / 100,  // Dagger Mastery (Bandit): +20% at max lv20
+}
+
+/** Maps skill ID → crit damage bonus per level (as a 0–1 fraction) */
+export const CRIT_DMG_SKILLS: Record<string, (level: number) => number> = {
+  '3000000': level => level * (15 / 15) / 100,  // Critical Shot: +15% crit dmg at max lv15
+  '4100001': level => level * (35 / 30) / 100,  // Critical Throw: +35% crit dmg at max lv30
 }
 
 // ─── Derived stat computation ──────────────────────────────────────────────────
@@ -219,17 +228,26 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
   if (activeBuffs.meditation) flatMADPower += 20
 
   const masterySkillId = MASTERY_SKILL_IDS[className]
-  const masteryLevel = masterySkillId ? (skills[masterySkillId] ?? 0) : 0
-  const mastery = computeMastery(className, masteryLevel)
+  const rawMasterySkillLevel = masterySkillId ? (skills[masterySkillId] ?? 0) : 0
+  const mastery = computeMastery(className, rawMasterySkillLevel)
 
-  let critRate = 0
+  // ── Crit computation ───────────────────────────────────────────────────────
+  // Every class has 5% base crit rate and 20% base crit damage bonus.
+  let critRate = 5
+  let critDmg = 20
   for (const [skillId, level] of Object.entries(skills)) {
-    if (CRIT_SKILLS[skillId]) critRate += CRIT_SKILLS[skillId](level)
+    if (CRIT_RATE_SKILLS[skillId]) critRate += Math.round(CRIT_RATE_SKILLS[skillId](level) * 100)
+    if (CRIT_DMG_SKILLS[skillId]) critDmg  += Math.round(CRIT_DMG_SKILLS[skillId](level) * 100)
   }
 
   const accuracy = computeAccuracy(totalStats, accBonus, className)
   const avoid = Math.floor(totalStats.LUK * 0.25 + evaBonus)
 
+  // Raw mastery level (0-10) for the damage formula; mages get 10 (spell mastery is built-in)
+  const isMage = ['Magician','F/P Wizard','I/L Wizard','Cleric'].includes(className)
+  const masteryLevel = isMage ? 10 : Math.min(rawMasterySkillLevel, 10)
+
+  // Base attack range with skillPercent=1.0 (no skill multiplier)
   const damageRange = calcDamage({
     className,
     stats: totalStats,
@@ -237,7 +255,7 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
     weaponATK,
     weaponMAD: weaponMAD + flatMADPower,
     flatAttackPower,
-    mastery,
+    masteryLevel,
     skillPercent: 1.0,
   })
 
@@ -248,10 +266,12 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
     weaponType,
     flatAttackPower,
     mastery,
+    masteryLevel,
     accuracy,
     avoid,
     damageRange,
     critRate,
+    critDmg,
     totalPDD: pddBonus,
   }
 }

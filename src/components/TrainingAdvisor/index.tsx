@@ -2,7 +2,8 @@ import { useMemo } from 'react'
 import type { CharacterState, DerivedStats } from '../../types'
 import type { AppData } from '../../types'
 import { rankMaps } from '../../engine/training'
-import { ATTACK_SPEED_SECONDS } from '../../engine/damage'
+import { ATTACK_SPEED_SECONDS, calcDamage } from '../../engine/damage'
+import { getRankedSkills } from '../../engine/skills'
 import MapCard from './MapCard'
 
 interface TrainingAdvisorProps {
@@ -46,14 +47,39 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
     return item?.attack_speed_label ?? 'Normal'
   }, [character.equipment.weapon, data.equipById])
 
+  // Best skill for this class (at max level) — used for training map scoring
+  const bestSkill = useMemo(() => getRankedSkills(character.className, 1)[0], [character.className])
+
   const tiered = useMemo(
-    () => rankMaps(data, character, derived, attackSpeedLabel),
-    [data, character, derived, attackSpeedLabel]
+    () => rankMaps(data, character, derived, attackSpeedLabel, bestSkill),
+    [data, character, derived, attackSpeedLabel, bestSkill]
   )
 
   const atkSec = ATTACK_SPEED_SECONDS[attackSpeedLabel] ?? 0.72
   const isMage = ['Magician','F/P Wizard','I/L Wizard','Cleric'].includes(character.className)
-  const hasResults = tiered.mostOptimal.length > 0 || tiered.avgOptimal.length > 0
+  // Show results if any category has maps (including dangerous)
+  const hasResults = tiered.mostOptimal.length > 0 || tiered.avgOptimal.length > 0 || tiered.dangerous.length > 0
+
+  // Skill damage range (per cast, using best skill at max level)
+  const skillDamageRange = useMemo(() => {
+    if (!bestSkill) return null
+    const result = calcDamage({
+      className: character.className,
+      stats: derived.totalStats,
+      weaponType: derived.weaponType,
+      weaponATK: derived.weaponATK,
+      weaponMAD: derived.weaponMAD,
+      flatAttackPower: derived.flatAttackPower,
+      masteryLevel: derived.masteryLevel,
+      skillPercent: bestSkill.skillPercent,
+      isLucky7: bestSkill.isLucky7,
+      animation: bestSkill.animation === 'stab' ? 'stab' : 'swing',
+    })
+    const totalMin = Math.floor(result.min * bestSkill.hits)
+    const totalMax = Math.floor(result.max * bestSkill.hits)
+    const totalAvg = Math.floor(result.avg * bestSkill.hits)
+    return { min: totalMin, max: totalMax, avg: totalAvg }
+  }, [bestSkill, character, derived])
 
   return (
     <div className="space-y-5">
@@ -66,13 +92,28 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
             <div className="text-sm font-semibold text-[#E8E6E1]">Lv.{character.level} {character.className}</div>
           </div>
           <div>
-            <div className="text-[10px] text-[#5C5B57] mb-0.5">Damage</div>
-            <div className="text-sm font-semibold">
-              <span className="text-[#E8913A]">{Math.floor(derived.damageRange.min).toLocaleString()}</span>
-              <span className="text-[#5C5B57] mx-1">–</span>
-              <span className="text-[#5AC47E]">{Math.floor(derived.damageRange.max).toLocaleString()}</span>
+            <div className="text-[10px] text-[#5C5B57] mb-0.5">
+              {skillDamageRange && bestSkill ? `${bestSkill.name} dmg` : 'Damage'}
             </div>
-            <div className="text-[10px] text-[#5C5B57]">avg {Math.floor(derived.damageRange.avg).toLocaleString()}</div>
+            {skillDamageRange ? (
+              <>
+                <div className="text-sm font-semibold">
+                  <span className="text-[#E8913A]">{skillDamageRange.min.toLocaleString()}</span>
+                  <span className="text-[#5C5B57] mx-1">–</span>
+                  <span className="text-[#5AC47E]">{skillDamageRange.max.toLocaleString()}</span>
+                </div>
+                <div className="text-[10px] text-[#5C5B57]">avg {skillDamageRange.avg.toLocaleString()}</div>
+              </>
+            ) : (
+              <>
+                <div className="text-sm font-semibold">
+                  <span className="text-[#E8913A]">{Math.floor(derived.damageRange.min).toLocaleString()}</span>
+                  <span className="text-[#5C5B57] mx-1">–</span>
+                  <span className="text-[#5AC47E]">{Math.floor(derived.damageRange.max).toLocaleString()}</span>
+                </div>
+                <div className="text-[10px] text-[#5C5B57]">avg {Math.floor(derived.damageRange.avg).toLocaleString()}</div>
+              </>
+            )}
           </div>
           <div>
             <div className="text-[10px] text-[#5C5B57] mb-0.5">{isMage ? 'M.ATK' : 'W.ATK'}</div>
@@ -88,9 +129,21 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
             <div className="text-[10px] text-[#5C5B57]">{derived.accuracy} ACC</div>
           </div>
         </div>
-        <p className="text-[10px] text-[#5C5B57] mt-3 pt-2 border-t border-[rgba(255,255,255,0.05)]">
-          Rankings update instantly when you change your gear or skills. Score is a relative ranking — not a real EXP/hr figure (movement speed and skills vary too much to predict accurately).
-        </p>
+        {bestSkill && (
+          <div className="flex items-center gap-2 mt-3 pt-2 border-t border-[rgba(255,255,255,0.05)]">
+            <img
+              src={bestSkill.thumbnail}
+              alt={bestSkill.name}
+              className="w-5 h-5 rounded border border-[rgba(255,255,255,0.06)] bg-[#0E1018] object-contain shrink-0"
+              onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+            />
+            <span className="text-[10px] text-[#5C5B57]">
+              Ranking assumes <span className="text-[#E8913A] font-medium">{bestSkill.name}</span>
+              {bestSkill.targets > 1 && <span className="text-[#5A9DE8]"> ({bestSkill.targets}-target AoE)</span>}
+              {' '}at max level · scores update as you change gear
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Missing gear warning */}

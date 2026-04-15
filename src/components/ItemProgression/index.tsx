@@ -376,7 +376,7 @@ export default function ItemProgression({ data, character, derived }: ItemProgre
         <div className="text-[10px] uppercase tracking-widest text-[#5C5B57] mb-1">Item Progression</div>
         <p className="text-sm text-[#8B8A85]">
           Ranked by expected damage for your <span className="text-[#E8E6E1]">{character.className}</span> at level {character.level}.
-          {isMage && <span className="text-[#9C7AE8]"> Magic damage formula is approximate.</span>}
+          {isMage && <span className="text-[#9C7AE8]"> Magic damage formula is unconfirmed — guesstimated from CBT data.</span>}
         </p>
       </div>
 
