@@ -111,7 +111,22 @@ function AppInner({
                 <span className="text-[11px] text-[#5C5B57]">'Maple Optimizations Generator'</span>
               </div>
             </div>
-            <span className="text-[10px] text-[#3C3C3A] hidden sm:inline">CBT v0.26–0.28 · Victoria Island</span>
+            <div className="flex items-center gap-3">
+              <span className="text-[10px] text-[#3C3C3A] hidden sm:inline">CBT v0.26–0.28 · Victoria Island</span>
+              <a
+                href="https://linktr.ee/OSMSTools"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-[rgba(90,156,232,0.3)] bg-[rgba(90,156,232,0.07)] text-[#5A9DE8] text-[11px] font-medium hover:bg-[rgba(90,156,232,0.14)] hover:border-[rgba(90,156,232,0.5)] transition-colors"
+                title="More MapleStory Classic tools"
+              >
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+                </svg>
+                More Maplestory Tools
+              </a>
+            </div>
           </div>
           {/* Tab nav */}
           <div className="flex gap-0.5">
