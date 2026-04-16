@@ -1,0 +1,891 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "speed": {
+      "_dirName": "speed",
+      "_dirType": "Int",
+      "_value": 100
+    },
+    "jump": {
+      "_dirName": "jump",
+      "_dirType": "Int",
+      "_value": 100
+    },
+    "fs": {
+      "_dirName": "fs",
+      "_dirType": "Float",
+      "_value": 10.0
+    },
+    "swim": {
+      "_dirName": "swim",
+      "_dirType": "Float",
+      "_value": 100.0
+    },
+    "noCancelDamage": {
+      "_dirName": "noCancelDamage",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "walk": {
+    "_dirName": "walk",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 61
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -27,
+        "_y": -61
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -3,
+        "_y": -55
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": 62
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -62
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -56
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": 63
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -63
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -57
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 28,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -28,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 59
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -26,
+        "_y": -59
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": -53
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "stand": {
+    "_dirName": "stand",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 59
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -26,
+        "_y": -59
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -53
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 58
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -27,
+        "_y": -58
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -52
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 28,
+        "_y": 57
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -28,
+        "_y": -57
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -51
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 58
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -27,
+        "_y": -58
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -52
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 59
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -26,
+        "_y": -59
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -53
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 28,
+        "_y": 57
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -28,
+        "_y": -57
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -51
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/stand/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 61
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -27,
+        "_y": -61
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -3,
+        "_y": -55
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": 62
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -62
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -56
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": 63
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -63
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -57
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 28,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -28,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 59
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -26,
+        "_y": -59
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": -53
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": 62
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -62
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 37,
+        "_y": 1
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -56
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0069.img/walk/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

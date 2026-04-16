@@ -1,0 +1,1459 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": 32
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Weapon/_Canvas/01472011.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRaw": {
+      "_dirName": "iconRaw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": 32
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Weapon/_Canvas/01472011.img/info/iconRaw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Wp"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "Wp"
+    },
+    "walk": {
+      "_dirName": "walk",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "stand": {
+      "_dirName": "stand",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "attack": {
+      "_dirName": "attack",
+      "_dirType": "Short",
+      "_value": 7
+    },
+    "afterImage": {
+      "_dirName": "afterImage",
+      "_dirType": "String",
+      "_value": "swordOL"
+    },
+    "sfx": {
+      "_dirName": "sfx",
+      "_dirType": "String",
+      "_value": "tGlove"
+    },
+    "reqJob": {
+      "_dirName": "reqJob",
+      "_dirType": "Int",
+      "_value": 8
+    },
+    "reqLevel": {
+      "_dirName": "reqLevel",
+      "_dirType": "Int",
+      "_value": 35
+    },
+    "reqSTR": {
+      "_dirName": "reqSTR",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqDEX": {
+      "_dirName": "reqDEX",
+      "_dirType": "Int",
+      "_value": 35
+    },
+    "reqINT": {
+      "_dirName": "reqINT",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLUK": {
+      "_dirName": "reqLUK",
+      "_dirType": "Int",
+      "_value": 75
+    },
+    "incPAD": {
+      "_dirName": "incPAD",
+      "_dirType": "Int",
+      "_value": 42
+    },
+    "incPDD": {
+      "_dirName": "incPDD",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "incDEX": {
+      "_dirName": "incDEX",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "tuc": {
+      "_dirName": "tuc",
+      "_dirType": "Int",
+      "_value": 7
+    },
+    "price": {
+      "_dirName": "price",
+      "_dirType": "Int",
+      "_value": 9000
+    },
+    "attackSpeed": {
+      "_dirName": "attackSpeed",
+      "_dirType": "Int",
+      "_value": 4
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "scope": {
+      "_dirName": "scope",
+      "_dirType": "Short",
+      "_value": -1
+    }
+  },
+  "walk1": {
+    "_dirName": "walk1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 25,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -20,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 25,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -21,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../0/weapon"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 25,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -18,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/3/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 25,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -20,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../0/weapon"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../0/weapon"
+      }
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -16,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/alert/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -17,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "hand": {
+            "_dirName": "hand",
+            "_dirType": "vector",
+            "_x": -16,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/alert/2/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO1": {
+    "_dirName": "swingO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": 20
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO1/2/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO2": {
+    "_dirName": "swingO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": 15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO2/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 14,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO2/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -18,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO2/2/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO3": {
+    "_dirName": "swingO3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -18,
+            "_y": 13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO3/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO3/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingO1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingOF": {
+    "_dirName": "swingOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -21,
+            "_y": 12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingOF/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backWeapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingOF/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingOF/2/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": 16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/swingOF/3/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO1": {
+    "_dirName": "stabO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -20,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 19,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/stabO1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO2": {
+    "_dirName": "stabO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -17,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/stabO2/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 17,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/stabO1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabOF": {
+    "_dirName": "stabOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -13,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/walk1/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -16,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/stabOF/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 20,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/stabO1/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "proneStab": {
+    "_dirName": "proneStab",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 3
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/proneStab/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 3
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 25,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/proneStab/1/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../../proneStab/0/weapon"
+      }
+    }
+  },
+  "heal": {
+    "_dirName": "heal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../../alert/1/weapon"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../../swingO2/1/weapon"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../../swingO2/0/weapon"
+      }
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/fly/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "uol",
+        "_value": "../0/weapon"
+      }
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -12,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "weaponOverGlove"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Weapon/_Canvas/01472011.img/fly/0/weapon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

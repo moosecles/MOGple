@@ -1,0 +1,4984 @@
+{
+  "Item": {
+    "_dirName": "Item",
+    "_dirType": "sub",
+    "Frame": {
+      "_dirName": "Frame",
+      "_dirType": "sub",
+      "top": {
+        "_dirName": "top",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/top"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "line": {
+        "_dirName": "line",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/line"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "dotline": {
+        "_dirName": "dotline",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/dotline"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "bottom": {
+        "_dirName": "bottom",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/bottom"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "cover": {
+        "_dirName": "cover",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -3,
+          "_y": -3
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/cover"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "ItemIcon": {
+      "_dirName": "ItemIcon",
+      "_dirType": "sub",
+      "base": {
+        "_dirName": "base",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/base"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "old": {
+        "_dirName": "old",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -5,
+          "_y": -5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/old"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "new": {
+        "_dirName": "new",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -7,
+          "_y": -7
+        },
+        "_width": 6,
+        "_height": 6,
+        "_format": 1,
+        "_format2": 0
+      },
+      "shade": {
+        "_dirName": "shade",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -17,
+          "_y": -64
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/shade"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "cover": {
+        "_dirName": "cover",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -4,
+          "_y": -4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/cover"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/ItemIcon/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "Equip": {
+      "_dirName": "Equip",
+      "_dirType": "sub",
+      "Can": {
+        "_dirName": "Can",
+        "_dirType": "sub",
+        "reqLEV": {
+          "_dirName": "reqLEV",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqLEV"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqSTR": {
+          "_dirName": "reqSTR",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqSTR"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqDEX": {
+          "_dirName": "reqDEX",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqDEX"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqINT": {
+          "_dirName": "reqINT",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqINT"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqLUK": {
+          "_dirName": "reqLUK",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqLUK"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqPOP": {
+          "_dirName": "reqPOP",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Can/reqPOP"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 0
+          },
+          "_width": 3,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "%": {
+          "_dirName": "%",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "none": {
+          "_dirName": "none",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -3
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "+": {
+          "_dirName": "+",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "-": {
+          "_dirName": "-",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -3
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "(": {
+          "_dirName": "(",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        ")": {
+          "_dirName": ")",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        }
+      },
+      "Cannot": {
+        "_dirName": "Cannot",
+        "_dirType": "sub",
+        "reqLEV": {
+          "_dirName": "reqLEV",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqLEV"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqSTR": {
+          "_dirName": "reqSTR",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqSTR"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqDEX": {
+          "_dirName": "reqDEX",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqDEX"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqINT": {
+          "_dirName": "reqINT",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqINT"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqLUK": {
+          "_dirName": "reqLUK",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqLUK"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqPOP": {
+          "_dirName": "reqPOP",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Tooltip.img/Equip/Cannot/reqPOP"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 0
+          },
+          "_width": 3,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 1,
+          "_format2": 0
+        },
+        "percent": {
+          "_dirName": "percent",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "none": {
+          "_dirName": "none",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -3
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "plus": {
+          "_dirName": "plus",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "minus": {
+          "_dirName": "minus",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -3
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "(": {
+          "_dirName": "(",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        ")": {
+          "_dirName": ")",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        }
+      },
+      "Disabled": {
+        "_dirName": "Disabled",
+        "_dirType": "sub",
+        "reqLEV": {
+          "_dirName": "reqLEV",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqLEV"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqSTR": {
+          "_dirName": "reqSTR",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqSTR"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqDEX": {
+          "_dirName": "reqDEX",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqDEX"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqINT": {
+          "_dirName": "reqINT",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqINT"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqLUK": {
+          "_dirName": "reqLUK",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqLUK"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reqPOP": {
+          "_dirName": "reqPOP",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Disabled/reqPOP"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 3,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "percent": {
+          "_dirName": "percent",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "none": {
+          "_dirName": "none",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 2,
+          "_format2": 0
+        },
+        "plus": {
+          "_dirName": "plus",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "minus": {
+          "_dirName": "minus",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "(": {
+          "_dirName": "(",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        ")": {
+          "_dirName": ")",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        }
+      },
+      "LookAhead": {
+        "_dirName": "LookAhead",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 4,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "none": {
+          "_dirName": "none",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -3
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "%": {
+          "_dirName": "%",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "+": {
+          "_dirName": "+",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 5,
+          "_format": 1,
+          "_format2": 0
+        },
+        "-": {
+          "_dirName": "-",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "Star": {
+        "_dirName": "Star",
+        "_dirType": "sub",
+        "Star0": {
+          "_dirName": "Star0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Star/Star0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "Star": {
+          "_dirName": "Star",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Star/Star"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "Star1": {
+          "_dirName": "Star1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Star/Star1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "AddOption": {
+        "_dirName": "AddOption",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/AddOption/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "Summary": {
+        "_dirName": "Summary",
+        "_dirType": "sub",
+        "incline": {
+          "_dirName": "incline",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -4,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "plus": {
+            "_dirName": "plus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -5
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline/plus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "decline": {
+          "_dirName": "decline",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -4,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "minus": {
+            "_dirName": "minus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -10
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline/minus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "icon": {
+          "_dirName": "icon",
+          "_dirType": "sub",
+          "pdd": {
+            "_dirName": "pdd",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -6
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/icon/pdd"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "mdd": {
+            "_dirName": "mdd",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/icon/mdd"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "bdr": {
+            "_dirName": "bdr",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/icon/bdr"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "igpddr": {
+            "_dirName": "igpddr",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/icon/igpddr"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "incline_8digit": {
+          "_dirName": "incline_8digit",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "plus": {
+            "_dirName": "plus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -4
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_8digit/plus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "decline_8digit": {
+          "_dirName": "decline_8digit",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -1
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "minus": {
+            "_dirName": "minus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -9
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_8digit/minus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "incline_10digit": {
+          "_dirName": "incline_10digit",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "plus": {
+            "_dirName": "plus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -6
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/incline_10digit/plus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "decline_10digit": {
+          "_dirName": "decline_10digit",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -2,
+              "_y": -3
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "minus": {
+            "_dirName": "minus",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -3,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Summary/decline_10digit/minus"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "Job": {
+        "_dirName": "Job",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/normal"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "expand": {
+          "_dirName": "expand",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/expand"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "expand2": {
+          "_dirName": "expand2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/expand2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "enable": {
+          "_dirName": "enable",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -50,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -95,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -142,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -187,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -219,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/enable/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disable": {
+          "_dirName": "disable",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -50,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -95,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -142,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -187,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -219,
+              "_y": -10
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Job/disable/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "YellowNumber": {
+        "_dirName": "YellowNumber",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 3,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "%": {
+          "_dirName": "%",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "none": {
+          "_dirName": "none",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "+": {
+          "_dirName": "+",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 5,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        "-": {
+          "_dirName": "-",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 5,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "(": {
+          "_dirName": "(",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        },
+        ")": {
+          "_dirName": ")",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 2,
+          "_height": 7,
+          "_format": 2,
+          "_format2": 0
+        }
+      },
+      "Growth": {
+        "_dirName": "Growth",
+        "_dirType": "sub",
+        "backgrnd": {
+          "_dirName": "backgrnd",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Growth/backgrnd"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "Guage": {
+          "_dirName": "Guage",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "_width": 1,
+              "_height": 3,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "itemLev": {
+            "_dirName": "itemLev",
+            "_dirType": "sub",
+            "abled": {
+              "_dirName": "abled",
+              "_dirType": "sub",
+              "0": {
+                "_dirName": "0",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 0,
+                  "_y": 0
+                },
+                "z": {
+                  "_dirName": "z",
+                  "_dirType": "Int",
+                  "_value": 0
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Growth/Guage/itemLev/abled/0"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "1": {
+                "_dirName": "1",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 0,
+                  "_y": 0
+                },
+                "z": {
+                  "_dirName": "z",
+                  "_dirType": "Int",
+                  "_value": 0
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Growth/Guage/itemLev/abled/1"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              }
+            }
+          }
+        }
+      },
+      "GrowthWedding": {
+        "_dirName": "GrowthWedding",
+        "_dirType": "sub",
+        "backgrnd": {
+          "_dirName": "backgrnd",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/GrowthWedding/backgrnd"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "Guage": {
+          "_dirName": "Guage",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "_width": 1,
+              "_height": 3,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "itemLev": {
+            "_dirName": "itemLev",
+            "_dirType": "sub",
+            "abled": {
+              "_dirName": "abled",
+              "_dirType": "sub",
+              "0": {
+                "_dirName": "0",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 0,
+                  "_y": 0
+                },
+                "z": {
+                  "_dirName": "z",
+                  "_dirType": "Int",
+                  "_value": 0
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Growth/Guage/itemLev/abled/0"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "1": {
+                "_dirName": "1",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 0,
+                  "_y": 0
+                },
+                "z": {
+                  "_dirName": "z",
+                  "_dirType": "Int",
+                  "_value": 0
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "UI/_Canvas/UIToolTip.img/Item/Equip/Growth/Guage/itemLev/abled/1"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "Frame2": {
+      "_dirName": "Frame2",
+      "_dirType": "sub",
+      "nw": {
+        "_dirName": "nw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame2/nw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ne": {
+        "_dirName": "ne",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame2/ne"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "sw": {
+        "_dirName": "sw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame2/sw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "se": {
+        "_dirName": "se",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame2/se"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "n": {
+        "_dirName": "n",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 13
+        },
+        "_width": 1,
+        "_height": 13,
+        "_format": 2,
+        "_format2": 0
+      },
+      "s": {
+        "_dirName": "s",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 13,
+        "_format": 2,
+        "_format2": 0
+      },
+      "w": {
+        "_dirName": "w",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 0
+        },
+        "_width": 13,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "e": {
+        "_dirName": "e",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 13,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "c": {
+        "_dirName": "c",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "cover": {
+        "_dirName": "cover",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -3,
+          "_y": -3
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/cover"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "dotline": {
+        "_dirName": "dotline",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame2/dotline"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "FarmFrame": {
+      "_dirName": "FarmFrame",
+      "_dirType": "sub",
+      "nw": {
+        "_dirName": "nw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/FarmFrame/nw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ne": {
+        "_dirName": "ne",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/FarmFrame/ne"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "sw": {
+        "_dirName": "sw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/FarmFrame/sw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "se": {
+        "_dirName": "se",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/FarmFrame/se"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "n": {
+        "_dirName": "n",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 13
+        },
+        "_width": 1,
+        "_height": 13,
+        "_format": 1,
+        "_format2": 0
+      },
+      "s": {
+        "_dirName": "s",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 13,
+        "_format": 1,
+        "_format2": 0
+      },
+      "w": {
+        "_dirName": "w",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 0
+        },
+        "_width": 13,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "e": {
+        "_dirName": "e",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 13,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "c": {
+        "_dirName": "c",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "cover": {
+        "_dirName": "cover",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -3,
+          "_y": -3
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/Frame/cover"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "GrowthInfoGauge": {
+      "_dirName": "GrowthInfoGauge",
+      "_dirType": "sub",
+      "box": {
+        "_dirName": "box",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Item/GrowthInfoGauge/box"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "gauge": {
+        "_dirName": "gauge",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 1,
+          "_height": 9,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 1,
+          "_height": 9,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "_width": 1,
+          "_height": 9,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  },
+  "Guild": {
+    "_dirName": "Guild",
+    "_dirType": "sub",
+    "frameLike": {
+      "_dirName": "frameLike",
+      "_dirType": "sub",
+      "nw": {
+        "_dirName": "nw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": 21
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Guild/frameLike/nw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ne": {
+        "_dirName": "ne",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": 21
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Guild/frameLike/ne"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "sw": {
+        "_dirName": "sw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Guild/frameLike/sw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "se": {
+        "_dirName": "se",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Guild/frameLike/se"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "n": {
+        "_dirName": "n",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 21
+        },
+        "_width": 1,
+        "_height": 21,
+        "_format": 1,
+        "_format2": 0
+      },
+      "s": {
+        "_dirName": "s",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": -1
+        },
+        "_width": 1,
+        "_height": 21,
+        "_format": 1,
+        "_format2": 0
+      },
+      "w": {
+        "_dirName": "w",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 23,
+          "_y": 0
+        },
+        "_width": 23,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "e": {
+        "_dirName": "e",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": 0
+        },
+        "_width": 23,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "c": {
+        "_dirName": "c",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "AchievementLink": {
+    "_dirName": "AchievementLink",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -106,
+        "_y": -34
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIToolTip.img/AchievementLink/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "Skill": {
+    "_dirName": "Skill",
+    "_dirType": "sub",
+    "Frame": {
+      "_dirName": "Frame",
+      "_dirType": "sub",
+      "nw": {
+        "_dirName": "nw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/nw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ne": {
+        "_dirName": "ne",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/ne"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "sw": {
+        "_dirName": "sw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/sw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "se": {
+        "_dirName": "se",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/se"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "n": {
+        "_dirName": "n",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 11,
+        "_format": 2,
+        "_format2": 0
+      },
+      "s": {
+        "_dirName": "s",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 11,
+        "_format": 2,
+        "_format2": 0
+      },
+      "w": {
+        "_dirName": "w",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 11,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "e": {
+        "_dirName": "e",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 11,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "c": {
+        "_dirName": "c",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 2,
+        "_format2": 0
+      },
+      "cover": {
+        "_dirName": "cover",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -3,
+          "_y": -3
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/cover"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "dotline_w": {
+        "_dirName": "dotline_w",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 1
+        },
+        "_width": 8,
+        "_height": 2,
+        "_format": 2,
+        "_format2": 0
+      },
+      "dotline_e": {
+        "_dirName": "dotline_e",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 1
+        },
+        "_width": 6,
+        "_height": 2,
+        "_format": 2,
+        "_format2": 0
+      },
+      "dotline_c": {
+        "_dirName": "dotline_c",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 1
+        },
+        "_width": 5,
+        "_height": 2,
+        "_format": 2,
+        "_format2": 0
+      },
+      "iconBackgrnd": {
+        "_dirName": "iconBackgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIToolTip.img/Skill/Frame/iconBackgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "lineOffset": {
+        "_dirName": "lineOffset",
+        "_dirType": "Int",
+        "_value": 8
+      },
+      "levelOffset": {
+        "_dirName": "levelOffset",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "textOffset": {
+        "_dirName": "textOffset",
+        "_dirType": "Int",
+        "_value": 13
+      },
+      "originTopOffset": {
+        "_dirName": "originTopOffset",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "originBottomOffset": {
+        "_dirName": "originBottomOffset",
+        "_dirType": "Int",
+        "_value": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Event] A Strange and Familiar Wood"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 99
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Look for #p304# in #m10002000#.\\r\\nIt seems she has a favor to ask me."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Let's take the #b#i4031080# #t4031080##k given by #b#p304##k to #b#p313##k for analysis.\\nThen talk to #b#p304##k again."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I informed #p304# about the results of #b#p313##k's analysis on the #b#i4031080# #t4031080##k."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#questorder1#Talk to #r#p313##k"
+    },
+    "rewardSummary": {
+      "_dirName": "rewardSummary",
+      "_dirType": "String",
+      "_value": "#i1112108# #t1112108# x1\\n  (Account Reward)"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 304
+      },
+      "startscript": {
+        "_dirName": "startscript",
+        "_dirType": "String",
+        "_value": "q500000s"
+      },
+      "end": {
+        "_dirName": "end",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "end_t": {
+        "_dirName": "end_t",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "202604140000"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "202604140000"
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 304
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "endscript": {
+        "_dirName": "endscript",
+        "_dirType": "String",
+        "_value": "q500000e"
+      },
+      "npcSpeech": {
+        "_dirName": "npcSpeech",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 313
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "script": {
+            "_dirName": "script",
+            "_dirType": "String",
+            "_value": "q500000_midNPC1"
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub"
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Please go and speak with #b#p313##k."
+          }
+        }
+      }
+    }
+  }
+}

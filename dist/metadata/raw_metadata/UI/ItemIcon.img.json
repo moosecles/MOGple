@@ -1,0 +1,248 @@
+{
+  "shadow": {
+    "_dirName": "shadow",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -3,
+      "_y": 6
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Item.img/canvas:shadow"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "protector": {
+    "_dirName": "protector",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 12,
+      "_y": 12
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/ItemIcon.img/protector"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "timeLimit": {
+    "_dirName": "timeLimit",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 32
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Item.img/timeLimit/0"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "Barrier": {
+    "_dirName": "Barrier",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 9,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Item.img/Barrier/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 9,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Item.img/Barrier/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "Quality": {
+    "_dirName": "Quality",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

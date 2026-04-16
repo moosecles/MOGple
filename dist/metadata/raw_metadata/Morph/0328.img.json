@@ -1,0 +1,3977 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "speed": {
+      "_dirName": "speed",
+      "_dirType": "Int",
+      "_value": 120
+    },
+    "jump": {
+      "_dirName": "jump",
+      "_dirType": "Int",
+      "_value": 120
+    },
+    "fs": {
+      "_dirName": "fs",
+      "_dirType": "Float",
+      "_value": 10.0
+    },
+    "swim": {
+      "_dirName": "swim",
+      "_dirType": "Float",
+      "_value": 100.0
+    },
+    "noCancelDamage": {
+      "_dirName": "noCancelDamage",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "morphEffect": {
+      "_dirName": "morphEffect",
+      "_dirType": "Int",
+      "_value": 0
+    }
+  },
+  "walk": {
+    "_dirName": "walk",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 112
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 112
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 110
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/walk/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "stand": {
+    "_dirName": "stand",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 105
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 105
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 103
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 64,
+        "_y": 110
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/jump/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 76
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -50
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/prone/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 64,
+        "_y": 110
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/jump/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "sit": {
+    "_dirName": "sit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "rope": {
+    "_dirName": "rope",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 89,
+        "_y": 108
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/rope/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 83,
+        "_y": 109
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/rope/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "ladder": {
+    "_dirName": "ladder",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 89,
+        "_y": 108
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/rope/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 83,
+        "_y": 109
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/rope/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "MitraNpcFirePunch": {
+    "_dirName": "MitraNpcFirePunch",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 72,
+        "_y": 112
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 71,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 64,
+        "_y": 111
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 64,
+        "_y": 112
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 314,
+        "_y": 201
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 474,
+        "_y": 220
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 498,
+        "_y": 220
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 499,
+        "_y": 268
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 500,
+        "_y": 302
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/8"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 501,
+        "_y": 306
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 500,
+        "_y": 309
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/10"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 461,
+        "_y": 310
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/11"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 459,
+        "_y": 310
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/12"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 460,
+        "_y": 307
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/13"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "14": {
+      "_dirName": "14",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 459,
+        "_y": 296
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcFirePunch/14"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "MitraNpcSolarBlade": {
+    "_dirName": "MitraNpcSolarBlade",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 48,
+        "_y": 104
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 61,
+        "_y": 129
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 80,
+        "_y": 166
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 194,
+        "_y": 173
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 216,
+        "_y": 244
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 218,
+        "_y": 249
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 229,
+        "_y": 248
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 240,
+        "_y": 244
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/8"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 240,
+        "_y": 241
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 248,
+        "_y": 222
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/10"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 255,
+        "_y": 218
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarBlade/11"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "MitraNpcSolarFlare": {
+    "_dirName": "MitraNpcSolarFlare",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 115
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 121
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 60,
+        "_y": 126
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 129,
+        "_y": 197
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 273,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 273,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 267,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 270,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 268,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/8"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 269,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 272,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/10"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 270,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/11"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 266,
+        "_y": 360
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/12"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 192,
+        "_y": 273
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlare/13"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "MitraNpcPowerUp": {
+    "_dirName": "MitraNpcPowerUp",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 63,
+        "_y": 101
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 164,
+        "_y": 192
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 166,
+        "_y": 188
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 165,
+        "_y": 186
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 163,
+        "_y": 216
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 163,
+        "_y": 216
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 216
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 216
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 215
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/8"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 215
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 215
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/10"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 171,
+        "_y": 215
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/11"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 162,
+        "_y": 213
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/12"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 160,
+        "_y": 213
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/13"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "14": {
+      "_dirName": "14",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 159,
+        "_y": 212
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcPowerUp/14"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "MitraNpcSolarFlash": {
+    "_dirName": "MitraNpcSolarFlash",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 118
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "head": {
+        "_dirName": "head",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": -80
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -30,
+        "_y": -80
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 30,
+        "_y": -1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Morph/_Canvas/0328.img/MitraNpcSolarFlash/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

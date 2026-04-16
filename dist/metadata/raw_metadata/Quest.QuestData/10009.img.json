@@ -1,0 +1,221 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Olaf's Second Training"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Olaf's Training"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It looks like #p107# in #m10000000# has prepared another round of training."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p107# again in #m10000000#. He says my training is still far from over and gave me a mission to hunt stronger monsters outside the town. Will I finally become a true adventurer once I finish this training?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed #p107#'s second training with flying colors! Once I reach Level 10, I'll be all set to choose my job!"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o8# #a100091#\\n#o9# #a100092#"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 107
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 8
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10000
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 107
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 84
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 234
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2030000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You might've passed the first trial, but you're still lacking. At this rate, it wouldn't be strange to find you rotting somewhere on Victoria Island."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Now, for this test, head further out from the harbor to hunt #r#o8#s#k and #r#o9#s#k and return. They are much faster and stronger than anything you've faced so far, so watch your back."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Well now, if it isn't #h0# back from training. To be honest, I thought there was a good chance you wouldn't make it back at all, haha! Since you cleared this trial too, I suppose you deserve some credit. Here, I've prepared something for you."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "That #t2030000# will take you back to the nearest town whenever you need. It'll come in handy if you get lost or wander too far off. They sell them at the general stores in town too, so keep that in mind."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Well, that's all I can do for you. I'll be looking forward to the day you grow into a proper adventurer."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Hmm… looks like you didn’t take down all the monsters I asked for. If you’re even one short, that’s a no-go!"
+          }
+        }
+      }
+    }
+  }
+}

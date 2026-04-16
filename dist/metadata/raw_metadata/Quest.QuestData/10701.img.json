@@ -1,0 +1,290 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Special Taste of Florina Beach"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Special Taste of Florina Beach II"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 18
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p802# in #m10007000# asks me a question about #m10007000#. Piece of cake~ I can answer that before I start my work."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I have to prepare enough ingredients for 15 people, and bring them to #p802# in #m10007000#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I answered all the questions that #p802# gave me and passed her tests, then went to collect ingredients for 15 people."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000061# #t4000061# #c4000061# / 15\\n#i4000031# #t4000031# #c4000031# / 15\\n#i4000032# #t4000032# #c4000032# / 30"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 802
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 37
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10700
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 802
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000061
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000031
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000032
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4612
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 3246
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000061
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000031
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000032
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I'm sure you know this and all, but I'll still ask just in case. Which of these monsters will you not be seeing at the #m10007000#? \\n\\n#L0##b#o41##l\\n#L1##o44##l\\n#L2##o46##l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I'm glad you know the basic stuff around here. I'm just worried you might wander around and hunt stuff without knowing what you'll be facing. Well then, shall we get this started?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Alright, I'll explain more about this job. I need #b15 #t4000061#s#k for some coconut juice, #b30 #t4000032#s#k for the meals, and #b15 #t4000031#s#k for the dessert. Please get me the freshest materials available!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You'll find #o41# at the right side of the beach..."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "One of the more renowned treats at the #m10007000# is the #t4000032# special!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Did you collect them all? If the ingredients aren't fresh, I may not pay you for your service. Of course, you also need to have enough ingredients. Now, let's see..."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Wow, you got them all!!! The sweet smelling #t4000061#s... the tasty looking #t4000032#s... and the fresh batch of #t4000031#s... Good job!! We've been booking more tourists lately, and I can sure use someone like you again. If you're looking for more work, then come talk to me. I feel like I can trust you to take on some of the harder tasks. I should even raise your pay, then!!!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I think you're lacking some ingredients. Please check and see if you have #b15 #t4000061#s, 30 #t4000032#s, and 15 #t4000031#s#k."
+          }
+        }
+      }
+    }
+  }
+}

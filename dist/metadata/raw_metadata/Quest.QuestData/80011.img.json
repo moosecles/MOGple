@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Mr. Thunder in Need of an Apprentice"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems #p503#, the master weapon craftsman of #m10004000#, is looking for someone worthy of becoming his apprentice."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p503#, the master weapon craftsman of #m10004000#, gave me a test when I asked to become his apprentice. He said that weaponcrafting requires proper strength and knowledge, and told me to use my Smithing skill to craft #bone #t4010100# and one #t4010101##k. As long as I have the materials, it shouldn’t be too difficult."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed the test given by #p503#, the master weapon craftsman of #m10004000#. Does this mean I can now become a true weaponcrafting specialist in Maple World?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4010100:# #t4010100:# #c4010100# / 1\\n#i4010101:# #t4010101:# #c4010101# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 503
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 80008
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 503
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010100
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010101
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92010000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "When #p504# was my apprentice, he helped me a great deal… and now he’s grown enough to become a master in his own field. I’m proud of him, but I’m short on hands again… Ah! You there! Would you be interested in becoming a #bWeaponcrafting Specialist#k?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "What? You’re asking what a weaponcrafting specialist is? Hahaha! #p504# asked me the same thing back then. Very well! A weaponcrafting specialist is #bsomeone who can forge powerful metal weapons using refined metals#k. You still look like a rookie, but something tells me you might make a fine apprentice. What do you say?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Good choice! But even I can’t just take anyone as my apprentice. Let’s see… Right! I’ll need to give you a simple test to see if you’ve got potential."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To become a weaponcrafting specialist, the basics lie in working with metal. And it looks like you already know Smithing, right? Try using that skill to craft #bone #t4010100# and one #t4010101##k."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Seems you’re busy at the moment? That’s fine. But remember—if you want to grow stronger in Maple World, a good weapon is essential. Come back anytime if you change your mind."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "It looks like you’ve trained your weaponcrafting skills well! At this level, I’d say you’re ready for me to teach you my craft."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "From now on, I recognize you as a weaponcrafting specialist. I’ve added several weaponcrafting skills to your #bCrafting Journal#k—take a look when you get the chance."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "And actually, I asked you to gather those materials for your own sake, so try using them to make a few items. Just remember: you’ll need the #b#p800011##k next to me if you want to craft weapons."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "As you craft more items using your weaponcrafting skill, you’ll gain experience and level up, allowing you to create an even wider variety of weapons. But keep in mind—raising your maximum weaponcrafting level also requires raising your character level, so don’t neglect either side of your growth."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "That’s all I can teach you for now. You’re still a beginner, but don’t worry. With steady effort, you’ll reach the level of a true master someday—just like me. Although… if that happens, will you go off on your own path like #p504# did? Hahaha! Anyway, come find me anytime if you have questions!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you haven’t gathered all the materials I asked for. If you can’t even manage that, you shouldn’t be dreaming of becoming a weaponcrafter."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Jane the Alchemist"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Jane's Second Challenge"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p103# says she will make me something better."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "This time, #p103# promises to make a better item, so she needs me to gather #b1 #t4000048#, 3 vials of #t2012000#, 25 #t4000039#, and 25 #t4000042#s#k by defeating several monsters. She says it can be used to make an even more powerful elixir…"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got #p103# the materials she needed. If she does well, I'll get some nice elixirs. If not... er, I'm not sure I really want to take what she gives me..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o43# #a100041#\\n#o47# #a100042#\\n#i4000048# #t4000048# #b#c4000048##k / 1\\n#i2012000# #t2012000# #b#c2012000##k / 3\\n#i4000039# #t4000039# #b#c4000039##k / 25\\n#i4000042# #t4000042# #b#c4000042##k / 25"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 103
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 44
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10003
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 103
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2012000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000048
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000039
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000042
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          }
+        }
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 43
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 47
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 6300
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1287
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2012000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -3
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000048
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000039
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -25
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000042
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -25
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2000005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Did you enjoy the stuff I gave you last time? Hehe, now I want to make more complicated stuff. Want to help?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "hanks. I need #b1 #t4000048##k, #b3 #t2012000#s#k, #b25 #t4000039##k and #b25 #t4000042#s#k. And also, please take care of #r50 #o43#s and 50 #o47#s#k. This time, I'm hoping to make #t2000005#s, hehe!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Well, now. If you don't have time to listen to a poor girl's plea... Fine, just let me know if you change your mind."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You got #b1 #t4000048##k, #b3 #t2012000#s#k, #b25 #t4000039##k, and #b25 #t4000042#s#k. Excellent! Time to mix... Heh, heh, heh."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Okay, this is only my second experiment ever. Hope it turns out okay. Check to make sure you have an empty slot in your Use inventory, and then hold out your hand..."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Whoa! I'm amazing! I made 15 #r#t2000005#s#k! Whee! What a huge success. Thanks for your help!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven't collected #b1 #t4000048##k, #b3 #t2012000##k, #b25 #t4000039##k, and #b25 #t4000042#s#k yet. You should be able to get them off the monsters. Keep trying!"
+          }
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Hmm… it looks like you haven’t defeated all the monsters I asked for."
+          }
+        }
+      }
+    }
+  }
+}

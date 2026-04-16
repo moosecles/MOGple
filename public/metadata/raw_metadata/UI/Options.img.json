@@ -1,0 +1,3190 @@
+{
+  "OptionMenu": {
+    "_dirName": "OptionMenu",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Options.img/OptionMenu/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "button:OK": {
+      "_dirName": "button:OK",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -176,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/KeyBindings.img/quickslot/button:confirm/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -176,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/KeyBindings.img/quickslot/button:confirm/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -176,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/KeyBindings.img/quickslot/button:confirm/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -176,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/KeyBindings.img/quickslot/button:confirm/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "button:Cancel": {
+      "_dirName": "button:Cancel",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -232,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChannelChange.img/Channel/BtCancel/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -232,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/KeyBindings.img/button:presetUndo/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -232,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChannelChange.img/Channel/BtCancel/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -232,
+            "_y": -407
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChannelChange.img/Channel/BtCancel/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2
+      }
+    },
+    "button:Close": {
+      "_dirName": "button:Close",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -266,
+            "_y": -7
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -266,
+            "_y": -7
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -266,
+            "_y": -7
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -266,
+            "_y": -7
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "tab": {
+      "_dirName": "tab",
+      "_dirType": "sub",
+      "enabled": {
+        "_dirName": "enabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": -22
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/enabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -65,
+            "_y": -22
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/enabled/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -124,
+            "_y": -22
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/enabled/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -183,
+            "_y": -22
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/enabled/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": -23
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -65,
+            "_y": -23
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/disabled/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -124,
+            "_y": -23
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/disabled/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -183,
+            "_y": -23
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Options.img/OptionMenu/tab/disabled/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "graphic": {
+      "_dirName": "graphic",
+      "_dirType": "sub",
+      "layer:backgrnd": {
+        "_dirName": "layer:backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -9,
+          "_y": -51
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Options.img/OptionMenu/graphic/layer:backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "combo:resolution": {
+        "_dirName": "combo:resolution",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 56
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 74
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2001
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 6
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "check:maxResolutionShortcutNotUsed": {
+        "_dirName": "check:maxResolutionShortcutNotUsed",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 83
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 95
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3019
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:vsync": {
+        "_dirName": "check:vsync",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 101
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 113
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3003
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "ToolTip": {
+          "_dirName": "ToolTip",
+          "_dirType": "String",
+          "_value": "Adjusts the game frame to the monitor accordingly.\\nIf the screen looks severely pixelated, or if the performance drops, change this option."
+        }
+      },
+      "combo:uiResolution": {
+        "_dirName": "combo:uiResolution",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 125
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 143
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2008
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "uiResolution": {
+            "_dirName": "uiResolution",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Default Ratio"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Default Ratio (Filter Applied)"
+              }
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Ideal Ratio"
+              }
+            }
+          }
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "check:uiAlpha": {
+        "_dirName": "check:uiAlpha",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 152
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 164
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3004
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "combo:qualityOption": {
+        "_dirName": "combo:qualityOption",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 173
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 191
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2003
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "qualityOption": {
+            "_dirName": "qualityOption",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "User Setting"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Very High (Slower Performance)"
+              }
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "High"
+              }
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Normal"
+              }
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Low"
+              }
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Very Low (Faster Performance)"
+              }
+            }
+          }
+        }
+      },
+      "slider:backGround": {
+        "_dirName": "slider:backGround",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 206
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4001
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "range": {
+          "_dirName": "range",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "slider:effectTexture": {
+        "_dirName": "slider:effectTexture",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 236
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4002
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "range": {
+          "_dirName": "range",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "slider:alphaMine": {
+        "_dirName": "slider:alphaMine",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 269
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4003
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:alphaOther": {
+        "_dirName": "slider:alphaOther",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 299
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4004
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "combo:damage": {
+        "_dirName": "combo:damage",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 327
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 345
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2002
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Basic Numbers"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Cascading Numbers"
+              }
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Blade Effects"
+              }
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Mini Basic Numbers"
+              }
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Mini Cascading Numbers"
+              }
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Mini Blade Effects"
+              }
+            }
+          }
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "slider:damageSkin": {
+        "_dirName": "slider:damageSkin",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 359
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4005
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "range": {
+          "_dirName": "range",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "check:petBack": {
+        "_dirName": "check:petBack",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 383
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 395
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3005
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "sound": {
+      "_dirName": "sound",
+      "_dirType": "sub",
+      "layer:backgrnd": {
+        "_dirName": "layer:backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -9,
+          "_y": -51
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Options.img/OptionMenu/sound/layer:backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "slider:volMV": {
+        "_dirName": "slider:volMV",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 98,
+          "_y": 59
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4005
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 103
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:muteMV": {
+        "_dirName": "check:muteMV",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 233,
+          "_y": 59
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 245,
+          "_y": 71
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3006
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:volBG": {
+        "_dirName": "slider:volBG",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 98,
+          "_y": 89
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4001
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 103
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:muteBG": {
+        "_dirName": "check:muteBG",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 233,
+          "_y": 89
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 245,
+          "_y": 101
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3001
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:volSE": {
+        "_dirName": "slider:volSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 98,
+          "_y": 118
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4002
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 103
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:muteSE": {
+        "_dirName": "check:muteSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 233,
+          "_y": 119
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 245,
+          "_y": 131
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3002
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:volMSE": {
+        "_dirName": "slider:volMSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 98,
+          "_y": 148
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4006
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 103
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:muteMSE": {
+        "_dirName": "check:muteMSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 233,
+          "_y": 149
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 245,
+          "_y": 161
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3007
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:volSSE": {
+        "_dirName": "slider:volSSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 98,
+          "_y": 178
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4003
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 103
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:muteSSE": {
+        "_dirName": "check:muteSSE",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 233,
+          "_y": 179
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 245,
+          "_y": 191
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3003
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "game": {
+      "_dirName": "game",
+      "_dirType": "sub",
+      "layer:backgrnd": {
+        "_dirName": "layer:backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -9,
+          "_y": -51
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Options.img/OptionMenu/game/layer:backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "slider:flashHP": {
+        "_dirName": "slider:flashHP",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 59
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4001
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:flashMP": {
+        "_dirName": "slider:flashMP",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 104,
+          "_y": 89
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4002
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 148
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "combo:monster": {
+        "_dirName": "combo:monster",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 116
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 134
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "monster": {
+            "_dirName": "monster",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "No Labels"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Show Name Only"
+              }
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Show HP Only"
+              }
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Show Both Name and HP"
+              }
+            }
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2001
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "combo:filetype": {
+        "_dirName": "combo:filetype",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 149
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 167
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "filetype": {
+            "_dirName": "filetype",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "JPEG"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "PNG"
+              }
+            }
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2003
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "combo:loc": {
+        "_dirName": "combo:loc",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 179
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 197
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "loc": {
+            "_dirName": "loc",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "MapleStory Folder"
+              }
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "Desktop"
+              }
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "C:\\\\"
+              }
+            }
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2004
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        }
+      },
+      "check:inarow": {
+        "_dirName": "check:inarow",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 213
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 225
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3017
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "ToolTip": {
+          "_dirName": "ToolTip",
+          "_dirType": "String",
+          "_value": "Takes the specified number of screenshots. "
+        }
+      },
+      "edit:inarow": {
+        "_dirName": "edit:inarow",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 228,
+          "_y": 211
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 244,
+          "_y": 224
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 6001
+        },
+        "maxlen": {
+          "_dirName": "maxlen",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "number": {
+          "_dirName": "number",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "notifyEditChanged": {
+          "_dirName": "notifyEditChanged",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "button:inarowUp": {
+        "_dirName": "button:inarowUp",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 5011
+        },
+        "ToolTip": {
+          "_dirName": "ToolTip",
+          "_dirType": "String",
+          "_value": "You can do Burst Mode for up to 10 pictures."
+        }
+      },
+      "button:inarowDown": {
+        "_dirName": "button:inarowDown",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -212
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 5012
+        },
+        "ToolTip": {
+          "_dirName": "ToolTip",
+          "_dirType": "String",
+          "_value": "You can do Burst Mode once you have at least 2 pictures."
+        }
+      },
+      "check:auto": {
+        "_dirName": "check:auto",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 242
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 254
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3018
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "ToolTip": {
+          "_dirName": "ToolTip",
+          "_dirType": "String",
+          "_value": "Automatically take pictures of moments you want to remember."
+        }
+      },
+      "check:mmio": {
+        "_dirName": "check:mmio",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 276
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 288
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3019
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "edit:memorySize": {
+        "_dirName": "edit:memorySize",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 228,
+          "_y": 304
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 244,
+          "_y": 317
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 6002
+        },
+        "maxlen": {
+          "_dirName": "maxlen",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "number": {
+          "_dirName": "number",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "notifyEditChanged": {
+          "_dirName": "notifyEditChanged",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "button:memoryUp": {
+        "_dirName": "button:memoryUp",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -245,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMax2/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 5013
+        }
+      },
+      "button:memoryDown": {
+        "_dirName": "button:memoryDown",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -258,
+              "_y": -305
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Basic.img/BtMin2/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 5014
+        }
+      },
+      "combo:language": {
+        "_dirName": "combo:language",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 335
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 272,
+          "_y": 353
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2005
+        },
+        "textLeft": {
+          "_dirName": "textLeft",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "textTop": {
+          "_dirName": "textTop",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "backColor": {
+          "_dirName": "backColor",
+          "_dirType": "Int",
+          "_value": -1118482
+        },
+        "backFocusedColor": {
+          "_dirName": "backFocusedColor",
+          "_dirType": "Int",
+          "_value": -5922408
+        },
+        "boxPosX": {
+          "_dirName": "boxPosX",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "boxPosY": {
+          "_dirName": "boxPosY",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "boxWidth": {
+          "_dirName": "boxWidth",
+          "_dirType": "Int",
+          "_value": 186
+        },
+        "boxTestLeftOffset": {
+          "_dirName": "boxTestLeftOffset",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "fType": {
+          "_dirName": "fType",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelect": {
+          "_dirName": "fTypeSelect",
+          "_dirType": "Int",
+          "_value": 36
+        },
+        "fTypeSelectFocused": {
+          "_dirName": "fTypeSelectFocused",
+          "_dirType": "Int",
+          "_value": 38
+        },
+        "sButtonUOL": {
+          "_dirName": "sButtonUOL",
+          "_dirType": "String",
+          "_value": "UI/Basic.img/ComboBox"
+        },
+        "contents": {
+          "_dirName": "contents",
+          "_dirType": "sub",
+          "language": {
+            "_dirName": "language",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "string": {
+                "_dirName": "string",
+                "_dirType": "String",
+                "_value": "English"
+              }
+            }
+          }
+        }
+      }
+    },
+    "social": {
+      "_dirName": "social",
+      "_dirType": "sub",
+      "layer:backgrnd": {
+        "_dirName": "layer:backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -9,
+          "_y": -51
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Options.img/OptionMenu/social/layer:backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "check:whisper": {
+        "_dirName": "check:whisper",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 53
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 65
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3001
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:inviteTalk": {
+        "_dirName": "check:inviteTalk",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 71
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 83
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3002
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:talkFriend": {
+        "_dirName": "check:talkFriend",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 89
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 101
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3003
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:inviteParty": {
+        "_dirName": "check:inviteParty",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 110
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 122
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3008
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:trade": {
+        "_dirName": "check:trade",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 128
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 140
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3006
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:inviteFriend": {
+        "_dirName": "check:inviteFriend",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 146
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 158
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3014
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:friendLoginAlarm": {
+        "_dirName": "check:friendLoginAlarm",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 164
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 176
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3016
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:teleportItem": {
+        "_dirName": "check:teleportItem",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 182
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 194
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3013
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "check:chatTimeStamp": {
+        "_dirName": "check:chatTimeStamp",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 83,
+          "_y": 203
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 95,
+          "_y": 215
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3018
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "slider:chatFontsize": {
+        "_dirName": "slider:chatFontsize",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 107,
+          "_y": 227
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3015
+        },
+        "acceptFocus": {
+          "_dirName": "acceptFocus",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "width": {
+          "_dirName": "width",
+          "_dirType": "Int",
+          "_value": 143
+        },
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  }
+}

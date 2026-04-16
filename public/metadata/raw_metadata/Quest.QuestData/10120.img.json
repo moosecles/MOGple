@@ -1,0 +1,180 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Looking for the Red Cape"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Pia's Present For a Friend"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Let's go to #p218# in #m10001000#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p218# also asked me to retrieve the #b#t4031064##k that #p201# in #m10001000# borrowed for her friend. I’ll probably get something nice if I bring it back to her."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I went to #p201# to get #p218#'s cape, but #p201# told me that she's keeping the cape until #p218# brings back what she borrowed from her. She said she will return the cape if she gets back what #p218# has borrowed."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 218
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 42
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10119
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 201
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4055
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10121
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 859
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Thanks to you, I think I can finally prepare the gift for my friend. But… somehow it still feels like something’s missing."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Right! I also need the cape for my friend! A few days ago, I lent a #b#t4031064##k to #p201# in #m10001000#, and I’d like you to get it back for me. I’m sure my friend will need it. How about it, will you help me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Please! If you can gather everything and bring it to me, I’ll be able to make something that will help my friend on their journey!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You must be very busy... If you have time later, please get back to me~! My friend will start traveling soon..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hi~ Nice weather~ isn't it? What? You want the #b#t4031064##k that I borrowed from #p218#? "
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Hmm... I should say... \"no\"... because I didn't borrow it from #p218#. #p218# took my precious thing and never gave it back to me. So I took this cape from her in return. Therefore, I can't give this cape to you."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You can get the #t4031064# from #p201# in #m10001000#..."
+          }
+        }
+      }
+    }
+  }
+}

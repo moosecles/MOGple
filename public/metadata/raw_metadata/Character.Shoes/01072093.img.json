@@ -1,0 +1,3233 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": 28
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Shoes/_Canvas/01072093.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRaw": {
+      "_dirName": "iconRaw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": 28
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Shoes/_Canvas/01072093.img/info/iconRaw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "So"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "So"
+    },
+    "reqJob": {
+      "_dirName": "reqJob",
+      "_dirType": "Int",
+      "_value": 4
+    },
+    "reqLevel": {
+      "_dirName": "reqLevel",
+      "_dirType": "Int",
+      "_value": 35
+    },
+    "reqSTR": {
+      "_dirName": "reqSTR",
+      "_dirType": "Int",
+      "_value": 25
+    },
+    "reqDEX": {
+      "_dirName": "reqDEX",
+      "_dirType": "Int",
+      "_value": 60
+    },
+    "reqINT": {
+      "_dirName": "reqINT",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLUK": {
+      "_dirName": "reqLUK",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "incPDD": {
+      "_dirName": "incPDD",
+      "_dirType": "Int",
+      "_value": 16
+    },
+    "incSTR": {
+      "_dirName": "incSTR",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "incMMP": {
+      "_dirName": "incMMP",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "incEVA": {
+      "_dirName": "incEVA",
+      "_dirType": "Int",
+      "_value": 3
+    },
+    "incSpeed": {
+      "_dirName": "incSpeed",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "tuc": {
+      "_dirName": "tuc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "price": {
+      "_dirName": "price",
+      "_dirType": "Int",
+      "_value": 3000
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "scope": {
+      "_dirName": "scope",
+      "_dirType": "Short",
+      "_value": -1
+    }
+  },
+  "walk1": {
+    "_dirName": "walk1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/walk1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/walk1/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/walk1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/walk1/3/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "walk2": {
+    "_dirName": "walk2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../walk1/0/shoes"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../walk1/1/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../walk1/2/shoes"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../walk1/3/shoes"
+      }
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -17
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stand1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stand1/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -17
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stand1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stand2": {
+    "_dirName": "stand2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../stand1/0/shoes"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../stand1/1/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../stand1/2/shoes"
+      }
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/alert/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/alert/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/alert/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO1": {
+    "_dirName": "swingO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO2": {
+    "_dirName": "swingO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO3": {
+    "_dirName": "swingO3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO3/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO3/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingOF": {
+    "_dirName": "swingOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingOF/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingOF/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -17,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingOF/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingOF/3/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT1": {
+    "_dirName": "swingT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT2": {
+    "_dirName": "swingT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT3": {
+    "_dirName": "swingT3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT3/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -7,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT3/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingTF": {
+    "_dirName": "swingTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingTF/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingTF/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingTF/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingP1": {
+    "_dirName": "swingP1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingT1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingP2": {
+    "_dirName": "swingP2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingP2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingO1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingPF": {
+    "_dirName": "swingPF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingPF/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingPF/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingPF/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingPF/3/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO1": {
+    "_dirName": "stabO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabO1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabO1/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO2": {
+    "_dirName": "stabO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabO2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabO2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabOF": {
+    "_dirName": "stabOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabOF/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabOF/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabOF/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabT1": {
+    "_dirName": "stabT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT1/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT1/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabT2": {
+    "_dirName": "stabT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT2/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/stabT2/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabTF": {
+    "_dirName": "stabTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../swingPF/0/shoes"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../swingPF/1/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/swingPF/2/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../stabT1/2/shoes"
+      }
+    }
+  },
+  "shoot1": {
+    "_dirName": "shoot1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/shoot1/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    }
+  },
+  "shoot2": {
+    "_dirName": "shoot2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/shoot2/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    }
+  },
+  "shootF": {
+    "_dirName": "shootF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/shootF/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/shootF/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../1/shoes"
+      }
+    }
+  },
+  "proneStab": {
+    "_dirName": "proneStab",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 3
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/proneStab/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../0/shoes"
+      }
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../proneStab/0/shoes"
+      }
+    }
+  },
+  "heal": {
+    "_dirName": "heal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../alert/1/shoes"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../swingO2/1/shoes"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "uol",
+        "_value": "../../swingO2/0/shoes"
+      }
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -14,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/fly/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/fly/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 17,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/jump/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "sit": {
+    "_dirName": "sit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 17,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "shoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/sit/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "ladder": {
+    "_dirName": "ladder",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/ladder/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/ladder/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "rope": {
+    "_dirName": "rope",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -17
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/rope/0/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backShoes"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Shoes/_Canvas/01072093.img/rope/1/shoes"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

@@ -10,9 +10,9 @@ interface Props {
   derived: DerivedStats
 }
 
-/** Compute avg damage for one full cast of a skill. */
+/** Compute avg damage for one full cast of a skill (primary + secondary hit phases). */
 function skillAvgDamage(skill: SkillDamageInfo, character: CharacterState, derived: DerivedStats): number {
-  const result = calcDamage({
+  const damageInput = {
     className: character.className,
     stats: derived.totalStats,
     weaponType: derived.weaponType,
@@ -20,11 +20,16 @@ function skillAvgDamage(skill: SkillDamageInfo, character: CharacterState, deriv
     weaponMAD: derived.weaponMAD,
     flatAttackPower: derived.flatAttackPower,
     masteryLevel: derived.masteryLevel,
-    skillPercent: skill.skillPercent,
     isLucky7: skill.isLucky7,
-    animation: skill.animation === 'stab' ? 'stab' : 'swing',
-  })
-  return result.avg * skill.hits
+    animation: skill.animation,
+  }
+  const primary = calcDamage({ ...damageInput, skillPercent: skill.skillPercent })
+  let total = primary.avg * skill.hits
+  if (skill.secondaryHit) {
+    const secondary = calcDamage({ ...damageInput, skillPercent: skill.secondaryHit.skillPercent })
+    total += secondary.avg * skill.secondaryHit.hits
+  }
+  return total
 }
 
 function TargetBadge({ targets }: { targets: number }) {

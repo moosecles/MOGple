@@ -1,0 +1,4884 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 1,
+        "_y": 30
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRaw": {
+      "_dirName": "iconRaw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 1,
+        "_y": 30
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/info/iconRaw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconD": {
+      "_dirName": "iconD",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": 33
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/info/iconD"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRawD": {
+      "_dirName": "iconRawD",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -2,
+        "_y": 33
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/info/iconRawD"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "hungry": {
+      "_dirName": "hungry",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Int",
+      "_value": 7
+    },
+    "pickupItem": {
+      "_dirName": "pickupItem",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "interact": {
+    "_dirName": "interact",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c1"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c1_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c1_s2"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "stand1"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c1_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c1_f2"
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c2"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c2_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c2_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c2_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c2_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "stand1"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c2_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c2_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c2_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c2_f4"
+          }
+        }
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c3"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 70
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c3_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c3_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c3_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c3_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "stand1"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c3_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c3_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c3_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c3_f4"
+          }
+        }
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c4"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 85
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c4_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c4_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c4_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c4_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c4_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c4_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c4_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c4_f4"
+          }
+        }
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c5"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "nap"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c5_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c5_s2"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c5_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c5_f2"
+          }
+        }
+      }
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c6"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 55
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "nap"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c6_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c6_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c6_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c6_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c6_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c6_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c6_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c6_f4"
+          }
+        }
+      }
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c7"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 70
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "nap"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c7_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c7_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c7_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c7_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c7_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c7_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c7_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c7_f4"
+          }
+        }
+      }
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c8"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 85
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "nap"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c8_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c8_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c8_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c8_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c8_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c8_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c8_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c8_f4"
+          }
+        }
+      }
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c9"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c9_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c9_s2"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c9_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c9_f2"
+          }
+        }
+      }
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c10"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 55
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c10_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c10_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c10_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c10_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c10_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c10_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c10_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c10_f4"
+          }
+        }
+      }
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c11"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 70
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c11_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c11_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c11_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c11_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c11_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c11_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c11_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c11_f4"
+          }
+        }
+      }
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c12"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 85
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c12_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c12_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c12_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c12_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c12_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c12_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c12_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c12_f4"
+          }
+        }
+      }
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c13"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "dung"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c13_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c13_s2"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c13_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c13_f2"
+          }
+        }
+      }
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c14"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "dung"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c14_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c14_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c14_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c14_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c14_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c14_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c14_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c14_f4"
+          }
+        }
+      }
+    },
+    "14": {
+      "_dirName": "14",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c15"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "dung"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c15_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c15_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c15_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c15_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c15_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c15_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c15_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c15_f4"
+          }
+        }
+      }
+    },
+    "15": {
+      "_dirName": "15",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c16"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "dung"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c16_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c16_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c16_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c16_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c16_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c16_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c16_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c16_f4"
+          }
+        }
+      }
+    },
+    "16": {
+      "_dirName": "16",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c17"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 25
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c17_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c17_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c17_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c17_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c17_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c17_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c17_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c17_f4"
+          }
+        }
+      }
+    },
+    "17": {
+      "_dirName": "17",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c18"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c18_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c18_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c18_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c18_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c18_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c18_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c18_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c18_f4"
+          }
+        }
+      }
+    },
+    "18": {
+      "_dirName": "18",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c19"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 55
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c19_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c19_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c19_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c19_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c19_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c19_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c19_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c19_f4"
+          }
+        }
+      }
+    },
+    "19": {
+      "_dirName": "19",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c20"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 25
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "prone"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c20_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c20_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c20_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c20_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c20_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c20_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c20_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c20_f4"
+          }
+        }
+      }
+    },
+    "20": {
+      "_dirName": "20",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c21"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "prone"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c21_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c21_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c21_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c21_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c21_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c21_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c21_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c21_f4"
+          }
+        }
+      }
+    },
+    "21": {
+      "_dirName": "21",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c22"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 55
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "prone"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c22_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c22_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c22_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c22_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c22_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c22_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c22_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c22_f4"
+          }
+        }
+      }
+    },
+    "22": {
+      "_dirName": "22",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c23"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 35
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rise"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c23_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c23_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c23_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c23_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "angry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c23_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c23_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c23_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c23_f4"
+          }
+        }
+      }
+    },
+    "23": {
+      "_dirName": "23",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c24"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rise"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c24_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c24_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c24_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c24_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c24_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c24_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c24_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c24_f4"
+          }
+        }
+      }
+    },
+    "24": {
+      "_dirName": "24",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c25"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c25_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c25_s2"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c25_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c25_f2"
+          }
+        }
+      }
+    },
+    "25": {
+      "_dirName": "25",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c26"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c26_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c26_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c26_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c26_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c26_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c26_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c26_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c26_f4"
+          }
+        }
+      }
+    },
+    "26": {
+      "_dirName": "26",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c27"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 50
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c27_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c27_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c27_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c27_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c27_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c27_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c27_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c27_f4"
+          }
+        }
+      }
+    },
+    "27": {
+      "_dirName": "27",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c28"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "chat"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c28_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c28_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c28_s3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c28_s4"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c28_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c28_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c28_f3"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "c28_f4"
+          }
+        }
+      }
+    },
+    "28": {
+      "_dirName": "28",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c29"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 35
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "hand"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c29_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c29_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c29_s3"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c29_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c29_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c29_f3"
+          }
+        }
+      }
+    },
+    "29": {
+      "_dirName": "29",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c30"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "hand"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c30_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c30_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c30_s3"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c30_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c30_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c30_f3"
+          }
+        }
+      }
+    },
+    "30": {
+      "_dirName": "30",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c31"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 55
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "hand"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c31_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c31_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c31_s3"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c31_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c31_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c31_f3"
+          }
+        }
+      }
+    },
+    "31": {
+      "_dirName": "31",
+      "_dirType": "sub",
+      "command": {
+        "_dirName": "command",
+        "_dirType": "String",
+        "_value": "c32"
+      },
+      "inc": {
+        "_dirName": "inc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "prob": {
+        "_dirName": "prob",
+        "_dirType": "Int",
+        "_value": 65
+      },
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "hand"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c32_s1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c32_s2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c32_s3"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "tedious"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "c32_f1"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "c32_f2"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "c32_f3"
+          }
+        }
+      }
+    }
+  },
+  "food": {
+    "_dirName": "food",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f1_s"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f1_f"
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f2_s"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f2_f"
+          }
+        }
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f3_s"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f3_f"
+          }
+        }
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "success": {
+        "_dirName": "success",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "rest0"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f4_s"
+          }
+        }
+      },
+      "fail": {
+        "_dirName": "fail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "act": {
+            "_dirName": "act",
+            "_dirType": "String",
+            "_value": "cry"
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "f4_f"
+          }
+        }
+      }
+    }
+  },
+  "slang": {
+    "_dirName": "slang",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 9
+      },
+      "act": {
+        "_dirName": "act",
+        "_dirType": "String",
+        "_value": "rest0"
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "s1"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "act": {
+        "_dirName": "act",
+        "_dirType": "String",
+        "_value": "rest0"
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "s2"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 29
+      },
+      "act": {
+        "_dirName": "act",
+        "_dirType": "String",
+        "_value": "rest0"
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "s3"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "l0": {
+        "_dirName": "l0",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "l1": {
+        "_dirName": "l1",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "act": {
+        "_dirName": "act",
+        "_dirType": "String",
+        "_value": "rest0"
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "s4"
+      }
+    }
+  },
+  "stand0": {
+    "_dirName": "stand0",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand0/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand0/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand0/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand1/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 36
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -36
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand1/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 35
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/stand1/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "hungry": {
+    "_dirName": "hungry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 33
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -33
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 1200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/hungry/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "move": {
+    "_dirName": "move",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 40
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -40
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/move/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 39
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -39
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 25,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/move/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 38
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -38
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/move/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 39
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -39
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 25,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/jump/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "rest0": {
+    "_dirName": "rest0",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rest0/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 22,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rest0/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rest0/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "chat": {
+    "_dirName": "chat",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 300
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/chat/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/chat/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "14": {
+      "_dirName": "14",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "15": {
+      "_dirName": "15",
+      "_dirType": "uol",
+      "_value": "1"
+    }
+  },
+  "angry": {
+    "_dirName": "angry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 18,
+        "_y": 30
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -18,
+        "_y": -30
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 29,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 3000
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/angry/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "hang": {
+    "_dirName": "hang",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 13,
+        "_y": 60
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -13,
+        "_y": -60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 15,
+        "_y": -11
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/hang/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "rise": {
+    "_dirName": "rise",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 9,
+        "_y": 45
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 1000
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -45
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rise/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 8,
+        "_y": 45
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -45
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 29,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rise/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 9,
+        "_y": 45
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -45
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/rise/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 34
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -34
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 900
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/prone/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 35
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/prone/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 34
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -34
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/prone/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "uol",
+      "_value": "2"
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "uol",
+      "_value": "1"
+    }
+  },
+  "cry": {
+    "_dirName": "cry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 37
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/cry/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 37
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/cry/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "uol",
+      "_value": "1"
+    }
+  },
+  "nap": {
+    "_dirName": "nap",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 23
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 1500
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -23
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/nap/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 23
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 600
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -23
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/nap/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 23
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 300
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -24,
+        "_y": -23
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 27,
+        "_y": 2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/nap/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    }
+  },
+  "dung": {
+    "_dirName": "dung",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 22,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 3000
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/dung/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "tedious": {
+    "_dirName": "tedious",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 36
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 600
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/tedious/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 34
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 240
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -34
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 23,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/tedious/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 34
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 360
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -34
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/tedious/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "2"
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "uol",
+      "_value": "2"
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "uol",
+      "_value": "0"
+    }
+  },
+  "hand": {
+    "_dirName": "hand",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 3000
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/hand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "eat": {
+    "_dirName": "eat",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 2000
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/eat/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 37
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -37
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/fly/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 20,
+        "_y": 38
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": -20,
+        "_y": -36
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Item/Pet/_Canvas/5000006.img/fly/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

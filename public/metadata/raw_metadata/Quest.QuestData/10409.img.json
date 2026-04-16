@@ -1,0 +1,270 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Transporting Drake's Skull"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Dr. Betty's Research on Plants"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It looks like #p224# has the item that Dr. #p308# needs."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I received the #t4031073# from #p224#, Dr. #p308#'s daughter. Now I have to deliver this carefully to Dr. #p308#..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I collected some #t4031072#s and a #t4031073# to help Dr. #p308#'s research on fossils. I can't wait to see the results... I should go and see Dr. #p308#, because she said she would tell me when I go back."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031073# #t4031073# #c4031073# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 224
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 17
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10408
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 308
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031073
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031073
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 772
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 497
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031073
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Here's the #b#t4031073##k. Will you give this to my mom?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "She asked you this for her work, right? I hope she finishes her studies soon."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You don't need it? I thought you were sent here to get the #b#t4031073##k from me. If you don't need it, then oh well..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you're back. I forgot to tell you this, but #p224# is very careful and difficult for strangers to deal with. She just thinks twice before being nice to strangers. I should have given you a letter of approval."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Wow, incredible! #p224# must have trusted you to give you this! She's my daughter and all, but she can be quite a handful at times... how did you do that? You truly are someone I can count on. Now I can definitely move forward with the animal fossil studies. Please drop by around the time I finish this. I'll let you know of the outcome."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Mom must be waiting. Shouldn't you return to her soon?"
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Are you here empty handed? Where's the #b#t4031073##k that I asked you to get? Please hurry."
+          }
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You lost that????? Sigh... please don't lose it again."
+        },
+        "yes": {
+          "_dirName": "yes",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

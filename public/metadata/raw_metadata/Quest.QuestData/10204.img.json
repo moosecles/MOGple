@@ -1,0 +1,285 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Collecting 150 Cursed Dolls"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Rowen the Fairy and the Cursed Doll"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 13
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p305# asked for my help again, this time to hunt #r150 #o38#s#k and collect #b150 #t4000033#s#k. Now that's a lot of #t4000033#s!"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I eliminated a bunch of #o38#s in a forest near #m10002000# and collected all #b150 #t4000033#s#k for Rowen. In return, she gave me a scroll for gloves. I hope the forest will return to normal..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o38# #a102041#\\n#i4000033:# #t4000033:# #c4000033# / 150"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 305
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 36
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10203
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 305
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 38
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 150
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000033
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 150
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4387
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1053
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000033
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -150
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040801
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040805
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Traveler, you've returned... I've sealed the doll that you gave me deep in the dark forest. But the #o38#s are still increasing in numbers... Can you please bring me #b150 #t4000033#s#k?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much. The #o38#s are often seen in the Dark Tree Forest near #m10002000#. Please take down #r150 #o38#s#k and bring me #b150#k #b#t4000033#s#k."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I see... I thought I could count on you for this, but if you are busy, then it's understandable. Please come back if you ever have a change of heart in the near future."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "This is... Wow! You've brought me 150 #t4000033#s! That means you've thinned out the #o38#s. But it's too early to be relieved, because this doll is capable of continuously making new puppets."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh yeah, take this as a token of my appreciation. The fairies will spread word of your good deed. I personally think you deserve to be called a hero, and not just because you saved me from a pickle!"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I have increased your fame a little. I am also giving you this scroll that I made myself based on what I've learned from #p313#. So long."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Don’t forget to defeat the #r#o38#s#k as well."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "So, you weren't able to collect #b150 #t4000033#s#k yet. The #t4000033# is making more Puppets of itself as we speak. You need to hurry up and bring me the dolls."
+          }
+        }
+      }
+    }
+  }
+}

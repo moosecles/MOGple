@@ -1,0 +1,750 @@
+{
+  "TradingRoom": {
+    "_dirName": "TradingRoom",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Trade.img/TradingRoom/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "button:claim": {
+      "_dirName": "button:claim",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -541,
+            "_y": -250
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -541,
+            "_y": -250
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -541,
+            "_y": -250
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -541,
+            "_y": -250
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2000
+      }
+    },
+    "button:trade": {
+      "_dirName": "button:trade",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -48
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:trade/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -48
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:trade/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -48
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:trade/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -48
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:trade/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2001
+      }
+    },
+    "button:enter": {
+      "_dirName": "button:enter",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -500,
+            "_y": -251
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -500,
+            "_y": -251
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -500,
+            "_y": -251
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -500,
+            "_y": -251
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2002
+      }
+    },
+    "button:coin": {
+      "_dirName": "button:coin",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -151,
+            "_y": -243
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:coin/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -151,
+            "_y": -243
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:coin/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -151,
+            "_y": -243
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:coin/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -151,
+            "_y": -243
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:coin/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2003
+      }
+    },
+    "button:reset": {
+      "_dirName": "button:reset",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -70
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:reset/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -70
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:reset/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -70
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:reset/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -116,
+            "_y": -70
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Trade.img/TradingRoom/button:reset/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2004
+      }
+    },
+    "vector:otherAvatar": {
+      "_dirName": "vector:otherAvatar",
+      "_dirType": "vector",
+      "_x": 67,
+      "_y": 101
+    },
+    "vector:myAvatar": {
+      "_dirName": "vector:myAvatar",
+      "_dirType": "vector",
+      "_x": 229,
+      "_y": 101
+    },
+    "vector:otherName": {
+      "_dirName": "vector:otherName",
+      "_dirType": "vector",
+      "_x": 63,
+      "_y": 108
+    },
+    "vector:myName": {
+      "_dirName": "vector:myName",
+      "_dirType": "vector",
+      "_x": 228,
+      "_y": 108
+    },
+    "vector:otherMeso": {
+      "_dirName": "vector:otherMeso",
+      "_dirType": "vector",
+      "_x": 101,
+      "_y": 245
+    },
+    "vector:myMeso": {
+      "_dirName": "vector:myMeso",
+      "_dirType": "vector",
+      "_x": 280,
+      "_y": 245
+    },
+    "vector:otherItem": {
+      "_dirName": "vector:otherItem",
+      "_dirType": "vector",
+      "_x": 8,
+      "_y": 164
+    },
+    "vector:myItem": {
+      "_dirName": "vector:myItem",
+      "_dirType": "vector",
+      "_x": 171,
+      "_y": 164
+    },
+    "vector:otherName_lt": {
+      "_dirName": "vector:otherName_lt",
+      "_dirType": "vector",
+      "_x": 19,
+      "_y": 106
+    },
+    "vector:otherName_rb": {
+      "_dirName": "vector:otherName_rb",
+      "_dirType": "vector",
+      "_x": 108,
+      "_y": 125
+    },
+    "vector:myName_lt": {
+      "_dirName": "vector:myName_lt",
+      "_dirType": "vector",
+      "_x": 184,
+      "_y": 106
+    },
+    "vector:myName_rb": {
+      "_dirName": "vector:myName_rb",
+      "_dirType": "vector",
+      "_x": 273,
+      "_y": 125
+    },
+    "vector:otherItemGrid_lt": {
+      "_dirName": "vector:otherItemGrid_lt",
+      "_dirType": "vector",
+      "_x": 7,
+      "_y": 130
+    },
+    "vector:otherItemGrid_rb": {
+      "_dirName": "vector:otherItemGrid_rb",
+      "_dirType": "vector",
+      "_x": 120,
+      "_y": 239
+    },
+    "vector:myItemGrid_lt": {
+      "_dirName": "vector:myItemGrid_lt",
+      "_dirType": "vector",
+      "_x": 170,
+      "_y": 130
+    },
+    "vector:myItemGrid_rb": {
+      "_dirName": "vector:myItemGrid_rb",
+      "_dirType": "vector",
+      "_x": 283,
+      "_y": 239
+    },
+    "vector:otherMeso_lt": {
+      "_dirName": "vector:otherMeso_lt",
+      "_dirType": "vector",
+      "_x": 8,
+      "_y": 244
+    },
+    "vector:otherMeso_rb": {
+      "_dirName": "vector:otherMeso_rb",
+      "_dirType": "vector",
+      "_x": 104,
+      "_y": 260
+    },
+    "vector:myMeso_lt": {
+      "_dirName": "vector:myMeso_lt",
+      "_dirType": "vector",
+      "_x": 187,
+      "_y": 244
+    },
+    "vector:myMeso_rb": {
+      "_dirName": "vector:myMeso_rb",
+      "_dirType": "vector",
+      "_x": 283,
+      "_y": 260
+    },
+    "vector:chat_lt": {
+      "_dirName": "vector:chat_lt",
+      "_dirType": "vector",
+      "_x": 297,
+      "_y": 26
+    },
+    "vector:chat_rb": {
+      "_dirName": "vector:chat_rb",
+      "_dirType": "vector",
+      "_x": 537,
+      "_y": 242
+    },
+    "vector:scrollBar_lt": {
+      "_dirName": "vector:scrollBar_lt",
+      "_dirType": "vector",
+      "_x": 543,
+      "_y": 23
+    },
+    "vector:editChat_lt": {
+      "_dirName": "vector:editChat_lt",
+      "_dirType": "vector",
+      "_x": 298,
+      "_y": 250
+    },
+    "vector:editChat_rb": {
+      "_dirName": "vector:editChat_rb",
+      "_dirType": "vector",
+      "_x": 495,
+      "_y": 269
+    },
+    "vector:warning_lt": {
+      "_dirName": "vector:warning_lt",
+      "_dirType": "vector",
+      "_x": 20,
+      "_y": 294
+    },
+    "vector:warning_rb": {
+      "_dirName": "vector:warning_rb",
+      "_dirType": "vector",
+      "_x": 272,
+      "_y": 400
+    },
+    "nameTagWidth": {
+      "_dirName": "nameTagWidth",
+      "_dirType": "Int",
+      "_value": 83
+    },
+    "itemGridWidth": {
+      "_dirName": "itemGridWidth",
+      "_dirType": "Int",
+      "_value": 39
+    },
+    "itemGridHeight": {
+      "_dirName": "itemGridHeight",
+      "_dirType": "Int",
+      "_value": 37
+    },
+    "scrollBarLength": {
+      "_dirName": "scrollBarLength",
+      "_dirType": "Int",
+      "_value": 214
+    },
+    "scrollBarWheelRange": {
+      "_dirName": "scrollBarWheelRange",
+      "_dirType": "Int",
+      "_value": 226
+    },
+    "colorWarningNormal": {
+      "_dirName": "colorWarningNormal",
+      "_dirType": "Int",
+      "_value": -13812401
+    },
+    "colorWarningHighlight": {
+      "_dirName": "colorWarningHighlight",
+      "_dirType": "Int",
+      "_value": -5631744
+    }
+  },
+  "TradeWarning": {
+    "_dirName": "TradeWarning",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Trade.img/TradeWarning/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

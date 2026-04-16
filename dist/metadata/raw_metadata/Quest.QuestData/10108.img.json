@@ -1,0 +1,148 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Making a Sparkling Rock"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Maya and the Weird Medicine"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 3
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p510# in #m10004002#. She's working on her dream of becoming an alchemist. To make the sparkling rock, she says she needs #b30 #t4000006#s, 30 #t4000011#s, 30 #t4000012#s#k and #b1 #t4031010##k. Everything looks reasonable enough... wait, #t4031010#?! Fortunately, #p510# knows where to get some. She says to have a chat with #p502#, who's somewhere around #m10004000#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#p510# told me that #p502# has some #t4031010#, a key ingredient to make a #t4031011#."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 502
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 510
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 21
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10107
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2193
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 614
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10109
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "...What do you want."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "If you have #b30 #t4000006#s#k, #b30 #t4000011#s#k, #b30 #t4000012#s#k, and #b1 #t4031010##k, you can make 1 #b#t4031011##k... You should ask #b#p502##k about the #t4031010#... I think he is somewhere around #m10004000#."
+          }
+        }
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "So you're looking for a #b#t4031011##k? That stone is very rare. Alright then, get me the items I list. Ready?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "They say you can make a #b#t4031011##k if you have #b30 #t4000006#s#k, #b30 #t4000011#s#k, #b30 #t4000012#s#k, and #b1 #t4031010##k... You should be able to get most of them... But #t4031010# is going to be a problem. You should ask #b#p502##k for help, he is somewhere in town."
+      }
+    }
+  }
+}

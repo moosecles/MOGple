@@ -1,0 +1,136 @@
+{
+  "back0": {
+    "_dirName": "back0",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Revive.img/back0"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "back1": {
+    "_dirName": "back1",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Revive.img/back1"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "button:ok": {
+    "_dirName": "button:ok",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -119,
+          "_y": -115
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Revive.img/button:ok/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -119,
+          "_y": -115
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Revive.img/button:ok/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -119,
+          "_y": -115
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Revive.img/button:ok/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -119,
+          "_y": -115
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Revive.img/button:ok/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

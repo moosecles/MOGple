@@ -1,0 +1,238 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Teo's Weird Hobby"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Teo's Collection"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems a sailor named #p102# in #m10000000# is looking for an adventurer to lend a hand."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p102# in #m10000000# says his hobby is collecting weird things. He asked me to hunt #r#o7#s#k near the town and bring back #b1 #t4000007##k. He warned me that it might be hard to find!"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I delivered 1 #t4000007# to #p102# in #m10000000#. But from the look on his face, he’s already craving something else..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o7# #a100101#\\n#i4000007# #t4000007# #b#c4000007# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 102
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 8
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 102
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 84
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 234
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2020001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey there, traveler! You look like you have some time on your hands. Mind doing me a favor? Oh, what I meant was, you look strong enough to handle a request from me, haha!"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thanks a ton! To tell you the truth, I have a hobby of collecting weird things. I want to gather every single weird thing in the world, you see? So, could you go out and hunt #r#o7#s#k past the harbor and bring me #bone #t4000007##k? It's a pretty delicate item, so it might be hard to get it in one piece. You're going to need some patience!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You're not offended because I said you look like you have time, right? I'll take that as a no, haha!"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You're finally back! This is the #b#t4000007##k I asked for! And look at that, it's perfectly preserved and in great shape!"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thanks to you, I'm one step closer to finishing my weird item collection. It isn't much, but please take this. What?! You think this is leftovers from my dinner last night? No way! It is a bit cold, but I haven't even touched it, haha!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Still no sign of the #b#t4000007##k I asked for? That's a problem... It is an absolute must-have for my weird item collection."
+          }
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You didn't forget about hunting the #o7#s, did you?"
+          }
+        }
+      }
+    }
+  }
+}

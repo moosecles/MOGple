@@ -1,0 +1,337 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Getting Arcon's Blood"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Maya and the Weird Medicine"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I gathered up #b40 #t4000020##k from the Ant Tunnel and gave them to #p502# of #m10004000#. Still cocky, still arrogant, but following through on his promise, he handed over #b#t4031010##k to me. Maybe he isn't so horrible after all. Anyway, now I need to gather up #b30 #t4000006#s, 30 #t4000011#s, 30 #t4000012#s, and the #t4031010##k for #p510#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I brought the #t4000020# to #p502# and finally got #t4031010#. I should hurry back to #p510#..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000006:# #t4000006:# #c4000006# / 30\\n\n#i4000011:# #t4000011:# #c4000011# / 30\n\\n#i4000012:# #t4000012:# #c4000012# / 30\n\\n#i4031010:# #t4031010:# #c4031010# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 502
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 21
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10109
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 510
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031010
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000012
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031010
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10111
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2193
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 614
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031010
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000012
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "By the way, what are you going to do with the #b#t4031010##k? It's used as an ingredient for important items, so... are you going to take it to #p510#? Well, it's none of my business anyway..."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "How did you get all these items?? You must be really good! Especially #t4031010#. Wow... Anyway, good job! Now we can make a #b#t4031011##k."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "By the way, what are you going to do with #b#t4031010##k? It's used as a material for precious important items, so... are you going to take it to #p510#? Well, it's none of my business anyway..."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "They say you can make a #b#t4031011##k if you have #b30 #t4000006#s#k, #b30 #t4000011#s#k, #b30 #t4000012#s#k, and #b1 #t4031010##k... As for #t4031010#, you can ask #r#p502##k in #m10004000#. "
+          }
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "By the way, what are you going to do with #b#t4031010##k? It's used as a material for precious important items, so... are you going to take it to #p510#? Well, it's none of my business anyway..."
+        },
+        "yes": {
+          "_dirName": "yes",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

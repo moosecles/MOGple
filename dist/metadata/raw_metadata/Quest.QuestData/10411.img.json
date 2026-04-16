@@ -1,0 +1,203 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Stump Horror Story"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "The Stump Horror Story"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p506# of #m10004000# says she can't take one step out of town. I wonder why..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p506# in #m10004000#. Apparently, she cannot remember anything about her childhood, and she lives everyday in fear of #o6#s. She's so scared that she can't even dare to look at them. Due to this paralyzing fear of #o6#s, she cannot take one step out of #m10004000#, and asks me to take them out for her sake. Are they really THAT scary?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I took out #o6#s for #p506#'s sake in #m10004000#. She can finally venture outside without having to worry about them!"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o6# #a104111#"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 506
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 506
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 292
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2030003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Excuse me~ I know it's rude to ask a stranger, but can you please help me out? I'm terrified of the #o6#s that are wandering around outside this town and can't leave because of them. I can't even make eye contact with them without being scared to death. Please, if you have some time on your hands, can you help me out?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much~ I knew you would say yes. As you can see, I am not from the tribes here. According to the elders, they found me lost in the streets years ago, all bruised up and messy."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "The elders saved me, and I have been living here ever since. Unfortunately, I don't remember anything from the past. Something might have happened back then."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "I think I can't remember my past because I went through something so horrible in the past that my head chose to block it all out. Maybe that's why I'm so scared of #o6#s. Can you do me a favor and take out some #r#o6#s#k please?"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You must be busy. If you find some spare time later on, please come by and talk to me."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Wow, thank you so much! I don't see as many #o6#s near #m10004000# now! I feel like I can finally take a step outside. Thank you so much for your hard work!"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I don’t think you've gotten all the #r#o6#s#k yet. Please help me, I want to be able to go out of town as soon as I can."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Vicious in Need of an Apprentice"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems #p208#, the carpenter of #m10001000#, is looking for someone worthy of becoming his apprentice."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "When I told #p208#, the carpenter of #m10001000#, that I wanted to become his apprentice, he gave me a test. He said woodworking requires proper strength and knowledge, and asked me to defeat monsters near #m10001000# and collect #b#t4000005#es#k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed the test given by #p208#, the carpenter of #m10001000#. Does this mean I can now become a proper carpenter in Maple World?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o6# #a800171#\\n#i4000005:# #t4000005:# #c4000005# / 20"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 208
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 208
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92030000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "#m10001000# is well known as a town that trains archers, but not many people realize that it’s also home to some excellent woodworkers. Handling all of #p221#’s requests on my own is starting to get a bit overwhelming… So, I was wondering—would you be interested in becoming a #bCarpenter#k?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh? You’re asking what a carpenter is? Haha, fair enough. A carpenter is #bsomeone who works with wood to craft various wooden armor pieces and consumable items#k. I have a feeling it might suit you quite well—what do you think?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You’re quick to decide. That’s great! Still, I think it would be best to make sure you’re truly suited for the work. "
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To be a carpenter, you’ll need not only skill, but also strength and knowledge—understanding materials, how to obtain them, and the ability to gather them yourself. Could you defeat #r#o6#s#k near #m10001000# and bring back #b20 #t4000005#es#k? Then we can talk further."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You seem a bit busy right now. But becoming stronger in Maple World isn’t only about defeating monsters. Learning how to work with wood can also open the door to a whole new level of growth. If you change your mind, please feel free to come back anytime."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "It looks like you defeated the monsters and gathered all the materials I asked for! In that case, I think I’m ready to teach you my skills."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "From now on, I officially recognize you as a carpenter. I’ve added a few woodworking skills to your #bCrafting Journal#k, so please take a look."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Actually, I asked you to gather those materials for your own benefit. It would be good to try crafting a few items with them. Just remember—you’ll need to use the #b#p800013##k right next to me when working with wood."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "As you continue crafting with your woodworking skills, you’ll gain experience and level up, allowing you to create a wider variety of items. However, if you want to raise your maximum woodworking level, your adventurer level will need to increase as well—so please don’t neglect either."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "That’s all I can teach you for now. You still have a long way to go, but don’t worry. With steady effort, you’ll be able to reach the level of a true master—just like me. If you ever have questions, feel free to stop by anytime."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you haven’t defeated all the monsters I mentioned. Perhaps this line of work isn’t quite the right fit for you…"
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you haven’t gathered all the materials I asked for. Perhaps this line of work isn’t quite the right fit for you…"
+          }
+        }
+      }
+    }
+  }
+}

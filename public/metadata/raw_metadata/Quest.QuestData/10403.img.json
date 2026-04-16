@@ -1,0 +1,287 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Manji's Old Gladius"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Reawakening the Gladius"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "See #b#p602##k in #m10005000# to awaken the #b#t1302009##k."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I showed #p602# #p502#'s #b#t1302009##k, and he claimed to have made it himself. He said he needs #b1 #t4020109#, 1 #t4003004#, 1 #t4001007#, and 1 #t4001008##k to awaken it. Unfortunately, I've never heard of any of those items... He recommended talking to #r#p513# in #m10004121##k to find them."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I gathered the materials needed for the awakening and took them to #p602#. #p602# used the materials to reawaken the #t1302009# into the #b#t1302014##k. It's a nice sword radiating a mysterious light... It's a shame I have to give it to #p502#."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4020109:# #t4020109:# #c4020109# / 1\\n#i4003004:# #t4003004:# #c4003004# / 1\\n#i4001007:# #t4001007:# #c4001007# / 1\\n#i4001008:# #t4001008:# #c4001008# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 602
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 50
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10402
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 602
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020109
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 7987
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1462
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10404
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020109
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "So you want to reawaken this sword. It's not an easy task, though. Not only will you need to gather up hard-to-find materials, you'll also need a rare scroll for it. But if you still want to go along with it... Then I want you to gather up the materials I'm about to tell you. I don't know if you can do it, but..."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Bring me 1 #b#t4020109##k, 1 #b#t4003004##k, 1 #b#t4001007##k, and 1 #b#t4001008##k… I'm not sure how you should get these... #p513# in #m10004121# might know something..."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "My goodness! You did collect #b1 #t4020109##k, #b1 #t4003004##k, #b1 #t4001007##k, and #b1 #t4001008##k! Alright, then."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Hold on one second. I haven't done this in ages, but... with these materials, I may be able to pull off the magic and reawaken the #b#t1302009##k."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Incredible... Tristan's sword... I didn't think I'd live to see this again. "
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I may have gone old and gray, but my eyes cannot be deceived. Please gather up #b1 #t4020109##k, #b1 #t4003004##k, #b1 #t4001007##k, and #b1 #t4001008##k, because I don't think you have them all yet."
+          }
+        }
+      }
+    }
+  }
+}

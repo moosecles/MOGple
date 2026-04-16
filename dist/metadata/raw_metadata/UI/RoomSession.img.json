@@ -1,0 +1,774 @@
+{
+  "ChatView": {
+    "_dirName": "ChatView",
+    "_dirType": "sub",
+    "btnEnter": {
+      "_dirName": "btnEnter",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -275,
+            "_y": -268
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -275,
+            "_y": -268
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -275,
+            "_y": -268
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -275,
+            "_y": -268
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  },
+  "Balloon": {
+    "_dirName": "Balloon",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_omok": {
+      "_dirName": "icon_omok",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_omok"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_card0": {
+      "_dirName": "icon_card0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_card0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_card1": {
+      "_dirName": "icon_card1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_card1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_card2": {
+      "_dirName": "icon_card2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_card2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_public": {
+      "_dirName": "icon_public",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_public"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_private": {
+      "_dirName": "icon_private",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -5,
+        "_y": -41
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/icon_private"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canEnter": {
+      "_dirName": "canEnter",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -61,
+        "_y": -39
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/canEnter"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "cannotEnter": {
+      "_dirName": "cannotEnter",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -61,
+        "_y": -39
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/cannotEnter"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "status1": {
+      "_dirName": "status1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -61,
+        "_y": -39
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/status1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "status2": {
+      "_dirName": "status2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -61,
+        "_y": -39
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/status2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "title_lt": {
+      "_dirName": "title_lt",
+      "_dirType": "vector",
+      "_x": 6,
+      "_y": 4
+    },
+    "title_rb": {
+      "_dirName": "title_rb",
+      "_dirType": "vector",
+      "_x": 108,
+      "_y": 34
+    },
+    "backgrnd_PlayerShop": {
+      "_dirName": "backgrnd_PlayerShop",
+      "_dirType": "sub",
+      "5140001": {
+        "_dirName": "5140001",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 29
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5140002": {
+        "_dirName": "5140002",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 29
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5140003": {
+        "_dirName": "5140003",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 29
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5140004": {
+        "_dirName": "5140004",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 29
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 29
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "5140001": {
+      "_dirName": "5140001",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 29
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5140002": {
+      "_dirName": "5140002",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 29
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5140003": {
+      "_dirName": "5140003",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 29
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5140004": {
+      "_dirName": "5140004",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 29
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 21,
+        "_y": 29
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatBalloon.img/miniroom/PSSkin/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "number": {
+      "_dirName": "number",
+      "_dirType": "sub",
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MiniRoomBalloon.img/number/cur/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1_total": {
+        "_dirName": "1_total",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MiniRoomBalloon.img/number/max/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MiniRoomBalloon.img/number/cur/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2_total": {
+        "_dirName": "2_total",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MiniRoomBalloon.img/number/max/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/number/cur/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1_total": {
+      "_dirName": "1_total",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/number/max/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/number/cur/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2_total": {
+      "_dirName": "2_total",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MiniRoomBalloon.img/number/max/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

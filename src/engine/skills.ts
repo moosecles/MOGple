@@ -7,6 +7,14 @@
  * weaponTypes: if set, skill only usable with these weapon types
  */
 
+export interface SecondaryHit {
+  /** Damage coefficient per hit for the secondary phase (e.g. Poison Breath explosion) */
+  skillPercent: number
+  hits: number
+  /** Max mobs hit by the secondary phase */
+  targets: number
+}
+
 export interface SkillDamageInfo {
   id: string
   name: string
@@ -19,9 +27,35 @@ export interface SkillDamageInfo {
   element?: string       // elemental type for magic
   classNames: string[]   // which classes can use this
   weaponTypes?: string[] // if set, skill requires one of these weapon types to use
+  /** Optional secondary damage phase (e.g. explosion after initial impact) */
+  secondaryHit?: SecondaryHit
 }
 
 export const DAMAGE_SKILLS: SkillDamageInfo[] = [
+  // ── Basic attacks (all classes) ───────────────────────────────────────────
+  // Every class can auto-attack. Two entries cover all weapon types:
+  //   - Rogue/Bandit use stab animation (Dagger swing mult is 1.0 but stab is 2.0 — big difference)
+  //   - Everyone else uses swing (includes Mages; physical formula applies when no MATK present)
+  // No weapon-type restriction so these work with any weapon equipped.
+  {
+    id: 'basic_swing', name: 'Basic Attack',
+    thumbnail: 'images/skills/basic_attack.png',
+    skillPercent: 1.0, hits: 1, targets: 1, animation: 'swing', isLucky7: false,
+    classNames: [
+      'Beginner',
+      'Warrior', 'Fighter', 'Page', 'Spearman',
+      'Magician', 'F/P Wizard', 'I/L Wizard', 'Cleric',
+      'Archer', 'Hunter', 'Crossbowman',
+      'Assassin',  // Claw: swing=2.5, stab=2.5 — same either way
+    ],
+  },
+  {
+    id: 'basic_stab', name: 'Basic Attack',
+    thumbnail: 'images/skills/basic_attack.png',
+    // Rogues/Bandits attack with a stabbing motion; Dagger stab mult (2.0) ≠ swing (1.0)
+    skillPercent: 1.0, hits: 1, targets: 1, animation: 'stab', isLucky7: false,
+    classNames: ['Rogue', 'Bandit'],
+  },
   // ── Warrior 1st job ───────────────────────────────────────────────────────
   {
     id: '1001001', name: 'Power Strike',
@@ -32,7 +66,7 @@ export const DAMAGE_SKILLS: SkillDamageInfo[] = [
   {
     id: '1001002', name: 'Slash Blast',
     thumbnail: 'images/skills/1001002.png',
-    skillPercent: 1.3, hits: 1, targets: 6, animation: 'swing', isLucky7: false,
+    skillPercent: 1.3, hits: 1, targets: 4, animation: 'swing', isLucky7: false,
     classNames: ['Warrior', 'Fighter', 'Page', 'Spearman'],
   },
   // ── Archer 1st job ────────────────────────────────────────────────────────
@@ -104,9 +138,11 @@ export const DAMAGE_SKILLS: SkillDamageInfo[] = [
   {
     id: '2101004', name: 'Poison Breath',
     thumbnail: 'images/skills/2101004.png',
-    skillPercent: 0.40, hits: 1, targets: 4, animation: 'magic', isLucky7: false,
+    // Primary: 0.40 on 1 target; explosion secondary: 0.35 on up to 4 targets
+    skillPercent: 0.40, hits: 1, targets: 1, animation: 'magic', isLucky7: false,
     element: 'Poison',
     classNames: ['F/P Wizard'],
+    secondaryHit: { skillPercent: 0.35, hits: 1, targets: 4 },
   },
   // ── I/L Wizard 2nd job ────────────────────────────────────────────────────
   {
@@ -133,14 +169,18 @@ export const DAMAGE_SKILLS: SkillDamageInfo[] = [
   },
 ]
 
-/** Single-target DPS coefficient for bossing: skillPercent × hits */
+/** Single-target DPS coefficient for bossing: primary + secondary both land on one target */
 export function singleTargetCoeff(skill: SkillDamageInfo): number {
-  return skill.skillPercent * skill.hits
+  const primary = skill.skillPercent * skill.hits
+  const secondary = skill.secondaryHit ? skill.secondaryHit.skillPercent * skill.secondaryHit.hits : 0
+  return primary + secondary
 }
 
 /** Training efficiency coefficient: weights AoE by raw target count for mass-clear speed */
 export function trainingCoeff(skill: SkillDamageInfo): number {
-  return skill.skillPercent * skill.hits * skill.targets
+  const primary = skill.skillPercent * skill.hits * skill.targets
+  const secondary = skill.secondaryHit ? skill.secondaryHit.skillPercent * skill.secondaryHit.hits * skill.secondaryHit.targets : 0
+  return primary + secondary
 }
 
 /** All damage skills available to a given class name. */

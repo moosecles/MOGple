@@ -1,0 +1,384 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Cutthroat Manny's Request"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Nella & Kerning City Citizen's Other Request"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I got a third request from #p406#. #p408#, the owner of the weapon shop, is quite the unusual foodie—he wants to cook up a special dish of Evil Eye Stir-Fry. He needs me to hunt #b50 #o23#s#k and bring back #b30 #t4000022#s#k. Sounds like he’ll be eating well for a while! Once I've gotten everything, bring it back to #p406#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I delivered what #p408# asked for and got a pair of shoes in return. Now... #p408# doesn't have to worry about his dinner menu for a while. After helping out the people in this town, I feel like I’ve really become close with them!"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o23# #a103081#\\n#i4000022# #t4000022# #b#c4000022##k / 30"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 406
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 23
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000022
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 406
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 22
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10307
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2306
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 643
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1072058
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 1074922497
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1072044
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2099202
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1072048
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 4198404
+          },
+          "jobEx": {
+            "_dirName": "jobEx",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1072051
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 8200
+          },
+          "jobEx": {
+            "_dirName": "jobEx",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1072054
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 16400
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000022
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Just in time. I got work for you. You know #b#p408##k from the weapon store? He's got an enormous appetite, and not just for any old food, but EXOTIC food."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "There's this one dish that you couldn't pay other people to eat, but somehow, it's his favorite dish. It's called Evil Eye Tail Stew. Just thinking about it makes me want to heave. Ugh. But he craves that stuff like there's no tomorrow."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "But he ran out of the main ingredient, #b#t4000022#s#k. He says #b30 #t4000022#s#k, after hunting #b50 #o23#s#k, should be enough to keep him fed for a long time... That shouldn’t be too hard for someone like you. Come see me after you have collected everything."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Great work deserves great rewards. #b#p408##k is giving you a pair of shoes. May they take you far."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much for helping so many people with their requests. For now, it seems like no one else needs help. You're a friend to everyone here in #m10003000# now!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I see you still haven't gathered the materials that #b#p408##k requested. He needs #b30 #t4000022#s#k in order to create his favorite stir-fried dish. Just bring everything to me. Good luck!"
+          }
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You didn’t forget that part of his request was to hunt #b50 #o23#s#k, right?"
+          }
+        }
+      }
+    }
+  }
+}

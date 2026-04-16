@@ -1,0 +1,4241 @@
+{
+  "Popup": {
+    "_dirName": "Popup",
+    "_dirType": "sub",
+    "backgrnd_omok": {
+      "_dirName": "backgrnd_omok",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/backgrnd_omok"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd_match_cards": {
+      "_dirName": "backgrnd_match_cards",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/backgrnd_match_cards"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_private": {
+      "_dirName": "icon_private",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/icon_private"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "icon_public": {
+      "_dirName": "icon_public",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/icon_public"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "textinput_disabled": {
+      "_dirName": "textinput_disabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/textinput_disabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "textinput_enabled": {
+      "_dirName": "textinput_enabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/textinput_enabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "password_disabled": {
+      "_dirName": "password_disabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/password_disabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "password_enabled": {
+      "_dirName": "password_enabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Popup/password_enabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "Common": {
+    "_dirName": "Common",
+    "_dirType": "sub",
+    "nameTag0": {
+      "_dirName": "nameTag0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MapleChat.img/NameTag/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "nameTag1": {
+      "_dirName": "nameTag1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MapleChat.img/NameTag/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "emptyTag": {
+      "_dirName": "emptyTag",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/MapleChat.img/NameTag/empty"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "score": {
+      "_dirName": "score",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/score"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "mark": {
+      "_dirName": "mark",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/mark"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "readyOn": {
+      "_dirName": "readyOn",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/readyOn"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "readyOff": {
+      "_dirName": "readyOff",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/readyOff"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "turn": {
+      "_dirName": "turn",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/turn"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "win": {
+      "_dirName": "win",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/win"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "lose": {
+      "_dirName": "lose",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/lose"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "draw": {
+      "_dirName": "draw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/draw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "charWin": {
+      "_dirName": "charWin",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/charWin"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "charLose": {
+      "_dirName": "charLose",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/charLose"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "charDraw": {
+      "_dirName": "charDraw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Common/charDraw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "Omok": {
+    "_dirName": "Omok",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/Omok/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "stone": {
+      "_dirName": "stone",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -1,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/0/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/1/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/2/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        }
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": -2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": -2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 1
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        }
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/6/black/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        }
+      },
+      "11": {
+        "_dirName": "11",
+        "_dirType": "sub",
+        "white": {
+          "_dirName": "white",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 1,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 100
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/9/white/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "uol",
+            "_value": "1"
+          }
+        },
+        "black": {
+          "_dirName": "black",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": -2
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 180
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Minigame.img/Omok/stone/7/black/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      }
+    }
+  },
+  "MatchCards": {
+    "_dirName": "MatchCards",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/MatchCards/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "effect0": {
+      "_dirName": "effect0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/MatchCards/effect0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "effect1": {
+      "_dirName": "effect1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/MatchCards/effect1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "effect2": {
+      "_dirName": "effect2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 5
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Minigame.img/MatchCards/effect2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "card": {
+      "_dirName": "card",
+      "_dirType": "sub",
+      "back0": {
+        "_dirName": "back0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/back0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "back1": {
+        "_dirName": "back1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/back1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "back2": {
+        "_dirName": "back2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/back2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/8"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/9"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/10"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "11": {
+        "_dirName": "11",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/11"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "12": {
+        "_dirName": "12",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/12"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "13": {
+        "_dirName": "13",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/13"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "14": {
+        "_dirName": "14",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/card/14"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "number": {
+      "_dirName": "number",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/8"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/9"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/10"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "11": {
+        "_dirName": "11",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/11"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "12": {
+        "_dirName": "12",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/12"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "13": {
+        "_dirName": "13",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/13"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "14": {
+        "_dirName": "14",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/14"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "15": {
+        "_dirName": "15",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/MatchCards/number/15"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btBan": {
+    "_dirName": "btBan",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btBan/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btBan/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btBan/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btBan/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btReady": {
+    "_dirName": "btReady",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btReady/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btReady/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btReady/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btReady/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btStart": {
+    "_dirName": "btStart",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btStart/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btStart/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btStart/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btStart/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btEnter": {
+    "_dirName": "btEnter",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:enter/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btClaim": {
+    "_dirName": "btClaim",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/MapleChat.img/MapleChat/button:claim/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btForfeit": {
+    "_dirName": "btForfeit",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btForfeit/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btForfeit/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btForfeit/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btForfeit/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btDraw": {
+    "_dirName": "btDraw",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btDraw/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btDraw/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btDraw/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btDraw/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btUndo": {
+    "_dirName": "btUndo",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btUndo/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btUndo/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btUndo/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btUndo/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "btLeave": {
+    "_dirName": "btLeave",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btLeave/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btLeave/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btLeave/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Minigame.img/btLeave/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "MinigameTable": {
+    "_dirName": "MinigameTable",
+    "_dirType": "sub",
+    "Effect": {
+      "_dirName": "Effect",
+      "_dirType": "sub",
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -90,
+            "_y": 55
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/2/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 70,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/2/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 120,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/2/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 128,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 500
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/2/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -90,
+            "_y": 55
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/4/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 70,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/4/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 120,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/4/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 128,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 500
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/4/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -90,
+            "_y": 55
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/8/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 70,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/8/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 120,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/8/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 128,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 500
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/8/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "16": {
+        "_dirName": "16",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -90,
+            "_y": 55
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/16/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 70,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/16/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 120,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/16/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 128,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 500
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/16/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "32": {
+        "_dirName": "32",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -90,
+            "_y": 55
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/32/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 70,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/32/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 120,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/32/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 128,
+            "_y": 61
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 500
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Minigame.img/MinigameTable/Effect/32/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  }
+}

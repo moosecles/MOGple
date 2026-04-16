@@ -1,0 +1,297 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Searching for Fossils"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Winston's Fossil Dig-up"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard that #p512# the archeologist is searching for something in the Rocky Mountains on the east side of Perion..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#b#p512##k, the archeologist who I ran into in the rocky mountains on the east side of Perion, said he lost the fossils he collected near Perion. He asked me to bring back #b12 #t4031068#s#k and #b12 #t4031069#s#k that were taken by #r#o13#s#k and #r#o15#s#k. How can he lose something so important like that? He's more careless than he looks..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I found the fossils that #b#p512##k lost."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o13# #a104051#\\n#o15# #a104052#\\n#i4031068:# #t4031068# #c4031068# / 12\\n#i4031069:# #t4031069# #c4031069# / 12"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 512
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 17
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 512
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031069
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031068
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 1104
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 497
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10406
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031069
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -12
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031068
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -12
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hello, there, nice to meet you. I'm #b#p512##k the archeologist, and I'm looking for fossils of prehistoric life."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "#m10004000# may be a land of dry, rocky mountains today, but it used to be a fertile land full of tall trees and lots of creatures, much like #m10002000#. Can you believe that? I'm looking for evidence from that era. If you are not busy and all, can you help me out?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you. I ran into something odd yesterday. I went to Perion for some food, and when I came back, I found my tent raided by monsters. They took my fossils and ran away."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Looking at the footprints, it seems like the culprits are #r#o13#s#k and #r#o15#s#k. Please go take care of them and gather up #b12 #t4031068#s#k and #b12 #t4031069#s#k for me. Thanks, and good luck!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Kids these days are so selfish, saying no to an old man's favor. Fine, please leave."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Don’t forget to take down the monsters too."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I don't think you've gathered them all up yet. These materials are important. Please try harder."
+          }
+        }
+      }
+    }
+  }
+}

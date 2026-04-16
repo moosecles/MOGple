@@ -1,0 +1,283 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "I Need to Find My Daughter 1"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "I Need to Find My Daughter"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I wonder how #p206# is doing in #m10001000# these days..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met up with #p206# in #m10001000#, and he had great news: He finally found his daughter!!! There was one problem, however... She seems to be suffering from amnesia. Bruce gave me a toy that his daughter played with while growing up, and asked me to give it to her. "
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I found #p506# and gave her #t4031076#. "
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031076# #t4031076# #c4031076# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 206
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10411
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10123
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 506
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031076
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031076
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 236
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 321
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10125
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031076
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh, it's you! I have great news! Great news, indeed... If you have any spare time, then ask me what exactly that great news is. I'm going to need your help, too."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "The great news is that I have found my daughter! My assistant went to places near #m10004000# to pick up some samples. After he finished his work, he stopped by Perion for a bit, and... apparently, he met a lady that eerily resembled my daughter!"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "So he started talking to her, and... apparently, she doesn't remember anything from her childhood. She's also not a tribesperson... That has to be my daughter. It seems like she was beyond shocked when she was attacked by the mushroom monster."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "That is most likely the reason why she does not remember her childhood. Here... I want you to give her this sword for me. My daughter liked to pose as a knight while growing up."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "This toy sword was something she really enjoyed playing with. This may help bring back her memories of the past. Please help me help my daughter."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "It is really great news... and I would really appreciate it if you can help me out here."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hi! What? My dad is looking for me? Is that true? But I have no idea who my dad is. I don't remember anything from my childhood."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Hey, this sword... I remember this! That's right! I was attacked by a humongous mushroom, and I just ran away as fast as I could. I guess that's how I ended up here."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I can't believe this! I remember everything now! Where's my dad now? Well, here's a letter for my dad. Please get this to him ASAP."
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Please don't lose it again. This is a very important item to me. Good thing my assistant picked it up off the ground... Again, please don't lose it."
+        },
+        "yes": {
+          "_dirName": "yes",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

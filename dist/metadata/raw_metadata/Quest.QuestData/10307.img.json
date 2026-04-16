@@ -1,0 +1,293 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Chris's Request"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Nella & Kerning City Citizen's Other Request"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I got another request from #p406#. #p415#'s pillow was stolen a few days ago and now he can't sleep. To make a new pillow, he needs #b20 #t4003002#s and 20 #t4000049#s#k. I should get them as soon as possible, so Chris can get some sleep!"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I delivered what #p415# asked for and got some refined iron and bronze. #p415# can finally sleep well with his new pillow. Return to #p406# for another gig."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4003002# #t4003002# #b#c4003002##k / 20\\n#i4000049# #t4000049# #b#c4000049##k / 20"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 406
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000049
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 406
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 22
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10306
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2306
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 643
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -20
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000049
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -20
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010100
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010101
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh, thanks for coming! I just got a new request for you. It seems like #b#p415##k from the hardware store is having trouble sleeping these days. Someone apparently stole his pillow... Now who in their right mind would steal a pillow? Geez."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "In any case, we need to make a new pillow, but it's not that easy to get the required materials. Can you get #b20 #t4003002#s and 20 #t4000049#s#k? That shouldn't be too difficult. Come see me after you have collected everything."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Great work. It is a pleasure working with you, you know that? Alright, let's talk rewards. #b#p415##k is giving you #b1 #t4010100##k and #b1 #t4010101##k."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Alright, if you need work sometime down the road, feel free to come back and see me."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I see you still haven't gathered the materials that #b#p415##k requested. You need #b20 #t4003002#s and 20 #t4000049#s#k in order to create a new pillow. Just bring everything to me. Good luck!"
+          }
+        }
+      }
+    }
+  }
+}

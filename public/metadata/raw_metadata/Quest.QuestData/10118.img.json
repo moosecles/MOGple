@@ -1,0 +1,325 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Maya's Last Collection"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Maya’s Another Collection"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Go see #b#p207##k in #b#m10001000##k."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p207# asked me to gather some items: #b1 #t4020107#, and 50 each of #t4000043# and #t4000044##k. Apparently, I can get them by defeating monsters at the Golem’s Temple on the way from #m10001000# to the Dungeon... but this is way too tough!"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got all the items #p207# requested for the last time... or is it? As a sign of appreciation, she gave me a cape her grandma made for #p221#, the chief of this town. It may be really old, but it still looks like it's brand new!"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000043:# #t4000043:# #c4000043# / 50\\n#i4000044:# #t4000044:# #c4000044# / 50\\n#i4020107:# #t4020107:# #c4020107# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 207
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 47
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10117
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 207
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000044
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020107
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 7143
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1374
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -50
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000044
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -50
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020107
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1102004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Since you’re here, could you do me a small favor? I’ve been collecting all sorts of items lately — I think I might be able to create something new with them! So, could you gather some monster drops for me? It shouldn’t be too hard!"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Could you bring me #b50 #t4000043#s, 50 #t4000044#s, and 1 #t4020107##k, please?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much! You can find what you need at the Golem’s Temple on the way from #m10001000# to the Dungeon. Once you’ve gathered everything, please come back and find me — I’ll be waiting for you right here."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Oh you must be really busy now... But please get back to me if you have time later. I would like to get the stuff by myself, but I am not fully recovered..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Wow! You got them all! This one was little bit harder than the last one, right? But nothing will be hard for you... Anyway, thank you for collecting all of those items. Now, I have everything I need."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I’ve received all the items you collected. Thank you so much — you must have gone through a lot of trouble, yet you never once complained. As a token of my gratitude, I’d like to give you a cape that was tucked away deep inside our family chest. It was something my grandmother made long ago for #p221#, but the great war ended before she ever got to deliver it... Still, I’d like you to have it. Please treasure it well!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you haven’t gathered all the items I mentioned yet — #b50 #t4000043#s, 50 #t4000044#s, and 1 #t4020107##k. But don’t give up! If you help me out, I might be able to give you something really nice in return."
+          }
+        }
+      }
+    }
+  }
+}

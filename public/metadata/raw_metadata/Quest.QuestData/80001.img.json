@@ -1,0 +1,216 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Make a Match Cards Set"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Maple World's Unique Fun: Match Cards"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems that #p228# in #m010001050# knows a way to find a different kind of fun in Maple World."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#b#p228##k, whom I met in #m010001050#, said he knows a way to enjoy myself when I get tired of hunting, and asked me to collect #t4031045#s. He said I could easily get them by defeating any of these monsters scattered across Maple World: #b#o3#, #o8#, #o10#, #o12#, #o16#, #o19#, #o23#, #o31#, #o35#, #o37#, #o36#, #o41#, #o43#, #o45#, #o51##k. I should try to gather them when I have the time."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I brought the requested items to #p228# in #m010001050# and received a #b#t4080100##k! With this, I can play the Match Cards mini-game with other adventurers anywhere! I should remember to ask #p228# if I want to know more about the mini-game."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031045:# #t4031045:# #c4031045# / 15"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 228
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 12
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 228
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031045
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 321
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031045
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4080100
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you! You look like you're worn out from all that hunting. My creed is to live a life of enjoyment! How about it? If you bring me just a few items, I'll exchange them for a mini-game item. What do you say?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Good! But you can't just play a mini-game right away. If you want to play the Match Cards mini-game, you'll need a #b#t4080100##k."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To make a #t4080100#, I need #b#t4031045#s#k. You can get #t4031045#s by taking down monsters scattered across this island, so please bring me 15 of them. I'll be waiting for you right here."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Hey, sometimes you just need to take a break and look around! If you change your mind, talk to me anytime."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Say! These are definitely 15 #b#t4031045#s#k. That couldn't have been easy—you're amazing! Alright! Time for me to show off my skills! Just wait a moment~ I'll craft your #b#t4080100##k in no time. Heave-ho!"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You got your #b#t4080100##k, right? You can use this item anywhere in Maple World to open a mini-game room and have fun with others. If you achieve a high score, something great is sure to happen. I'll be cheering you on from here, so give it your best shot!"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Oh, right. If you ever have any questions about Match Cards, just ask me anytime. I plan on staying here for a while. Now then, go on and try hard to become the ultimate mini-game champion, surpassing even me! Though... that's probably not going to happen. Anyway... I'm busy, so I'll see you later~"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "To make #t4080100#, I need #b#t4031045#s#k. You can get #t4031045#s by taking down monsters scattered across this island, so please bring me 15 of them. I'll be waiting for you right here."
+          }
+        }
+      }
+    }
+  }
+}

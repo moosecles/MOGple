@@ -1,0 +1,325 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Ingredients for the Flying Pill"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Icarus and the Flying Pill"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It doesn’t seem easy to talk to #p309#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p309# in #m10002000#, and he doesn't seem to like people in general. How is he best friends with Icarus in the first place? Anyway, he says in order to make the #b#t4031079##k, he's going to need #b50 #t4000039# and 20 #t4031012#s#k. So that's all it takes?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "As #p309# asked, I got him #t4000039# and #t4031012#s. Can he make #t4031079# with these?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000039# #t4000039# #c4000039# / 50\\n#i4031012# #t4031012# #c4031012# / 20"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 309
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 46
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10319
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 309
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000039
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031012
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 6862
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1345
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000039
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -50
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031012
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -20
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "What's a human doing here? I have nothing to say to you. Please leave.\\r\\n#L0##bI don't think I want to talk to you, either!#l\\r\\n#L1#About the \"Flying Pill\"...#k#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Hey, how does a human like you know about that? Well, even if you know of it, I don't think I feel like talking about it with someone like you! \\r\\n#L0##bYou are one rude, despicable kid!!#l\\r\\n#L1#I really need that pill, though.#l#k"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "What?!! A kid? Trust me, I am NOT a kid!! !!\\r\\n#L0##bSorry, didn't mean to be rude.#l\\r\\n#L1#Aren't you much too young to talk to me like that anyway?#l\\r\\n#L2#I wouldn't even be here if not for #p407#...#k#l"
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "#p407#? You're here for him? He's my only human friend... Alright, since you're here at his request, I'll make you the pill. You'll need to know that the ingredients I need are really hard to find. I wonder if you're even qualified enough to gather them all up."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Okay. You seem like the kind of person that really cares about the promises made with friends. You might not be as bad as I thought. Get me #b50 #t4000039# and 20 #t4031012#s#k and I'll make you the #b#t4031079##k. The Witchgrass Leaves grow in swamps, and they're not the easiest to extract. You HAVE to #bextract from the right side#k in order to do it right. Good luck with that."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I knew it. It's way too tough for a weakling like you. At least you're aware of your limits. Now get out of here!"
+        }
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Whatever. Leave!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Whether you need it or not, that's your business, not mine."
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Get out of my face. Bye!"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Hey, you're talking to a fairy! Of course I've lived much longer than you! In any case, I don't feel like talking to you, so just leave!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Whoa, you got them all? What's this? The leaves are dry! How am I going to make the #t4031079# with crappy ingredients like this? \\r\\n#L0##bHey, what's your problem??#l\\r\\n#L1#They look fine to me.#k#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "What are you trying to say? You don't even know what you're talking about! I'll use these ingredients for now, but it's not my responsibility if it comes out less than perfect. The ingredients you got me stink!"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Were you even listening to what I was saying? I need #b50 #t4000039# and 20 #t4031012#s#k! Get it??"
+          }
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "What? I don't feel like making it right now. Come back some other time."
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  }
+}

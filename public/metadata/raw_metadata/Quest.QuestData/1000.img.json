@@ -1,0 +1,156 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Borrowing Sera's Mirror"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Sera's Mirror"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Go talk to #b#p1##k."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "You meet #b#p1##k, who was worried the sun would damage her skin. You should get a mirror from her sister, #b#p2##k, so she can check."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p1##k asked you to get a mirror from her sister, so you walked all the way to #b#p2##k."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 2
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 1001
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You must be the new traveler. I'll be giving you important information so listen up. First, if you want to talk to anyone, #bClick#k the person with your mouse."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "The #bleft and right arrows#k allow you to move. Press #bAlt#k to jump. Jump diagonally by pressing both together."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Man, it's scorching hot today! The sun is burning my beautiful skin! Can you get me a #bmirror#k from #b#p2##k, please? I have to check my skin!"
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "If you want to check your progress for a quest, open your #bQuest Window#k then press #bQuest Helper#k. You'll be able to view the progress of quests registered to the Quest Helper."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you. #b#p2##k is on the hill to the east, hanging laundry. The mirror looks like this #i4031000#."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Don't want to? Fine, come back when you change your mind."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Haven't met with #b#p2##k yet? She should be up a hill to the east. It shouldn't be hard to find her."
+          }
+        }
+      }
+    }
+  }
+}

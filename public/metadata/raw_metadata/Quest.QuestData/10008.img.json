@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Deep Forest of Patience] John's Last Present"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "[Deep Forest of Patience] John's Present"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard #p100# has one final thing to ask me..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into #p100# the fisherman again in #m10000000#. This time, he told me his mother passed away recently, and he wanted to get some White Violas for her. He asked me to get #b30 #t4031044#s#k for him. The scent of White Violas last over 1000 years... and according to #p100#, they can be found through the #p609# again, where the flowers may be found. Man... do I HAVE to go in there again??"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got #p100# all #b30 #t4031044#s#k. They have a nice scent, but 30 of them? Makes my head spin... As a sign of appreciation, #p100# gave me a set of his mother's earrings. These earrings look like they are made of some common flowers, but it seems there's something to it..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031044# #t4031044# #b#c4031044# / 30"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10007
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031044
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 6581
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1316
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031044
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1032012
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhh... you're the person that did me huge favors before. You look so much stronger now that I can't even recognize you anymore. By now, it looks like you have gone pretty much everywhere. I have one last favor to ask you. Well, my mother passed away a few days ago of old age. I need a special kind of flower for her on her grave... can you get them for me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much! The flowers I want on her grave are called #b#t4031044##k and they're a very rare kind. I heard they're found deep in the forest... I heard the place where they exist doesn't let everyone in; only a select few, I think. Something about a #p609# in #m10005000# and something something..."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Please get me #b30 #t4031044#s#k. I want to get a whole bunch for my mother's grave. Please hurry!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I see... my mother loved looking at those flowers while she was alive... I wished that you could get them for me and for her... I understand..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhh... you got me all #b30 #t4031044#s#k!  This is awesome... I can't believe you went deep into the forest and got these flowers... there's a story about this flower where it supposedly doesn't die for 1000 years and it glows on its own. I can make a nice wreath out of these and bring it to my mother's grave..."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh, and... since you have worked hard for me, I should reward you well. My late mother left me these earrings before passing away. Apparently she had them since she was young. I don't know, but they seem to have some kind of a special power hidden in them... anyway please take them."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "If you have time, why not try going back into the forest? You might find an important item in there. I can't guarantee it since obviously I've never been there before, so please don't come back complaining if all you can find is trash."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven't gotten the #b#t4031044#s#k yet. There's a #p609# in #m10005000# and I heard that with that you can go to the place where the #t4031044#s#k are. Please go into the forest and collect the #t4031044#s#k for me. I need 30 to make a wreath."
+          }
+        }
+      }
+    }
+  }
+}

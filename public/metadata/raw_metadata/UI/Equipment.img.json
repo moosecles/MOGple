@@ -1,0 +1,533 @@
+{
+  "backgrnd": {
+    "_dirName": "backgrnd",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Equipment.img/backgrnd"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "vector:childwnd_lt": {
+    "_dirName": "vector:childwnd_lt",
+    "_dirType": "vector",
+    "_x": 4,
+    "_y": 45
+  },
+  "vector:childwnd_rb": {
+    "_dirName": "vector:childwnd_rb",
+    "_dirType": "vector",
+    "_x": 171,
+    "_y": 272
+  },
+  "tab:mainTab": {
+    "_dirName": "tab:mainTab",
+    "_dirType": "sub",
+    "selected": {
+      "_dirName": "selected",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Equipment.img/tab:mainTab/selected/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Equipment.img/tab:mainTab/selected/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Equipment.img/tab:mainTab/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Equipment.img/tab:mainTab/normal/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "ID": {
+      "_dirName": "ID",
+      "_dirType": "Int",
+      "_value": 2000
+    },
+    "tabSpace": {
+      "_dirName": "tabSpace",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 5,
+      "_y": 26
+    },
+    "rb": {
+      "_dirName": "rb",
+      "_dirType": "vector",
+      "_x": 167,
+      "_y": 42
+    }
+  },
+  "equip": {
+    "_dirName": "equip",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:disabled0": {
+      "_dirName": "canvas:disabled0",
+      "_dirType": "canvas",
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:disabled0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:disabled1": {
+      "_dirName": "canvas:disabled1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:disabled1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:wearDisabled": {
+      "_dirName": "canvas:wearDisabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:wearDisabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "slots": {
+      "_dirName": "slots",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 23
+      },
+      "earacc": {
+        "_dirName": "earacc",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 56
+      },
+      "clothes": {
+        "_dirName": "clothes",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 89
+      },
+      "pants": {
+        "_dirName": "pants",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 122
+      },
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 155
+      },
+      "gloves": {
+        "_dirName": "gloves",
+        "_dirType": "vector",
+        "_x": 2,
+        "_y": 122
+      },
+      "cape": {
+        "_dirName": "cape",
+        "_dirType": "vector",
+        "_x": 2,
+        "_y": 89
+      },
+      "shield": {
+        "_dirName": "shield",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 89
+      },
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 89
+      }
+    }
+  },
+  "cash": {
+    "_dirName": "cash",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/cash/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:disabled0": {
+      "_dirName": "canvas:disabled0",
+      "_dirType": "canvas",
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:disabled0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:disabled1": {
+      "_dirName": "canvas:disabled1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:disabled1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:wearDisabled": {
+      "_dirName": "canvas:wearDisabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Equipment.img/equip/canvas:wearDisabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "slots": {
+      "_dirName": "slots",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 23
+      },
+      "faceacc": {
+        "_dirName": "faceacc",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 56
+      },
+      "eyeacc": {
+        "_dirName": "eyeacc",
+        "_dirType": "vector",
+        "_x": 68,
+        "_y": 56
+      },
+      "earacc": {
+        "_dirName": "earacc",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 56
+      },
+      "ring1": {
+        "_dirName": "ring1",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 23
+      },
+      "ring2": {
+        "_dirName": "ring2",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 23
+      },
+      "ring3": {
+        "_dirName": "ring3",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 122
+      },
+      "ring4": {
+        "_dirName": "ring4",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 122
+      },
+      "clothes": {
+        "_dirName": "clothes",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 89
+      },
+      "pants": {
+        "_dirName": "pants",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 122
+      },
+      "shoes": {
+        "_dirName": "shoes",
+        "_dirType": "vector",
+        "_x": 35,
+        "_y": 155
+      },
+      "gloves": {
+        "_dirName": "gloves",
+        "_dirType": "vector",
+        "_x": 2,
+        "_y": 122
+      },
+      "cape": {
+        "_dirName": "cape",
+        "_dirType": "vector",
+        "_x": 2,
+        "_y": 89
+      },
+      "shield": {
+        "_dirName": "shield",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 89
+      },
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 89
+      },
+      "petwear": {
+        "_dirName": "petwear",
+        "_dirType": "vector",
+        "_x": 101,
+        "_y": 188
+      },
+      "pethp": {
+        "_dirName": "pethp",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 188
+      },
+      "petmp": {
+        "_dirName": "petmp",
+        "_dirType": "vector",
+        "_x": 134,
+        "_y": 155
+      }
+    }
+  }
+}

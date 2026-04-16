@@ -1,0 +1,6287 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -3,
+        "_y": 31
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Coat/_Canvas/01047029.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRaw": {
+      "_dirName": "iconRaw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -3,
+        "_y": 31
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Coat/_Canvas/01047029.img/info/iconRaw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Ma"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "Ma"
+    },
+    "reqJob": {
+      "_dirName": "reqJob",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLevel": {
+      "_dirName": "reqLevel",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqSTR": {
+      "_dirName": "reqSTR",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqDEX": {
+      "_dirName": "reqDEX",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqINT": {
+      "_dirName": "reqINT",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLUK": {
+      "_dirName": "reqLUK",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "walk1": {
+    "_dirName": "walk1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 3
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../0/mailArm"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 2
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk1/3/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "walk2": {
+    "_dirName": "walk2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../0/mailArm"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/walk2/3/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -12,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stand2": {
+    "_dirName": "stand2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stand2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -7,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/alert/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO1": {
+    "_dirName": "swingO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 15
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO2": {
+    "_dirName": "swingO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 15,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingO3": {
+    "_dirName": "swingO3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO3/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO3/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -6,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO3/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO3/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -7,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO3/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingO1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingOF": {
+    "_dirName": "swingOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingOF/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChestOverPants"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingOF/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingOF/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingOF/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHeadOverMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingOF/3/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT1": {
+    "_dirName": "swingT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHairBelowWeapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArmOverHair": {
+        "_dirName": "mailArmOverHair",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -12,
+            "_y": 14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/0/mailArmOverHair"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 15,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHairBelowWeapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArmOverHair": {
+        "_dirName": "mailArmOverHair",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/1/mailArmOverHair"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT1/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT2": {
+    "_dirName": "swingT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 7,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 7,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHeadOverMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingT3": {
+    "_dirName": "swingT3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHeadOverMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT3/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingTF": {
+    "_dirName": "swingTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHeadOverMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 18
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 14,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingTF/3/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingP1": {
+    "_dirName": "swingP1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 18
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHairBelowWeapon"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArmOverHair": {
+        "_dirName": "mailArmOverHair",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": 17
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/0/mailArmOverHair"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 8,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": 13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP1/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingP2": {
+    "_dirName": "swingP2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 7,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 10,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingP2/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingT2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "swingPF": {
+    "_dirName": "swingPF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": 17
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArmOverHair": {
+        "_dirName": "mailArmOverHair",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -7,
+            "_y": 16
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/2/mailArmOverHair"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 14,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/swingPF/3/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO1": {
+    "_dirName": "stabO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 7,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArm"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 19,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabO2": {
+    "_dirName": "stabO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -11,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabO2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabOF": {
+    "_dirName": "stabOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 7,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 20,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabOF/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabT1": {
+    "_dirName": "stabT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT1/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabT2": {
+    "_dirName": "stabT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -7,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -4,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabT2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stabTF": {
+    "_dirName": "stabTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../swingPF/0/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../swingPF/0/mailArm"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../swingPF/1/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../swingPF/1/mailArm"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabTF/2/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -5,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmBelowHead"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabTF/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArmOverHair": {
+        "_dirName": "mailArmOverHair",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/stabTF/2/mailArmOverHair"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../stabT1/2/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../stabT1/2/mailArm"
+      }
+    }
+  },
+  "shoot1": {
+    "_dirName": "shoot1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot1/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot1/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot1/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../1/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../1/mailArm"
+      }
+    }
+  },
+  "shoot2": {
+    "_dirName": "shoot2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 4,
+            "_y": 9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/2/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/3/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/4/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 7
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shoot2/4/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "shootF": {
+    "_dirName": "shootF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": 3
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shootF/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": 12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shootF/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 4
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shootF/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/shootF/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../1/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../1/mailArm"
+      }
+    }
+  },
+  "proneStab": {
+    "_dirName": "proneStab",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 23,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/proneStab/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/proneStab/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../0/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/proneStab/1/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../proneStab/0/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../proneStab/0/mailArm"
+      }
+    }
+  },
+  "heal": {
+    "_dirName": "heal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../alert/1/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../alert/1/mailArm"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../swingO2/1/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../swingO2/1/mailArm"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "uol",
+        "_value": "../../swingO2/0/mail"
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../../swingO2/0/mailArm"
+      }
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/fly/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/fly/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/fly/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "uol",
+        "_value": "../0/mailArm"
+      }
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 2
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/jump/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -10,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/jump/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "sit": {
+    "_dirName": "sit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": 1
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/sit/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "mailArm": {
+        "_dirName": "mailArm",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": -9,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "mailArmOverHair"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/sit/0/mailArm"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "ladder": {
+    "_dirName": "ladder",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 2,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/ladder/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 5
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/ladder/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "rope": {
+    "_dirName": "rope",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": 6
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/rope/0/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "mail": {
+        "_dirName": "mail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "navel": {
+            "_dirName": "navel",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "backMailChest"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Coat/_Canvas/01047029.img/rope/1/mail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

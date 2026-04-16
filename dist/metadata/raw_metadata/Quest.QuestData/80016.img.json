@@ -1,0 +1,307 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Francois in Need of Help"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It looks like #p303#, the tailor of #m10002000#, could use some help. Maybe I should stop by after a while."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p303#, the tailor of #m10002000#, received an important request but is struggling due to a lack of materials. To help him out, I need to defeat #r#o13#s#k and craft #b10 #t4003007##k to bring back."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I was able to safely deliver the item #p303# asked for. At this point, I’d say I’ve proven myself to be a pretty solid apprentice."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o13# #a800161#\\n#i4003007:# #t4003007:# #c4003007# / 10"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 303
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 15
+      },
+      "weeklyRepeat": {
+        "_dirName": "weeklyRepeat",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 80014
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92020000
+          },
+          "level": {
+            "_dirName": "level",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "levelCondition": {
+            "_dirName": "levelCondition",
+            "_dirType": "String",
+            "_value": "or Higher"
+          },
+          "acquire": {
+            "_dirName": "acquire",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 303
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 705
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2002009
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92020000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Perfect timing. #p313# of #m10002000# has requested a special item for village maintenance. I don’t think I can finish it on my own in time. …Would you help me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Much appreciated. I need to craft #t1082000#, but I’m short on #b#t4003007##k. Could you craft some for me? You probably thought #t1082000# don't suit fairies very well, didn’t you? Hmph. Still, fairy hands are far more delicate than you think. And while you’re at it, deal with some of the #r#o13#s#k around the village. They keep getting in the way whenever I go out to gather materials. I’ll be waiting."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "An apprentice refusing a master’s request… Is that how things work in the human world?"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Good. This is exactly what I needed. As expected—you really are my first human apprentice. Heh…"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Here. Take this #t2002009# as your reward. It should make training your tailoring skills a bit easier."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "But this is troublesome… I have a feeling #p313# will keep making requests like this. It seems I might be relying on your help more often. I’ll call on you again next time."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven’t defeated all the monsters I mentioned, have you? What are you hesitating for?"
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven’t gathered all the materials either. What’s taking you so long?"
+          }
+        }
+      }
+    }
+  }
+}

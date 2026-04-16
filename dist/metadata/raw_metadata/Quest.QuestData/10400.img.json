@@ -1,0 +1,302 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Fixing Blackbull's House"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard that \"#p501#\" in #m10004000# is fixing up his house."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Right here, in this dusty town of #m10004000#, I ran into an oddly-dressed man named \"#p501#.\" He told me he needs to fix his house and wondered if I could help him out by #rdefeating 20 #o6#s and 20 #o11#s#k and getting him #b10 #t4000005#es#k and #b10 #t4000011#s#k. If I do him a favor, I'll get a nice shield from him, but what if I say no? I wouldn't... be... EATEN BY HIM... no?? I really hope not..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got \"#p501#\" of #m10004000# 10 #t4000005#es and 10 #t4000011#s after defeating 20 #o6#s and 20 #o11#s. With these, he can finally fix his house. I got this shield as a reward... and... well, scratch marks here and there, and it looks pretty old... is this even usable?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o6# #a104001#\\n#o11# #a104002#\\n#i4000005:# #t4000005:# #c4000005# / 10\\n#i4000011:# #t4000011:# #c4000011# / 10"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 501
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 11
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 501
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 236
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 321
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1092001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 9
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1092003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Can you #rdefeat 20 #o6#s and 20 #o11#s#k and get me #b10 #t4000005#es#k and #b10 #t4000011#s#k? I want to renovate my house. If you can do this for me, I will give you a nice #bshield#k that I no longer need... You should be able to get those items from the tree-like creatures nearby..."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Incredible! You must be someone special to get that many. Hmm... alright, the shield is yours. It's my favorite one. Please take good care of it."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Don’t forget, you also need to #rdefeat 20 #o6#s and 20 #o11#s#k."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I guess you still haven't collected #b10 #t4000005#es#k and #b10 #t4000011#s#k..."
+          }
+        }
+      }
+    }
+  }
+}

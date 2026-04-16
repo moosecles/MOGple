@@ -1,0 +1,3635 @@
+{
+  "Empty_Dont_Delete_Me": {
+    "_dirName": "Empty_Dont_Delete_Me",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 3.0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": -99.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 180.0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 6.63
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.69
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "LimitSrcAlpha": {
+        "_dirName": "LimitSrcAlpha",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ProgressOrderType": {
+        "_dirName": "ProgressOrderType",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": -150.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 225.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 30.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 500.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 500.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType00": {
+    "_dirName": "SampleType00",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": -37.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 99.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 74
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 3.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.5
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "LimitSrcAlpha": {
+        "_dirName": "LimitSrcAlpha",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ProgressOrderType": {
+        "_dirName": "ProgressOrderType",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": -30.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": -30.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 10.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 20.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": -10.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 21.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType00_2": {
+    "_dirName": "SampleType00_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 87.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 99.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 74
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 41,
+        "_y": 44
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Effect/_Canvas/CanvasParticle.img/SampleType00_2/texture"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.5
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "LimitSrcAlpha": {
+        "_dirName": "LimitSrcAlpha",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ProgressOrderType": {
+        "_dirName": "ProgressOrderType",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 2
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 10.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 20.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType01": {
+    "_dirName": "SampleType01",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 60.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 112.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.2
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "LimitSrcAlpha": {
+        "_dirName": "LimitSrcAlpha",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ProgressOrderType": {
+        "_dirName": "ProgressOrderType",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 900.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": -225.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 137.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": -341.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 145.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 138.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType02": {
+    "_dirName": "SampleType02",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 180.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 180.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.5
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 30.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType03": {
+    "_dirName": "SampleType03",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 53.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 3.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 5.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType04": {
+    "_dirName": "SampleType04",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.2
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 231.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 15.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType05": {
+    "_dirName": "SampleType05",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 56.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 78.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 0.6
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 66
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 37.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": -150.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 61.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType01_2": {
+    "_dirName": "SampleType01_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 60.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 112.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.2
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 4
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 900.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": -225.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 137.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": -341.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 145.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 138.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType02_2": {
+    "_dirName": "SampleType02_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 180.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 180.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.5
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 4
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 30.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType03_2": {
+    "_dirName": "SampleType03_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 16543
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 53.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 2.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 3.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 4
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 5.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType04_2": {
+    "_dirName": "SampleType04_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 90.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 1.2
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": -1
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 71
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 231.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.5
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 4
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 15.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "SampleType05_2": {
+    "_dirName": "SampleType05_2",
+    "_dirType": "sub",
+    "totalParticle": {
+      "_dirName": "totalParticle",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "angle": {
+      "_dirName": "angle",
+      "_dirType": "Float",
+      "_value": 56.0
+    },
+    "angleVar": {
+      "_dirName": "angleVar",
+      "_dirType": "Float",
+      "_value": 78.0
+    },
+    "duration": {
+      "_dirName": "duration",
+      "_dirType": "Float",
+      "_value": 0.6
+    },
+    "blendFuncSrc": {
+      "_dirName": "blendFuncSrc",
+      "_dirType": "Int",
+      "_value": 5
+    },
+    "blendFuncDst": {
+      "_dirName": "blendFuncDst",
+      "_dirType": "Int",
+      "_value": 6
+    },
+    "startColor": {
+      "_dirName": "startColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "startColorVar": {
+      "_dirName": "startColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "endColor": {
+      "_dirName": "endColor",
+      "_dirType": "Int",
+      "_value": 16777215
+    },
+    "endColorVar": {
+      "_dirName": "endColorVar",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint0": {
+      "_dirName": "MiddlePoint0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePointAlpha0": {
+      "_dirName": "MiddlePointAlpha0",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "MiddlePoint1": {
+      "_dirName": "MiddlePoint1",
+      "_dirType": "Int",
+      "_value": 66
+    },
+    "MiddlePointAlpha1": {
+      "_dirName": "MiddlePointAlpha1",
+      "_dirType": "Int",
+      "_value": 255
+    },
+    "startSize": {
+      "_dirName": "startSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "startSizeVar": {
+      "_dirName": "startSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSize": {
+      "_dirName": "endSize",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "endSizeVar": {
+      "_dirName": "endSizeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posX": {
+      "_dirName": "posX",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posY": {
+      "_dirName": "posY",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "posVarX": {
+      "_dirName": "posVarX",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "posVarY": {
+      "_dirName": "posVarY",
+      "_dirType": "Float",
+      "_value": 51.0
+    },
+    "startSpin": {
+      "_dirName": "startSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "startSpinVar": {
+      "_dirName": "startSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpin": {
+      "_dirName": "endSpin",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "endSpinVar": {
+      "_dirName": "endSpinVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "life": {
+      "_dirName": "life",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "lifeVar": {
+      "_dirName": "lifeVar",
+      "_dirType": "Float",
+      "_value": 0.0
+    },
+    "opacityModifyRGB": {
+      "_dirName": "opacityModifyRGB",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "positionType": {
+      "_dirName": "positionType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "texture": {
+      "_dirName": "texture",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 2,
+      "_format2": 0
+    },
+    "DeltaTime": {
+      "_dirName": "DeltaTime",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "CanvasParticle": {
+      "_dirName": "CanvasParticle",
+      "_dirType": "sub",
+      "AffectGravityApplyExpValue": {
+        "_dirName": "AffectGravityApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementRadialAccelApplyExpValue": {
+        "_dirName": "AffectElementRadialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementTangentialAccelApplyExpValue": {
+        "_dirName": "AffectElementTangentialAccelApplyExpValue",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectElementUpdateExpValue": {
+        "_dirName": "AffectElementUpdateExpValue",
+        "_dirType": "Float",
+        "_value": 1.0
+      },
+      "AffectElementUpdateExpValueAppend": {
+        "_dirName": "AffectElementUpdateExpValueAppend",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Top": {
+        "_dirName": "AffectPadding_Top",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "AffectPadding_Bottom": {
+        "_dirName": "AffectPadding_Bottom",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "HoldColor": {
+        "_dirName": "HoldColor",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ParticleGroupCount": {
+        "_dirName": "ParticleGroupCount",
+        "_dirType": "Int",
+        "_value": 4
+      }
+    },
+    "GRAVITY": {
+      "_dirName": "GRAVITY",
+      "_dirType": "sub",
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Float",
+        "_value": 37.0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Float",
+        "_value": -150.0
+      },
+      "speed": {
+        "_dirName": "speed",
+        "_dirType": "Float",
+        "_value": 61.0
+      },
+      "speedVar": {
+        "_dirName": "speedVar",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccel": {
+        "_dirName": "radialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "radialAccelVar": {
+        "_dirName": "radialAccelVar",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "tangentialAccel": {
+        "_dirName": "tangentialAccel",
+        "_dirType": "Float",
+        "_value": 0.0
+      },
+      "tangentialAccelVar": {
+        "_dirName": "tangentialAccelVar",
+        "_dirType": "Float",
+        "_value": 100.0
+      },
+      "rotationIsDir": {
+        "_dirName": "rotationIsDir",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "I'm Bored 1"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "I'm Bored"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I should go see #p407#, who's at the top of a building in #m10003000#. He seems to be bored out of his mind. "
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I got to talk to #p407# in #m10003000#. Just what exactly is he doing staring aimlessly at the sky anyway? He seemed to be really bored, and asked me if I can answer his questions."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I answered all the questions that #p407# of #m10003000# asked. That was easy."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 11
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 236
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 321
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10316
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Man, soooo boring. Hey, you! Do you have any free time right now? Do you wanna hang out with me? I'm really bored out of my mind here."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Alright! Thanks... now, what should we do? How about... I know, why don't I quiz you on some things? The questions won't be hard at all, so don't worry about it. Are you ready?"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Oh you're busy... I'm really bored, though. Don't you wanna hang out with me?"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Which of these monsters will you NOT see near #m10003000#? \\n\\n#L0##b1. #o6##k #l\\n#L1##b2. #o16##k #l\\n#L2##b3. #o7##k #l\\n#L3##b4. #o10##k #l\\n#L4##b5. #o51##k #l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Which of these NPC's will you NOT see at #m10003000#?\\n\\n#L0##b1. #p413##k #l\\n#L1##b2. #p414##k #l\\n#L2##b3. #p404##k #l\\n#L3##b4. #p800##k \\n#L4##b5. #p409##k #l"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "\n\nWhere are the places you can't go by cab from #m10003000#?\\n\\n#L0##b1. #m10000000##k #l\\n#L1##b2. #m10001000##k #l\\n#L3##b3. #m1010##k #l\\n#L4##b4. #m10002000##k #l"
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "Wow, you're pretty good! You should be starring on a quiz show, the way you're answering these questions!"
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "No no no! Think carefully!"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "No no no! Think carefully!"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "No no no! Think carefully!"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "No no no! Think carefully!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 5
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You're wrong! You can see that NPC at #m10003000#!"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're wrong! You can see that NPC at #m10003000#!"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "You're wrong! You can see that NPC at #m10003000#!"
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "String",
+            "_value": "You're wrong! You can see that NPC at #m10003000#!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 4
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Are you sure? Think again!"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Are you sure? Think again!"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "Are you sure? Think again!"
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "String",
+            "_value": "Are you sure? Think again!"
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    }
+  }
+}

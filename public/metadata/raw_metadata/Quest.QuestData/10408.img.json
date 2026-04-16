@@ -1,0 +1,354 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Research on Animal Fossils"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Dr. Betty's Research on Plants"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems the biologist Dr. #p308# near #m10002000# has another request."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Dr. #p308# in #m10002000# told me that she needs #b1 #t4031073##k for her research. She asked me to find her daughter near #m10001000#, and bring it back to her. Where would #p224# be?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I met Dr. #p308#'s daughter, #p224#, playing near #m10001000# by herself."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 308
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 17
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10407
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 224
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 1104
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10409
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 497
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "These are indeed 20 samples. They are in pretty good shape, too. Thank you for your hard work. This will help me immensely on my studies with the plant fossils. Dr. #p512# must've recommended you for a reason... Well, I have one more favor to ask. Will you help me out?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "To start working on the animal fossils, I'll need samples I can compare with. Looking at these fossils, a #t4031073# seems like the perfect sample for comparison. Can you bring it to me?"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Ah, don't be too shocked. I know Drakes are not to be messed with for most people. I have a #b#t4031073##k that I gathered a few years ago. The problem is, I didn't bring it with me to #m10002000# because I'm here right now for plant fossils. Since I can't leave this place, I'm hoping you can get it for me."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "Around #m10001000#, you'll find my daughter. Ask her for the #b#t4031073##k. Her name is #b#p224##k."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I thought you were going to help me out... oh well, I'll see you around."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Can I... help you?? \\r\\n#L0# #bYour dad asked me to see you.\\r\\n#L1# Your mom asked me to see you.#k"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "My mom sent you here? For what? \\r\\n#L0# #bShe asked me to get a #t4031073# from you.#k\\r\\n#L1# #bShe asked me to get a Crushed Drake Skull from you.#k"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "I know, I have it. I'll have to check and see if you were actually sent by my mom, though. What's her name?\\r\\n#L0# #bBettie#k\\r\\n#L1# #bBatty#k\\r\\n#L2# #b#p308##k"
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "Where did you meet my mom? \\r\\n#L0##b#m10004000##k\\r\\n#L1# #b#m10002000##k\\r\\n#L2# #b#m10003000##k\\r\\n#L3# #b#m10001000##k\\r\\n#L4# #b#m10005000##k"
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "String",
+        "_value": "What's the color of her shoes? \\r\\n#L0# #bBlack#k\\r\\n#L1# #bBlue#k\\r\\n#L2# #bRed#k\\r\\n#L3##b #bYellow#k"
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "String",
+        "_value": "What's the color of the book that my mom is holding? \\r\\n#L0# #bBlack#k\\r\\n#L1# #bBlue#k\\r\\n#L2# #bRed#k\\r\\n#L3# #bGreen#k"
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "String",
+        "_value": "Last question. What's the color of the earrings that my mom is wearing? \\r\\n#L0# #bBlack#k\\r\\n#L1# #bBlue#k\\r\\n#L2# #bRed#k\\r\\n#L3# #bYellow#k"
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "String",
+        "_value": "Oh my goodness, you got them all right! My mom DID send you here."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Hey, I don't have a dad. You CREEP!!!! Who are you???"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "I don't have any crushed Drake's skulls here. Something's not right about you."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Liar! Who are you! HELP!"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "Liar! Who are you! HELP!"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "Liar! Who are you! HELP!"
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "String",
+            "_value": "Liar! Who are you! HELP!"
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Wrong. Are you sure you've met my mom?"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "Wrong. Are you sure you've met my mom?"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "Wrong. Are you sure you've met my mom?"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "You're wrong. A stranger indeed."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

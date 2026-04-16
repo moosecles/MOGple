@@ -1,0 +1,145 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "What Sen wants to eat"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Nina and Sen's Dinner Menu"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Talk to #b#p4##k."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#b#p4##k is wondering what to make her brother, #b#p5##k, for dinner. Go talk to #b#p5##k, who's in the house next to #b#p4##k, and ask him what he wants to eat."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "You asked #b#p5##k, #b#p4##k's brother, what he wants for dinner. He said he wants #bMushroom Soup#k."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 4
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 5
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 1004
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh, a traveler! Nice, right on time... I have a favor to ask. Head towards your right and you'll find a boy."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "That's my little brother, #b#p5##k. Will you please ask him what he wants for dinner?"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Oh, I guess you're very busy. Still, it's not too difficult of a job, so please help if you can."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You didn't talk to #b#p5##k yet? Please, open your eyes!"
+          }
+        }
+      }
+    }
+  }
+}

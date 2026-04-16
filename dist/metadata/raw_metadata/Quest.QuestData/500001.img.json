@@ -1,0 +1,181 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Event] Beyond the Unknown"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 99
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p304# in #m10002000# wants to speak with me again about the #b#i4031080# #t4031080##k found last time."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "As requested by #p304#, let's head to #m10002071# to find the #bstrange cave entrance#k and investigate the surroundings."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I delivered the #b#i4031081# #t4031081##k found at the cave entrance to #p304#."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#questorder1##i4031081:# #t4031081:# #c4031081# / 1"
+    },
+    "rewardSummary": {
+      "_dirName": "rewardSummary",
+      "_dirType": "String",
+      "_value": "#i1112219# #t1112219# x1\\n  (Account Reward)"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 304
+      },
+      "startscript": {
+        "_dirName": "startscript",
+        "_dirType": "String",
+        "_value": "q500001s"
+      },
+      "end": {
+        "_dirName": "end",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "end_t": {
+        "_dirName": "end_t",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "202604211500"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "202604211500"
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 15
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 500000
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 304
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "endscript": {
+        "_dirName": "endscript",
+        "_dirType": "String",
+        "_value": "q500001e"
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031081
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub"
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Have you been to the #bbizarre cave entrance#k in #m10002071# yet?"
+          }
+        }
+      }
+    }
+  }
+}

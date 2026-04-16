@@ -1,0 +1,1701 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "version": {
+      "_dirName": "version",
+      "_dirType": "Int",
+      "_value": 10
+    },
+    "cloud": {
+      "_dirName": "cloud",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "mapDesc": {
+      "_dirName": "mapDesc",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "town": {
+      "_dirName": "town",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "returnMap": {
+      "_dirName": "returnMap",
+      "_dirType": "Int",
+      "_value": 10003000
+    },
+    "mobRate": {
+      "_dirName": "mobRate",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "bgm": {
+      "_dirName": "bgm",
+      "_dirType": "String",
+      "_value": "Bgm03/Subway"
+    },
+    "hideMinimap": {
+      "_dirName": "hideMinimap",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "forcedReturn": {
+      "_dirName": "forcedReturn",
+      "_dirType": "Int",
+      "_value": 999999999
+    },
+    "moveLimit": {
+      "_dirName": "moveLimit",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "VRTop": {
+      "_dirName": "VRTop",
+      "_dirType": "Int",
+      "_value": -300
+    },
+    "VRLeft": {
+      "_dirName": "VRLeft",
+      "_dirType": "Int",
+      "_value": -400
+    },
+    "VRBottom": {
+      "_dirName": "VRBottom",
+      "_dirType": "Int",
+      "_value": 300
+    },
+    "VRRight": {
+      "_dirName": "VRRight",
+      "_dirType": "Int",
+      "_value": 400
+    },
+    "mapMark": {
+      "_dirName": "mapMark",
+      "_dirType": "String",
+      "_value": "KerningCity"
+    },
+    "personalShop": {
+      "_dirName": "personalShop",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "swim": {
+      "_dirName": "swim",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fly": {
+      "_dirName": "fly",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "standAlone": {
+      "_dirName": "standAlone",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "partyStandAlone": {
+      "_dirName": "partyStandAlone",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "quarterView": {
+      "_dirName": "quarterView",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "noMapCmd": {
+      "_dirName": "noMapCmd",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldLimit": {
+      "_dirName": "fieldLimit",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldLimit2": {
+      "_dirName": "fieldLimit2",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldType": {
+      "_dirName": "fieldType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "AmbientBGM": {
+      "_dirName": "AmbientBGM",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "AmbientBGMv": {
+      "_dirName": "AmbientBGMv",
+      "_dirType": "Int",
+      "_value": 100
+    },
+    "MRLeft": {
+      "_dirName": "MRLeft",
+      "_dirType": "Int",
+      "_value": -400
+    },
+    "MRTop": {
+      "_dirName": "MRTop",
+      "_dirType": "Int",
+      "_value": -300
+    },
+    "MRRight": {
+      "_dirName": "MRRight",
+      "_dirType": "Int",
+      "_value": 400
+    },
+    "MRBottom": {
+      "_dirName": "MRBottom",
+      "_dirType": "Int",
+      "_value": 300
+    },
+    "fieldScript": {
+      "_dirName": "fieldScript",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "onFirstUserEnter": {
+      "_dirName": "onFirstUserEnter",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "onUserEnter": {
+      "_dirName": "onUserEnter",
+      "_dirType": "String",
+      "_value": ""
+    }
+  },
+  "back": {
+    "_dirName": "back",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "bS": {
+        "_dirName": "bS",
+        "_dirType": "String",
+        "_value": ""
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "rx": {
+        "_dirName": "rx",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ry": {
+        "_dirName": "ry",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "type": {
+        "_dirName": "type",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "cx": {
+        "_dirName": "cx",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "cy": {
+        "_dirName": "cy",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "a": {
+        "_dirName": "a",
+        "_dirType": "Int",
+        "_value": 255
+      },
+      "front": {
+        "_dirName": "front",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ani": {
+        "_dirName": "ani",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "f": {
+        "_dirName": "f",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "life": {
+    "_dirName": "life",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "type": {
+        "_dirName": "type",
+        "_dirType": "String",
+        "_value": "n"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "String",
+        "_value": "0000417"
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 71
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 187
+      },
+      "mobTime": {
+        "_dirName": "mobTime",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "f": {
+        "_dirName": "f",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "fh": {
+        "_dirName": "fh",
+        "_dirType": "Int",
+        "_value": 16
+      },
+      "cy": {
+        "_dirName": "cy",
+        "_dirType": "Int",
+        "_value": 187
+      },
+      "rx0": {
+        "_dirName": "rx0",
+        "_dirType": "Int",
+        "_value": 21
+      },
+      "rx1": {
+        "_dirName": "rx1",
+        "_dirType": "Int",
+        "_value": 121
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "type": {
+        "_dirName": "type",
+        "_dirType": "String",
+        "_value": "n"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "String",
+        "_value": "0000418"
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 272
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 186
+      },
+      "mobTime": {
+        "_dirName": "mobTime",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "f": {
+        "_dirName": "f",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "fh": {
+        "_dirName": "fh",
+        "_dirType": "Int",
+        "_value": 16
+      },
+      "cy": {
+        "_dirName": "cy",
+        "_dirType": "Int",
+        "_value": 187
+      },
+      "rx0": {
+        "_dirName": "rx0",
+        "_dirType": "Int",
+        "_value": 222
+      },
+      "rx1": {
+        "_dirName": "rx1",
+        "_dirType": "Int",
+        "_value": 322
+      }
+    }
+  },
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "0"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -2
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  },
+  "1": {
+    "_dirName": "1",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "1"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -114
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "6"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": 182
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 157
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 4
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "6"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": 362
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 155
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 5
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "2": {
+    "_dirName": "2",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "3"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -251
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 91
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      }
+    }
+  },
+  "3": {
+    "_dirName": "3",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_shop2"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "shop"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "subwayMC"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "4"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -3
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 4
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "4": {
+    "_dirName": "4",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "5": {
+    "_dirName": "5",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "6": {
+    "_dirName": "6",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "7": {
+    "_dirName": "7",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_mask"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "mask"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "black"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "0"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -5
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        }
+      }
+    }
+  },
+  "reactor": {
+    "_dirName": "reactor",
+    "_dirType": "sub"
+  },
+  "foothold": {
+    "_dirName": "foothold",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -389
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -43
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -280
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -43
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -376
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -73
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -253
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -73
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -347
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -103
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -224
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -103
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -319
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -133
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -196
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -133
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -292
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -163
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -161
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -163
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -161
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -163
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -161
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -296
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -167
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -13
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 175
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -13
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        }
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -394
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -6
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -231
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -6
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -380
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 22
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -208
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 22
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -359
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -187
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -337
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 78
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -165
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 78
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -314
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 106
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -142
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 106
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -293
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 134
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -121
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 134
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -270
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 162
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -98
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 162
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        }
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -399
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -295
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -399
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 187
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -399
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 187
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 389
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 187
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 17
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 389
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 187
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 389
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -296
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        }
+      }
+    }
+  },
+  "ladderRope": {
+    "_dirName": "ladderRope",
+    "_dirType": "sub"
+  },
+  "portal": {
+    "_dirName": "portal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "sp"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": -250
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": -180
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 999999999
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": ""
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "out01"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 287
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 186
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 999999999
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": ""
+      },
+      "horizontalImpact": {
+        "_dirName": "horizontalImpact",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "out00"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": -212
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": -165
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 10003000
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": "sub00"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "in00"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 187
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 185
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 10003061
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": "out00"
+      }
+    }
+  }
+}

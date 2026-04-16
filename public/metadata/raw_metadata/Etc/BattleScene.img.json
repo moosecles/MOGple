@@ -1,0 +1,84 @@
+{
+  "9400080": {
+    "_dirName": "9400080",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "착지공격 event 설정"
+      },
+      "actionType": {
+        "_dirName": "actionType",
+        "_dirType": "String",
+        "_value": "ATTACK"
+      },
+      "actionIndex": {
+        "_dirName": "actionIndex",
+        "_dirType": "Short",
+        "_value": 6
+      },
+      "scriptHeader": {
+        "_dirName": "scriptHeader",
+        "_dirType": "String",
+        "_value": "Attack1"
+      },
+      "triggerEventName": {
+        "_dirName": "triggerEventName",
+        "_dirType": "String",
+        "_value": "trigger1"
+      },
+      "maxStep": {
+        "_dirName": "maxStep",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "fixDamR": {
+        "_dirName": "fixDamR",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "발톱공격 event 설정"
+      },
+      "actionType": {
+        "_dirName": "actionType",
+        "_dirType": "String",
+        "_value": "ATTACK"
+      },
+      "actionIndex": {
+        "_dirName": "actionIndex",
+        "_dirType": "Short",
+        "_value": 8
+      },
+      "scriptHeader": {
+        "_dirName": "scriptHeader",
+        "_dirType": "String",
+        "_value": "Attack2"
+      },
+      "triggerEventName": {
+        "_dirName": "triggerEventName",
+        "_dirType": "String",
+        "_value": "trigger2"
+      },
+      "maxStep": {
+        "_dirName": "maxStep",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "fixDamR": {
+        "_dirName": "fixDamR",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    }
+  }
+}

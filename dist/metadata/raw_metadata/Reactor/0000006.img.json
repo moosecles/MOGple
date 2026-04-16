@@ -1,0 +1,355 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "String",
+      "_value": "coconut"
+    }
+  },
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 12,
+        "_y": 17
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Reactor/_Canvas/0000006.img/0/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 17
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/0/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 19
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/0/hit/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 16,
+          "_y": 18
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/0/hit/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 19
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/0/hit/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "uol",
+        "_value": "../0"
+      }
+    }
+  },
+  "1": {
+    "_dirName": "1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "uol",
+      "_value": "../0/0"
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "uol",
+      "_value": "../0/hit"
+    }
+  },
+  "2": {
+    "_dirName": "2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "uol",
+      "_value": "../0/0"
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 33,
+          "_y": 23
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/2/hit/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 29,
+          "_y": 20
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/2/hit/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000006.img/2/hit/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "3": {
+    "_dirName": "3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "action": {
+    "_dirName": "action",
+    "_dirType": "String",
+    "_value": "coconut1"
+  }
+}

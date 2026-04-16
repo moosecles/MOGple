@@ -1,0 +1,331 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "I Need Help on My Homework!"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "I Need Help on My Homework!"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 13
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Whenever I walk past #p309# in #m10002000#, he seems to be asking for help. I wonder why..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p309# of #m10002000# seems to have a general disdain for humans. Definitely not the kind of attitude I expect from someone in need of help. He asked me if I can get him #b10 #t4000011#s, 10 #t4000006#s, and 3 #t4000007#s#k. He needs them so he can make a potion for his homework."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I helped #p309# of #m10002000# with his homework. I have no idea how that potion works, though."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000011# #t4000011# #c4000011# / 10\\n#i4000006# #t4000006# #c4000006# / 10\\n#i4000007# #t4000007# #c4000007# / 3"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 309
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 309
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 292
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -3
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2000003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2030002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey there, human! Do you have any time on your hands? If not, then oh well... I have something to ask you... well, not really ask, but I have a favor to ask. Are you interested...?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "There's this teacher in my Magic School that scares the daylights out of everyone. I mean, he's as scary as they come. Anyway, he gave us homework to make a potion, but I'm swamped with so much homework from other classes that I don't know if I can do it."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "I need #b10 #t4000011#s, 10 #t4000006#s, and 3 #t4000007#s.#k Please get me those immediately!"
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "What's the potion going to be used for? That's none of your business. Know this, though. If you get me the ingredients, I will reward you well for your effort. I can't stand owing anything to a human."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Fine, I don't care! I can always find someone else!"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh you got them all! I need to make this potion fast and get on with my other homework. I think I can finish my homework thanks to you. Here are some potions and scrolls I made earlier. I don't need them, so you should take them."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I don't need you now, so please leave!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I don't think you've gathered them all up. Hurry up, I don't have much time. I have to start memorizing spells after I'm done with the potion homework!"
+          }
+        }
+      }
+    }
+  }
+}

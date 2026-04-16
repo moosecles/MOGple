@@ -14,8 +14,8 @@ import SkillBuilder from './SkillBuilder'
 import BestSkillPanel from './BestSkillPanel'
 
 // ─── Free-type number input that commits on blur/Enter ──────────────────────
-function StatInput({ value, min, max, onCommit }: {
-  value: number; min: number; max: number; onCommit: (v: number) => void
+function StatInput({ value, min, max, onCommit, className }: {
+  value: number; min: number; max: number; onCommit: (v: number) => void; className?: string
 }) {
   const [str, setStr] = useState(String(value))
   const [focused, setFocused] = useState(false)
@@ -41,7 +41,7 @@ function StatInput({ value, min, max, onCommit }: {
       onFocus={() => { setFocused(true); setStr(String(value)) }}
       onBlur={commit}
       onKeyDown={e => { if (e.key === 'Enter') commit() }}
-      className="flex-1 bg-[#1A1E2A] border border-[rgba(255,255,255,0.08)] rounded px-1 py-1.5 text-sm text-[#E8E6E1] text-center outline-none min-w-0 focus:border-[rgba(232,145,58,0.4)]"
+      className={className ?? "flex-1 bg-[#1A1E2A] border border-[rgba(255,255,255,0.08)] rounded px-1 py-1.5 text-sm text-[#E8E6E1] text-center outline-none min-w-0 focus:border-[rgba(232,145,58,0.4)]"}
     />
   )
 }
@@ -152,8 +152,7 @@ export default function CharacterBuilder({ data, char, setChar }: CharacterBuild
   function getStatMin(stat: keyof CharStats): number {
     if (stat === 'HP') return 1
     if (stat === 'MP') return 1
-    const def = CLASS_DEFS.find(c => c.name === char.className)!
-    return (def.baseStats[stat] as number | undefined) ?? 4
+    return 4  // absolute minimum for all stats regardless of class
   }
 
   function setStat(stat: keyof CharStats, value: number) {
@@ -231,11 +230,10 @@ export default function CharacterBuilder({ data, char, setChar }: CharacterBuild
             <label className="text-[10px] uppercase tracking-widest text-[#5C5B57] block mb-1">
               Level <span className="text-[#3C3C3A]">(max {MAX_LEVEL})</span>
             </label>
-            <input
-              type="number"
-              min={1} max={MAX_LEVEL}
+            <StatInput
               value={char.level}
-              onChange={e => update({ level: Math.max(1, Math.min(MAX_LEVEL, parseInt(e.target.value) || 1)) })}
+              min={1} max={MAX_LEVEL}
+              onCommit={v => update({ level: v })}
               className="w-full bg-[#1A1E2A] border border-[rgba(255,255,255,0.08)] rounded-lg px-3 py-1.5 text-sm text-[#E8E6E1] outline-none focus:border-[rgba(232,145,58,0.4)]"
             />
           </div>

@@ -1,0 +1,224 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Mai's Final Training"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Mai's Training"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#b#p11##k’s training is just about defeating monsters, but it seems really useful for learning how to hunt. Let’s continue with #p11#’s training."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#b#p11##k believes that while knowing your abilities is important, defeating stronger monsters is also great training to improve them. They asked you to defeat #r#o9##k. \n#r#o9##k...? It sounds really strong. Do you think you can defeat it?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "After #b#p11##k's training, you feel much, much stronger. Time to get off Maple Island! Go to #b#m60##k and take the boat to Victoria Island."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o9# #a10101#"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1009
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 150
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2010002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Wow, you're fast! That's awesome. We'll head straight to the next quest. It's important to know your limits, but it's also important to test your abilities. Want to try defeating some powerful monsters?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "This time, you'll be hunting #r#o9##k, which you WON'T find just casually wandering around. You'll have to go into every portal to find them. I want you to defeat #r1#k! "
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Also, I've heard that #b#p12##k is collecting something from the #r#o9#s#k... If you haven't filled #b#p12##k's request yet, you might want to try doing so while you train."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "If it seems too difficult for you, come back after training against easier monsters. "
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "So you've taken care of the #r#o9##k? Weren't they hard to find? Let's see how strong you have become..."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Great job! You're now strong enough to hold your own against any monster here. You'll have to start making job decisions once you reach level 10. If you haven’t met #p19# from #m1010# yet, you should go see her. She’ll give you a lot of information while presenting you with various challenges. If we meet again someday, let’s catch up. Goodbye!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I don't think you're quite done yet. Press Q to check the quest."
+          }
+        }
+      }
+    }
+  }
+}

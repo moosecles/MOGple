@@ -1,0 +1,240 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Forest of Patience] Sabitrama's Anti-Aging Medicine"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "[Forest of Patience] Sabitrama and the Mysterious Medicine"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 16
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard that #p603# in #m10005000# is making a new medicine..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into #b#p603##k again in front of the #m10005001#, the same one I helped get herbs before. This time, he said he found a place where I can get an important herb that he needed for his new medicine. He asked me if I could go into that forest and grab #b#t4031026##k for him. It was a reddish root split in two... I should remember it well and find the same one once I get to the top. The herb is in the forest owned by #b#p306##k of #m10002000#, whom I visited last time..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "Thankfully I got the herb that #p603# asked me to get, and for that, I got rewarded with a mysterious rock. And from here on out, I don't have to pay #p306# every time I go in the Forest of Patience. From what I hear, that anti-aging medicine #p603# is working on may be what #p306# needed... if I have time, I should go back in there..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031026:# #t4031026:# #c4031026# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 603
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 25
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10509
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 603
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031026
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2587
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 731
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031026
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020109
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhh, you're the traveler that helped me out a lot the other day! I made the diet medicine with the herbs you got me and made some money... and this time, I'd like to make a different kind of a medicine. What do you think? Do you want to help me out one more time?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you. The place where you can find the mysterious herb is actually the place you've been to before, #m10002000#. I heard someone's accepting an entrance fee at the entrance... you have the mesos to go in, right? This time you'll be going in much deeper than before so be prepared..."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Yes! I'll explain to you about the herb you'll be getting for me. There are similar herbs around so make sure you remember this. The herb you'll need to get is #b#t4031026##k, and the root looks like this #i4031026#. Look carefully and please get the same one as I described for you."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Really. You look like you can just breeze through there... please come back here when you have time. I'll be waiting for you."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhh... this is IT! With #b#t4031026##k, I can finally make the anti-aging medicine!!! Hahaha, if you ever become old and weak, find me. By then I may have a special medicine for just that!"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh, I almost forgot. Since you helped me out, I should thank you for your hard work... #b#t4020109##k is something I found at the very bottom of a valley a long time ago in the middle of a journey. It'll probably help you down the road. I also increased your fame, and from here on out, #p306# may let you in for free. Well, so long..."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven't gotten the herb yet. The herb you need to get is #b#t4031026##k. The roots should look like this #i4031026#. Remember it and get it from #p306# in #m10002000#."
+          }
+        }
+      }
+    }
+  }
+}

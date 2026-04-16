@@ -28,3 +28,33 @@
     background: rgba(255, 255, 255, 0.2);
   }
 }
+
+/* ── Accessibility: Large Text ────────────────────────────────────────────────
+   Boosts the smallest text sizes used throughout the UI.
+   Specificity (0,2,0) beats Tailwind's single-class utilities (0,1,0).          */
+.a11y-large .text-\[9px\]  { font-size: 11px; line-height: 1.4; }
+.a11y-large .text-\[10px\] { font-size: 12px; line-height: 1.5; }
+.a11y-large .text-\[11px\] { font-size: 13px; line-height: 1.5; }
+.a11y-large .text-xs       { font-size: 14px; line-height: 1.5rem; }
+.a11y-large .text-sm       { font-size: 16px; }
+.a11y-large .text-base     { font-size: 18px; }
+
+/* ── Accessibility: Extra-Large Text ─────────────────────────────────────── */
+.a11y-xl .text-\[9px\]  { font-size: 12px; line-height: 1.5; }
+.a11y-xl .text-\[10px\] { font-size: 13px; line-height: 1.5; }
+.a11y-xl .text-\[11px\] { font-size: 14px; line-height: 1.5; }
+.a11y-xl .text-xs       { font-size: 16px; line-height: 1.6rem; }
+.a11y-xl .text-sm       { font-size: 18px; }
+.a11y-xl .text-base     { font-size: 20px; }
+
+/* ── Accessibility: High Contrast ────────────────────────────────────────────
+   Brightens muted grey text so it passes WCAG AA contrast on #0C0E14.          */
+.a11y-hc .text-\[\#5C5B57\]  { color: #B0AEA8; }
+.a11y-hc .text-\[\#8B8A85\]  { color: #D0CEC9; }
+.a11y-hc .text-\[\#3C3C3A\]  { color: #999896; }
+.a11y-hc .text-\[\#4A4A48\]  { color: #A0A09C; }
+/* Slightly increase border visibility */
+.a11y-hc .border-\[rgba\(255\,255\,255\,0\.06\)\] { border-color: rgba(255,255,255,0.14); }
+.a11y-hc .border-\[rgba\(255\,255\,255\,0\.05\)\] { border-color: rgba(255,255,255,0.12); }
+.a11y-hc .border-\[rgba\(255\,255\,255\,0\.04\)\] { border-color: rgba(255,255,255,0.10); }
+.a11y-hc .border-\[rgba\(255\,255\,255\,0\.08\)\] { border-color: rgba(255,255,255,0.20); }

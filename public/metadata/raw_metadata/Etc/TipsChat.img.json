@@ -1,0 +1,215 @@
+{
+  "help": {
+    "_dirName": "help",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "-------------------- Help --------------------"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "* Type /commands in chat window to see a list of commands."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "* Click the menu on the left side of the chat window, or press the Tab key to change the chat channel."
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "String",
+      "_value": "* You can configure the chat window to be displayed within or outside of the game screen using either the Settings/Option menu, or the button located on the right side of the chat window."
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "String",
+      "_value": "* The pop-out chat window function is only supported in windowed mode."
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "String",
+      "_value": "* You can right-click the chat window tab to set a filter."
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "String",
+      "_value": "* Use the Speech Bubble button in the Chat window to select who you want to send a whisper to."
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "String",
+      "_value": "* Use the Link button in the Chat window to chat about your obtained items or earned achievements."
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "String",
+      "_value": "* Click the chat command in the chat window to open either the chat emoticon UI or the chat shortcut UI."
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "String",
+      "_value": "* Use Maple Chat to create a chat room, in which you can chat with up to 5 other players."
+    }
+  },
+  "command": {
+    "_dirName": "command",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "-------------------- Commands --------------------"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "/all /say /s /local"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": ": Sends a message to players nearby."
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "String",
+      "_value": "/whisper /w /t"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "String",
+      "_value": ": Selects a whisper partner. If a character name is specified, sends a whisper to that character."
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "String",
+      "_value": "/reply /r"
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "String",
+      "_value": ": Sends a whisper to a recent partner."
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "String",
+      "_value": "/party /p"
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "String",
+      "_value": ": Sends a message to your party members."
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "String",
+      "_value": "/makeparty"
+    },
+    "10": {
+      "_dirName": "10",
+      "_dirType": "String",
+      "_value": ": Creates a new party."
+    },
+    "11": {
+      "_dirName": "11",
+      "_dirType": "String",
+      "_value": "/leaveparty"
+    },
+    "12": {
+      "_dirName": "12",
+      "_dirType": "String",
+      "_value": ": Leaves the current party."
+    },
+    "13": {
+      "_dirName": "13",
+      "_dirType": "String",
+      "_value": "/partyinvite /invite"
+    },
+    "14": {
+      "_dirName": "14",
+      "_dirType": "String",
+      "_value": ": Display a list of your current parties and characters to invite to a party. If entered with a character name, invites that character to the party. (Party leader only.)"
+    },
+    "15": {
+      "_dirName": "15",
+      "_dirType": "String",
+      "_value": "/partyexpel character name"
+    },
+    "16": {
+      "_dirName": "16",
+      "_dirType": "String",
+      "_value": ": Kicks the specified party member out of the party. (Party leader only.)"
+    },
+    "17": {
+      "_dirName": "17",
+      "_dirType": "String",
+      "_value": "/guild /g"
+    },
+    "18": {
+      "_dirName": "18",
+      "_dirType": "String",
+      "_value": ": Sends a message to your guild."
+    },
+    "19": {
+      "_dirName": "19",
+      "_dirType": "String",
+      "_value": "/guildinvite character name"
+    },
+    "20": {
+      "_dirName": "20",
+      "_dirType": "String",
+      "_value": ": Invites the specified character to your guild. (Guild masters only.)"
+    },
+    "21": {
+      "_dirName": "21",
+      "_dirType": "String",
+      "_value": "/alliance /a /ally / allies"
+    },
+    "22": {
+      "_dirName": "22",
+      "_dirType": "String",
+      "_value": ": Sends a message to your Alliance."
+    },
+    "23": {
+      "_dirName": "23",
+      "_dirType": "String",
+      "_value": "/buddy /b /friend /f"
+    },
+    "24": {
+      "_dirName": "24",
+      "_dirType": "String",
+      "_value": ": Sends a buddy chat message."
+    },
+    "25": {
+      "_dirName": "25",
+      "_dirType": "String",
+      "_value": "/group /gr"
+    },
+    "26": {
+      "_dirName": "26",
+      "_dirType": "String",
+      "_value": ": Select a group you'd like to chat with. If a group name is specified, sends a message to online members of that group."
+    },
+    "27": {
+      "_dirName": "27",
+      "_dirType": "String",
+      "_value": "/mchat /chat /c"
+    },
+    "28": {
+      "_dirName": "28",
+      "_dirType": "String",
+      "_value": ": Enters Maple Chat. If a character name is specified, they will be invited to the Maple Chat. Up to 5 names can be entered."
+    },
+    "29": {
+      "_dirName": "29",
+      "_dirType": "String",
+      "_value": "/help /?"
+    },
+    "30": {
+      "_dirName": "30",
+      "_dirType": "String",
+      "_value": ": Displays chat help."
+    }
+  }
+}

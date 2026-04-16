@@ -1,0 +1,436 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "allCountMob": {
+      "_dirName": "allCountMob",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "Int",
+        "_value": 9833265
+      }
+    },
+    "skipNpcSayOnQuestFail": {
+      "_dirName": "skipNpcSayOnQuestFail",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "Int",
+        "_value": 16751
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "Int",
+        "_value": 16752
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "Int",
+        "_value": 16753
+      }
+    }
+  },
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "redLeft"
+      },
+      "endPhase": {
+        "_dirName": "endPhase",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "openUI": {
+        "_dirName": "openUI",
+        "_dirType": "Int",
+        "_value": 274
+      },
+      "recordQuest": {
+        "_dirName": "recordQuest",
+        "_dirType": "Int",
+        "_value": 16747
+      },
+      "checkQuest": {
+        "_dirName": "checkQuest",
+        "_dirType": "Int",
+        "_value": 16751
+      },
+      "endDay": {
+        "_dirName": "endDay",
+        "_dirType": "String",
+        "_value": "2019/05/22 23:59:00"
+      },
+      "rewardPhase": {
+        "_dirName": "rewardPhase",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "stack": {
+        "_dirName": "stack",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "checkMobID": {
+        "_dirName": "checkMobID",
+        "_dirType": "Int",
+        "_value": 9833262
+      },
+      "checkMobQuest": {
+        "_dirName": "checkMobQuest",
+        "_dirType": "Int",
+        "_value": 16747
+      },
+      "notice": {
+        "_dirName": "notice",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You have a Revolutionary Steak reward that hasn't been claimed yet. Please claim all rewards."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "You defeated all the Revolutionary Steak you can for today."
+        }
+      }
+    },
+    "Phase": {
+      "_dirName": "Phase",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "click": {
+          "_dirName": "click",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "sub",
+        "noMoreToday": {
+          "_dirName": "noMoreToday",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  },
+  "1": {
+    "_dirName": "1",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "redCenter"
+      },
+      "endPhase": {
+        "_dirName": "endPhase",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "openUI": {
+        "_dirName": "openUI",
+        "_dirType": "Int",
+        "_value": 274
+      },
+      "recordQuest": {
+        "_dirName": "recordQuest",
+        "_dirType": "Int",
+        "_value": 16748
+      },
+      "checkQuest": {
+        "_dirName": "checkQuest",
+        "_dirType": "Int",
+        "_value": 16752
+      },
+      "endDay": {
+        "_dirName": "endDay",
+        "_dirType": "String",
+        "_value": "2019/05/22 23:59:00"
+      },
+      "rewardPhase": {
+        "_dirName": "rewardPhase",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "stack": {
+        "_dirName": "stack",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "checkMobID": {
+        "_dirName": "checkMobID",
+        "_dirType": "Int",
+        "_value": 9833263
+      },
+      "checkMobQuest": {
+        "_dirName": "checkMobQuest",
+        "_dirType": "Int",
+        "_value": 16748
+      },
+      "notice": {
+        "_dirName": "notice",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You have an Exquisite Sushi reward that hasn't been claimed yet. Please claim all rewards."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "You defeated all the Exquisite Sushi you can for today."
+        }
+      }
+    },
+    "Phase": {
+      "_dirName": "Phase",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "click": {
+          "_dirName": "click",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "sub",
+        "noMoreToday": {
+          "_dirName": "noMoreToday",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  },
+  "2": {
+    "_dirName": "2",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "redRight"
+      },
+      "endPhase": {
+        "_dirName": "endPhase",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "openUI": {
+        "_dirName": "openUI",
+        "_dirType": "Int",
+        "_value": 274
+      },
+      "recordQuest": {
+        "_dirName": "recordQuest",
+        "_dirType": "Int",
+        "_value": 16749
+      },
+      "checkQuest": {
+        "_dirName": "checkQuest",
+        "_dirType": "Int",
+        "_value": 16753
+      },
+      "endDay": {
+        "_dirName": "endDay",
+        "_dirType": "String",
+        "_value": "2019/05/22 23:59:00"
+      },
+      "rewardPhase": {
+        "_dirName": "rewardPhase",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "stack": {
+        "_dirName": "stack",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "checkMobID": {
+        "_dirName": "checkMobID",
+        "_dirType": "Int",
+        "_value": 9833264
+      },
+      "checkMobQuest": {
+        "_dirName": "checkMobQuest",
+        "_dirType": "Int",
+        "_value": 16749
+      },
+      "notice": {
+        "_dirName": "notice",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You have a Delightful Dimsum reward that hasn't been claimed yet. Please claim all rewards."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "You defeated all Delightful Dimsum you can for today."
+        }
+      }
+    },
+    "Phase": {
+      "_dirName": "Phase",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "click": {
+          "_dirName": "click",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "sub",
+        "noMoreToday": {
+          "_dirName": "noMoreToday",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  }
+}

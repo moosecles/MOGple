@@ -1,0 +1,334 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Event] Gathering Leaves "
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 99
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "The #b#p9010000##k in #b#m10001000##k has something to say regarding the #bmysterious letters#k dropping from monsters lately."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I need to collect the #bmysterious letters#k dropped by #bmonsters Lv. 10 and above such as Ribbon Pig, Dark Stump, Octopus and Green Mushroom.#k.\\n#b#p9010000##k in #b#m10001000##k will exchange them for a helpful gift for my adventure..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I collected all the #bmysterious letters#k and exchanged them for a gift today.\\nLet's visit #b#p9010000##k in #m10001000##k again tomorrow."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#questorder1##i3994000:# #t3994000:# #c3994000# / 1\r\n#questorder1##i3994001:# #t3994001:# #c3994000# / 1\r\n#questorder1##i3994002:# #t3994002:# #c3994002# / 1\r\n#questorder1##i3994003:# #t3994003:# #c3994003# / 1\r\n#questorder1##i3994004:# #t3994004:# #c3994004# / 1\r\n#questorder1##i3994005:# #t3994005:# #c3994005# / 1\r\n#questorder1##i3994006:# #t3994006:# #c3994006# / 1\r\n#questorder1##i3994007:# #t3994007:# #c3994007# / 1\r\n#questorder1##i3994008:# #t3994008:# #c3994008# / 1\r\n#questorder1##i3994009:# #t3994009:# #c3994009# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 9010000
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "startscript": {
+        "_dirName": "startscript",
+        "_dirType": "String",
+        "_value": "q500005s"
+      },
+      "end": {
+        "_dirName": "end",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "end_t": {
+        "_dirName": "end_t",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "202604140000"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "202604140000"
+      },
+      "dayByDay": {
+        "_dirName": "dayByDay",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 9010000
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "endscript": {
+        "_dirName": "endscript",
+        "_dirType": "String",
+        "_value": "q500005e"
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994007
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3994009
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub"
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you haven't collected all the #i3994000##i3994001##i3994002##i3994003##i3994004##i3994005##i3994006##i3994007##i3994008##i3994009# yet.\\nTry hunting #bmonsters Lv. 10 and above such as Ribbon Pig, Dark Stump, Octopus and Green Mushroom#k to find the letters."
+          }
+        }
+      }
+    }
+  }
+}

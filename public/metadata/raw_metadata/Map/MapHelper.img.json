@@ -1,0 +1,5941 @@
+{
+  "weather": {
+    "_dirName": "weather",
+    "_dirType": "sub",
+    "snow": {
+      "_dirName": "snow",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 15,
+          "_y": 15
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/snow/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "cloud": {
+      "_dirName": "cloud",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 165,
+          "_y": 87
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 166,
+          "_y": 70
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 96
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 198,
+          "_y": 91
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 140,
+          "_y": 51
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 39,
+          "_y": 9
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 42,
+          "_y": -2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/cloud/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "flower": {
+      "_dirName": "flower",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 16,
+          "_y": 16
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flower/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "soap": {
+      "_dirName": "soap",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 14
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/soap/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "snowCrystal": {
+      "_dirName": "snowCrystal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 14
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/snowCrystal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "present": {
+      "_dirName": "present",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 14
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 14
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/present/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "noresize": {
+        "_dirName": "noresize",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "chocolate": {
+      "_dirName": "chocolate",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/chocolate/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 12
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/chocolate/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 12
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/chocolate/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/chocolate/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 12
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/chocolate/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "noresize": {
+        "_dirName": "noresize",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "flowerage": {
+      "_dirName": "flowerage",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 4,
+          "_y": 4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/8"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/9"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/flowerage/10"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "noresize": {
+        "_dirName": "noresize",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "count": {
+        "_dirName": "count",
+        "_dirType": "Int",
+        "_value": 300
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "candy": {
+      "_dirName": "candy",
+      "_dirType": "sub",
+      "noresize": {
+        "_dirName": "noresize",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 19,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 24,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 24,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 24,
+          "_y": 13
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 7
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 7
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 7
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/candy/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "maple": {
+      "_dirName": "maple",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 11
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/maple/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/maple/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/maple/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 7
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/weather/maple/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "squib": {
+      "_dirName": "squib",
+      "_dirType": "sub",
+      "squib0": {
+        "_dirName": "squib0",
+        "_dirType": "sub",
+        "noresize": {
+          "_dirName": "noresize",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 12
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 41,
+            "_y": 38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 46,
+            "_y": 48
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 58,
+            "_y": 42
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 66,
+            "_y": 42
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 66,
+            "_y": 46
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 63,
+            "_y": 48
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 64,
+            "_y": 48
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 68,
+            "_y": 40
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib0/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "squib1": {
+        "_dirName": "squib1",
+        "_dirType": "sub",
+        "noresize": {
+          "_dirName": "noresize",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 6,
+            "_y": 6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": 11
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 43,
+            "_y": 38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 48,
+            "_y": 47
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 52,
+            "_y": 42
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 59,
+            "_y": 43
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 65,
+            "_y": 47
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 47
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 44
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 35
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib1/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "squib2": {
+        "_dirName": "squib2",
+        "_dirType": "sub",
+        "noresize": {
+          "_dirName": "noresize",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 8,
+            "_y": 8
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 30,
+            "_y": 30
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 34,
+            "_y": 37
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 44,
+            "_y": 35
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 48,
+            "_y": 35
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 37
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 48,
+            "_y": 39
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 49,
+            "_y": 40
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 52,
+            "_y": 35
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib2/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "squib3": {
+        "_dirName": "squib3",
+        "_dirType": "sub",
+        "noresize": {
+          "_dirName": "noresize",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 9
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 31
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 38,
+            "_y": 37
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 41,
+            "_y": 29
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 45,
+            "_y": 31
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 31
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 54,
+            "_y": 34
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 53,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 53,
+            "_y": 26
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib3/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "squib4": {
+        "_dirName": "squib4",
+        "_dirType": "sub",
+        "noresize": {
+          "_dirName": "noresize",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 5,
+            "_y": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 9,
+            "_y": 8
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 30,
+            "_y": 29
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 34,
+            "_y": 37
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 45,
+            "_y": 29
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 27
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 27
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 50,
+            "_y": 27
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 49,
+            "_y": 19
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Map/_Canvas/MapHelper.img/weather/squib/squib4/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "random": {
+        "_dirName": "random",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "portal": {
+    "_dirName": "portal",
+    "_dirType": "sub",
+    "editor": {
+      "_dirName": "editor",
+      "_dirType": "sub",
+      "sp": {
+        "_dirName": "sp",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 38,
+          "_y": 100
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/sp"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pi": {
+        "_dirName": "pi",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 100
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pi"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pv": {
+        "_dirName": "pv",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 49,
+          "_y": 134
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pv"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pc": {
+        "_dirName": "pc",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pc"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pg": {
+        "_dirName": "pg",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 43,
+          "_y": 173
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pv"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "tp": {
+        "_dirName": "tp",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 44,
+          "_y": 112
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/tp"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ps": {
+        "_dirName": "ps",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 44,
+          "_y": 112
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/ps"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pgi": {
+        "_dirName": "pgi",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 100
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pi"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "psi": {
+        "_dirName": "psi",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 100
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pi"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pcs": {
+        "_dirName": "pcs",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pc"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "ph": {
+        "_dirName": "ph",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 108
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/ph"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "psh": {
+        "_dirName": "psh",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 108
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/ph"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pcj": {
+        "_dirName": "pcj",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pcj"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pci": {
+        "_dirName": "pci",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pci"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pci2": {
+        "_dirName": "pci2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pci2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pcig": {
+        "_dirName": "pcig",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pcig"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pshg": {
+        "_dirName": "pshg",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 100
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pshg"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "pcc": {
+        "_dirName": "pcc",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 50,
+          "_y": 50
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/portal/editor/pc"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "game": {
+      "_dirName": "game",
+      "_dirType": "sub",
+      "pv": {
+        "_dirName": "pv",
+        "_dirType": "sub",
+        "default": {
+          "_dirName": "default",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 43,
+              "_y": 173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 43,
+              "_y": 173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 44,
+              "_y": 193
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 43,
+              "_y": 193
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 42,
+              "_y": 209
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 42,
+              "_y": 209
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 41,
+              "_y": 248
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 42,
+              "_y": 246
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/default/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 145
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 144
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 143
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 143
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 145
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/4"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 143
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 143
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 35,
+              "_y": 144
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Map/_Canvas/MapHelper.img/portal/game/pv/1/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "ph": {
+        "_dirName": "ph",
+        "_dirType": "sub",
+        "default": {
+          "_dirName": "default",
+          "_dirType": "sub",
+          "portalStart": {
+            "_dirName": "portalStart",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 45,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 47,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 47,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "portalContinue": {
+            "_dirName": "portalContinue",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 115
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 61,
+                "_y": 118
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 62,
+                "_y": 119
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 61,
+                "_y": 118
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/4"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 55,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/5"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "6": {
+              "_dirName": "6",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 50,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/6"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "portalExit": {
+            "_dirName": "portalExit",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 115
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          }
+        }
+      },
+      "psh": {
+        "_dirName": "psh",
+        "_dirType": "sub",
+        "default": {
+          "_dirName": "default",
+          "_dirType": "sub",
+          "portalStart": {
+            "_dirName": "portalStart",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 45,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 47,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 47,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalStart/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "portalContinue": {
+            "_dirName": "portalContinue",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 115
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 61,
+                "_y": 118
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 62,
+                "_y": 119
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 61,
+                "_y": 118
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/4"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 55,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/5"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "6": {
+              "_dirName": "6",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 50,
+                "_y": 117
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalContinue/6"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "portalExit": {
+            "_dirName": "portalExit",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 115
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 44,
+                "_y": 116
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Map/_Canvas/MapHelper.img/portal/game/ph/default/portalExit/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "mark": {
+    "_dirName": "mark",
+    "_dirType": "sub",
+    "Henesys": {
+      "_dirName": "Henesys",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Henesys"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Ellinia": {
+      "_dirName": "Ellinia",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Ellinia"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Perion": {
+      "_dirName": "Perion",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Perion"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "KerningCity": {
+      "_dirName": "KerningCity",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/KerningCity"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Rith": {
+      "_dirName": "Rith",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Rith"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Dungeon": {
+      "_dirName": "Dungeon",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Dungeon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Amherst": {
+      "_dirName": "Amherst",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Amherst"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "SouthPerry": {
+      "_dirName": "SouthPerry",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/SouthPerry"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "MushroomVillage": {
+      "_dirName": "MushroomVillage",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/MushroomVillage"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "PcZone": {
+      "_dirName": "PcZone",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/PcZone"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "TestServer": {
+      "_dirName": "TestServer",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/TestServer"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Orbis": {
+      "_dirName": "Orbis",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Orbis"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "ElNath": {
+      "_dirName": "ElNath",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/ElNath"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "ElNathDungeon": {
+      "_dirName": "ElNathDungeon",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/ElNathDungeon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Ludibrium": {
+      "_dirName": "Ludibrium",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Ludibrium"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "LudiTower1": {
+      "_dirName": "LudiTower1",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/LudiTower1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "OmegaSector": {
+      "_dirName": "OmegaSector",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/OmegaSector"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Event": {
+      "_dirName": "Event",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/Event"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "ForgottenHollow": {
+      "_dirName": "ForgottenHollow",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/mark/ForgottenHollow"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "worldMap": {
+    "_dirName": "worldMap",
+    "_dirType": "sub",
+    "mapImage": {
+      "_dirName": "mapImage",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 6
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/mapImage/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 3,
+          "_y": 3
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/mapImage/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 6
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/mapImage/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "curPos": {
+      "_dirName": "curPos",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 27
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/curPos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 27
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/curPos/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 27
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/curPos/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 27
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/curPos/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "partyPos": {
+      "_dirName": "partyPos",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 23
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/partyPos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 22
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/partyPos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 21
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/partyPos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 20
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/partyPos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "lovePos": {
+      "_dirName": "lovePos",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 29
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/lovePos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 28
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/lovePos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 27
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/lovePos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 7,
+          "_y": 26
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 180
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/lovePos/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "npcPos0": {
+      "_dirName": "npcPos0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 8
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 12
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 12
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos0/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "npcPos1": {
+      "_dirName": "npcPos1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 8
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 6
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos1/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "npcPos2": {
+      "_dirName": "npcPos2",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 8
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 12
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 13
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 12
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos2/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "npcPos3": {
+      "_dirName": "npcPos3",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 5,
+          "_y": 5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 10,
+          "_y": 10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 9,
+          "_y": 9
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 8,
+          "_y": 8
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 6
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 20
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/worldMap/npcPos3/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "minimap": {
+    "_dirName": "minimap",
+    "_dirType": "sub",
+    "user": {
+      "_dirName": "user",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 6,
+        "_y": 6
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/user"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "another": {
+      "_dirName": "another",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 5,
+        "_y": 5
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/another"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "friend": {
+      "_dirName": "friend",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 5,
+        "_y": 5
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/friend"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "guild": {
+      "_dirName": "guild",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/guild"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "guildmaster": {
+      "_dirName": "guildmaster",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/guildmaster"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "match": {
+      "_dirName": "match",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/match"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "party": {
+      "_dirName": "party",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/party"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "partymaster": {
+      "_dirName": "partymaster",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/partymaster"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "usertrader": {
+      "_dirName": "usertrader",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/usertrader"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "anothertrader": {
+      "_dirName": "anothertrader",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/anothertrader"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "npc": {
+      "_dirName": "npc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/npc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "eventnpc": {
+      "_dirName": "eventnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/eventnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "startnpc": {
+      "_dirName": "startnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/startnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "startnpc2": {
+      "_dirName": "startnpc2",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/startnpc2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "endnpc": {
+      "_dirName": "endnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/endnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "starteventnpc": {
+      "_dirName": "starteventnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/starteventnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "starteventnpc2": {
+      "_dirName": "starteventnpc2",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/starteventnpc2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "endeventnpc": {
+      "_dirName": "endeventnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/endeventnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "shop": {
+      "_dirName": "shop",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/shop"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "trunk": {
+      "_dirName": "trunk",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/trunk"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "transport": {
+      "_dirName": "transport",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/transport"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "portal": {
+      "_dirName": "portal",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/portal"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "enchantportal": {
+      "_dirName": "enchantportal",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/enchantportal"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowup": {
+      "_dirName": "arrowup",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowup"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowdown": {
+      "_dirName": "arrowdown",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowdown"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowright": {
+      "_dirName": "arrowright",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowright"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowleft": {
+      "_dirName": "arrowleft",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowleft"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowupright": {
+      "_dirName": "arrowupright",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowupright"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowupleft": {
+      "_dirName": "arrowupleft",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowupleft"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowdownright": {
+      "_dirName": "arrowdownright",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowdownright"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arrowdownleft": {
+      "_dirName": "arrowdownleft",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/arrowdownleft"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "hiddenportal": {
+      "_dirName": "hiddenportal",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/hiddenportal"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "zeronpc": {
+      "_dirName": "zeronpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/zeronpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "zeronpc2": {
+      "_dirName": "zeronpc2",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/zeronpc2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "zeroendnpc": {
+      "_dirName": "zeroendnpc",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/zeroendnpc"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "randomportal": {
+      "_dirName": "randomportal",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/enchantportal"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "rune": {
+      "_dirName": "rune",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/rune"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "compassActive": {
+      "_dirName": "compassActive",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassActive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "compassInactive": {
+      "_dirName": "compassInactive",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassInactive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "eventNerota": {
+      "_dirName": "eventNerota",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/eventNerota"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "cluster": {
+      "_dirName": "cluster",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/hiddenportal"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "assaultOff": {
+      "_dirName": "assaultOff",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassActive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "assaultOn": {
+      "_dirName": "assaultOn",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassInactive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "coilOff": {
+      "_dirName": "coilOff",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassActive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "coilOn": {
+      "_dirName": "coilOn",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassInactive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "haze": {
+      "_dirName": "haze",
+      "_dirType": "canvas",
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Map/_Canvas/MapHelper.img/minimap/compassInactive"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "mob": {
+      "_dirName": "mob",
+      "_dirType": "sub",
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 6
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/minimap/mob/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/minimap/arrowdown"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/minimap/compassActive"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/minimap/compassInactive"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/minimap/npc"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "objectEffect": {
+    "_dirName": "objectEffect",
+    "_dirType": "sub",
+    "production": {
+      "_dirName": "production",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 52
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 1000
+        },
+        "a0": {
+          "_dirName": "a0",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "a1": {
+          "_dirName": "a1",
+          "_dirType": "Int",
+          "_value": 128
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 53
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "a0": {
+          "_dirName": "a0",
+          "_dirType": "Int",
+          "_value": 128
+        },
+        "a1": {
+          "_dirName": "a1",
+          "_dirType": "Int",
+          "_value": 255
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 63
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 61
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 62
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 52
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 53
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 63
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 61
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 35,
+          "_y": 62
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 150
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Map/_Canvas/MapHelper.img/objectEffect/production/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

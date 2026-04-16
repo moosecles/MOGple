@@ -84,9 +84,10 @@ export function spBudget1st(className: string, level: number): number {
   return levelsWithSP * 3
 }
 
-/** 3 SP per level from level 30 onward (2nd job) */
+/** 3 SP per level from level 30 onward (2nd job) + 1 SP from job advancement */
 export function spBudget2nd(level: number): number {
-  return Math.max(0, level - 30) * 3
+  if (level < 30) return 0
+  return 1 + (level - 30) * 3
 }
 
 /** Total base stats (excluding HP/MP) allocated above starting values */
@@ -249,7 +250,11 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
   const isMage = ['Magician','F/P Wizard','I/L Wizard','Cleric'].includes(className)
   const masteryLevel = isMage ? 10 : Math.min(rawMasterySkillLevel, 10)
 
-  // Base attack range with skillPercent=1.0 (no skill multiplier)
+  // Base attack range with skillPercent=1.0 (no skill multiplier).
+  // For mage classes using a physical weapon (no Wand/Staff), pass animation:'swing'
+  // so calcDamage uses the physical formula (STR-based) rather than magic (MATK-based).
+  // Without this, a Mage + Mace always shows 0 damage because there's no MATK.
+  const mageWithPhysicalWeapon = isMage && weaponType !== '' && weaponType !== 'Wand' && weaponType !== 'Staff'
   const damageRange = calcDamage({
     className,
     stats: totalStats,
@@ -259,6 +264,7 @@ export function computeDerived(char: CharacterState, data: AppData): DerivedStat
     flatAttackPower,
     masteryLevel,
     skillPercent: 1.0,
+    animation: mageWithPhysicalWeapon ? 'swing' : undefined,
   })
 
   return {

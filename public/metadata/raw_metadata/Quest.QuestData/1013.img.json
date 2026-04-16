@@ -1,0 +1,204 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz 1"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "You're not a beginner anymore. Talk to #b#p19##k in #b#m1010##k and take the Maple Quiz!"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "You're not a beginner anymore. Talk to #b#p19##k and take the Maple Quiz!"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p19##k's first question was about how to hang from a ladder or rope. Alright! #bup arrow key#k, make sure to remember it well."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 20
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 1014
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hello! How're you liking Maple World so far? Let me give you a brief rundown of the place, and then I'll give you a quiz. If you answer my questions correctly, I'll give you something handy. Interested?"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        }
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Hehe! Let me warn you, don't underestimate my quiz. There's a lot to learn, so pay attention!"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "How is your adventure on Maple Island? You could go left with the #bleft arrow key#k and right with the #bright arrow key#k, right? \nDo you also know that if you press the #bdown arrow key#k, you can crouch, and then jump while crouching to leap down to a lower platform? \nIf you pressed the #bup arrow key#k in front of the portal, you could have entered it, and if you pressed the #bup arrow key#k in front of a ladder or rope, you could have hung from it."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "You can also use the #rKey Config#k on the bottom right of your screen to recalibrate the buttons to your liking. \nHmm~ I think the explanation might have gotten a little too complicated. Don’t worry, you’ll get the hang of it as you spend more time here and get used to things."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "But what you haven't experienced yet is Job Advancement. To become a more powerful traveler, you need a job! To get one, you'll first have to leave this place, Maple Island, and head to Victoria Island. \nYou need to be at least at level #b10#k to become a #bWarrior, Bowman, Magician#k or #bThief#k. Each job has its pros and cons, so choose carefully."
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "String",
+          "_value": "I didn't tell you EVERYTHING you need to know for the quiz, so make sure to focus. Ready for the questions?"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Hmm, you could learn a lot through my quiz. I think you should try it!"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "What key should you press in front of a ladder or rope to hang from it? \\n\\n#L0##b left arrow key#l\\n#L1# right arrow key#l\\n#L2# up arrow key#l\\n#L3# down arrow key#k#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "That's right! If you press the #rup arrow key#k in front of a ladder or rope, you can hang from it!"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "The left arrow key is for moving left. Do you remember which key you need to press in front of a ladder or rope?"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "No, no. right arrow is the key for moving right. Think carefully!"
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "String",
+            "_value": "Huh? down arrow key is the key used to crouch or move to a lower platform. So, it can't be ↓, right?"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4879 @@
+{
+  "Quest": {
+    "_dirName": "Quest",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "sub",
+      "iconInfo": {
+        "_dirName": "iconInfo",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 6,
+          "_y": 7
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon/iconInfo"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "icon0": {
+        "_dirName": "icon0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon/icon0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "icon1": {
+        "_dirName": "icon1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon/icon1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "icon2": {
+        "_dirName": "icon2",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 4000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon2/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon3": {
+        "_dirName": "icon3",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 4000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon4": {
+        "_dirName": "icon4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon/icon3/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "icon5": {
+        "_dirName": "icon5",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon5/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon5/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon5/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon5/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 4000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon5/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon6": {
+        "_dirName": "icon6",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 4000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon6/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon7": {
+        "_dirName": "icon7",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon7/11"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon8": {
+        "_dirName": "icon8",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 3000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon8/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon9": {
+        "_dirName": "icon9",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 3000
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/icon9/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "icon10": {
+        "_dirName": "icon10",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon/icon10"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconQM0": {
+        "_dirName": "iconQM0",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -1
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -1
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM0/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "iconQM1": {
+        "_dirName": "iconQM1",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -1
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -1
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -2
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon/iconQM1/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "list": {
+      "_dirName": "list",
+      "_dirType": "sub",
+      "backgrnd": {
+        "_dirName": "backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "notice0": {
+        "_dirName": "notice0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -50,
+          "_y": -181
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/notice0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "notice1": {
+        "_dirName": "notice1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -55,
+          "_y": -181
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/notice1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "notice2": {
+        "_dirName": "notice2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -55,
+          "_y": -181
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/notice2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "notice3": {
+        "_dirName": "notice3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -50,
+          "_y": -181
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/notice0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "completeCount": {
+        "_dirName": "completeCount",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -49
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/list/completeCount"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "Tab": {
+        "_dirName": "Tab",
+        "_dirType": "sub",
+        "enabled": {
+          "_dirName": "enabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/enabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -78,
+              "_y": -24
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/enabled/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -150,
+              "_y": -24
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/enabled/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -222,
+              "_y": -24
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/enabled/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -25
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -78,
+              "_y": -25
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/disabled/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -150,
+              "_y": -25
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/disabled/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -222,
+              "_y": -25
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/Tab/disabled/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "BtIconInfo": {
+        "_dirName": "BtIconInfo",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -12,
+              "_y": -373
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtIconInfo/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -12,
+              "_y": -373
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtIconInfo/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -12,
+              "_y": -373
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtIconInfo/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -12,
+              "_y": -373
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtIconInfo/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "questState": {
+        "_dirName": "questState",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/list/questState/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/list/questState/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "BtPrev": {
+        "_dirName": "BtPrev",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -32,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtPrev/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -32,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtPrev/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -32,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtPrev/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -32,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtPrev/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "BtNext": {
+        "_dirName": "BtNext",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -226,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtNext/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -226,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtNext/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -226,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtNext/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -226,
+              "_y": -173
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtNext/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "BtDetail": {
+        "_dirName": "BtDetail",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -183,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -183,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -183,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -183,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -181,
+              "_y": -372
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/keyFocused/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      }
+    },
+    "quest_info": {
+      "_dirName": "quest_info",
+      "_dirType": "sub",
+      "backgrnd": {
+        "_dirName": "backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/quest_info/backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "BtGiveup": {
+        "_dirName": "BtGiveup",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -243,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtGiveup/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -243,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtGiveup/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -243,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtGiveup/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -243,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtGiveup/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -241,
+              "_y": -372
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/list/BtDetail/keyFocused/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "BtArlim": {
+        "_dirName": "BtArlim",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -161,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtArlim/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -161,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtArlim/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -161,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtArlim/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -161,
+              "_y": -374
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtArlim/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -149,
+              "_y": -372
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtArlim/keyFocused/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "BtClose": {
+        "_dirName": "BtClose",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -278,
+              "_y": -6
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtClose/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -278,
+              "_y": -6
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtClose/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -278,
+              "_y": -6
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtClose/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -278,
+              "_y": -6
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/Quest.img/Quest/quest_info/BtClose/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "summary_pattern": {
+        "_dirName": "summary_pattern",
+        "_dirType": "sub",
+        "t": {
+          "_dirName": "t",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_pattern/t"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "c": {
+          "_dirName": "c",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -29
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_pattern/c"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "b": {
+          "_dirName": "b",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -30
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_pattern/b"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "summary_icon": {
+        "_dirName": "summary_icon",
+        "_dirType": "sub",
+        "summary": {
+          "_dirName": "summary",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/summary"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "reward": {
+          "_dirName": "reward",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/reward"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "basic": {
+          "_dirName": "basic",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/basic"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "select": {
+          "_dirName": "select",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/select"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "prob": {
+          "_dirName": "prob",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/prob"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "startcondition": {
+          "_dirName": "startcondition",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/startcondition"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/quest_info/summary_icon/map"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "icon_info": {
+      "_dirName": "icon_info",
+      "_dirType": "sub",
+      "backgrnd": {
+        "_dirName": "backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": -5
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon_info/backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "backgrnd2": {
+        "_dirName": "backgrnd2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -6,
+          "_y": -5
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": -4
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/icon_info/backgrnd2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "Sheet": {
+        "_dirName": "Sheet",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon_info/Sheet/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon_info/Sheet/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/icon_info/Sheet/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "BtOK": {
+      "_dirName": "BtOK",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "keyFocused": {
+        "_dirName": "keyFocused",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/keyFocused/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "BtNo": {
+      "_dirName": "BtNo",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtNo/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtNo/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtNo/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtNo/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "keyFocused": {
+        "_dirName": "keyFocused",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 3,
+            "_y": 3
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/BtOK/keyFocused/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "TimeQuest": {
+      "_dirName": "TimeQuest",
+      "_dirType": "sub",
+      "TimeBar": {
+        "_dirName": "TimeBar",
+        "_dirType": "sub",
+        "backgrnd": {
+          "_dirName": "backgrnd",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/TimeBar/backgrnd"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "TimeGage": {
+          "_dirName": "TimeGage",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_width": 2,
+            "_height": 8,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_width": 2,
+            "_height": 8,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "_width": 1,
+            "_height": 8,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "AlarmClock": {
+        "_dirName": "AlarmClock",
+        "_dirType": "sub",
+        "default": {
+          "_dirName": "default",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/4"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/5"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "6": {
+              "_dirName": "6",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/6"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "7": {
+              "_dirName": "7",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/7"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "8": {
+              "_dirName": "8",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/4"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "9": {
+              "_dirName": "9",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/5"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "10": {
+              "_dirName": "10",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/6"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "11": {
+              "_dirName": "11",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/7"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "12": {
+              "_dirName": "12",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/12"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "13": {
+              "_dirName": "13",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/13"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "14": {
+              "_dirName": "14",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/14"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "15": {
+              "_dirName": "15",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/3/15"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 1,
+                "_y": 1
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 1,
+                "_y": 3
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 2,
+                "_y": 4
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/3"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 18,
+                "_y": 26
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/4"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 27,
+                "_y": 30
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/5"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "6": {
+              "_dirName": "6",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 30,
+                "_y": 32
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/6"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "7": {
+              "_dirName": "7",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 26,
+                "_y": 36
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/7"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "8": {
+              "_dirName": "8",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 21,
+                "_y": 24
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/8"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "9": {
+              "_dirName": "9",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 21,
+                "_y": 24
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/9"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "10": {
+              "_dirName": "10",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 21,
+                "_y": 20
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 120
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/default/4/10"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          }
+        },
+        "SelectMob": {
+          "_dirName": "SelectMob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/SelectMob/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/SelectMob/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/SelectMob/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/SelectMob/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 0,
+                "_y": 0
+              },
+              "a0": {
+                "_dirName": "a0",
+                "_dirType": "Int",
+                "_value": 255
+              },
+              "a1": {
+                "_dirName": "a1",
+                "_dirType": "String",
+                "_value": "0"
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 1200
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "UI/_Canvas/Quest.img/Quest/TimeQuest/AlarmClock/SelectMob/0/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          }
+        }
+      }
+    },
+    "Gauge2": {
+      "_dirName": "Gauge2",
+      "_dirType": "sub",
+      "frame": {
+        "_dirName": "frame",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 39,
+          "_y": 4
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Quest.img/Quest/Gauge2/frame"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "gauge": {
+        "_dirName": "gauge",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 2
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 1,
+        "_height": 4,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "QuestAlarm": {
+    "_dirName": "QuestAlarm",
+    "_dirType": "sub",
+    "backgrndmax": {
+      "_dirName": "backgrndmax",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": -2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Quest.img/QuestAlarm/backgrndmax"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrndcenter": {
+      "_dirName": "backgrndcenter",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": -2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Quest.img/QuestAlarm/backgrndcenter"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrndbottom": {
+      "_dirName": "backgrndbottom",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": -2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Quest.img/QuestAlarm/backgrndbottom"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrndmin": {
+      "_dirName": "backgrndmin",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": -2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Quest.img/QuestAlarm/backgrndmin"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "BtAuto": {
+      "_dirName": "BtAuto",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -148,
+            "_y": -4
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtAuto/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -148,
+            "_y": -4
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtAuto/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -148,
+            "_y": -4
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtAuto/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -148,
+            "_y": -4
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtAuto/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "BtDelete": {
+      "_dirName": "BtDelete",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtDelete/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtDelete/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtDelete/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Quest.img/QuestAlarm/BtDelete/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  }
+}

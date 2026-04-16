@@ -1,0 +1,218 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "The Road Home"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Zelya's Map"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 17
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "The cave fairy #b#p701##k in the #m10006000# seems to have a request. But even finding where the #m10006000# is located may be a challenge in itself..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "The cave fairy #b#p701##k in the #m10006000# explained that she once lived much deeper inside the cave. She longs to return to her old home, but while out on a walk she was attacked by #o54#s and dropped the map she had drawn to find her way back. The monsters may have already torn it to pieces, but if I defeat the #r#o54#s#k east of #b#m10006000##k and gather the fragments, she might be able to figure something out."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "As the cave fairy #b#p701##k requested, I defeated the monsters and brought back the fragments of the map to her original home. Hopefully some clues can still be found within them..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031028:# #t4031028:# #c4031028# / 25"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 701
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 39
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "202604211500"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "202604211500"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 701
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031028
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 5062
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10601
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1140
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031028
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -25
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh my... It's been such a long time since I last saw a human in this #m10006000#. How did you manage to find this place? An ordinary human could never stumble across it—you must have remarkable courage."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Yes... Somehow, I feel I can trust you. We cave fairies once lived much deeper within the #m10006000#, but after that sorrowful incident long ago, we had no choice but to leave our home."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Still, I believe I can return one day. That’s why I drew a map when I left, so I would never forget the way home. But a few days ago, while walking around to refresh my memory, I was attacked by #o54#s and dropped my precious map."
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "I can't share everything with someone I've just met... but please, I beg you. Could you recover my map? The monsters may have already torn it apart, but even the fragments might hold clues."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much! The monsters that attacked me were #r#o54#s#k. They dwell in the eastern parts of the #m10006000#. Please defeat them and bring back the map fragments."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "So, #p700# was right after all... humans really are selfish..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I knew I could count on you to help. Now I can show #p700# that not all humans are selfish—that some really are righteous. Thank you, from the bottom of my heart!"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Now I have to piece these fragments together, one by one. It'll take some time, but if it leads me back home, I will endure anything."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Please defeat #r#o54#s#k dwelling east of the village and bring back the map fragments. I’m counting on you."
+          }
+        }
+      }
+    }
+  }
+}

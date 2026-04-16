@@ -1,0 +1,984 @@
+{
+  "base": {
+    "_dirName": "base",
+    "_dirType": "sub",
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Mailbox.img/base/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "letterIcon": {
+      "_dirName": "letterIcon",
+      "_dirType": "sub",
+      "canvas:closed": {
+        "_dirName": "canvas:closed",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Mailbox.img/base/letterIcon/canvas:closed"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "canvas:open": {
+        "_dirName": "canvas:open",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Mailbox.img/base/letterIcon/canvas:open"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "button:exit": {
+      "_dirName": "button:exit",
+      "_dirType": "sub",
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1000
+      },
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -539,
+            "_y": -6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -539,
+            "_y": -6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -539,
+            "_y": -6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -539,
+            "_y": -6
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "button:claim": {
+      "_dirName": "button:claim",
+      "_dirType": "sub",
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -437,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:claim/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -437,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:claim/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -437,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:claim/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -437,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:claim/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "button:refuse": {
+      "_dirName": "button:refuse",
+      "_dirType": "sub",
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:refuse/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:refuse/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:refuse/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:refuse/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "button:delete": {
+      "_dirName": "button:delete",
+      "_dirType": "sub",
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:delete/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:delete/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:delete/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -496,
+            "_y": -326
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Mailbox.img/base/button:delete/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  },
+  "empty": {
+    "_dirName": "empty",
+    "_dirType": "sub",
+    "layer:notice": {
+      "_dirName": "layer:notice",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -32
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Mailbox.img/empty/layer:notice"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "vector:empty": {
+      "_dirName": "vector:empty",
+      "_dirType": "vector",
+      "_x": 279,
+      "_y": 208
+    }
+  },
+  "itemList": {
+    "_dirName": "itemList",
+    "_dirType": "sub",
+    "canvas:list": {
+      "_dirName": "canvas:list",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -8,
+        "_y": -32
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Mailbox.img/itemList/canvas:list"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:select": {
+      "_dirName": "canvas:select",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -8,
+        "_y": -32
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Mailbox.img/itemList/canvas:select"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "scroll:itemList": {
+      "_dirName": "scroll:itemList",
+      "_dirType": "sub",
+      "length": {
+        "_dirName": "length",
+        "_dirType": "Int",
+        "_value": 307
+      },
+      "wheelRange": {
+        "_dirName": "wheelRange",
+        "_dirType": "Int",
+        "_value": 216
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1002
+      },
+      "path": {
+        "_dirName": "path",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/VScr4"
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 224,
+        "_y": 32
+      }
+    },
+    "row": {
+      "_dirName": "row",
+      "_dirType": "Int",
+      "_value": 8
+    },
+    "space_y": {
+      "_dirName": "space_y",
+      "_dirType": "Int",
+      "_value": 4
+    },
+    "pos": {
+      "_dirName": "pos",
+      "_dirType": "sub",
+      "vector:itemIcon": {
+        "_dirName": "vector:itemIcon",
+        "_dirType": "vector",
+        "_x": 9,
+        "_y": 33
+      },
+      "vector:letterOpenIcon": {
+        "_dirName": "vector:letterOpenIcon",
+        "_dirType": "vector",
+        "_x": 17,
+        "_y": 40
+      },
+      "vector:letterClosedIcon": {
+        "_dirName": "vector:letterClosedIcon",
+        "_dirType": "vector",
+        "_x": 17,
+        "_y": 44
+      },
+      "vector:mesoIcon": {
+        "_dirName": "vector:mesoIcon",
+        "_dirType": "vector",
+        "_x": 13,
+        "_y": 38
+      },
+      "vector:mailTitle": {
+        "_dirName": "vector:mailTitle",
+        "_dirType": "vector",
+        "_x": 50,
+        "_y": 34
+      },
+      "vector:remainTime": {
+        "_dirName": "vector:remainTime",
+        "_dirType": "vector",
+        "_x": 50,
+        "_y": 51
+      }
+    },
+    "font": {
+      "_dirName": "font",
+      "_dirType": "sub",
+      "font:mailTitle": {
+        "_dirName": "font:mailTitle",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff24476b"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:itemTimeLeft": {
+        "_dirName": "font:itemTimeLeft",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff4b82ba"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:mailTitleSelected": {
+        "_dirName": "font:mailTitleSelected",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ffffffff"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:itemTimeLeftSelected": {
+        "_dirName": "font:itemTimeLeftSelected",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ffffffff"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      }
+    }
+  },
+  "detail": {
+    "_dirName": "detail",
+    "_dirType": "sub",
+    "scroll:detailBody": {
+      "_dirName": "scroll:detailBody",
+      "_dirType": "sub",
+      "length": {
+        "_dirName": "length",
+        "_dirType": "Int",
+        "_value": 200
+      },
+      "wheelRange": {
+        "_dirName": "wheelRange",
+        "_dirType": "Int",
+        "_value": 285
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1003
+      },
+      "path": {
+        "_dirName": "path",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/VScr4"
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 535,
+        "_y": 116
+      }
+    },
+    "row": {
+      "_dirName": "row",
+      "_dirType": "Int",
+      "_value": 7
+    },
+    "detailBodyWidth": {
+      "_dirName": "detailBodyWidth",
+      "_dirType": "Int",
+      "_value": 280
+    },
+    "detailBodyHeight": {
+      "_dirName": "detailBodyHeight",
+      "_dirType": "Int",
+      "_value": 200
+    },
+    "detailBodyLineSpace": {
+      "_dirName": "detailBodyLineSpace",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "detailItemNameWidth": {
+      "_dirName": "detailItemNameWidth",
+      "_dirType": "Int",
+      "_value": 203
+    },
+    "pos": {
+      "_dirName": "pos",
+      "_dirType": "sub",
+      "vector:detailItemIcon": {
+        "_dirName": "vector:detailItemIcon",
+        "_dirType": "vector",
+        "_x": 264,
+        "_y": 38
+      },
+      "vector:detailItemCountNum": {
+        "_dirName": "vector:detailItemCountNum",
+        "_dirType": "vector",
+        "_x": 268,
+        "_y": 85
+      },
+      "vector:detailItemName": {
+        "_dirName": "vector:detailItemName",
+        "_dirType": "vector",
+        "_x": 339,
+        "_y": 43
+      },
+      "vector:detailSender": {
+        "_dirName": "vector:detailSender",
+        "_dirType": "vector",
+        "_x": 367,
+        "_y": 66
+      },
+      "vector:detailReceived": {
+        "_dirName": "vector:detailReceived",
+        "_dirType": "vector",
+        "_x": 367,
+        "_y": 85
+      },
+      "vector:detailSenderName": {
+        "_dirName": "vector:detailSenderName",
+        "_dirType": "vector",
+        "_x": 408,
+        "_y": 65
+      },
+      "vector:detailReceivedDate": {
+        "_dirName": "vector:detailReceivedDate",
+        "_dirType": "vector",
+        "_x": 408,
+        "_y": 84
+      },
+      "vector:detailBody": {
+        "_dirName": "vector:detailBody",
+        "_dirType": "vector",
+        "_x": 255,
+        "_y": 117
+      }
+    },
+    "font": {
+      "_dirName": "font",
+      "_dirType": "sub",
+      "font:detailItemCountNum": {
+        "_dirName": "font:detailItemCountNum",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "fff5f6f7"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 17
+        },
+        "fontBold": {
+          "_dirName": "fontBold",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "font:detailItemCountNumStroke": {
+        "_dirName": "font:detailItemCountNumStroke",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff000000"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 17
+        },
+        "fontBold": {
+          "_dirName": "fontBold",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "font:detailItemName": {
+        "_dirName": "font:detailItemName",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ffffffff"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 14
+        },
+        "fontBold": {
+          "_dirName": "fontBold",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "font:detailItemCount": {
+        "_dirName": "font:detailItemCount",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ffffffff"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:detailSenderReceived": {
+        "_dirName": "font:detailSenderReceived",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ffffffff"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 10
+        }
+      },
+      "font:detailSenderName": {
+        "_dirName": "font:detailSenderName",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff24476b"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:detailReceivedDate": {
+        "_dirName": "font:detailReceivedDate",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff24476b"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      },
+      "font:detailBody": {
+        "_dirName": "font:detailBody",
+        "_dirType": "sub",
+        "font": {
+          "_dirName": "font",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "fontColor": {
+          "_dirName": "fontColor",
+          "_dirType": "String",
+          "_value": "ff000000"
+        },
+        "fontSize": {
+          "_dirName": "fontSize",
+          "_dirType": "Int",
+          "_value": 12
+        }
+      }
+    }
+  }
+}

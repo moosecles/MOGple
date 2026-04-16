@@ -273,7 +273,7 @@ function computeTags({
   }
 
   if (accuracyRating < 0.85) {
-    tags.push({ label: 'ACC ISSUE', variant: 'warning', tooltip: `~${Math.round(accuracyRating * 100)}% hit rate — you'll miss frequently` })
+    tags.push({ label: 'ACC ISSUE', variant: 'warning', tooltip: `Around ${Math.round(accuracyRating * 100)}% hit rate here, so you'll be missing a lot. Numbers are approximate (give or take 5%) and still being validated from live data. Shoutout to Littlefoot for the accuracy training data.` })
   }
 
   if (isDangerous) {
@@ -294,6 +294,8 @@ export interface TieredMaps {
   mostOptimal: MapScore[]
   avgOptimal: MapScore[]
   lessOptimal: MapScore[]
+  /** Maps where top mobs are currently unhittable — good EXP once you have more ACC. */
+  lowAccuracy: MapScore[]
   dangerous: MapScore[]
   ignored: MapScore[]
   /** Maps ranked by estimated meso/hr from one-shot kills. */
@@ -310,10 +312,17 @@ export function rankMaps(
 ): TieredMaps {
   const atkSec = ATTACK_SPEED_SECONDS[attackSpeedLabel] ?? 0.6
   // Effective damage multiplier from the best skill (hits × skillPercent).
-  // Training assumes the player uses this skill as their primary attack.
-  const skillDmgMult = bestSkill ? bestSkill.hits * bestSkill.skillPercent : 1.0
-  // AoE factor: for skills that hit multiple targets, one cast clears more mobs.
-  const skillTargets = bestSkill ? bestSkill.targets : 1
+  // For skills with a secondary hit (e.g. Poison Breath explosion), both phases
+  // land on the primary target, so single-target DPS = primary + secondary.
+  const primaryDmgMult = bestSkill ? bestSkill.hits * bestSkill.skillPercent : 1.0
+  const secondaryDmgMult = bestSkill?.secondaryHit
+    ? bestSkill.secondaryHit.hits * bestSkill.secondaryHit.skillPercent
+    : 0
+  const skillDmgMult = primaryDmgMult + secondaryDmgMult
+  // AoE factor: use the widest target reach across primary and secondary phases.
+  const skillTargets = bestSkill
+    ? Math.max(bestSkill.targets, bestSkill.secondaryHit?.targets ?? 0)
+    : 1
 
   const allMapIds = Array.from(data.mobsByMap.keys())
   const scores: MapScore[] = []
@@ -497,10 +506,16 @@ export function rankMaps(
     })
   }
 
-  // Filter out maps with effectively zero score (over-leveled / under-leveled)
+  // Filter out maps with effectively zero score (over-leveled / under-leveled / can't hit top mobs)
   const MIN_USEFUL_EXP = 100  // at least 100 EXP/hr to be worth showing
-  const useful = scores.filter(s => s.expPerHour >= MIN_USEFUL_EXP)
-  const useless = scores.filter(s => s.expPerHour < MIN_USEFUL_EXP && !s.isDangerous)
+  const useful = scores.filter(s => s.expPerHour >= MIN_USEFUL_EXP && s.score > 0)
+  const useless = scores.filter(s => (s.expPerHour < MIN_USEFUL_EXP || s.score === 0) && !s.isDangerous)
+
+  // Maps where top mobs are currently unhittable (score=0) but have decent EXP for when you gear up
+  const lowAccuracy = scores
+    .filter(s => s.score === 0 && s.expPerHour >= MIN_USEFUL_EXP && !s.isDangerous)
+    .sort((a, b) => b.expPerHour - a.expPerHour)
+    .slice(0, 2)
 
   // Split dangerous maps out
   const dangerous = useful.filter(s => s.isDangerous)
@@ -516,6 +531,7 @@ export function rankMaps(
     mostOptimal:  mostOptimalSource.slice(0, 3),
     avgOptimal:   safe.slice(third, Math.min(third + 5, third * 2)),
     lessOptimal:  safe.slice(third * 2, Math.min(third * 2 + 3, safe.length)),
+    lowAccuracy,
     dangerous:    dangerous.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 5),
     ignored:      useless.sort((a, b) => b.expPerHour - a.expPerHour).slice(0, 3),
     topMeso: (() => {

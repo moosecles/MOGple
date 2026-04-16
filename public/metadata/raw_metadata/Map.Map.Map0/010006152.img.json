@@ -1,0 +1,1715 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "version": {
+      "_dirName": "version",
+      "_dirType": "Int",
+      "_value": 10
+    },
+    "cloud": {
+      "_dirName": "cloud",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "town": {
+      "_dirName": "town",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "mobRate": {
+      "_dirName": "mobRate",
+      "_dirType": "Float",
+      "_value": 1.0
+    },
+    "bgm": {
+      "_dirName": "bgm",
+      "_dirType": "String",
+      "_value": "Bgm03/CavernOfShadows"
+    },
+    "returnMap": {
+      "_dirName": "returnMap",
+      "_dirType": "Int",
+      "_value": 10006000
+    },
+    "VRTop": {
+      "_dirName": "VRTop",
+      "_dirType": "Int",
+      "_value": -300
+    },
+    "VRLeft": {
+      "_dirName": "VRLeft",
+      "_dirType": "Int",
+      "_value": -400
+    },
+    "VRBottom": {
+      "_dirName": "VRBottom",
+      "_dirType": "Int",
+      "_value": 300
+    },
+    "VRRight": {
+      "_dirName": "VRRight",
+      "_dirType": "Int",
+      "_value": 400
+    },
+    "mapDesc": {
+      "_dirName": "mapDesc",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "forcedReturn": {
+      "_dirName": "forcedReturn",
+      "_dirType": "Int",
+      "_value": 999999999
+    },
+    "hideMinimap": {
+      "_dirName": "hideMinimap",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "moveLimit": {
+      "_dirName": "moveLimit",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "mapMark": {
+      "_dirName": "mapMark",
+      "_dirType": "String",
+      "_value": "ForgottenHollow"
+    },
+    "swim": {
+      "_dirName": "swim",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fly": {
+      "_dirName": "fly",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "standAlone": {
+      "_dirName": "standAlone",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "partyStandAlone": {
+      "_dirName": "partyStandAlone",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "quarterView": {
+      "_dirName": "quarterView",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "noMapCmd": {
+      "_dirName": "noMapCmd",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldLimit": {
+      "_dirName": "fieldLimit",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldLimit2": {
+      "_dirName": "fieldLimit2",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldLimit_tw": {
+      "_dirName": "fieldLimit_tw",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "fieldType": {
+      "_dirName": "fieldType",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "AmbientBGM": {
+      "_dirName": "AmbientBGM",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "AmbientBGMv": {
+      "_dirName": "AmbientBGMv",
+      "_dirType": "Int",
+      "_value": 100
+    },
+    "fieldScript": {
+      "_dirName": "fieldScript",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "onFirstUserEnter": {
+      "_dirName": "onFirstUserEnter",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "onUserEnter": {
+      "_dirName": "onUserEnter",
+      "_dirType": "String",
+      "_value": ""
+    },
+    "MRLeft": {
+      "_dirName": "MRLeft",
+      "_dirType": "Int",
+      "_value": -400
+    },
+    "MRTop": {
+      "_dirName": "MRTop",
+      "_dirType": "Int",
+      "_value": -300
+    },
+    "MRRight": {
+      "_dirName": "MRRight",
+      "_dirType": "Int",
+      "_value": 400
+    },
+    "MRBottom": {
+      "_dirName": "MRBottom",
+      "_dirType": "Int",
+      "_value": 300
+    }
+  },
+  "back": {
+    "_dirName": "back",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "bS": {
+        "_dirName": "bS",
+        "_dirType": "String",
+        "_value": ""
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "rx": {
+        "_dirName": "rx",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ry": {
+        "_dirName": "ry",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "type": {
+        "_dirName": "type",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "cx": {
+        "_dirName": "cx",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "cy": {
+        "_dirName": "cy",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "a": {
+        "_dirName": "a",
+        "_dirType": "Int",
+        "_value": 255
+      },
+      "front": {
+        "_dirName": "front",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "ani": {
+        "_dirName": "ani",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "f": {
+        "_dirName": "f",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  },
+  "life": {
+    "_dirName": "life",
+    "_dirType": "sub"
+  },
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "1": {
+    "_dirName": "1",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "house2"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "basic"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "0"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -54
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -69
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "2": {
+    "_dirName": "2",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "house2"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "deco"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "0"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -43
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -96
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "house2"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "deco"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "1"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -402
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -306
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "house2"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "deco"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "2"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": 350
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": 157
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "3": {
+    "_dirName": "3",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "house2"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "basic"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "1"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -22
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -62
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "4": {
+    "_dirName": "4",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "houseframe"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "side"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "3"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -68
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -61
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "houseframe"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "side"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "2"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -37
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -58
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_insideGC"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "houseframe"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "top"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "1"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -69
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -73
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 3
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "5": {
+    "_dirName": "5",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "6": {
+    "_dirName": "6",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub"
+    }
+  },
+  "7": {
+    "_dirName": "7",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub"
+    },
+    "tile": {
+      "_dirName": "tile",
+      "_dirType": "sub"
+    },
+    "obj": {
+      "_dirName": "obj",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_mask"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "mask"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "black"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "1"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": -587
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "oS": {
+          "_dirName": "oS",
+          "_dirType": "String",
+          "_value": "obj_mask"
+        },
+        "l0": {
+          "_dirName": "l0",
+          "_dirType": "String",
+          "_value": "mask"
+        },
+        "l1": {
+          "_dirName": "l1",
+          "_dirType": "String",
+          "_value": "black"
+        },
+        "l2": {
+          "_dirName": "l2",
+          "_dirType": "String",
+          "_value": "2"
+        },
+        "x": {
+          "_dirName": "x",
+          "_dirType": "Int",
+          "_value": 538
+        },
+        "y": {
+          "_dirName": "y",
+          "_dirType": "Int",
+          "_value": -1
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 9
+        },
+        "f": {
+          "_dirName": "f",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "zM": {
+          "_dirName": "zM",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "r": {
+          "_dirName": "r",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "move": {
+          "_dirName": "move",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "dynamic": {
+          "_dirName": "dynamic",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "piece": {
+          "_dirName": "piece",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "timeScale": {
+          "_dirName": "timeScale",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "useTileZ": {
+          "_dirName": "useTileZ",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    }
+  },
+  "reactor": {
+    "_dirName": "reactor",
+    "_dirType": "sub"
+  },
+  "foothold": {
+    "_dirName": "foothold",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -318
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -30
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -105
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -23
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -105
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -23
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 219
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -26
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -216
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -63
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": -114
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -63
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 169
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 157
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 235
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 162
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 165
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 117
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 223
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 115
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 157
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 79
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 215
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 77
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 150
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 48
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 208
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 46
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 144
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 17
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 202
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": 139
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": -10
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 197
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": -12
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 0
+          }
+        }
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "x1": {
+            "_dirName": "x1",
+            "_dirType": "Int",
+            "_value": -494
+          },
+          "y1": {
+            "_dirName": "y1",
+            "_dirType": "Int",
+            "_value": 192
+          },
+          "x2": {
+            "_dirName": "x2",
+            "_dirType": "Int",
+            "_value": 462
+          },
+          "y2": {
+            "_dirName": "y2",
+            "_dirType": "Int",
+            "_value": 192
+          },
+          "prev": {
+            "_dirName": "prev",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "next": {
+            "_dirName": "next",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "piece": {
+            "_dirName": "piece",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    }
+  },
+  "ladderRope": {
+    "_dirName": "ladderRope",
+    "_dirType": "sub"
+  },
+  "portal": {
+    "_dirName": "portal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "sp"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": -16
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 162
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 999999999
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": ""
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "sp"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 129
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": -35
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 999999999
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": ""
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "pn": {
+        "_dirName": "pn",
+        "_dirType": "String",
+        "_value": "out00"
+      },
+      "pt": {
+        "_dirName": "pt",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "x": {
+        "_dirName": "x",
+        "_dirType": "Int",
+        "_value": 306
+      },
+      "y": {
+        "_dirName": "y",
+        "_dirType": "Int",
+        "_value": 190
+      },
+      "tm": {
+        "_dirName": "tm",
+        "_dirType": "Int",
+        "_value": 10006121
+      },
+      "tn": {
+        "_dirName": "tn",
+        "_dirType": "String",
+        "_value": "in00"
+      },
+      "script": {
+        "_dirName": "script",
+        "_dirType": "String",
+        "_value": ""
+      },
+      "hideTooltip": {
+        "_dirName": "hideTooltip",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "onlyOnce": {
+        "_dirName": "onlyOnce",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 0
+      }
+    }
+  }
+}

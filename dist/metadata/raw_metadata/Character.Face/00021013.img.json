@@ -1,0 +1,1595 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Fc"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "Fc"
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "default": {
+    "_dirName": "default",
+    "_dirType": "sub",
+    "face": {
+      "_dirName": "face",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 13,
+        "_y": 8
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -12
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "face"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Face/_Canvas/00021013.img/default/face"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "blink": {
+    "_dirName": "blink",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/default/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/blink/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/blink/2/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      }
+    }
+  },
+  "hit": {
+    "_dirName": "hit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/hit/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "smile": {
+    "_dirName": "smile",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/smile/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "troubled": {
+    "_dirName": "troubled",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/troubled/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "cry": {
+    "_dirName": "cry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 5
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/cry/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "angry": {
+    "_dirName": "angry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 11
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/angry/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "bewildered": {
+    "_dirName": "bewildered",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": 9
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/bewildered/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stunned": {
+    "_dirName": "stunned",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/stunned/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "vomit": {
+    "_dirName": "vomit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 23
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -28
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/vomit/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 24
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -29
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/vomit/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      }
+    }
+  },
+  "oops": {
+    "_dirName": "oops",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/oops/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "delay": {
+      "_dirName": "delay",
+      "_dirType": "Int",
+      "_value": 1640
+    }
+  },
+  "cheers": {
+    "_dirName": "cheers",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/cheers/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "chu": {
+    "_dirName": "chu",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/chu/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "wink": {
+    "_dirName": "wink",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/wink/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "pain": {
+    "_dirName": "pain",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/pain/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "glitter": {
+    "_dirName": "glitter",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/glitter/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021013.img/glitter/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    }
+  },
+  "despair": {
+    "_dirName": "despair",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 14,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/despair/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": -12
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/despair/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    }
+  },
+  "love": {
+    "_dirName": "love",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/love/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/love/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    }
+  },
+  "shine": {
+    "_dirName": "shine",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 6
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/shine/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "blaze": {
+    "_dirName": "blaze",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/blaze/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/blaze/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    }
+  },
+  "hum": {
+    "_dirName": "hum",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/hum/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/hum/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    }
+  },
+  "bowing": {
+    "_dirName": "bowing",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 11,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/bowing/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/bowing/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    }
+  },
+  "hot": {
+    "_dirName": "hot",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 16,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/hot/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 21,
+            "_y": -9
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/hot/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 110
+      }
+    }
+  },
+  "dam": {
+    "_dirName": "dam",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": -2
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/dam/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 240
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 11,
+          "_y": -1
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00020011.img/dam/1/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 240
+      }
+    }
+  },
+  "qBlue": {
+    "_dirName": "qBlue",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 14,
+          "_y": 11
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Character/Face/_Canvas/00021011.img/qBlue/0/face"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

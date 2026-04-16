@@ -1,0 +1,4625 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": 30
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Skill/_Canvas/100.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "skill": {
+    "_dirName": "skill",
+    "_dirType": "sub",
+    "3000000": {
+      "_dirName": "3000000",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000000/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000000/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000000/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 50
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 4
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 5
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 6
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 7
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 8
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 9
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 14
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 11
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 12
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 17
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 13
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 18
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 14
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "crtX": {
+            "_dirName": "crtX",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "crdX": {
+            "_dirName": "crdX",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      },
+      "psd": {
+        "_dirName": "psd",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "3000001": {
+      "_dirName": "3000001",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000001/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000001/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000001/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 50
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 55
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 58
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 21
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 61
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 22
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 64
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 23
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 67
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 24
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 70
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 73
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 26
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 76
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 27
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 79
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 28
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 82
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 29
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 85
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 88
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 31
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 91
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 32
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 94
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 33
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 100
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 35
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      },
+      "req": {
+        "_dirName": "req",
+        "_dirType": "sub",
+        "3000000": {
+          "_dirName": "3000000",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "pre": {
+          "_dirName": "pre",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 36,
+              "_y": 145
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 36,
+              "_y": 140
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 57,
+              "_y": 138
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 63,
+              "_y": 142
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 61,
+              "_y": 141
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/5"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 38,
+              "_y": 116
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/6"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 40,
+              "_y": 156
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/7"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 28,
+              "_y": 167
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/8"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 10,
+              "_y": 159
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/pre/9"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "pos": {
+            "_dirName": "pos",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "repeat": {
+            "_dirName": "repeat",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "loop": {
+          "_dirName": "loop",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 30,
+              "_y": 66
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/loop/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 25,
+              "_y": 62
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/loop/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 25,
+              "_y": 61
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/loop/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 25,
+              "_y": 62
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 120
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3000001/mob/loop/3"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "pos": {
+            "_dirName": "pos",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "repeat": {
+            "_dirName": "repeat",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "psd": {
+        "_dirName": "psd",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "3000002": {
+      "_dirName": "3000002",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000002/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000002/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3000002/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 50
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 40
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 60
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 70
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 80
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 90
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 100
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 110
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 120
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 130
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 140
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "range": {
+            "_dirName": "range",
+            "_dirType": "Int",
+            "_value": 150
+          }
+        }
+      },
+      "psd": {
+        "_dirName": "psd",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "3001000": {
+      "_dirName": "3001000",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001000/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001000/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001000/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 10
+        }
+      },
+      "action": {
+        "_dirName": "action",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "alert2"
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 70
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 5
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 6
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 7
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 100
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 8
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 110
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 9
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 130
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 140
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 11
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 150
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 12
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 160
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 13
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 170
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 14
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 195
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 205
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 16
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 215
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 17
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 225
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 14
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 18
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 235
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 19
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h16"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 260
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h17"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 270
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 17
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 21
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h18"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 280
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 18
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 22
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h19"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 290
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 19
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 23
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h20"
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 300
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "indieAcc": {
+            "_dirName": "indieAcc",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "indieEva": {
+            "_dirName": "indieEva",
+            "_dirType": "Int",
+            "_value": 25
+          }
+        }
+      },
+      "req": {
+        "_dirName": "req",
+        "_dirType": "sub",
+        "3000002": {
+          "_dirName": "3000002",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "effect": {
+        "_dirName": "effect",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 109
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 111
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 116
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 116
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 51,
+            "_y": 116
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 52,
+            "_y": 116
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "a0": {
+            "_dirName": "a0",
+            "_dirType": "Int",
+            "_value": 255
+          },
+          "a1": {
+            "_dirName": "a1",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001000/effect/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "processtype": {
+        "_dirName": "processtype",
+        "_dirType": "Int",
+        "_value": 6
+      },
+      "additional_process": {
+        "_dirName": "additional_process",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 114
+        }
+      }
+    },
+    "3001001": {
+      "_dirName": "3001001",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001001/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001001/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001001/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 160
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 164
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 168
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 172
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 176
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 180
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 184
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 188
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 192
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 196
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 200
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 204
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 208
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 212
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 216
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h16"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 220
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h17"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 224
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h18"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 228
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h19"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 232
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h20"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 14
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 240
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "hit": {
+        "_dirName": "hit",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 42,
+              "_y": 41
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3001001/hit/0/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 60,
+              "_y": 71
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3001001/hit/0/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "ball": {
+        "_dirName": "ball",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 18,
+            "_y": 5
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001001/ball/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 18,
+            "_y": 5
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001001/ball/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 18,
+            "_y": 5
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/300.img/skill/3001001/ball/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "weapon2": {
+        "_dirName": "weapon2",
+        "_dirType": "Int",
+        "_value": 46
+      },
+      "processtype": {
+        "_dirName": "processtype",
+        "_dirType": "Int",
+        "_value": 115
+      },
+      "additional_process": {
+        "_dirName": "additional_process",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 109
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "Int",
+          "_value": 117
+        }
+      }
+    },
+    "3001002": {
+      "_dirName": "3001002",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001002/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001002/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/300.img/skill/3001002/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 80
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 82
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 84
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h4"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 86
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h5"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 88
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h6"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h7"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 9
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 92
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h8"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 94
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h9"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 96
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h10"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 98
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h11"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 100
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h12"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 102
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h13"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 104
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h14"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 106
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h15"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 108
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h16"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 14
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 110
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h17"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 14
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 112
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h18"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 114
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h19"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 116
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h20"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "damage": {
+            "_dirName": "damage",
+            "_dirType": "Int",
+            "_value": 120
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "y": {
+            "_dirName": "y",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "bulletConsume": {
+            "_dirName": "bulletConsume",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "req": {
+        "_dirName": "req",
+        "_dirType": "sub",
+        "3001001": {
+          "_dirName": "3001001",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "hit": {
+        "_dirName": "hit",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 29,
+              "_y": 28
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 60
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3001002/hit/0/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 33,
+              "_y": 35
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 60
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3001002/hit/0/1"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": 38,
+              "_y": 35
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 60
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "Skill/_Canvas/300.img/skill/3001002/hit/0/2"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        }
+      },
+      "weapon": {
+        "_dirName": "weapon",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "weapon2": {
+        "_dirName": "weapon2",
+        "_dirType": "Int",
+        "_value": 46
+      },
+      "processtype": {
+        "_dirName": "processtype",
+        "_dirType": "Int",
+        "_value": 115
+      },
+      "additional_process": {
+        "_dirName": "additional_process",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 109
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "Int",
+          "_value": 117
+        }
+      }
+    }
+  }
+}

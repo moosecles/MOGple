@@ -1,0 +1,176 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz 4"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Time to answer #b#p19##k's fourth question."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "You can answer #b#p19##k's questions if you think carefully."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p19##k's fourth quiz was about ways to recover HP. I didn't know there were so many different methods! When I find a chair or bench, make sure to sit down."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1015
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 35
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 1017
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Alright! You're on question number 4, out of 7 questions total. Talk to me when you're ready."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Which of the following is not a correct way to recover health?\\n\\n#L0##bSit on a chair.#l\\n#L1#Use a potion like #t2000000#.#l\\n#L2#Stand still without moving.#l\\n#L3#Sleep.#k#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Yes, that's correct! There are so many ways to recover HP, right? Oh, and here's another tip! If you press the sit key on chairs around the map, you can sit and rest.\n Whenever you find a chair, try sitting on it. You'll recover faster than just standing!"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "If you see a chair or bench, you can sit on it! Just press the sit key when you're near one, and you'll notice that your recovery speed is faster than when you're just standing."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Using a potion lets you recover a large amount of HP all at once. It's truly an amazing item, isn't it?"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "When you're not in combat, just standing still will slowly restore your HP."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

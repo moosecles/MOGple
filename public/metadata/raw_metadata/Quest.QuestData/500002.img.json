@@ -1,0 +1,158 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Event] The One Who Sealed the Darkness"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 99
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p313# has something to say about the newly discovered #bbizarre cave entrance#k..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p313# is worried that there might be a problem with the #bWorld Tree#k and told me to go ask #p502# in #m10004000#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I couldn't get any answers from #p502#... but I was able to see the battle he fought beneath the World Tree."
+    },
+    "rewardSummary": {
+      "_dirName": "rewardSummary",
+      "_dirType": "String",
+      "_value": "#i2430004# #t2430004# x3\\r\\n  (Account Reward)"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#questorder1#Talk to #r#p502##k"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 313
+      },
+      "startscript": {
+        "_dirName": "startscript",
+        "_dirType": "String",
+        "_value": "q500002s"
+      },
+      "end": {
+        "_dirName": "end",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "end_t": {
+        "_dirName": "end_t",
+        "_dirType": "String",
+        "_value": "202604232359"
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "202604211500"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "202604211500"
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 15
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 500001
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 502
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "endscript": {
+        "_dirName": "endscript",
+        "_dirType": "String",
+        "_value": "q500002e"
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub"
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You should speak with #b#p502##k.\\nBut do not expect too much, as he is an incredibly taciturn man."
+          }
+        }
+      }
+    }
+  }
+}

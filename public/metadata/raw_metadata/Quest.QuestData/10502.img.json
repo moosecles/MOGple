@@ -1,0 +1,140 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Still Hungry Ronnie"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Mr. Wetbottom's Secret Book"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 16
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p320# said the #t4000031#s weren’t enough and asked me to go see #p201# at #m10001000# to get #t4031030#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I went to see #p201# of #m10001000# first to help feed the hungry #p320#."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 320
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 32
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10501
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 201
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2440
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 655
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10503
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "The #t4000031#s you brought were pretty good, but… somehow, they weren’t enough. Eating them reminded me of the yummy food I used to have with my dad back in #m10001000#. "
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "The cooking of big sis #p201# in #m10001000# is the best in the world! Ahh~ if I could have #t4031030# again, maybe I’d even give you that book back~ "
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "So, you know what to do, right? Go find big sis #p201# in #m10001000# and ask her about #t4031030#!"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "So you came here through a favor by #p320#? Hahaha... hopefully #p320# isn't causing any trouble this time around. Anyway, he wants the #b#t4031030##k, huh? It's pretty easy, so why don't you just sit around and wait for a little bit as I make this dish..."
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "How to Enjoy Mushrooms"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Father's Mushroom Stew"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 13
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It looks like #p306# in #m10002000# is looking for an adventurer to lend a hand."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p306# in #m10002000# mentioned wanting to eat a delicious mushroom dish and asked me to find some ingredients. He said #b#t4000013#s#k taste especially good, so I should head out and hunt #r#o13#s#k near the forest."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I gave #t4000013#s to #p306# in #m10002000#. Can he really make a delicious meal out of this?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o13# #a102111#\\n#i4000013:# #t4000013:# #c4000013# / 15"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 306
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 306
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000013
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 546
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 409
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000013
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 5
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you over there! You look like an adventurer... maybe one with a heavy wallet? Care to lend me a hand?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I knew you’d be willing to listen. See, this forest beyond here was inherited from my father. I’m standing guard to make sure no strangers just wander in as they please..."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "But standing here all day is quite the chore, you know? And it's been far too long since I’ve had my favorite mushroom stew. My stomach is growling just thinking about it."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "So, how about a little deal? Bring me some #t4000013#s. My father used to make stew with them, and it was a real delicacy. You can get #b#t4000013#s#k by hunting #r#o13#s#k around the forest. I'll be waiting!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You clearly don't know that talking to the locals is the first rule of adventuring. Or maybe you're just not interested in making friends?"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I knew you’d bring them quickly. These #t4000013#s look incredibly fresh, don't they? Much appreciated. Here, a little something for your trouble."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "This is an ore commonly found in our forest. I hear you can craft some pretty useful things with it. Well then, see you around!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Still no #b#t4000013#s#k? Sigh... I really had my heart set on cooking up my father's mushroom stew today. Don't leave a hungry man waiting!"
+          }
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Don't forget to hunt the ones I mentioned. I'm not standing here for my health, you know."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "String",
+      "_value": "ellinia flower"
+    }
+  },
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 29,
+        "_y": 33
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Reactor/_Canvas/0000003.img/0/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 29,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 80
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 27,
+          "_y": 34
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 80
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/hit/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 28,
+          "_y": 34
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 80
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/hit/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 31,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 80
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/hit/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 29,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 80
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/hit/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "1": {
+    "_dirName": "1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "uol",
+      "_value": "../0/0"
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "uol",
+      "_value": "../0/hit"
+    }
+  },
+  "2": {
+    "_dirName": "2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "uol",
+      "_value": "../0/0"
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "uol",
+      "_value": "../0/hit"
+    }
+  },
+  "3": {
+    "_dirName": "3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "uol",
+      "_value": "../0/0"
+    },
+    "event": {
+      "_dirName": "event",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "state": {
+          "_dirName": "state",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      }
+    },
+    "hit": {
+      "_dirName": "hit",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 29,
+          "_y": 33
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "a0": {
+          "_dirName": "a0",
+          "_dirType": "Int",
+          "_value": 255
+        },
+        "a1": {
+          "_dirName": "a1",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 1000
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Reactor/_Canvas/0000003.img/0/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "4": {
+    "_dirName": "4",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "action": {
+    "_dirName": "action",
+    "_dirType": "String",
+    "_value": "vFlowerItem0"
+  }
+}

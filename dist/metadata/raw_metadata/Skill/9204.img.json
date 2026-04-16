@@ -1,0 +1,47 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": 30
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Skill/_Canvas/9200.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "skill": {
+    "_dirName": "skill",
+    "_dirType": "sub",
+    "92040000": {
+      "_dirName": "92040000",
+      "_dirType": "sub",
+      "invisible": {
+        "_dirName": "invisible",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "common": {
+        "_dirName": "common",
+        "_dirType": "sub",
+        "maxLevel": {
+          "_dirName": "maxLevel",
+          "_dirType": "Int",
+          "_value": 10
+        }
+      }
+    }
+  }
+}

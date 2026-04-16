@@ -1,0 +1,396 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Collecting 50 Cursed Dolls"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Rowen the Fairy and the Cursed Doll"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 13
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I think #p305# in #m10002000# has something to ask me..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into #b#p305##k again, who gave me #t4031031# for #p320#, #p608#'s son. Back then, she seemed to be keeping her guard up against humans, but now, it looks like she accepts me as #p320#'s friend... #p305# is assistant to the head magician of Ellinia, #p313#, and she tells me that he is concerned about the #t4000033#s that he made with his black magic a long, long time ago. The dolls had been sealed up for a while, until a bunch of #o35#s took them and ran away. The #o35#s have since become zombies and have been destroying the forest. To return the forest to how it was before, someone needs to take down the #r#o38#s#k and take the #b#t4000033#s#k away from them... So, I readily accepted the request to collect #b50 cursed dolls#k, but I fear those crazy monkeys may be too much to handle..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I eliminated a bunch of #o38#s in a forest near #m10002000# and collected all #b50 #t4000033#s#k for Rowen. In return, she gave me 7 ores. I hope the forest will return to normal..."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o38# #a102011#\\n#i4000033:# #t4000033:# #c4000033# / 50"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 305
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 36
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10508
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 305
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 38
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000033
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4387
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1053
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000033
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -50
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4010005
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You're #p320#'s friend. You came at just the right time. It's not easy for me to ask a human for help, but... I have a hunch that I can trust you on this."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Allow me to introduce myself. I'm #p305#, secretary of the Head Magician in this town, #b#p313##k. We've been looking for a traveler who can help us out. Well, would you like to hear the whole story?"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "#p313# used to be very much into #bblack magic#k, which was considered off limits. Black magic is VERY powerful, but there's a chance it can backfire and the Magician casting the magic might lose the ability to use magic altogether. So it's very potent but requires utmost caution."
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "#p313# wasn't fully trained, but he thought he could handle it. He tried to bring a straw doll to life. Anyone with half a brain knows that magic that has to do with life itself is absolutely forbidden!"
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "String",
+        "_value": "Something went terribly wrong in the process and the curse of black magic seeped into the doll, transforming it into a #r#t4000033##k that had to be sealed up forever. In the end, #p313# sealed the #t4000033# up and placed it somewhere unknown."
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "String",
+        "_value": "But then the #o35#s that live around #m10002000# forest took the doll. When they returned to the forest, they became zombies. The #rZombie #o35#s#k are now wreaking havoc in the forest. #p313# assigned me to handle the situation, but he couldn't really expect me to resolve the whole thing alone."
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "String",
+        "_value": "To get the forest back to the way it used to be, we need to kill the #rZombie #o35#s#k and remove the #b#t4000033#s#k. I'm awfully busy here, so will you do this in my place?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much. The #o38#s have been frequently sighted in the Monkey Forest near #m10002000#. Please hunt #r50 #o38#s#k and bring me #b50#k #b#t4000033#s#k. You will be well rewarded."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I see... I thought you were the right person to ask, but I guess I was wrong... I understand that you're busy, but if you ever have a change of heart, please find me."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "This is... Wow! You've brought me 50 #t4000033#s! That means you've thinned out the #o38#s. But it's too early to be relieved, because this doll is capable of continuously making new puppets."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh yeah, take this as a token of my appreciation. The fairies will spread word of your good deed. I personally think you deserve to be called a hero, and not just because you saved me from a pickle!"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I have increased your fame a little. I've also gotten you some ores from the forest. Please put them to good use. So long!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Don’t forget to defeat the #r#o38#s#k as well."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "So, you weren't able to collect #b50 #t4000033#s#k yet. The #t4000033# is making more Puppets of itself as we speak. You need to hurry up and bring me the dolls."
+          }
+        }
+      }
+    }
+  }
+}

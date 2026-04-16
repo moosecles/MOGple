@@ -1,0 +1,161 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Phil’s Call"
+    },
+    "selfStart": {
+      "_dirName": "selfStart",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I’ve finally reached level 10! Come to think of it, I remember hearing something about choosing a job once I hit level 10…"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Let’s head to the Information Broker #b#p101##k in #b#m10000000##k to learn more about job advancement."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I learned from #b#p101##k that I can choose to become a Swordman, Magician, Archer, or Rogue. It seems like I can’t change it once I choose, so I need to think carefully…"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 101
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 204
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I’ve finally reached level 10! Come to think of it, I remember hearing something about choosing a class once I hit level 10… Maybe I should visit #b#p101##k, the famous information broker in #b#m10000000##k, to find out more."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I guess I should head to #b#m10000000##k now."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I’m starting to feel a bit tired."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "A beginner at level 10... it's been a while, huh? You must have come to me because you're curious about job advancement, right?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Well, you can’t stay a beginner forever, right? Alright! Now that you’ve reached level 10, you can choose to advance to one of the following classes: #rSwordman#k, #rMagician#k, #rArcher#k, or #rRogue#k."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To become a Swordman, you need to go to #m10004000#; to become a Magician, you need to head to #m10002000#; to become an Archer, you need to go to #m10001000#; and to become a Rogue, you need to make your way to #m10003000#. They’re all towns located on Victoria Island, but it can still be quite a long journey."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "But, you know, there are always a few... unusual ones. I’m talking about the ones who choose to stay beginners and never advance. Hahaha! But I’m sure you’re not the type to make that choice, right?"
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "Anyway, once you’ve decided which job you want to advance to, come talk to me again. I can send you to the town you need to get to at a special discounted price just for beginner adventurers!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub"
+      }
+    }
+  }
+}

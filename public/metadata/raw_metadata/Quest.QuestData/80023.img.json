@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Chrishrama in Need of an Apprentice"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "The Arcforger master #p602# of #m10005000# seems to be searching for someone who could become his apprentice."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "The Arcforger master #p602# of #m10005000# gave me a test when I asked to become his apprentice. He said true Arcforgers must possess great wisdom, and instructed me to defeat monsters around #m10005000# and gather #ba #t4020000##k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed the test given by the Arcforger master #p602# of #m10005000#. Does this mean I can finally stand as a true Arcforger in Maple World?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o11# #a800231#\\n#i4020000:# #t4020000:# #c4020000# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 602
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 602
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4020000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92050000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Have you ever laid eyes upon an item infused with true arcane power? Dangerous, yes—but its mystery calls to those who seek truth. There is no need to fear it; anyone who walks the path of understanding will feel that pull. Tell me, traveler… would you walk the path of Arcforge with me?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "It seems you have never heard of Arcforge before, and that is only natural—this craft has long been guarded in secrecy. An Arcforger is one who #bworks with gemstones, the crystallized essence of countless forces, and crafts not only equipment infused with magic, but also scrolls that grant special abilities to gear#k. It is a path that demands both wisdom and skill. Tell me… does this interest you?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Good. In truth, I have hoped someone with a pure heart and earnest passion would inherit this craft. However, passion alone cannot guarantee success. Before all else, I must see whether you are truly suited for this path."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To become an Arcforger, one must possess wisdom befitting the craft. You must learn to see through the forces of nature and handle them with respect. Go, defeat #r#o11#s#k near #m10005000#, and bring #b1 #t4020000##k. Do this, and I shall acknowledge your potential."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Ah, so now is not the time for you. That is fine. Strength in Maple World is not earned by slaying monsters alone. At times, wisdom proves mightier than raw power. Return to me whenever your heart guides you."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "It seems you have defeated the monsters and collected the material I asked for. As I suspected—you possess the spark needed to walk this path."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "From this moment on, you are recognized as an Arcforger under my teaching. I have inscribed several Arcforge techniques into your #bCrafting Journal#k—examine them well."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "And, truth be told, those materials were meant for you to use. Try crafting a few items with them. Remember, however, that you will need the #b#p800015##k beside me to perform proper Arcforging."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "As you continue crafting through Arcforge, you will gain experience and rise in skill, allowing you to create increasingly wondrous things. But know this—if you wish to reach the highest level of Arcforging, your own adventurer level must rise as well. Neglect neither path."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "That is all I can teach you for now. Your journey will be long, but do not fear. So long as you refine your craft with patience, deeper wisdom will reveal itself to you. If you ever have questions, return to me."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It seems you have not defeated the monster I mentioned. Perhaps… I misjudged your resolve."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "And it appears you did not gather the materials I asked for… perhaps I was mistaken about you."
+          }
+        }
+      }
+    }
+  }
+}

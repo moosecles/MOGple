@@ -1,0 +1,280 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Camila's Gem"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard that #p204# in #m10001000# is worrying about something..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p204# in #m10001000#, and given her timid disposition, she asked me to deliver #b#t4031008##k to #b#p225##k for her. I heard that I can get to #m10001082# through #m10001080#..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I delivered a gift from #p204# to #p225#. I'm sure they're really close friends, since they give what's most precious to each other. I wish I could meet a friend like that during my journey..."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 204
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 24
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 225
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2531
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 702
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031008
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2020002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 7
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1322014
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Who are you? Whoa, isn't that the marble that #p204# so preciously takes care of? How did you get that??? What? #p204# asked you to get me that for my birthday? Wow, that's just awesome. This is a very precious item, you know. Now that the farming is almost done, I may have to go see #p204# to say thanks."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thanks for delivering #p204#'s present to me. Did you get my reward? Hopefully it'll help you on your journey."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Oh, that crystal... did you not see #p225# yet? Please get him the present before his birthday passes. Did you lose your way to #m10001082# by any chance?"
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Head to #m10001080# and you'll see an entrance to #m10001082#. Avoid the #o92#s and traps and navigate your way through the hidden paths, and you'll find him."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Who are you? This is our farm, and we raise a bunch of #o92#s. They are much stronger than the #o10#s that are raised out in the wild. Anyway, how can I help you?"
+          }
+        },
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Ah, did you lose the marble that I gave you by any chance? Someone picked it up from the streets a couple of minutes ago. This is something I really cherish, so please take good care of it, and get it to #p225# ASAP."
+        },
+        "yes": {
+          "_dirName": "yes",
+          "_dirType": "sub"
+        }
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "My friend #b#p225##k grew up with me and has a birthday coming up in a few days. So, I've decided my gift will be my precious #b#t4031008##k."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "There's a problem, though. #p225# hasn't been coming uptown lately, probably because he's been swarmed with work. I'd like to go there and give it to him myself, but the #o92#s that he raises scare me to death. Well... if you have any time, can you get this marble to #p225# for me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Really? Thank you, thank you so much! Here's the marble. I even carved a message for #p225# on it. You can get to Utah's farm through #m010001080#. Good luck! "
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Oh, I see. Sorry for asking. You must be a very busy person... #p225# might be disappointed... sigh... what should I do now??"
+        }
+      }
+    }
+  }
+}

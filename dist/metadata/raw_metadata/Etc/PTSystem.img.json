@@ -1,0 +1,202 @@
+{
+  "Program": {
+    "_dirName": "Program",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "expTableNo": {
+        "_dirName": "expTableNo",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "start": {
+        "_dirName": "start",
+        "_dirType": "String",
+        "_value": "20190522000000"
+      },
+      "end": {
+        "_dirName": "end",
+        "_dirType": "String",
+        "_value": "20190611235959"
+      },
+      "start_t": {
+        "_dirName": "start_t",
+        "_dirType": "String",
+        "_value": "20190522000000"
+      },
+      "end_t": {
+        "_dirName": "end_t",
+        "_dirType": "String",
+        "_value": "20190611235959"
+      },
+      "start_d": {
+        "_dirName": "start_d",
+        "_dirType": "String",
+        "_value": "20190522000000"
+      },
+      "end_d": {
+        "_dirName": "end_d",
+        "_dirType": "String",
+        "_value": "20190611235959"
+      },
+      "trainerLvMin": {
+        "_dirName": "trainerLvMin",
+        "_dirType": "Int",
+        "_value": 105
+      },
+      "traineeLvMin": {
+        "_dirName": "traineeLvMin",
+        "_dirType": "Int",
+        "_value": 105
+      },
+      "traineeLvMax": {
+        "_dirName": "traineeLvMax",
+        "_dirType": "Int",
+        "_value": 189
+      },
+      "UI": {
+        "_dirName": "UI",
+        "_dirType": "String",
+        "_value": "UI/UIWindow7.img/PTSystem/15thEvent"
+      },
+      "questID": {
+        "_dirName": "questID",
+        "_dirType": "Int",
+        "_value": 500293
+      }
+    }
+  },
+  "Msg": {
+    "_dirName": "Msg",
+    "_dirType": "sub",
+    "20": {
+      "_dirName": "20",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "Failed to register a Training character."
+      },
+      "-1": {
+        "_dirName": "-1",
+        "_dirType": "String",
+        "_value": "The request failed for an unknown reason."
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "String",
+        "_value": "You cannot access this content right now."
+      },
+      "11": {
+        "_dirName": "11",
+        "_dirType": "String",
+        "_value": "The item has expired."
+      },
+      "12": {
+        "_dirName": "12",
+        "_dirType": "String",
+        "_value": "Cannot register in the current server."
+      },
+      "13": {
+        "_dirName": "13",
+        "_dirType": "String",
+        "_value": "You can only register one character per world."
+      },
+      "20": {
+        "_dirName": "20",
+        "_dirType": "String",
+        "_value": "Failed to register as the Training Character. Level requirement not met."
+      },
+      "21": {
+        "_dirName": "21",
+        "_dirType": "String",
+        "_value": "You cannot register a Burning character as a Training character."
+      },
+      "22": {
+        "_dirName": "22",
+        "_dirType": "String",
+        "_value": "You cannot register a Coach character as a Training Character."
+      },
+      "23": {
+        "_dirName": "23",
+        "_dirType": "String",
+        "_value": "You cannot register a Training character that is already in training."
+      },
+      "24": {
+        "_dirName": "24",
+        "_dirType": "String",
+        "_value": "You cannot register a Training character that is waiting for deletion."
+      },
+      "25": {
+        "_dirName": "25",
+        "_dirType": "String",
+        "_value": "You cannot register a Training character with that Job."
+      },
+      "30": {
+        "_dirName": "30",
+        "_dirType": "String",
+        "_value": "Failed to become the Coach character. Level requirement not met."
+      },
+      "31": {
+        "_dirName": "31",
+        "_dirType": "String",
+        "_value": "A Burning character cannot become a Coach character."
+      },
+      "32": {
+        "_dirName": "32",
+        "_dirType": "String",
+        "_value": "You already registered a Training character."
+      },
+      "33": {
+        "_dirName": "33",
+        "_dirType": "String",
+        "_value": "A Training character cannot become a Coach character."
+      },
+      "34": {
+        "_dirName": "34",
+        "_dirType": "String",
+        "_value": "A character waiting for deletion cannot become a Coach character."
+      },
+      "35": {
+        "_dirName": "35",
+        "_dirType": "String",
+        "_value": "A character with that job cannot become a Coach character."
+      },
+      "36": {
+        "_dirName": "36",
+        "_dirType": "String",
+        "_value": "A Zero character needs to finish Chapter 2 in order to become a Coach character."
+      },
+      "100": {
+        "_dirName": "100",
+        "_dirType": "String",
+        "_value": "Failed to process the request due to server capacity overload. Please try again later."
+      }
+    },
+    "21": {
+      "_dirName": "21",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "Failed to remove Training character."
+      },
+      "-1": {
+        "_dirName": "-1",
+        "_dirType": "String",
+        "_value": "The request failed for an unknown reason."
+      },
+      "12": {
+        "_dirName": "12",
+        "_dirType": "String",
+        "_value": "Cannot remove from the current server."
+      },
+      "1001": {
+        "_dirName": "1001",
+        "_dirType": "String",
+        "_value": "The Training character's information does not exist."
+      }
+    }
+  }
+}

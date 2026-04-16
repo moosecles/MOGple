@@ -1,0 +1,126 @@
+{
+  "LimitCountry": {
+    "_dirName": "LimitCountry",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "String",
+      "_value": "현재 사용되고 있지 않고 BlockPolicy로 바뀌었습니다."
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "\"BE\""
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "\"SK\""
+    }
+  },
+  "LimitItem_CountryIP": {
+    "_dirName": "LimitItem_CountryIP",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "String",
+      "_value": "접속 IP에 따라 제한되는 품목"
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "CountryCode": {
+        "_dirName": "CountryCode",
+        "_dirType": "String",
+        "_value": "\"VE\""
+      },
+      "ItemID": {
+        "_dirName": "ItemID",
+        "_dirType": "sub"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "CountryCode": {
+        "_dirName": "CountryCode",
+        "_dirType": "String",
+        "_value": "\"BY\""
+      },
+      "ItemID": {
+        "_dirName": "ItemID",
+        "_dirType": "sub"
+      }
+    }
+  },
+  "LimitItem_Policy": {
+    "_dirName": "LimitItem_Policy",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "String",
+      "_value": "BlockPolicy에 따라 제한되는 품목"
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "TRADE"
+      },
+      "BlockType": {
+        "_dirName": "BlockType",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "ItemID": {
+        "_dirName": "ItemID",
+        "_dirType": "sub"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "LOOTBOX"
+      },
+      "BlockType": {
+        "_dirName": "BlockType",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "ItemID": {
+        "_dirName": "ItemID",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 5150000
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "Int",
+          "_value": 5150001
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "Int",
+          "_value": 5151000
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "Int",
+          "_value": 5151001
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "Int",
+          "_value": 5152000
+        }
+      }
+    }
+  }
+}

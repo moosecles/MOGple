@@ -1,0 +1,166 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Mrs. Ming Ming's Second Worry"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Mrs. Ming Ming's Second Worry"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard #p203# in #m10001000# has a new worry..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p203# again in #m10001000# who was preparing for the village festival. She said she needs food to prepare for the festival, and asked me to collect #b10 #t4000008#s, 30 #t4000012#s, and #t4031005##k. To get the special sauce, I think I'll have to go find #p300# in #m10002010#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I met up with #b#p300##k in #m10002010# to get her #b#t4031005##k, but she apparently she doesn't want to give it to me for free..."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 203
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 15
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10100
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 300
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10102
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 705
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 438
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I need lots of materials for the big feast at the Carnival. Can you get me #b10 #t4000008#s, 30 #t4000012#s, and 1 #t4031005##k? You can get #t4031005# from #b#p300##k, who should be in #m10002010#. Thank you, and good luck!"
+          }
+        }
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you're back! I'm putting the materials you got me last time to good use. The town is ready for the Carnival that's coming up really soon. Unfortunately, there's another problem at hand. Do you want to hear me out?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I can't thank you enough for saying yes. Decorating the town for the Carnival is important, but it's much more important to offer the tourists some food, you know? The problem is that we've run out of the materials for the big feast."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Can you bring me #b10 #t4000008#s, 30 #t4000012#s, and 1 #t4031005##k? You can get #t4031005# from #b#p300##k, who should be in #m10002010#. Thank you, and good luck!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I thought you were going to help. If you feel like changing your mind, though, then please come see me. I need as much help as I can get!"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6034 @@
+{
+  "backgrnd": {
+    "_dirName": "backgrnd",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/backgrnd"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "backgrnd2": {
+    "_dirName": "backgrnd2",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/backgrnd2"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "canvas:backgrnd1": {
+    "_dirName": "canvas:backgrnd1",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -7,
+      "_y": -9
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/canvas:backgrnd1"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "canvas:gaugeLabel": {
+    "_dirName": "canvas:gaugeLabel",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -223,
+      "_y": -40
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/canvas:gaugeLabel"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "layer:gaugeCover": {
+    "_dirName": "layer:gaugeCover",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -223,
+      "_y": -55
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 10
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/layer:gaugeCover"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "layer:newMail": {
+    "_dirName": "layer:newMail",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -594,
+      "_y": -9
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/StatusBar.img/layer:newMail"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "vector:posName": {
+    "_dirName": "vector:posName",
+    "_dirType": "vector",
+    "_x": 88,
+    "_y": 54
+  },
+  "vector:posJob": {
+    "_dirName": "vector:posJob",
+    "_dirType": "vector",
+    "_x": 88,
+    "_y": 40
+  },
+  "vector:posNumberLv": {
+    "_dirName": "vector:posNumberLv",
+    "_dirType": "vector",
+    "_x": 56,
+    "_y": 49
+  },
+  "vector:posRemainMailCount": {
+    "_dirName": "vector:posRemainMailCount",
+    "_dirType": "vector",
+    "_x": 7,
+    "_y": 2
+  },
+  "lvNumber": {
+    "_dirName": "lvNumber",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "5": {
+      "_dirName": "5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "6": {
+      "_dirName": "6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "7": {
+      "_dirName": "7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "8": {
+      "_dirName": "8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/8"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "9": {
+      "_dirName": "9",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "blank": {
+      "_dirName": "blank",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Basic.img/LevelNo/blank"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "alertHP": {
+    "_dirName": "alertHP",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -223,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 130
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/alertHP/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -223,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 130
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/alertHP/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    }
+  },
+  "alertMP": {
+    "_dirName": "alertMP",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -331,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 130
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/alertHP/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -331,
+        "_y": -54
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 130
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/alertHP/1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "uol",
+      "_value": "0"
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "uol",
+      "_value": "1"
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "uol",
+      "_value": "0"
+    }
+  },
+  "gauge": {
+    "_dirName": "gauge",
+    "_dirType": "sub",
+    "number": {
+      "_dirName": "number",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "[": {
+        "_dirName": "[",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "]": {
+        "_dirName": "]",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 4,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "slash": {
+        "_dirName": "slash",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "%": {
+        "_dirName": "%",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number/%"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      ".": {
+        "_dirName": ".",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 3,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      ",": {
+        "_dirName": ",",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 4,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "number2": {
+      "_dirName": "number2",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 4,
+        "_height": 7,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/8"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number2/9"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "+": {
+        "_dirName": "+",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -1,
+          "_y": -1
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 5,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "number3": {
+      "_dirName": "number3",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 4,
+        "_height": 7,
+        "_format": 2,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/6"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/7"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/8"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/gauge/number3/9"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "-": {
+        "_dirName": "-",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": -2
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_width": 5,
+        "_height": 3,
+        "_format": 2,
+        "_format2": 0
+      }
+    },
+    "layer:gaugeExp": {
+      "_dirName": "layer:gaugeExp",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -445,
+        "_y": -56
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/gauge/layer:gaugeExp"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "layer:gaugeMp": {
+      "_dirName": "layer:gaugeMp",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -332,
+        "_y": -56
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/gauge/layer:gaugeMp"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "layer:gaugeHp": {
+      "_dirName": "layer:gaugeHp",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -224,
+        "_y": -56
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/gauge/layer:gaugeHp"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "layer:gaugeBarrier": {
+      "_dirName": "layer:gaugeBarrier",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -224,
+        "_y": -56
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/gauge/layer:gaugeBarrier"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "layer:gaugeEx": {
+      "_dirName": "layer:gaugeEx",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -224,
+        "_y": -56
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/gauge/layer:gaugeEx"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "vector:posNumberHp": {
+      "_dirName": "vector:posNumberHp",
+      "_dirType": "vector",
+      "_x": 245,
+      "_y": 42
+    },
+    "vector:posNumberMp": {
+      "_dirName": "vector:posNumberMp",
+      "_dirType": "vector",
+      "_x": 356,
+      "_y": 42
+    },
+    "vector:posNumberExp": {
+      "_dirName": "vector:posNumberExp",
+      "_dirType": "vector",
+      "_x": 473,
+      "_y": 42
+    },
+    "canvas:gaugeBack": {
+      "_dirName": "canvas:gaugeBack",
+      "_dirType": "canvas",
+      "_width": 1,
+      "_height": 16,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "chat": {
+    "_dirName": "chat",
+    "_dirType": "sub",
+    "canvas:chatbackgrnd1": {
+      "_dirName": "canvas:chatbackgrnd1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/chat/canvas:chatbackgrnd1"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:chatbackgrnd2": {
+      "_dirName": "canvas:chatbackgrnd2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -7,
+        "_y": -8
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/chat/canvas:chatbackgrnd2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:resize": {
+      "_dirName": "canvas:resize",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatLog.img/resize"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:chatedit": {
+      "_dirName": "canvas:chatedit",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -91,
+        "_y": -11
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/chat/canvas:chatedit"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:scrollbg": {
+      "_dirName": "canvas:scrollbg",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -553,
+        "_y": -9
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/ChatLog.img/miniScroll/back"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "vector:chatedit_lt": {
+      "_dirName": "vector:chatedit_lt",
+      "_dirType": "vector",
+      "_x": 93,
+      "_y": 15
+    },
+    "vector:chatedit_rb": {
+      "_dirName": "vector:chatedit_rb",
+      "_dirType": "vector",
+      "_x": 513,
+      "_y": 27
+    },
+    "button:ChatPrev": {
+      "_dirName": "button:ChatPrev",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -10
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/prev/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -10
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/prev/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -10
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/prev/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -10
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/prev/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 22000
+      }
+    },
+    "button:ChatNext": {
+      "_dirName": "button:ChatNext",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -21
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/next/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -21
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/next/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -21
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/next/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -553,
+            "_y": -21
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/ChatLog.img/miniScroll/next/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 22001
+      }
+    },
+    "button:ChatTargetSelect": {
+      "_dirName": "button:ChatTargetSelect",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -11
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/button:ChatTargetSelect/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -11
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/button:ChatTargetSelect/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -11
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/button:ChatTargetSelect/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -8,
+            "_y": -11
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/button:ChatTargetSelect/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 22002
+      }
+    },
+    "vector:chatlog_lt": {
+      "_dirName": "vector:chatlog_lt",
+      "_dirType": "vector",
+      "_x": 20,
+      "_y": 9
+    },
+    "vector:chatlog_rb": {
+      "_dirName": "vector:chatlog_rb",
+      "_dirType": "vector",
+      "_x": 520,
+      "_y": 29
+    },
+    "targetSelect": {
+      "_dirName": "targetSelect",
+      "_dirType": "sub",
+      "head": {
+        "_dirName": "head",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/chat/targetSelect/head"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "body": {
+        "_dirName": "body",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/chat/targetSelect/body"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "tail": {
+        "_dirName": "tail",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/chat/targetSelect/tail"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "textoffset": {
+        "_dirName": "textoffset",
+        "_dirType": "vector",
+        "_x": 4,
+        "_y": 4
+      }
+    },
+    "VScr": {
+      "_dirName": "VScr",
+      "_dirType": "sub",
+      "enabled": {
+        "_dirName": "enabled",
+        "_dirType": "sub",
+        "prev0": {
+          "_dirName": "prev0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/prev0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "prev1": {
+          "_dirName": "prev1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/prev1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "prev2": {
+          "_dirName": "prev2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/prev2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "next0": {
+          "_dirName": "next0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/next0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "next1": {
+          "_dirName": "next1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/next1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "next2": {
+          "_dirName": "next2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/enabled/next2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "base": {
+          "_dirName": "base",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/VScr/enabled/base"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "thumb0": {
+          "_dirName": "thumb0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 15,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "thumb1": {
+          "_dirName": "thumb1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 15,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "thumb2": {
+          "_dirName": "thumb2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 15,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "prev": {
+          "_dirName": "prev",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/disabled/prev"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "next": {
+          "_dirName": "next",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/VScr4/disabled/next"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "base": {
+          "_dirName": "base",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/StatusBar.img/chat/VScr/enabled/base"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  },
+  "button:CashShop": {
+    "_dirName": "button:CashShop",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:CashShop/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:CashShop/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:CashShop/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:CashShop/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20000
+    }
+  },
+  "button:Menu": {
+    "_dirName": "button:Menu",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -652,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Menu/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -652,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Menu/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -652,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Menu/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -652,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Menu/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20001
+    }
+  },
+  "button:Shortcut": {
+    "_dirName": "button:Shortcut",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -726,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Shortcut/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -726,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Shortcut/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -726,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Shortcut/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -726,
+          "_y": -38
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Shortcut/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20002
+    }
+  },
+  "button:Mailbox": {
+    "_dirName": "button:Mailbox",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Mailbox/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Mailbox/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Mailbox/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -578,
+          "_y": -11
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Mailbox/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20003
+    }
+  },
+  "button:Equip": {
+    "_dirName": "button:Equip",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -621,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Equip/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -621,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Equip/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -621,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Equip/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -621,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Equip/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20004
+    }
+  },
+  "button:Inven": {
+    "_dirName": "button:Inven",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -651,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Inven/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -651,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Inven/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -651,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Inven/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -651,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Inven/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20005
+    }
+  },
+  "button:Stat": {
+    "_dirName": "button:Stat",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Stat/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Stat/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Stat/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Stat/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20006
+    }
+  },
+  "button:StatUp": {
+    "_dirName": "button:StatUp",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:StatUp/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:StatUp/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:StatUp/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -681,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:StatUp/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20013
+    }
+  },
+  "button:Skill": {
+    "_dirName": "button:Skill",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Skill/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Skill/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Skill/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Skill/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20007
+    }
+  },
+  "button:SkillUp": {
+    "_dirName": "button:SkillUp",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:SkillUp/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:SkillUp/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:SkillUp/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -711,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:SkillUp/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20014
+    }
+  },
+  "button:Key": {
+    "_dirName": "button:Key",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -741,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Key/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -741,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Key/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -741,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Key/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -741,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:Key/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20008
+    }
+  },
+  "button:QuickSlot": {
+    "_dirName": "button:QuickSlot",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlot/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlot/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlot/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlot/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20009
+    }
+  },
+  "button:QuickSlotD": {
+    "_dirName": "button:QuickSlotD",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlotD/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlotD/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlotD/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -771,
+          "_y": -10
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/button:QuickSlotD/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20010
+    }
+  },
+  "button:ChatLogMin": {
+    "_dirName": "button:ChatLogMin",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMin/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMin/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMin/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMin/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20011
+    }
+  },
+  "button:ChatLogMax": {
+    "_dirName": "button:ChatLogMax",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMax/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMax/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMax/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -539,
+          "_y": -14
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 2
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Basic.img/BtMax/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 20012
+    }
+  },
+  "submenu": {
+    "_dirName": "submenu",
+    "_dirType": "sub",
+    "offset": {
+      "_dirName": "offset",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "canvas:menu": {
+      "_dirName": "canvas:menu",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -7
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/submenu/canvas:menu"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "canvas:shortcut": {
+      "_dirName": "canvas:shortcut",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -9,
+        "_y": -7
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/StatusBar.img/submenu/canvas:shortcut"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/submenu/backgrnd/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/submenu/backgrnd/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/StatusBar.img/submenu/backgrnd/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "menu": {
+      "_dirName": "menu",
+      "_dirType": "sub",
+      "button:Channel": {
+        "_dirName": "button:Channel",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Channel/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Channel/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Channel/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Channel/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "button:GameOpt": {
+        "_dirName": "button:GameOpt",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:GameOpt/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:GameOpt/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:GameOpt/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:GameOpt/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "button:Quit": {
+        "_dirName": "button:Quit",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Quit/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Quit/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Quit/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/menu/button:Quit/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      }
+    },
+    "shortcut": {
+      "_dirName": "shortcut",
+      "_dirType": "sub",
+      "button:Item": {
+        "_dirName": "button:Item",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Item/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Item/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Item/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -24
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Item/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "button:Equip": {
+        "_dirName": "button:Equip",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Equip/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Equip/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Equip/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -50
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Equip/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "button:Stat": {
+        "_dirName": "button:Stat",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Stat/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Stat/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Stat/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -76
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Stat/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      },
+      "button:Skill": {
+        "_dirName": "button:Skill",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -102
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Skill/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -102
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Skill/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -102
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Skill/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -102
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Skill/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 4
+        }
+      },
+      "button:Party": {
+        "_dirName": "button:Party",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -128
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Party/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -128
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Party/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -128
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Party/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -128
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Party/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 5
+        }
+      },
+      "button:Quest": {
+        "_dirName": "button:Quest",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -154
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Quest/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -154
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Quest/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -154
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Quest/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -154
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Quest/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 6
+        }
+      },
+      "button:Crafting": {
+        "_dirName": "button:Crafting",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -180
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Crafting/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -180
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Crafting/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -180
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Crafting/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -180
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Crafting/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -180
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Crafting/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 7
+        }
+      },
+      "button:Messenger": {
+        "_dirName": "button:Messenger",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -206
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Messenger/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -206
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Messenger/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -206
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Messenger/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -206
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Messenger/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 8
+        }
+      },
+      "button:Comm": {
+        "_dirName": "button:Comm",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -232
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Comm/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -232
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Comm/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -232
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Comm/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -232
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Comm/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 9
+        }
+      },
+      "button:Mailbox": {
+        "_dirName": "button:Mailbox",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -258
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Mailbox/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -258
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Mailbox/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -258
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Mailbox/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -6,
+              "_y": -258
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/StatusBar.img/submenu/shortcut/button:Mailbox/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "keyFocused": {
+          "_dirName": "keyFocused",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "uol",
+            "_value": "../mouseOver/0"
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 10
+        }
+      }
+    }
+  }
+}

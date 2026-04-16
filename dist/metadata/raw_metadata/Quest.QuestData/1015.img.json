@@ -1,0 +1,171 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz 3"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Rain's Maple Quiz"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#b#p19##k's third question."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Time for Rain's thirds question."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "In the Equipment Window, I can check the items I'm wearing, and I can also double-click to unequip them."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1014
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 19
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 1016
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "My questions aren't that hard because I let you keep trying until you get them right. Nice of me, huh? Tell me when you're ready for the 3rd question."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "What menu can you use to check the items you're wearing?\\n\\n#L0##bEquipment Inventory#l\\n#L1#Character Info#l\\n#L2#Item Inventory#k#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "That's right! You can check which equipment your character can wear in the Equipment Inventory."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You can check your stats in the Character Info. Make sure to remember that!"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "In the Item Inventory, you can check the items you have."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub"
+        }
+      }
+    }
+  }
+}

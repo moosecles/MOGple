@@ -1,0 +1,272 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Myra’s Wish"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Myra’s Old Friend"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 17
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#p703# in #m10006090# seems to have another request."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p703# in #m10006090# asked me to deliver news of this place to another of her old friends, #b#p313##k. I should be able to find #p313# atop #m10002000#, at the #m10002003#."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "When I met #p313# in #m10002000#, he was astonished to hear that the #m10006000# had been rediscovered, and he seemed deeply troubled about what was happening there."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031029:# #t4031029:# #c4031029# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 703
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 49
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10603
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 313
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031029
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031029
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 5394
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1003
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031029
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Human… I must ask this of you… the World Tree is in danger… it must be tied to why my friends have changed…"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Long ago… there was a dear friend who lived here with me... His name is #b#p313##k... He left this place with many of the fairies…"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "There is something I must entrust to him… will you grant me this request?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Please take this #b#t4031029##k to him... Long ago, the fairies who left here settled in #m10002000#... Go there, and find him..."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Then... leave this place immediately…"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Why have you come to find me? Did you say… #p703#?! How do you know that name…! And the #b#t4031029##k you carry… such evil energy radiates from it. Tell me everything that has happened—quickly!"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I see… so you discovered the #m10006000#, and deep within you met #p703#. I am relieved beyond words that she still survives. Truly relieved…"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Then I must share with you the ancient secret of the fairies of #m10002000#. Long ago, all fairies dwelled together in #m10006000#, watching over the World Tree and the noble guardian who protected it. The World Tree was Victoria Island itself, brimming with infinite life."
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "But then… in #m10005105#, hidden beneath the Ant Tunnel, a sealed evil awoke. A brave hero fought it and sealed it once again at the cost of noble sacrifice, but by then the demon’s curse had already spread, and the World Tree began to wither under its dark power."
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "String",
+        "_value": "Because of this, the noble guardian of the World Tree—Arcon—fell into corruption. His fall tainted the depths of the #m10006000#, and darkness spread. Many fairies were forced to flee and settle here in #m10002000#."
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "String",
+        "_value": "Hah… my story has gone on too long. I need time to think about what must be done. If you wish to hear more, come find me again later."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You still haven’t met #p313#...? He is my old friend… take #t4031029# to him."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "What brings you here? You say you have something to show me? And yet… where is this thing you claim to carry?"
+          }
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Have you lost the #t4031029#...? This time, keep it safe..."
+        }
+      }
+    }
+  }
+}

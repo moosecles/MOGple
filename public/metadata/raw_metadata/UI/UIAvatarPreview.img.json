@@ -1,0 +1,6076 @@
+{
+  "AvatarPreview": {
+    "_dirName": "AvatarPreview",
+    "_dirType": "sub",
+    "_button:AutoAction": {
+      "_dirName": "_button:AutoAction",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -59,
+            "_y": -335
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/_button:AutoAction/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -59,
+            "_y": -335
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/_button:AutoAction/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -59,
+            "_y": -335
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/_button:AutoAction/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -59,
+            "_y": -335
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/_button:AutoAction/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "The default action will run automatically."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2004
+      }
+    },
+    "Preview": {
+      "_dirName": "Preview",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShop.img/Base/Preview/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShop.img/Base/Preview/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShop.img/Base/Preview/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/Preview/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -10
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/Preview/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "avatar": {
+      "_dirName": "avatar",
+      "_dirType": "vector",
+      "_x": 177,
+      "_y": 172
+    },
+    "button:Preview": {
+      "_dirName": "button:Preview",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -77,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Preview/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -77,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Preview/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -77,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Preview/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -77,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Preview/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "아이템 코드에 있는 아이템을 아바타에 입힙니다."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2000
+      }
+    },
+    "button:PutOffAll": {
+      "_dirName": "button:PutOffAll",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:PutOffAll/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:PutOffAll/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:PutOffAll/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -15,
+            "_y": -305
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:PutOffAll/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "아바타가 입고있는 아이템 전부를 벗깁니다."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2001
+      }
+    },
+    "button:Reload": {
+      "_dirName": "button:Reload",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -280,
+            "_y": -250
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Reload/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -280,
+            "_y": -250
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Reload/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -280,
+            "_y": -250
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Reload/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -280,
+            "_y": -250
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:Reload/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "아이템 코드에 있는 아이템 데이터를 수정합니다."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2002
+      }
+    },
+    "button:LoadCharacter": {
+      "_dirName": "button:LoadCharacter",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -258,
+            "_y": -378
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:LoadCharacter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -258,
+            "_y": -378
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:LoadCharacter/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -258,
+            "_y": -378
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:LoadCharacter/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -258,
+            "_y": -378
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:LoadCharacter/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "Looking up the character avatar saved in avatar.img in the data path."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2003
+      }
+    },
+    "button:SaveCharacter": {
+      "_dirName": "button:SaveCharacter",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -260,
+            "_y": -445
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:SaveCharacter/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -260,
+            "_y": -445
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:SaveCharacter/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -260,
+            "_y": -445
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:SaveCharacter/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -260,
+            "_y": -445
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/button:SaveCharacter/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "ToolTip": {
+        "_dirName": "ToolTip",
+        "_dirType": "String",
+        "_value": "Saving the current character avatar in avatar.img in the data path."
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2004
+      }
+    },
+    "button:CancelAct": {
+      "_dirName": "button:CancelAct",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -213
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -213
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -213
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -213
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2050
+      }
+    },
+    "button:PutOff_Hair": {
+      "_dirName": "button:PutOff_Hair",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2051
+      }
+    },
+    "button:PutOff_Cap": {
+      "_dirName": "button:PutOff_Cap",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2052
+      }
+    },
+    "button:PutOff_FaceAcc": {
+      "_dirName": "button:PutOff_FaceAcc",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2053
+      }
+    },
+    "button:PutOff_EyeAcc": {
+      "_dirName": "button:PutOff_EyeAcc",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2054
+      }
+    },
+    "button:PutOff_EarAcc": {
+      "_dirName": "button:PutOff_EarAcc",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -575,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2055
+      }
+    },
+    "button:PutOff_Clothes": {
+      "_dirName": "button:PutOff_Clothes",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -63
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -63
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -63
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -63
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2056
+      }
+    },
+    "button:PutOff_Pants": {
+      "_dirName": "button:PutOff_Pants",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -113
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2057
+      }
+    },
+    "button:PutOff_Shoes": {
+      "_dirName": "button:PutOff_Shoes",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -163
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2058
+      }
+    },
+    "button:PutOff_Glove": {
+      "_dirName": "button:PutOff_Glove",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -138
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2059
+      }
+    },
+    "button:PutOff_Cape": {
+      "_dirName": "button:PutOff_Cape",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -38
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2060
+      }
+    },
+    "button:PutOff_Shield": {
+      "_dirName": "button:PutOff_Shield",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -13
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2061
+      }
+    },
+    "button:PutOff_Weapon": {
+      "_dirName": "button:PutOff_Weapon",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -88
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -88
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -88
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -995,
+            "_y": -88
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2062
+      }
+    },
+    "button:PutOff_WSticker": {
+      "_dirName": "button:PutOff_WSticker",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -188
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -188
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -188
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -785,
+            "_y": -188
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/Basic.img/BtClose/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2063
+      }
+    },
+    "check:ear": {
+      "_dirName": "check:ear",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 10,
+        "_y": 257
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 70,
+        "_y": 272
+      },
+      "text": {
+        "_dirName": "text",
+        "_dirType": "String",
+        "_value": "Elf Ears"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2100
+      },
+      "fontColor": {
+        "_dirName": "fontColor",
+        "_dirType": "Int",
+        "_value": -16777216
+      }
+    },
+    "check:left": {
+      "_dirName": "check:left",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 75,
+        "_y": 257
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 135,
+        "_y": 272
+      },
+      "text": {
+        "_dirName": "text",
+        "_dirType": "String",
+        "_value": "Left"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2101
+      },
+      "fontColor": {
+        "_dirName": "fontColor",
+        "_dirType": "Int",
+        "_value": -16777216
+      }
+    },
+    "combo:BG": {
+      "_dirName": "combo:BG",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 162,
+        "_y": 252
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 262,
+        "_y": 280
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 40
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 36
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 6
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox10"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2200
+      }
+    },
+    "combo:Skin": {
+      "_dirName": "combo:Skin",
+      "_dirType": "sub",
+      "contents": {
+        "_dirName": "contents",
+        "_dirType": "sub",
+        "Skin": {
+          "_dirName": "Skin",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "0 - Default"
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "1 - Dark Default"
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "2 - Black"
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "3 -  Bright Default"
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "4 - Ghost"
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "9 - White"
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "10 - Default"
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "11 - Black"
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "12 -  Bright Default"
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "string": {
+              "_dirName": "string",
+              "_dirType": "String",
+              "_value": "13 - White"
+            }
+          }
+        }
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 10
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 29
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2201
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2251"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "combo:Hair": {
+      "_dirName": "combo:Hair",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 54
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2202
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2252"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "combo:Face": {
+      "_dirName": "combo:Face",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 79
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2203
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2253"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "combo:FaceAcc": {
+      "_dirName": "combo:FaceAcc",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 110
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 129
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2204
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2254"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:EyeAcc": {
+      "_dirName": "combo:EyeAcc",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 135
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 154
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2205
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2255"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:EarAcc": {
+      "_dirName": "combo:EarAcc",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 160
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 179
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2206
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2256"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Cap": {
+      "_dirName": "combo:Cap",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 10
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 29
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2207
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2257"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Cape": {
+      "_dirName": "combo:Cape",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 54
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2208
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2258"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Coat": {
+      "_dirName": "combo:Coat",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 79
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2209
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2259"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Longcoat": {
+      "_dirName": "combo:Longcoat",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 85
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 104
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2210
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2260"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Pants": {
+      "_dirName": "combo:Pants",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 110
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 129
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2211
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2261"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Glove": {
+      "_dirName": "combo:Glove",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 135
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 154
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2212
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2262"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Shoes": {
+      "_dirName": "combo:Shoes",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 160
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 179
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2213
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2263"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Shield": {
+      "_dirName": "combo:Shield",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 10
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 29
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2214
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2264"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Blade": {
+      "_dirName": "combo:Blade",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 54
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2215
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2265"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:ShiningRod": {
+      "_dirName": "combo:ShiningRod",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 85
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 104
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2216
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2266"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:SoulShooter": {
+      "_dirName": "combo:SoulShooter",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 110
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 129
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2217
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2267"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:DevilSword": {
+      "_dirName": "combo:DevilSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 135
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 154
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2218
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2268"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:ChainSword": {
+      "_dirName": "combo:ChainSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 160
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 179
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2219
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2269"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Limiter": {
+      "_dirName": "combo:Limiter",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 185
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 204
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2220
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2270"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:OHSword": {
+      "_dirName": "combo:OHSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 210
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 229
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2221
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2271"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:OHAxe": {
+      "_dirName": "combo:OHAxe",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 235
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 254
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2222
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2272"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:OHMace": {
+      "_dirName": "combo:OHMace",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 260
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 279
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2273
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2273"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Dagger": {
+      "_dirName": "combo:Dagger",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 285
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 304
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2224
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2274"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Cane": {
+      "_dirName": "combo:Cane",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 310
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 329
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2225
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2275"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Wand": {
+      "_dirName": "combo:Wand",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 335
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 354
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2226
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2276"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Staff": {
+      "_dirName": "combo:Staff",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 810,
+        "_y": 360
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 990,
+        "_y": 379
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2227
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2277"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:THSword": {
+      "_dirName": "combo:THSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 10
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 29
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2228
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2278"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:THAxe": {
+      "_dirName": "combo:THAxe",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 35
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 54
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2229
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2229"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:THMace": {
+      "_dirName": "combo:THMace",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 60
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 79
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2230
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2280"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Spear": {
+      "_dirName": "combo:Spear",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 85
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 104
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2231
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2281"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Polearm": {
+      "_dirName": "combo:Polearm",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 110
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 129
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2232
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2282"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Bow": {
+      "_dirName": "combo:Bow",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 135
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 154
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2233
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2283"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Crossbow": {
+      "_dirName": "combo:Crossbow",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 160
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 179
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2234
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2284"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:ThrowingGlove": {
+      "_dirName": "combo:ThrowingGlove",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 185
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 204
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2235
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2285"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Knuckle": {
+      "_dirName": "combo:Knuckle",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 210
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 229
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2236
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2286"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Gun": {
+      "_dirName": "combo:Gun",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 235
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 254
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2237
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2287"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Dualbow": {
+      "_dirName": "combo:Dualbow",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 260
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 279
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2238
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2288"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:HandCannon": {
+      "_dirName": "combo:HandCannon",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 285
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 304
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2239
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2239"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:BroadSword": {
+      "_dirName": "combo:BroadSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 310
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 329
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2240
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2290"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:LongSword": {
+      "_dirName": "combo:LongSword",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 335
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 354
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2241
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2291"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Gauntlet": {
+      "_dirName": "combo:Gauntlet",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 1020,
+        "_y": 360
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 1200,
+        "_y": 379
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2242
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2292"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:WSticker": {
+      "_dirName": "combo:WSticker",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 600,
+        "_y": 185
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 780,
+        "_y": 204
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2243
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "2293"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "10"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      },
+      "selectType": {
+        "_dirName": "selectType",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "combo:Action": {
+      "_dirName": "combo:Action",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 210
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 229
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 3000
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "3050"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "20"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "combo:Emotion": {
+      "_dirName": "combo:Emotion",
+      "_dirType": "sub",
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 390,
+        "_y": 235
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 570,
+        "_y": 254
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "backFocusedColor": {
+        "_dirName": "backFocusedColor",
+        "_dirType": "String",
+        "_value": "ff444444"
+      },
+      "fType": {
+        "_dirName": "fType",
+        "_dirType": "Int",
+        "_value": 143
+      },
+      "fTypeSelect": {
+        "_dirName": "fTypeSelect",
+        "_dirType": "Int",
+        "_value": 62
+      },
+      "fTypeSelectFouced": {
+        "_dirName": "fTypeSelectFouced",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "textLeft": {
+        "_dirName": "textLeft",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "textTop": {
+        "_dirName": "textTop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "sButtonUOL": {
+        "_dirName": "sButtonUOL",
+        "_dirType": "String",
+        "_value": "UI/Basic.img/ComboBox6"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 3001
+      },
+      "scrollID": {
+        "_dirName": "scrollID",
+        "_dirType": "String",
+        "_value": "3051"
+      },
+      "maxItemShown": {
+        "_dirName": "maxItemShown",
+        "_dirType": "String",
+        "_value": "20"
+      },
+      "typeScroll": {
+        "_dirName": "typeScroll",
+        "_dirType": "Int",
+        "_value": 14
+      }
+    },
+    "edit:effectPath": {
+      "_dirName": "edit:effectPath",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -261,
+        "_y": -329
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "maxlen": {
+        "_dirName": "maxlen",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "font": {
+        "_dirName": "font",
+        "_dirType": "String",
+        "_value": "MD모리스9"
+      },
+      "color": {
+        "_dirName": "color",
+        "_dirType": "String",
+        "_value": "ff555555"
+      },
+      "height": {
+        "_dirName": "height",
+        "_dirType": "Int",
+        "_value": 11
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 2300
+      },
+      "backColor": {
+        "_dirName": "backColor",
+        "_dirType": "String",
+        "_value": "ffdcdcdc"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIAvatarPreview.img/AvatarPreview/edit:effectPath"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

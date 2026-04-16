@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import { loadAppData } from './data/loaders'
 import type { AppData, AppTab, CharacterState } from './types'
 import { loadCharacter, DEFAULT_CHARACTER, computeDerived } from './engine/character'
@@ -6,10 +6,120 @@ import CharacterBuilder from './components/CharacterBuilder'
 import TrainingAdvisor from './components/TrainingAdvisor'
 import ItemProgression from './components/ItemProgression'
 
+// ─── Accessibility settings ────────────────────────────────────────────────────
+
+interface A11ySettings {
+  textScale: 'normal' | 'large' | 'xl'
+  highContrast: boolean
+}
+
+const A11Y_KEY = 'mogple-a11y'
+
+function loadA11y(): A11ySettings {
+  try {
+    const raw = localStorage.getItem(A11Y_KEY)
+    if (raw) return JSON.parse(raw) as A11ySettings
+  } catch { /* ignore */ }
+  return { textScale: 'normal', highContrast: false }
+}
+
+function saveA11y(s: A11ySettings) {
+  try { localStorage.setItem(A11Y_KEY, JSON.stringify(s)) } catch { /* ignore */ }
+}
+
+function a11yClasses(s: A11ySettings): string {
+  const classes: string[] = []
+  if (s.textScale === 'large') classes.push('a11y-large')
+  if (s.textScale === 'xl')    classes.push('a11y-xl')
+  if (s.highContrast)          classes.push('a11y-hc')
+  return classes.join(' ')
+}
+
+function AccessibilityPanel({
+  settings, onChange, onClose,
+}: {
+  settings: A11ySettings
+  onChange: (s: A11ySettings) => void
+  onClose: () => void
+}) {
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose()
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [onClose])
+
+  const scaleOptions: { value: A11ySettings['textScale']; label: string }[] = [
+    { value: 'normal', label: 'Normal' },
+    { value: 'large',  label: 'Large' },
+    { value: 'xl',     label: 'Extra Large' },
+  ]
+
+  return (
+    <div
+      ref={ref}
+      className="absolute right-0 top-full mt-1 z-50 bg-[#1A1E2A] border border-[rgba(255,255,255,0.12)] rounded-xl shadow-xl p-4 w-64"
+      role="dialog"
+      aria-label="Accessibility settings"
+    >
+      <div className="text-[11px] uppercase tracking-widest text-[#5C5B57] mb-3 font-semibold">
+        Accessibility
+      </div>
+
+      {/* Text size */}
+      <div className="mb-4">
+        <div className="text-xs text-[#8B8A85] mb-2">Text Size</div>
+        <div className="flex gap-1">
+          {scaleOptions.map(opt => (
+            <button
+              key={opt.value}
+              onClick={() => onChange({ ...settings, textScale: opt.value })}
+              className={`flex-1 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                settings.textScale === opt.value
+                  ? 'bg-[rgba(232,145,58,0.2)] text-[#E8913A] border border-[rgba(232,145,58,0.4)]'
+                  : 'bg-[#13161F] text-[#5C5B57] border border-[rgba(255,255,255,0.06)] hover:text-[#8B8A85]'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* High contrast */}
+      <div>
+        <button
+          onClick={() => onChange({ ...settings, highContrast: !settings.highContrast })}
+          className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-all ${
+            settings.highContrast
+              ? 'bg-[rgba(90,196,126,0.15)] text-[#5AC47E] border border-[rgba(90,196,126,0.35)]'
+              : 'bg-[#13161F] text-[#5C5B57] border border-[rgba(255,255,255,0.06)] hover:text-[#8B8A85]'
+          }`}
+          aria-pressed={settings.highContrast}
+        >
+          <span>High Contrast</span>
+          <span className={`w-8 h-4 rounded-full relative transition-colors ${settings.highContrast ? 'bg-[#5AC47E]' : 'bg-[rgba(255,255,255,0.1)]'}`}>
+            <span className={`absolute top-0.5 w-3 h-3 rounded-full bg-white transition-all ${settings.highContrast ? 'left-4' : 'left-0.5'}`} />
+          </span>
+        </button>
+      </div>
+    </div>
+  )
+}
+
 export default function App() {
   const [data, setData] = useState<AppData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [tab, setTab] = useState<AppTab>('builder')
+  const [a11y, setA11y] = useState<A11ySettings>(loadA11y)
+
+  function updateA11y(s: A11ySettings) {
+    setA11y(s)
+    saveA11y(s)
+  }
 
   useEffect(() => {
     loadAppData()
@@ -19,7 +129,7 @@ export default function App() {
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0C0E14]">
+      <div className={`min-h-screen flex items-center justify-center bg-[#0C0E14] ${a11yClasses(a11y)}`}>
         <div className="text-center p-8 max-w-md">
           <h2 className="text-lg font-semibold text-[#E85A5A] mb-2">Failed to load game data</h2>
           <p className="text-sm text-[#5C5B57]">{error}</p>
@@ -33,7 +143,7 @@ export default function App() {
 
   if (!data) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0C0E14]">
+      <div className={`min-h-screen flex items-center justify-center bg-[#0C0E14] ${a11yClasses(a11y)}`}>
         <div className="text-center">
           <div className="w-8 h-8 border-2 border-[#E8913A] border-t-transparent rounded-full animate-spin mx-auto mb-3" />
           <p className="text-sm text-[#5C5B57]">Loading game data…</p>
@@ -42,18 +152,21 @@ export default function App() {
     )
   }
 
-  return <AppInner data={data} tab={tab} setTab={setTab} />
+  return <AppInner data={data} tab={tab} setTab={setTab} a11y={a11y} onA11yChange={updateA11y} />
 }
 
 function AppInner({
-  data, tab, setTab
+  data, tab, setTab, a11y, onA11yChange,
 }: {
   data: AppData
   tab: AppTab
   setTab: (t: AppTab) => void
+  a11y: A11ySettings
+  onA11yChange: (s: A11ySettings) => void
 }) {
   const [char, setChar] = useState<CharacterState>(() => loadCharacter() ?? DEFAULT_CHARACTER)
   const derived = useMemo(() => computeDerived(char, data), [char, data])
+  const [a11yOpen, setA11yOpen] = useState(false)
 
   const tabs: { id: AppTab; label: string }[] = [
     { id: 'builder',  label: 'Character Builder' },
@@ -62,7 +175,7 @@ function AppInner({
   ]
 
   return (
-    <div className="min-h-screen bg-[#0C0E14] text-[#E8E6E1] flex flex-col">
+    <div className={`min-h-screen bg-[#0C0E14] text-[#E8E6E1] flex flex-col ${a11yClasses(a11y)}`}>
       {/* Discord banner */}
       <div className="bg-[rgba(88,101,242,0.1)] border-b border-[rgba(88,101,242,0.25)]">
         <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-center">
@@ -111,7 +224,7 @@ function AppInner({
                 <span className="text-[11px] text-[#5C5B57]">'Maple Optimizations Generator'</span>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <span className="text-[10px] text-[#3C3C3A] hidden sm:inline">CBT v0.26–0.28 · Victoria Island</span>
               <a
                 href="https://linktr.ee/OSMSTools"
@@ -126,6 +239,32 @@ function AppInner({
                 </svg>
                 More Maplestory Tools
               </a>
+              {/* Accessibility settings button */}
+              <div className="relative">
+                <button
+                  onClick={() => setA11yOpen(o => !o)}
+                  aria-label="Accessibility settings"
+                  title="Accessibility settings (text size, contrast)"
+                  className={`p-1.5 rounded-lg border transition-colors ${
+                    a11yOpen || a11y.textScale !== 'normal' || a11y.highContrast
+                      ? 'border-[rgba(232,145,58,0.4)] bg-[rgba(232,145,58,0.1)] text-[#E8913A]'
+                      : 'border-[rgba(255,255,255,0.08)] bg-transparent text-[#5C5B57] hover:text-[#8B8A85] hover:border-[rgba(255,255,255,0.15)]'
+                  }`}
+                >
+                  {/* Eye / accessibility icon */}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                </button>
+                {a11yOpen && (
+                  <AccessibilityPanel
+                    settings={a11y}
+                    onChange={s => { onA11yChange(s) }}
+                    onClose={() => setA11yOpen(false)}
+                  />
+                )}
+              </div>
             </div>
           </div>
           {/* Tab nav */}

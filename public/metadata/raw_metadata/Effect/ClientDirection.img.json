@@ -1,0 +1,2106 @@
+{
+  "highMountain": {
+    "_dirName": "highMountain",
+    "_dirType": "sub",
+    "tynus": {
+      "_dirName": "tynus",
+      "_dirType": "sub",
+      "spineEvent": {
+        "_dirName": "spineEvent",
+        "_dirType": "sub",
+        "summon_screen_effect_summon1": {
+          "_dirName": "summon_screen_effect_summon1",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 200
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "blackFrame": {
+              "_dirName": "blackFrame",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoom"
+            },
+            "cameraZoom": {
+              "_dirName": "cameraZoom",
+              "_dirType": "sub",
+              "time": {
+                "_dirName": "time",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "scale": {
+                "_dirName": "scale",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "endPosX": {
+                "_dirName": "endPosX",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "endPosY": {
+                "_dirName": "endPosY",
+                "_dirType": "Int",
+                "_value": 200
+              },
+              "timePos": {
+                "_dirName": "timePos",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "customInterpolation": {
+                "_dirName": "customInterpolation",
+                "_dirType": "String",
+                "_value": ""
+              },
+              "usingDifferentCustomInterpolationEachAxis": {
+                "_dirName": "usingDifferentCustomInterpolationEachAxis",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "physicalMove": {
+                "_dirName": "physicalMove",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "interpolationType": {
+                "_dirName": "interpolationType",
+                "_dirType": "Int",
+                "_value": 0
+              }
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "summonLoop"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusSummon/loop"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": -1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "summonReactor"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusSummon/reactor"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              },
+              "ry": {
+                "_dirName": "ry",
+                "_dirType": "Int",
+                "_value": 350
+              }
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "playAmbientSoundWithBGMVol"
+            },
+            "path": {
+              "_dirName": "path",
+              "_dirType": "String",
+              "_value": "SoundEff.img/TynusScreenEff/summonLoop"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 300
+            },
+            "bgmRate": {
+              "_dirName": "bgmRate",
+              "_dirType": "Int",
+              "_value": 100
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 2100
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayerOff"
+            },
+            "key": {
+              "_dirName": "key",
+              "_dirType": "String",
+              "_value": "summonLoop"
+            },
+            "fadeTime": {
+              "_dirName": "fadeTime",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "summonEnd"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusSummon/end"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/summonEnd"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          }
+        },
+        "summon_screen_effect_summon2": {
+          "_dirName": "summon_screen_effect_summon2",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "stopAmbientSound"
+            },
+            "path": {
+              "_dirName": "path",
+              "_dirType": "String",
+              "_value": "SoundEff.img/TynusScreenEff/summonLoop"
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 3000
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "blackFrame": {
+              "_dirName": "blackFrame",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoomReset"
+            }
+          }
+        },
+        "die_screen_effect_die1": {
+          "_dirName": "die_screen_effect_die1",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 200
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "blackFrame": {
+              "_dirName": "blackFrame",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoom"
+            },
+            "cameraZoom": {
+              "_dirName": "cameraZoom",
+              "_dirType": "sub",
+              "time": {
+                "_dirName": "time",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "scale": {
+                "_dirName": "scale",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "endPosX": {
+                "_dirName": "endPosX",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "endPosY": {
+                "_dirName": "endPosY",
+                "_dirType": "Int",
+                "_value": 200
+              },
+              "timePos": {
+                "_dirName": "timePos",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "customInterpolation": {
+                "_dirName": "customInterpolation",
+                "_dirType": "String",
+                "_value": ""
+              },
+              "usingDifferentCustomInterpolationEachAxis": {
+                "_dirName": "usingDifferentCustomInterpolationEachAxis",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "physicalMove": {
+                "_dirName": "physicalMove",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "interpolationType": {
+                "_dirName": "interpolationType",
+                "_dirType": "Int",
+                "_value": 0
+              }
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "diePreFront"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/pre/front"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "diePreBack"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/pre/back"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              }
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 240
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "dieLoopFront"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/loop/front"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": -1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "dieLoopBack"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/loop/back"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": -1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              }
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "playAmbientSoundWithBGMVol"
+            },
+            "path": {
+              "_dirName": "path",
+              "_dirType": "String",
+              "_value": "SoundEff.img/TynusScreenEff/dieLoop"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 300
+            },
+            "bgmRate": {
+              "_dirName": "bgmRate",
+              "_dirType": "Int",
+              "_value": 100
+            }
+          }
+        },
+        "die_screen_effect_die2": {
+          "_dirName": "die_screen_effect_die2",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayerOff"
+            },
+            "key": {
+              "_dirName": "key",
+              "_dirType": "String",
+              "_value": "dieLoopFront"
+            },
+            "fadeTime": {
+              "_dirName": "fadeTime",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayerOff"
+            },
+            "key": {
+              "_dirName": "key",
+              "_dirType": "String",
+              "_value": "dieLoopBack"
+            },
+            "fadeTime": {
+              "_dirName": "fadeTime",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "dieEndFront"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/end/front"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "dieEndBack"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusDie/end/back"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/dieEnd"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 500
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "stopAmbientSound"
+            },
+            "path": {
+              "_dirName": "path",
+              "_dirType": "String",
+              "_value": "SoundEff.img/TynusScreenEff/dieLoop"
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 1500
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "clearEff"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/effect/clearEff"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/HighMountainEff/clearEff"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "10": {
+            "_dirName": "10",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        }
+      },
+      "phaseStart": {
+        "_dirName": "phaseStart",
+        "_dirType": "sub",
+        "slaughterStart": {
+          "_dirName": "slaughterStart",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 200
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoom"
+            },
+            "cameraZoom": {
+              "_dirName": "cameraZoom",
+              "_dirType": "sub",
+              "time": {
+                "_dirName": "time",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "scale": {
+                "_dirName": "scale",
+                "_dirType": "Int",
+                "_value": 550
+              },
+              "endPosX": {
+                "_dirName": "endPosX",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "endPosY": {
+                "_dirName": "endPosY",
+                "_dirType": "Int",
+                "_value": 150
+              },
+              "timePos": {
+                "_dirName": "timePos",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "customInterpolation": {
+                "_dirName": "customInterpolation",
+                "_dirType": "String",
+                "_value": ""
+              },
+              "usingDifferentCustomInterpolationEachAxis": {
+                "_dirName": "usingDifferentCustomInterpolationEachAxis",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "physicalMove": {
+                "_dirName": "physicalMove",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "interpolationType": {
+                "_dirName": "interpolationType",
+                "_dirType": "Int",
+                "_value": 0
+              }
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/slaughterStart/front"
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterStartFront"
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/slaughterStart"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/slaughterStart/back"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterStartBack"
+              }
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "objectVisible"
+            },
+            "objectTag": {
+              "_dirName": "objectTag",
+              "_dirType": "String",
+              "_value": "slaughterCloud"
+            },
+            "objectVisible": {
+              "_dirName": "objectVisible",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 5000
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoomReset"
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "10": {
+            "_dirName": "10",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        },
+        "slaughterSuccess": {
+          "_dirName": "slaughterSuccess",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 200
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameVansheeMode"
+            },
+            "set": {
+              "_dirName": "set",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/mitraFlareSuccess/mitra"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterSuccessMitra"
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073700000
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "user"
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoom"
+            },
+            "cameraZoom": {
+              "_dirName": "cameraZoom",
+              "_dirType": "sub",
+              "time": {
+                "_dirName": "time",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "scale": {
+                "_dirName": "scale",
+                "_dirType": "Int",
+                "_value": 550
+              },
+              "endPosX": {
+                "_dirName": "endPosX",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "endPosY": {
+                "_dirName": "endPosY",
+                "_dirType": "Int",
+                "_value": 150
+              },
+              "timePos": {
+                "_dirName": "timePos",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "customInterpolation": {
+                "_dirName": "customInterpolation",
+                "_dirType": "String",
+                "_value": ""
+              },
+              "usingDifferentCustomInterpolationEachAxis": {
+                "_dirName": "usingDifferentCustomInterpolationEachAxis",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "physicalMove": {
+                "_dirName": "physicalMove",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "interpolationType": {
+                "_dirName": "interpolationType",
+                "_dirType": "Int",
+                "_value": 0
+              }
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 600
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/Skill.img/37111003/Use"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 100
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/Skill.img/37111006/Use"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 100
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/Skill.img/37100002/Use"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 100
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 540
+            }
+          },
+          "10": {
+            "_dirName": "10",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/mitraFlareSuccess/back"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterSuccessBack"
+              }
+            }
+          },
+          "11": {
+            "_dirName": "11",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/slaughterSuccessBack"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "12": {
+            "_dirName": "12",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "objectVisible"
+            },
+            "objectTag": {
+              "_dirName": "objectTag",
+              "_dirType": "String",
+              "_value": "slaughterCloud"
+            },
+            "objectVisible": {
+              "_dirName": "objectVisible",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "13": {
+            "_dirName": "13",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 1380
+            }
+          },
+          "14": {
+            "_dirName": "14",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/mitraFlareSuccess/front"
+              },
+              "postRender": {
+                "_dirName": "postRender",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterSuccessFront"
+              }
+            }
+          },
+          "15": {
+            "_dirName": "15",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/slaughterSuccessFront"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "16": {
+            "_dirName": "16",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 1800
+            }
+          },
+          "17": {
+            "_dirName": "17",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameVansheeMode"
+            },
+            "set": {
+              "_dirName": "set",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "18": {
+            "_dirName": "18",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoomReset"
+            }
+          },
+          "19": {
+            "_dirName": "19",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "20": {
+            "_dirName": "20",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        },
+        "slaughterFail": {
+          "_dirName": "slaughterFail",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterFail"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/slaughterFail"
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/slaughterFail"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "objectVisible"
+            },
+            "objectTag": {
+              "_dirName": "objectTag",
+              "_dirType": "String",
+              "_value": "slaughterCloud"
+            },
+            "objectVisible": {
+              "_dirName": "objectVisible",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        },
+        "hellStart": {
+          "_dirName": "hellStart",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 1
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 200
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoom"
+            },
+            "cameraZoom": {
+              "_dirName": "cameraZoom",
+              "_dirType": "sub",
+              "time": {
+                "_dirName": "time",
+                "_dirType": "Int",
+                "_value": 500
+              },
+              "scale": {
+                "_dirName": "scale",
+                "_dirType": "Int",
+                "_value": 550
+              },
+              "endPosX": {
+                "_dirName": "endPosX",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "endPosY": {
+                "_dirName": "endPosY",
+                "_dirType": "Int",
+                "_value": 150
+              },
+              "timePos": {
+                "_dirName": "timePos",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "customInterpolation": {
+                "_dirName": "customInterpolation",
+                "_dirType": "String",
+                "_value": ""
+              },
+              "usingDifferentCustomInterpolationEachAxis": {
+                "_dirName": "usingDifferentCustomInterpolationEachAxis",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "physicalMove": {
+                "_dirName": "physicalMove",
+                "_dirType": "Int",
+                "_value": 0
+              },
+              "interpolationType": {
+                "_dirName": "interpolationType",
+                "_dirType": "Int",
+                "_value": 0
+              }
+            }
+          },
+          "3": {
+            "_dirName": "3",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/slaughterStart/front"
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterStartFront"
+              }
+            }
+          },
+          "4": {
+            "_dirName": "4",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/slaughterStart"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "5": {
+            "_dirName": "5",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/slaughterStart/back"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "z": {
+                "_dirName": "z",
+                "_dirType": "Int",
+                "_value": -1073742824
+              },
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterStartBack"
+              }
+            }
+          },
+          "6": {
+            "_dirName": "6",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "objectVisible"
+            },
+            "objectTag": {
+              "_dirName": "objectTag",
+              "_dirType": "String",
+              "_value": "slaughterCloud"
+            },
+            "objectVisible": {
+              "_dirName": "objectVisible",
+              "_dirType": "Int",
+              "_value": 1
+            }
+          },
+          "7": {
+            "_dirName": "7",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDelay"
+            },
+            "delay": {
+              "_dirName": "delay",
+              "_dirType": "Int",
+              "_value": 10000
+            }
+          },
+          "8": {
+            "_dirName": "8",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameCameraZoomReset"
+            }
+          },
+          "9": {
+            "_dirName": "9",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "setSizeLayerInvisible"
+            },
+            "size": {
+              "_dirName": "size",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          },
+          "10": {
+            "_dirName": "10",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "inGameDirection"
+            },
+            "inGameDirectionSet": {
+              "_dirName": "inGameDirectionSet",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "showUI": {
+              "_dirName": "showUI",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        },
+        "hellFail": {
+          "_dirName": "hellFail",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectExLayer"
+            },
+            "effectEx": {
+              "_dirName": "effectEx",
+              "_dirType": "sub",
+              "key": {
+                "_dirName": "key",
+                "_dirType": "String",
+                "_value": "slaughterFail"
+              },
+              "uol": {
+                "_dirName": "uol",
+                "_dirType": "String",
+                "_value": "Effect/HighMountain.img/tynusAttack/hellFail"
+              },
+              "fullScreen": {
+                "_dirName": "fullScreen",
+                "_dirType": "String",
+                "_value": "1"
+              },
+              "playCount": {
+                "_dirName": "playCount",
+                "_dirType": "Int",
+                "_value": 1
+              },
+              "org": {
+                "_dirName": "org",
+                "_dirType": "String",
+                "_value": "cc"
+              }
+            }
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "effectSound"
+            },
+            "uol": {
+              "_dirName": "uol",
+              "_dirType": "String",
+              "_value": "Sound/SoundEff.img/TynusScreenEff/hellFail"
+            },
+            "volume": {
+              "_dirName": "volume",
+              "_dirType": "Int",
+              "_value": 120
+            }
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "sub",
+            "type": {
+              "_dirName": "type",
+              "_dirType": "String",
+              "_value": "objectVisible"
+            },
+            "objectTag": {
+              "_dirName": "objectTag",
+              "_dirType": "String",
+              "_value": "slaughterCloud"
+            },
+            "objectVisible": {
+              "_dirName": "objectVisible",
+              "_dirType": "Int",
+              "_value": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

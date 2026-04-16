@@ -1,0 +1,324 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Olaf's First Training"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Olaf's Training"
+    },
+    "selectedMob": {
+      "_dirName": "selectedMob",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems like #p107# in #m10000000# has something to say to the beginner adventurers who have just arrived on Victoria Island."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I met #p107# at #m10000000#. #p107# mentioned that once I reach level 10, I could advance my job, but wondered if I truly had what it takes. To prove myself, #p107# gave me a task to hunt monsters outside the village. I’m feeling a bit nervous since there seem to be stronger monsters on Victoria Island..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I successfully passed #p107#'s training. But is this really enough?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o6# #a100001#\\n#o7# #a100002#"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 107
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 8
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "Int",
+          "_value": 100
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "Int",
+          "_value": 110
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "Int",
+          "_value": 120
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "Int",
+          "_value": 130
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "Int",
+          "_value": 200
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "Int",
+          "_value": 210
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "Int",
+          "_value": 220
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "Int",
+          "_value": 230
+        },
+        "33": {
+          "_dirName": "33",
+          "_dirType": "Int",
+          "_value": 300
+        },
+        "34": {
+          "_dirName": "34",
+          "_dirType": "Int",
+          "_value": 301
+        },
+        "35": {
+          "_dirName": "35",
+          "_dirType": "Int",
+          "_value": 310
+        },
+        "36": {
+          "_dirName": "36",
+          "_dirType": "Int",
+          "_value": 320
+        },
+        "37": {
+          "_dirName": "37",
+          "_dirType": "Int",
+          "_value": 330
+        },
+        "50": {
+          "_dirName": "50",
+          "_dirType": "Int",
+          "_value": 400
+        },
+        "51": {
+          "_dirName": "51",
+          "_dirType": "Int",
+          "_value": 410
+        },
+        "52": {
+          "_dirName": "52",
+          "_dirType": "Int",
+          "_value": 420
+        },
+        "53": {
+          "_dirName": "53",
+          "_dirType": "Int",
+          "_value": 430
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 107
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 6
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2000000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2000003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 84
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 234
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "So, you’re a fresh-faced adventurer who just landed on Victoria Island, huh? Doesn't matter if you're not—it's obvious you're a newbie from a mile away!\n You might’ve done well on Maple Island, but here? Not so fast. If you keep wandering around like that, you’ll be face-down in the dirt before you know it. Get your head in the game!"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Maybe things’ll change once you hit #blevel 10#k and can advance your job, but I’m not so sure you’ve earned it yet... Fine! I’ll give you some special training to see what you’ve got. How about it?"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Outside #m10000000#, you’ll find monsters that you’ve never even seen on Maple Island. Take down #r10 #o6#s and 10 #o7#s#k. They’re no pushovers, so don’t forget to grab some potions from the shop!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "What’s the matter? Getting cold feet about the training? Hahaha! Don’t worry, you can come back when you’re ready!"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Well, look who’s back. I honestly thought you might’ve bailed. Alright, let’s see if you actually finished the job."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You did that flawlessly, huh? Nice! It’s been a while since I’ve seen such an eager newbie adventurer. You’ve got me feeling good! Here, take this special item and put it to good use on your journey!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Hmm… looks like you didn’t take down all the monsters I asked for. If you’re even one short, that’s a no-go!"
+          }
+        }
+      }
+    }
+  }
+}

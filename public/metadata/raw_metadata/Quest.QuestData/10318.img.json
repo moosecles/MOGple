@@ -1,0 +1,276 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Icarus and the Balloon"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Icarus’s Dream"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I wonder how #p407#'s doing with the hang glider... Maybe I should go check up on him in #m10003000#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p407# failed to create a working hang glider, and is now attempting to create a flying balloon on his never-ending quest for flight. This looks just as preposterous as his last attempt, but I don't think I can stop him. To make the flying balloon, he needs #b50 #t4000028#s and 10 #t4031078#s#k. Hope this works..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got the materials needed for #p407# to make the flying balloon and realize his dream of flying. I don't know if his \"flying balloon\" will actually fly, but there's a chance that it might work. I'll check up on him around when the flying balloon should be ready to take flight and see if he's for real this time."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031078# #t4031078# #c4031078# / 10\\n#i4000028# #t4000028# #c4000028# / 50"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 31
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10317
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031078
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000028
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 50
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3318
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 906
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031078
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000028
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -50
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you're the one that got me the materials for the hang glider...\\r\\n#L0##bDid you make the hang glider?#k"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh, that... well... I faced MINOR, I mean, MIIINOR technical difficulties, and... well don't worry about it! #p407# does NOT let MINOR obstacles like this affect him! Anyway, I was thinking of a safer and more reliable way to fly, and I think I have a great plan. Are you willing to help me out again?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I knew you'd help! We'll make the best flying balloon in the world! It should consist of a huge balloon, with a basket at the bottom big enough to fit both of us. To make it, I'll need #b50 #t4000028#s#k for the huge balloon, and #b10 #t4031078#s#k for the sandbags that'll be needed to keep the balloon balanced."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "I have the basket ready. As for the #t4031078#es, they're made exclusively out of #r#o29##k skin, and you can get them by hunting the #r#o29#s#k in the swamp. Good luck!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Trust me, we'll be flying this time! Wouldn't it stink to give it up right now, when we're so close?"
+        }
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're just like everyone else living in a box. Wake up, think outside the box! You'll see... you'll see me flying around here some day."
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I've been working on the basket, to see if it is sturdy enough to hold both of us. Now all we need is a big balloon. Did you gather up the materials I asked you for?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Wow, that's a lot!! Well, I'll have to get started on making the balloon. Please drop by sometime later, I should be done by then. We'll be floating our way to Ossyria in no time!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Did you get all the materials I asked for? I don't think you have all of them! Please gather #b50 #t4000028#s and 10 #t4031078#s#k for me. You can get #b#t4031078#s#k from #r#o29#s#k. Please hurry~ The faster you get them for me, the faster we'll be floating up in the air!"
+          }
+        }
+      }
+    }
+  }
+}

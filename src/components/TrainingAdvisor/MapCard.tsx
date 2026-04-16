@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import type { MapScore } from '../../engine/training'
+import { hitRate, accuracyRequired } from '../../engine/damage'
 import Badge from '../common/Badge'
 
 interface MapCardProps {
@@ -8,9 +9,12 @@ interface MapCardProps {
   highlight?: boolean
   charLevel?: number
   mesoMode?: boolean
+  playerAcc?: number
+  playerLevel?: number
+  isMagic?: boolean
 }
 
-export default function MapCard({ mapScore, rank, highlight, charLevel, mesoMode }: MapCardProps) {
+export default function MapCard({ mapScore, rank, highlight, charLevel, mesoMode, playerAcc, playerLevel, isMagic }: MapCardProps) {
   const [expanded, setExpanded] = useState(false)
   const [minimapOpen, setMinimapOpen] = useState(false)
   const { mapName, region, mobs, tags, breakdown } = mapScore
@@ -103,6 +107,21 @@ export default function MapCard({ mapScore, rank, highlight, charLevel, mesoMode
                   {shots === 1 ? '1-HIT' : `${shots}-HIT`}
                 </span>
               )}
+              {playerAcc !== undefined && playerLevel !== undefined && (() => {
+                const hr = isMagic ? 1 : hitRate(playerAcc, accuracyRequired(playerLevel, m.level, m.eva))
+                const pct = Math.round(hr * 100)
+                const color = pct >= 95 ? 'text-[#5AC47E] border-[rgba(90,196,126,0.3)]'
+                  : pct >= 70 ? 'text-[#E8913A] border-[rgba(232,145,58,0.3)]'
+                  : 'text-[#E85A5A] border-[rgba(232,90,90,0.3)]'
+                return (
+                  <span
+                    className={`text-[9px] rounded px-1 border ${color}`}
+                    title={`~${pct}% hit rate vs ${m.name}`}
+                  >
+                    ~{pct}%
+                  </span>
+                )
+              })()}
             </span>
           )
         })}
@@ -117,10 +136,13 @@ export default function MapCard({ mapScore, rank, highlight, charLevel, mesoMode
             {breakdown.hitsToKillTop === 1 && <span className="text-[#5AC47E] ml-1 text-[10px]">ONE-SHOT</span>}
           </span>
         </span>
-        <span>
+        <span
+          title="Estimated hit rate against this map's mobs. Your ACC needs to reach about 1.3x the mob's EVA for a guaranteed hit, and drops to 0% below 0.8x. Give or take around 5% since this is still being validated from live data. Shoutout to Littlefoot for the accuracy training data."
+          className="cursor-help"
+        >
           <span className="text-[#5C5B57]">Acc: </span>
           <span className={breakdown.accuracyRating < 0.85 ? 'text-[#E8913A]' : 'text-[#E8E6E1]'}>
-            {Math.round(breakdown.accuracyRating * 100)}%
+            ~{Math.round(breakdown.accuracyRating * 100)}%
           </span>
         </span>
         <span>

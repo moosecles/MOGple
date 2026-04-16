@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Francois in Need of an Apprentice"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems #p303#, the tailor of #m10002000#, is looking for someone worthy of becoming his apprentice."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "When I told #p303#, the tailor of #m10002000#, that I wanted to become his apprentice, he gave me a test. He said tailoring requires the right balance of skill and knowledge, and asked me to defeat monsters near #m10001000# and collect #b#t4000011#s#k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed the test given by #p303#, the tailor of #m10002000#. Does this mean I can now become a proper tailor in Maple World?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o11# #a800141#\\n#i4000011:# #t4000011:# #c4000011# / 20"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 303
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 303
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 11
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000011
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92020000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You humans really have no idea how demanding fairy fashion can be. Light, elegant, and easy to move in—all at once. Hmph. Of course, I’m the only one who can pull it off… but I suppose having an apprentice to help wouldn’t hurt. You there. Have you ever considered becoming a #bTailor#k?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Hmm? You don’t even know what a tailor is? Heh… typical human. Alright, I’ll explain. A tailor is #bsomeone who works with fibers and crafts various types of cloth armor#k. I’m not convinced humans are suited for this kind of work—but you… you might be an exception. What do you say?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Very well. But don’t misunderstand—I won’t take just anyone as an apprentice. Especially not a human. Let’s see… yes. I’ll give you a simple test to see if you’re worth my time."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "To become a tailor, you need more than just skill. You also need strength and knowledge—an understanding of materials, how to obtain them, and the ability to gather them yourself. Go defeat #r#o11#s#k near #m10001000# and bring me #b10 #t4000011#s#k. Then we’ll talk."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Busy, are you? Hmph. Just remember—growing stronger in Maple World isn’t only about swinging weapons. Mastering fabric and thread can lead you down an entirely different path. Come back if you change your mind."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "…So you actually managed to defeat the monsters and gather everything. I’ll admit, that’s better than I expected. Perhaps teaching you won’t be a complete waste. My first human apprentice… how troublesome."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "From this point on, I acknowledge you as a tailor. I’ve added a few tailoring skills to your #bCrafting Journal#k. Go take a look—carefully."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "And those materials? I had you gather them for your own benefit. Try crafting a few items with them. Just don’t forget—you’ll need the #b#p800012##k beside me if you want to do any tailoring."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "As you continue crafting with tailoring skills, you’ll gain experience and level up, allowing you to make more advanced items. But if you want to push your tailoring to its limits, your adventurer level will need to increase as well. Don’t neglect either of them."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "That’s all I have to teach you for now. You’re still inexperienced—but with enough discipline, you might one day reach my level. If you have questions… come back. I’ll decide then if you’re worth answering."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven’t defeated all the monsters I mentioned. Hmph. I knew it might be too much for a human."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven’t gathered all the materials either. Just as I feared… too much for a human after all."
+          }
+        }
+      }
+    }
+  }
+}

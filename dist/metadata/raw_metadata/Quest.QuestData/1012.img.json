@@ -1,0 +1,251 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Pio's Collecting Recycled Goods"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "#b#p18##k in #b#m1010##k wants you to help collect recycled goods."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "You ran into #b#p18##k, who is famous in #b#m1010##k for fixing broken goods. He asks you to break down scrap boxes from around town and bring back #t4031003#s and #t4031004#s. "
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "You broke the boxes and collected supplies for #p18#. It was fun because you found other useful items in the boxes as well."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031003:# #t4031003:# #c4031003# / 3\\r\\n#i4031004:# #t4031004:# #c4031004# / 3\\r\\n"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 18
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 5
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 0
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 3
+          }
+        }
+      },
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 18
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 150
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -3
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031004
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -3
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 3010000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "My goodness. I've been wandering around town, and I see so many recyclable items just being thrown away! Say, can you help me collect those? \\n Don't worry, I'll reward you well for your effort."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        }
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "That's right! Collect all the 'trash' around town."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "I don't know if you've seen any abandoned wooden boxes on your way here, but your job is to break those boxes apart into #b#t4031003##ks and #b#t4031004##ks. Collect 3 of each for me, okay? \\n\\n#i4031003# #t4031003# #b#c4031003##k/3\\n#i4031004# #t4031004# #b#c4031004##k/3"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Come on! Think about the planet!"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "What? You brought them all? Okay, let's see ..."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "See what I'm talking about? So many recyclable items, just carelessly tossed away. Hopefully there are more people like you in the world."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "No, no, no! Open the Quest Info to check what you need to do!"
+          }
+        }
+      }
+    }
+  }
+}

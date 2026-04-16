@@ -1,0 +1,275 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Proof of Companionship"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "First Time Together"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "It seems that #b#p800000##k in #b#m10003000##k is looking for a party to take on a party quest that requires multiple adventurers to work together."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#b#p800000##k in #b#m10003000##k asked me to challenge the party quest #b\"First Time Together”#k and defeat the #b#o800003##k inside. The party quest must be attempted by a party of #bfour adventurers, all level 21 or higher#k. Once the party is ready, the party leader should speak to #p800000#. Better start looking for some friends to join me."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "As requested by #b#p800000##k, my friends and I challenged the party quest #b\"First Time Together”#k and defeated #o800003#. When everyone works together, there’s nothing that can’t be done!"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 800000
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 21
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 800000
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 800003
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2193
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 614
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040301
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040305
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040309
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2040313
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hello, I’m #b#p800000##k. Together with my sisters, #p800001# and #p800002#, I look into the destinies of the adventurers who journey across Victoria Island. Have you ever wondered… is human destiny predetermined, or is it something we carve out ourselves?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Perhaps your arrival here is destiny as well. Hm… how uncharacteristic of me to ramble on like this. Well then, let’s get to the point. The three of us are seeking a party that can work together to overcome difficult challenges."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Form a party with three companions, then challenge the party quest #b“First Time Together.”#k Inside, you will face various obstacles and must defeat #b#o800003##k before returning to me. How does that sound?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Very well. If you and three other adventurers, all at least level 21, form a party and have the leader speak to me, I’ll send you into the party quest “First Time Together.”"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "There are many obstacles and powerful monsters inside, so it’s best to prepare thoroughly with potions and anything else you might need. Gather your allies, then return to me when you’re ready."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I see. A life of facing everything alone isn’t necessarily bad. But if you change your mind, you’re always welcome to return to me."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You’ve returned safely. We three sisters knew it was your destiny to challenge and overcome the party quest. "
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "It seems you’ve learned that with the cooperation of allies, no difficulty is insurmountable. "
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "As thanks, I’ve raised your Fame and given you a scroll that will aid in your adventures. If you ever want to attempt the party quest again, just come back to me anytime."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "It looks like you haven’t defeated #b#o800003##k yet. Form a party with three companions, then have your leader speak to me to challenge the party quest #b“First Time Together.”#k Return to me once you’ve overcome the obstacles inside and defeated #b#o800003##k."
+          }
+        }
+      }
+    }
+  }
+}

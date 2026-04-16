@@ -1,0 +1,102 @@
+{
+  "05710000": {
+    "_dirName": "05710000",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Cash/_Canvas/0571.img/05710000/info/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconRaw": {
+        "_dirName": "iconRaw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Cash/_Canvas/0571.img/05710000/info/iconRaw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "cash": {
+        "_dirName": "cash",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "slotMax": {
+        "_dirName": "slotMax",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "rate": {
+        "_dirName": "rate",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "time": {
+        "_dirName": "time",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "MON:00-24"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "TUE:00-24"
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "WED:00-24"
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "THU:00-24"
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "String",
+          "_value": "FRI:00-24"
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "String",
+          "_value": "SAT:00-24"
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "String",
+          "_value": "SUN:00-24"
+        }
+      }
+    }
+  }
+}

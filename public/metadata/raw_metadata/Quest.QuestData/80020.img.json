@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "JM From tha Streetz Looking for a Partner"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 19
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "The leatherworking master #p401# of #m10003000# seems to be looking for someone who could become a business partner."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "The leatherworking master #p401# of #m10003000# gave me a test to see if I’m worthy of becoming a partner. He said that proper strength and knowledge are required for leatherworking, and asked me to defeat monsters around #m10003000# and #m10001000# to collect #b#t4000049##k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I passed the test given by the leatherworking master #p401# of #m10003000#. Could this mean that I, too, can stand proudly as a leatherworker in the Maple World?"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o8# #a800201#\\n#i4000049:# #t4000049:# #c4000049# / 5"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 401
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 10
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 401
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000049
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 5
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 171
+      },
+      "skill": {
+        "_dirName": "skill",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 92040000
+          },
+          "exp": {
+            "_dirName": "exp",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "All kinds of rare goods change hands in #m10003000#'s black market, And when it comes to the stuff I make myself? Yeah, no need to even say how popular that is. Feels like the perfect time to expand the business… Hey. You ever think about becoming my partner?"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "What, you don’t even know what a leatherworker is? Guess I’m dealing with an amateur. Fine. A leatherworker is someone who #bworks with leather and crafts all kinds of leather armor and goods#k. If you lend me a hand, this business could really take off. So, what do you say?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Heh, I like people who make quick decisions. Still, I gotta make sure you’re actually cut out for this kind of work."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Being a leatherworker isn’t just about technique. You need strength and know-how, too. Understanding materials, knowing where they come from, and having the muscle to get them. Take down #r#o8#s#k around #m10003000# or #m10001000#, and bring me #b5 #t4000049##k. Then we’ll talk business."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Looks like you’re busy right now? Well, getting strong in the Maple World isn’t just about beating monsters, you know. In the back alleys, money is power. If you change your mind, you know where to find me."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Huh. Looks like you took care of the monsters and gathered the materials just fine. Yeah… I guess you might be worth doing business with after all."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Alright. From now on, I recognize you as a leatherworker. I’ve added a few leatherworking skills to your #bCrafting Journal#k, so go check them out."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "And honestly, those materials? I had you collect them for yourself. Try using them to craft a few items. Just remember—if you want to do leatherworking, you’ll need the #b#p800014##k right next to me."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "As you craft items using leatherworking skills, you’ll gain experience and level up, letting you make more advanced goods. But if you really want to push leatherworking to its limits, your adventurer level needs to be high enough too. Can’t afford to slack on either one."
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "That’s all I can teach you for now. You’ve still got a long road ahead, but don’t worry. Keep sharpening your skills, and we’ll be rolling in money someday. If you’ve got questions, come see me anytime."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Looks like you didn’t take down all the monsters I mentioned. Guess partnering up with you might've been a bad idea after all…"
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Looks like you didn’t manage to gather all the materials I asked for. Yeah… doing business together might’ve been a mistake."
+          }
+        }
+      }
+    }
+  }
+}

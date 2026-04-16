@@ -1,0 +1,92 @@
+{
+  "05180000": {
+    "_dirName": "05180000",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -2,
+          "_y": 31
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Cash/_Canvas/0518.img/05180000/info/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconRaw": {
+        "_dirName": "iconRaw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -2,
+          "_y": 31
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Cash/_Canvas/0518.img/05180000/info/iconRaw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "slotMax": {
+        "_dirName": "slotMax",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "cash": {
+        "_dirName": "cash",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "life": {
+        "_dirName": "life",
+        "_dirType": "Int",
+        "_value": 90
+      },
+      "notConsume": {
+        "_dirName": "notConsume",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "spec": {
+      "_dirName": "spec",
+      "_dirType": "sub",
+      "script": {
+        "_dirName": "script",
+        "_dirType": "String",
+        "_value": "cash_5180000"
+      },
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 317
+      }
+    }
+  }
+}

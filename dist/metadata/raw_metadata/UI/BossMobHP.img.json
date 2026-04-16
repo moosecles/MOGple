@@ -1,0 +1,1821 @@
+{
+  "MobGage": {
+    "_dirName": "MobGage",
+    "_dirType": "sub",
+    "debuffResist": {
+      "_dirName": "debuffResist",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/icon/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/icon/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/icon/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "100": {
+          "_dirName": "100",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/icon/100"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "101": {
+          "_dirName": "101",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/icon/101"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pos": {
+        "_dirName": "pos",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "8880300": {
+          "_dirName": "8880300",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880303": {
+          "_dirName": "8880303",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880304": {
+          "_dirName": "8880304",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880340": {
+          "_dirName": "8880340",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880343": {
+          "_dirName": "8880343",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880360": {
+          "_dirName": "8880360",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880363": {
+          "_dirName": "8880363",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880364": {
+          "_dirName": "8880364",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880344": {
+          "_dirName": "8880344",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 41
+        },
+        "8880000": {
+          "_dirName": "8880000",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 36
+        },
+        "8880002": {
+          "_dirName": "8880002",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 36
+        },
+        "8840000": {
+          "_dirName": "8840000",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 36
+        },
+        "8850011": {
+          "_dirName": "8850011",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 36
+        },
+        "8880140": {
+          "_dirName": "8880140",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880141": {
+          "_dirName": "8880141",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880142": {
+          "_dirName": "8880142",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880150": {
+          "_dirName": "8880150",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880151": {
+          "_dirName": "8880151",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880153": {
+          "_dirName": "8880153",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880155": {
+          "_dirName": "8880155",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880190": {
+          "_dirName": "8880190",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880191": {
+          "_dirName": "8880191",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "9834250": {
+          "_dirName": "9834250",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "8880839": {
+          "_dirName": "8880839",
+          "_dirType": "vector",
+          "_x": -282,
+          "_y": 45
+        },
+        "8880840": {
+          "_dirName": "8880840",
+          "_dirType": "vector",
+          "_x": 238,
+          "_y": 45
+        },
+        "8880841": {
+          "_dirName": "8880841",
+          "_dirType": "vector",
+          "_x": -22,
+          "_y": 45
+        },
+        "8880842": {
+          "_dirName": "8880842",
+          "_dirType": "vector",
+          "_x": -397,
+          "_y": 53
+        },
+        "8880909": {
+          "_dirName": "8880909",
+          "_dirType": "vector",
+          "_x": -282,
+          "_y": 45
+        },
+        "8880910": {
+          "_dirName": "8880910",
+          "_dirType": "vector",
+          "_x": 238,
+          "_y": 45
+        },
+        "8880911": {
+          "_dirName": "8880911",
+          "_dirType": "vector",
+          "_x": -22,
+          "_y": 45
+        },
+        "8880912": {
+          "_dirName": "8880912",
+          "_dirType": "vector",
+          "_x": -397,
+          "_y": 53
+        },
+        "8880939": {
+          "_dirName": "8880939",
+          "_dirType": "vector",
+          "_x": -282,
+          "_y": 45
+        },
+        "8880940": {
+          "_dirName": "8880940",
+          "_dirType": "vector",
+          "_x": 238,
+          "_y": 45
+        },
+        "8880941": {
+          "_dirName": "8880941",
+          "_dirType": "vector",
+          "_x": -22,
+          "_y": 45
+        },
+        "8880942": {
+          "_dirName": "8880942",
+          "_dirType": "vector",
+          "_x": -397,
+          "_y": 53
+        },
+        "8880969": {
+          "_dirName": "8880969",
+          "_dirType": "vector",
+          "_x": -282,
+          "_y": 45
+        },
+        "8880970": {
+          "_dirName": "8880970",
+          "_dirType": "vector",
+          "_x": 238,
+          "_y": 45
+        },
+        "8880971": {
+          "_dirName": "8880971",
+          "_dirType": "vector",
+          "_x": -22,
+          "_y": 45
+        },
+        "8880972": {
+          "_dirName": "8880972",
+          "_dirType": "vector",
+          "_x": -397,
+          "_y": 53
+        },
+        "9834434": {
+          "_dirName": "9834434",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "9834435": {
+          "_dirName": "9834435",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "9834436": {
+          "_dirName": "9834436",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "9834437": {
+          "_dirName": "9834437",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "9834438": {
+          "_dirName": "9834438",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 20
+        },
+        "9834439": {
+          "_dirName": "9834439",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 40
+        },
+        "9834470": {
+          "_dirName": "9834470",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        },
+        "9834493": {
+          "_dirName": "9834493",
+          "_dirType": "vector",
+          "_x": -362,
+          "_y": 38
+        }
+      },
+      "addIcon": {
+        "_dirName": "addIcon",
+        "_dirType": "sub",
+        "8645045": {
+          "_dirName": "8645045",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/addIcon/8645045"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8645046": {
+          "_dirName": "8645046",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/addIcon/8645046"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8880500": {
+          "_dirName": "8880500",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/addIcon/8645045"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8880501": {
+          "_dirName": "8880501",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 32
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/BossMobHP.img/MobGage/debuffResist/addIcon/8645046"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "exception": {
+        "_dirName": "exception",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 8810002
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "Int",
+          "_value": 8810003
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "Int",
+          "_value": 8810004
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "Int",
+          "_value": 8810005
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "Int",
+          "_value": 8810006
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "Int",
+          "_value": 8810007
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "Int",
+          "_value": 8810008
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "Int",
+          "_value": 8810009
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "Int",
+          "_value": 8810102
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "Int",
+          "_value": 8810103
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "Int",
+          "_value": 8810104
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "Int",
+          "_value": 8810105
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "Int",
+          "_value": 8810106
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "Int",
+          "_value": 8810107
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "Int",
+          "_value": 8810108
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "Int",
+          "_value": 8810109
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "Int",
+          "_value": 8810202
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "Int",
+          "_value": 8810203
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "Int",
+          "_value": 8810204
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "Int",
+          "_value": 8810205
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "Int",
+          "_value": 8810206
+        },
+        "21": {
+          "_dirName": "21",
+          "_dirType": "Int",
+          "_value": 8810207
+        },
+        "22": {
+          "_dirName": "22",
+          "_dirType": "Int",
+          "_value": 8810208
+        },
+        "23": {
+          "_dirName": "23",
+          "_dirType": "Int",
+          "_value": 8810209
+        },
+        "24": {
+          "_dirName": "24",
+          "_dirType": "Int",
+          "_value": 8810100
+        },
+        "25": {
+          "_dirName": "25",
+          "_dirType": "Int",
+          "_value": 8810101
+        },
+        "26": {
+          "_dirName": "26",
+          "_dirType": "Int",
+          "_value": 8810200
+        },
+        "27": {
+          "_dirName": "27",
+          "_dirType": "Int",
+          "_value": 8810201
+        },
+        "28": {
+          "_dirName": "28",
+          "_dirType": "Int",
+          "_value": 8810001
+        },
+        "29": {
+          "_dirName": "29",
+          "_dirType": "Int",
+          "_value": 8810000
+        }
+      },
+      "tooltip": {
+        "_dirName": "tooltip",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": ""
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Cannot be stunned by skills for a certain period of time."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": ""
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Cannot be stunned by the Critical Bind skill for a certain period of time."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": ""
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Cannot be absolutely stunned by skills for a certain period of time."
+          }
+        },
+        "100": {
+          "_dirName": "100",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": ""
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Cannot be stunned by Lucid's Nightmare for a certain period of time."
+          }
+        },
+        "101": {
+          "_dirName": "101",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": ""
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "일정 시간 동안 신공: 철산고에 의한 행동 불가 상태 이상에 걸리지 않는다. "
+          }
+        }
+      }
+    },
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd2": {
+      "_dirName": "backgrnd2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd3": {
+      "_dirName": "backgrnd3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 1,
+      "_height": 20,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd4": {
+      "_dirName": "backgrnd4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd5": {
+      "_dirName": "backgrnd5",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -36,
+        "_y": -21
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd5"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd6": {
+      "_dirName": "backgrnd6",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -20
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd6"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd7": {
+      "_dirName": "backgrnd7",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -20
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd8": {
+      "_dirName": "backgrnd8",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -20
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd7"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd9": {
+      "_dirName": "backgrnd9",
+      "_dirType": "canvas",
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -18
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd9"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd10": {
+      "_dirName": "backgrnd10",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -19
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/BossMobHP.img/MobGage/backgrnd10"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "Mob": {
+      "_dirName": "Mob",
+      "_dirType": "sub",
+      "2220000": {
+        "_dirName": "2220000",
+        "_dirType": "canvas",
+        "delay": {
+          "_dirName": "delay",
+          "_dirType": "Int",
+          "_value": 500
+        },
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/BossMobHP.img/MobGage/Mob/2220000"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "Gage": {
+      "_dirName": "Gage",
+      "_dirType": "sub",
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "7": {
+        "_dirName": "7",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "8": {
+        "_dirName": "8",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "9": {
+        "_dirName": "9",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "10": {
+        "_dirName": "10",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "11": {
+        "_dirName": "11",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "12": {
+        "_dirName": "12",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "13": {
+        "_dirName": "13",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "14": {
+        "_dirName": "14",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "15": {
+        "_dirName": "15",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "16": {
+        "_dirName": "16",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "17": {
+        "_dirName": "17",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "18": {
+        "_dirName": "18",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "19": {
+        "_dirName": "19",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "20": {
+        "_dirName": "20",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 8,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_width": 1,
+          "_height": 10,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    },
+    "SmartMobnotice": {
+      "_dirName": "SmartMobnotice",
+      "_dirType": "sub",
+      "backgrnd": {
+        "_dirName": "backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/BossMobHP.img/MobGage/SmartMobnotice/backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "backgrnd2": {
+        "_dirName": "backgrnd2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 19,
+        "_format": 1,
+        "_format2": 0
+      },
+      "backgrnd3": {
+        "_dirName": "backgrnd3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/BossMobHP.img/MobGage/SmartMobnotice/backgrnd3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "SmartMob": {
+        "_dirName": "SmartMob",
+        "_dirType": "sub",
+        "8840000": {
+          "_dirName": "8840000",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "8850011": {
+          "_dirName": "8850011",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "8880000": {
+          "_dirName": "8880000",
+          "_dirType": "Int",
+          "_value": 1
+        },
+        "8880002": {
+          "_dirName": "8880002",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  }
+}

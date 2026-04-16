@@ -5,6 +5,7 @@ import { rankMaps } from '../../engine/training'
 import { ATTACK_SPEED_SECONDS, calcDamage } from '../../engine/damage'
 import { getBestTrainingSkill, getBestSTSkill } from '../../engine/skills'
 import MapCard from './MapCard'
+import AccuracyChecker from './AccuracyChecker'
 
 interface TrainingAdvisorProps {
   data: AppData
@@ -289,7 +290,27 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
               </div>
               <div className="space-y-3">
                 {tiered.mostOptimal.slice(0, 3).map((ms, i) => (
-                  <MapCard key={ms.mapId} mapScore={ms} rank={i + 1} highlight={i === 0} charLevel={character.level} />
+                  <MapCard key={ms.mapId} mapScore={ms} rank={i + 1} highlight={i === 0} charLevel={character.level}
+                    playerAcc={derived.accuracy} playerLevel={character.level} isMagic={isMage} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {tiered.lowAccuracy.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="w-2 h-2 rounded-full bg-[#8B6FD4] shrink-0" />
+                <h2 className="text-xs uppercase tracking-widest text-[#8B6FD4] font-semibold">Needs More ACC</h2>
+                <span className="text-[10px] text-[#5C5B57]">Good EXP once you can hit them</span>
+              </div>
+              <p className="text-xs text-[#5C5B57] mb-3">
+                You can't reliably hit the top mobs here yet. Worth keeping in mind as you gear up.
+              </p>
+              <div className="space-y-3">
+                {tiered.lowAccuracy.map((ms, i) => (
+                  <MapCard key={ms.mapId} mapScore={ms} rank={tiered.mostOptimal.length + i + 1} charLevel={character.level}
+                    playerAcc={derived.accuracy} playerLevel={character.level} isMagic={isMage} />
                 ))}
               </div>
             </section>
@@ -306,7 +327,8 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
               </p>
               <div className="space-y-3">
                 {tiered.dangerous.slice(0, 3).map(ms => (
-                  <MapCard key={ms.mapId} mapScore={ms} charLevel={character.level} />
+                  <MapCard key={ms.mapId} mapScore={ms} charLevel={character.level}
+                    playerAcc={derived.accuracy} playerLevel={character.level} isMagic={isMage} />
                 ))}
               </div>
             </section>
@@ -347,13 +369,22 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
               </div>
               <div className="space-y-3">
                 {tiered.topMeso.map((ms, i) => (
-                  <MapCard key={ms.mapId} mapScore={ms} rank={i + 1} highlight={i === 0} charLevel={character.level} mesoMode />
+                  <MapCard key={ms.mapId} mapScore={ms} rank={i + 1} highlight={i === 0} charLevel={character.level} mesoMode
+                    playerAcc={derived.accuracy} playerLevel={character.level} isMagic={isMage} />
                 ))}
               </div>
             </section>
           )}
         </>
       )}
+
+      {/* Accuracy checker — always visible regardless of mode */}
+      <AccuracyChecker
+        monsters={data.monsters}
+        playerAcc={derived.accuracy}
+        playerLevel={character.level}
+        isMagic={isMage}
+      />
     </div>
   )
 }

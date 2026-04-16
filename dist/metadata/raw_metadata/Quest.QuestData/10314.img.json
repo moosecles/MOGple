@@ -1,0 +1,244 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Construction Site B3] Shumi's Lost Sack of Cash"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "[Construction Site B1] What Shumi Lost"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Let's go look for #p403# in #m10003000#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into #p403# again at #m10003000#. A while ago, she got a favor from #p401# to get some #t4003000#s for him, only to have the sack of money fall down and lose everything in the process. I guess I can find the sack of money in the deep part of the subway station, the #bConstruction Site B3#k, again."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I found #p403#'s lost Money Sack in the #m10003000# subway. #p403# can now buy what #p401# asked for. I received mesos and some potions as a gift. I should go to #bConstruction Site B3#k in the subway to look for more stuff."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031041# #t4031041# #b#c4031041# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 403
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 35
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10313
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 403
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031041
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4162
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 10000
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031041
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2000006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Whoa... I've been really waiting for you to come back! What? Did I lose money again? Yep... well, this time, it's really big... Someone I know asked me for a favor. He wants me to get him 100 #t4003000#s. He gave me the money to buy them all, so I put that sack of money in my pocket, carrying it with me. It was way too heavy, though, so I dropped it on the ground, only to have the bottom of the sack wear off and have a hole in the end. The money fell down because of it... Can you find it for me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you so much! Well, the person that asked for the favor is sitting waaaaaaay down there. His name is #p401#, and he worked hard for that money through backdoor dealings, and if he ever finds out that I lost that money, he'll go crazy on me. Don't be fooled by his appearance; he's got quite a temper... Argh... Pleeaassse help me! Please help me find the sack of money! You're the only one I can count on right now!"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "I think the sack of money was dropped at the subway #bConstruction Site B3#k. I tried to go there and retrieve it but there are even more weird devices all over the place this time around, so I did little more than take a look at it from the distance. This may be difficult even for you this time around. Anyway please please please get that sack of money for me. I believe in you..."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You must be busy here and there, huh? But if you ever decide to change your mind, then please help me. I'm being serious here..."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, it's that sack of money I lost! Phew... It's all good now. I knew you'd find it... Seriously, you should become a professional at this... But hey... You didn't take any for yourself, right? Let me see... I'm not doubting your honesty, but I still have to count it... one... two... three... four... Hm, seems okay."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Thanks! Here's a reward for taking up my request."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I raised your EXP and Fame for helping me. I also gave you some mesos, so spend them well. Oh, and I threw in some good potions, too. Thanks again, and I'll let you know if I have any more troubles."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Still haven't found the sack of money that I lost? Without it, I don't know what he's going to do with me... you may find it at the #bConstruction Site B3 of #m10003000##k subway. Be careful, there is some weird equipment in there. I believe in you."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "quest": {
+      "_dirName": "quest",
+      "_dirType": "String",
+      "_value": "begin7"
+    },
+    "speak": {
+      "_dirName": "speak",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "n0"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "n1"
+      }
+    },
+    "script": {
+      "_dirName": "script",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "script": {
+          "_dirName": "script",
+          "_dirType": "String",
+          "_value": "npc_15"
+        }
+      }
+    }
+  },
+  "stand": {
+    "_dirName": "stand",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 23,
+        "_y": 77
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Npc/_Canvas/0000015.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}

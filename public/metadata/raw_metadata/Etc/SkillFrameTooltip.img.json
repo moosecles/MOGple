@@ -1,0 +1,188 @@
+{
+  "GuardianAngelSlime": {
+    "_dirName": "GuardianAngelSlime",
+    "_dirType": "sub",
+    "mysticShot": {
+      "_dirName": "mysticShot",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "Archetypal Slime's Aid - Energy Bomb"
+      },
+      "desc": {
+        "_dirName": "desc",
+        "_dirType": "String",
+        "_value": "With Archetypal Slime's aid, you can fire an energy bomb at the Magma Slimes."
+      },
+      "h": {
+        "_dirName": "h",
+        "_dirType": "String",
+        "_value": "Activate with the #cInteract/Harvest key#. Firing the energy bomb consumes Slime Power."
+      },
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/mysticShot/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/mysticShot/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/mysticShot/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "crystal": {
+      "_dirName": "crystal",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "Archetypal Slime's Aid - Crystal"
+      },
+      "desc": {
+        "_dirName": "desc",
+        "_dirType": "String",
+        "_value": "With Archetypal Slime's aid, you can set up a crystal that alters the direction of the Guardian Wave."
+      },
+      "h": {
+        "_dirName": "h",
+        "_dirType": "String",
+        "_value": "Activate with the #cInteract/Harvest key#. Setting up a Crystal Drop deducts from the counter."
+      },
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/crystal/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/crystal/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Etc/_Canvas/SkillFrameTooltip.img/GuardianAngelSlime/crystal/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  }
+}

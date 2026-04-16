@@ -1,0 +1,131 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "The Thief's Next Journey"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Thief's Next Journey"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 103
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Having reached level 30 and mastered the way of the Rogue, I feel the urge to learn even more."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Perhaps #b#p411##k of #b#m10003000##k could teach me greater lessons."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p411##k said that if I can pass the test he gives, he’ll gladly teach me more. I’m no longer the weakling I once was, but hearing that I still have to face a trial makes me a bit nervous."
+    },
+    "selfStart": {
+      "_dirName": "selfStart",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 411
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 400
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 411
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3150
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 20301
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Finally, I’ve reached level 30! It hasn’t been easy, but now I’m confident I can stand as a true Rogue who won’t lose to anyone. Still… is this really enough? The world is vast, and I find myself wanting to learn more."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I should probably visit #b#p411##k in #b#m10003000##k again. He might be able to teach me things I’ve never known."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hmmm... you seem to have gotten a whole lot stronger. You got rid of the old, weak self and look much more like a thief now."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "No need for a long explanation. You want to know more about the deeper, darker world, don’t you? Seeing someone like you makes me feel fired up for the first time in a while… heh."
+      }
+    }
+  }
+}

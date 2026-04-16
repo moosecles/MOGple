@@ -1,0 +1,186 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "In search of Wing the Fairy"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Icarus and the Flying Pill"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I wonder how #p407#'s doing with the flying balloon... Maybe I should go check up on him in #m10003000#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Icarus failed to make the flying balloon, but his never-ending quest for flight continues. This time he wants to deviate from a scientific approach to flight and opt for a magical approach, and asks me to see his best friend #b#p309##k in #m10002000#, the town of fairies. Apparently #p309# knows how to make #b#t4031079##k... I'll need to see that fairy in #m10002000# for #p407#'s sake."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#p309# in #m10002000# seemed to dislike humans so much that he wouldn’t even listen to what I had to say."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 46
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10318
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 309
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4803
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 941
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10320
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, you're the one that got me the materials for the flying balloon...\\r\\n#L0##bDid you get it to work?#k"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh, that... well... I faced MINOR, I mean, MIIINOR technical difficulties, and... well I don't know what's wrong!! Is it really an impossible dream to realize? All I wanted to do was to fly! I can't let this deter me from my ultimate goal! I can't be giving up this soon. Can you help me out one last time?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I knew you'd help me out. I really appreciate it! Anyway, I have a fairy friend, and his name is #p309#. He lives in #m10002000#, so it's hard to see him frequently, but we're still really close."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Since he is a fairy, I'm sure he knows a way to make me fly. Please find out what #b#p309##k has to offer in terms of me flying! Since I'm a long way from #m10002000#, I don't think I can go there myself. Can you go there for me and ask?"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Even you have a hard time trusting me now... seriously, this one is FOR REAL! Why can't you trust me?"
+        }
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're just like everyone else living in a box. Wake up, think outside the box! You'll see... you'll see me flying around here some day."
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "What business does a human have with me? Don’t bother me—I don’t want to waste my time."
+      }
+    }
+  }
+}

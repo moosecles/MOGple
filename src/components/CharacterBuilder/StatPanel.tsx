@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import type { DerivedStats, CharacterState } from '../../types'
 
 interface StatPanelProps {
@@ -6,11 +6,11 @@ interface StatPanelProps {
   derived: DerivedStats
 }
 
-function Tooltip({ text }: { text: string }) {
+function Tooltip({ children, wide }: { children: React.ReactNode; wide?: boolean }) {
   return (
-    <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-1.5 w-56 pointer-events-none">
+    <div className={`absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-1.5 pointer-events-none ${wide ? 'w-80' : 'w-56'}`}>
       <div className="bg-[#1A1E2A] border border-[rgba(255,255,255,0.12)] rounded-lg px-3 py-2 text-[11px] text-[#8B8A85] leading-relaxed shadow-xl">
-        {text}
+        {children}
       </div>
       <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-[rgba(255,255,255,0.12)]" />
     </div>
@@ -22,11 +22,13 @@ function StatRow({
   value,
   sub,
   tooltip,
+  wideTooltip,
 }: {
   label: string
   value: string | number
   sub?: string
-  tooltip?: string
+  tooltip?: React.ReactNode
+  wideTooltip?: boolean
 }) {
   const [show, setShow] = useState(false)
 
@@ -41,7 +43,7 @@ function StatRow({
         {tooltip && (
           <>
             <span className="text-[10px] text-[#5C5B57] cursor-help select-none">?</span>
-            {show && <Tooltip text={tooltip} />}
+            {show && <Tooltip wide={wideTooltip}>{tooltip}</Tooltip>}
           </>
         )}
       </div>
@@ -69,7 +71,21 @@ export default function StatPanel({ character, derived }: StatPanelProps) {
 
   const critTooltip = `Base 5% crit rate from class default. Boosted by skills like Critical Shot or Critical Throw. Crit deals +${critDmg}% extra damage.`
 
-  const accuracyTooltip = `Accuracy = (DEX × 0.8 + LUK × 0.2) × 4 / 3 at your level. Hit rate depends on mob level and their AVOID stat.`
+  const accFormula = isMage
+    ? 'floor(DEX x 0.5)'
+    : ['Rogue','Assassin','Bandit'].includes(className)
+      ? 'floor(DEX x 0.25 + LUK x 0.5)'
+      : ['Archer','Hunter','Crossbowman'].includes(className)
+        ? 'floor(DEX x 0.6 + LUK x 0.15)'
+        : 'floor(DEX x 0.5)'
+
+  const accuracyTooltip = (
+    <div className="space-y-1.5">
+      <p>{className} ACC: {accFormula}, plus any ACC from gear.</p>
+      <p>Hit rate against a mob ramps linearly from 0% when your ACC is below 2x their EVA, up to 100% at 3.2x. Numbers are still being validated from live data so expect around a 5% margin of error.</p>
+      <p className="text-[#5AC47E]">Shoutout to Littlefoot for the accuracy training data.</p>
+    </div>
+  )
 
   return (
     <div className="bg-[#13161F] border border-[rgba(255,255,255,0.06)] rounded-xl p-4 space-y-1">
@@ -125,7 +141,7 @@ export default function StatPanel({ character, derived }: StatPanelProps) {
 
         <div className="h-px bg-[rgba(255,255,255,0.04)] my-2" />
 
-        <StatRow label="Accuracy" value={accuracy} tooltip={accuracyTooltip} />
+        <StatRow label="Accuracy" value={accuracy} tooltip={accuracyTooltip} wideTooltip />
         <StatRow label="Avoid" value={avoid} />
         {critRate > 0 && (
           <StatRow
@@ -152,7 +168,7 @@ function DamageTooltip({ text }: { text: string }) {
       >
         ?
       </span>
-      {show && <Tooltip text={text} />}
+      {show && <Tooltip wide>{text}</Tooltip>}
     </div>
   )
 }

@@ -1,0 +1,1956 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -4,
+        "_y": 30
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Skill/_Canvas/000.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "skill": {
+    "_dirName": "skill",
+    "_dirType": "sub",
+    "0001000": {
+      "_dirName": "0001000",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001000/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001000/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001000/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 2
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "itemCon": {
+            "_dirName": "itemCon",
+            "_dirType": "Int",
+            "_value": 4000001
+          },
+          "itemConNo": {
+            "_dirName": "itemConNo",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "fixdamage": {
+            "_dirName": "fixdamage",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "ball": {
+            "_dirName": "ball",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 17,
+                "_y": 17
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/ball/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 13
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/ball/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 16
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/ball/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "hit": {
+            "_dirName": "hit",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "0": {
+                "_dirName": "0",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 37,
+                  "_y": 70
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/0"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "1": {
+                "_dirName": "1",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 68
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/1"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "2": {
+                "_dirName": "2",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 67
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/2"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "3": {
+                "_dirName": "3",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 34,
+                  "_y": 65
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/3"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "4": {
+                "_dirName": "4",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 39,
+                  "_y": 60
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/4"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "5": {
+                "_dirName": "5",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 42,
+                  "_y": 61
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/1/hit/0/5"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              }
+            }
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "itemCon": {
+            "_dirName": "itemCon",
+            "_dirType": "Int",
+            "_value": 4000002
+          },
+          "itemConNo": {
+            "_dirName": "itemConNo",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "fixdamage": {
+            "_dirName": "fixdamage",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "ball": {
+            "_dirName": "ball",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 17,
+                "_y": 17
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/ball/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 13
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/ball/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 16
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/ball/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "hit": {
+            "_dirName": "hit",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "0": {
+                "_dirName": "0",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 37,
+                  "_y": 70
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/0"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "1": {
+                "_dirName": "1",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 68
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/1"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "2": {
+                "_dirName": "2",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 67
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/2"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "3": {
+                "_dirName": "3",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 34,
+                  "_y": 65
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/3"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "4": {
+                "_dirName": "4",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 39,
+                  "_y": 60
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/4"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "5": {
+                "_dirName": "5",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 42,
+                  "_y": 61
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/2/hit/0/5"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              }
+            }
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "itemCon": {
+            "_dirName": "itemCon",
+            "_dirType": "Int",
+            "_value": 4000004
+          },
+          "itemConNo": {
+            "_dirName": "itemConNo",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "fixdamage": {
+            "_dirName": "fixdamage",
+            "_dirType": "Int",
+            "_value": 40
+          },
+          "mobCount": {
+            "_dirName": "mobCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "bulletCount": {
+            "_dirName": "bulletCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "attackCount": {
+            "_dirName": "attackCount",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "ball": {
+            "_dirName": "ball",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 17,
+                "_y": 17
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/ball/0"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 13
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/ball/1"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "canvas",
+              "origin": {
+                "_dirName": "origin",
+                "_dirType": "vector",
+                "_x": 19,
+                "_y": 16
+              },
+              "delay": {
+                "_dirName": "delay",
+                "_dirType": "Int",
+                "_value": 90
+              },
+              "_outlink": {
+                "_dirName": "_outlink",
+                "_dirType": "String",
+                "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/ball/2"
+              },
+              "_width": 1,
+              "_height": 1,
+              "_format": 1,
+              "_format2": 0
+            }
+          },
+          "hit": {
+            "_dirName": "hit",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "sub",
+              "0": {
+                "_dirName": "0",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 37,
+                  "_y": 70
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/0"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "1": {
+                "_dirName": "1",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 68
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/1"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "2": {
+                "_dirName": "2",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 33,
+                  "_y": 67
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/2"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "3": {
+                "_dirName": "3",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 34,
+                  "_y": 65
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/3"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "4": {
+                "_dirName": "4",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 39,
+                  "_y": 60
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/4"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              },
+              "5": {
+                "_dirName": "5",
+                "_dirType": "canvas",
+                "origin": {
+                  "_dirName": "origin",
+                  "_dirType": "vector",
+                  "_x": 42,
+                  "_y": 61
+                },
+                "delay": {
+                  "_dirName": "delay",
+                  "_dirType": "Int",
+                  "_value": 90
+                },
+                "_outlink": {
+                  "_dirName": "_outlink",
+                  "_dirType": "String",
+                  "_value": "Skill/_Canvas/000.img/skill/0001000/level/3/hit/0/5"
+                },
+                "_width": 1,
+                "_height": 1,
+                "_format": 1,
+                "_format2": 0
+              }
+            }
+          }
+        }
+      },
+      "masterLevel": {
+        "_dirName": "masterLevel",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "action": {
+        "_dirName": "action",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "swingO1"
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "swingO2"
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "swingO3"
+        }
+      }
+    },
+    "0001001": {
+      "_dirName": "0001001",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001001/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001001/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001001/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 31
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 120
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 120
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "x": {
+            "_dirName": "x",
+            "_dirType": "Int",
+            "_value": 12
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 120
+          }
+        }
+      },
+      "effect": {
+        "_dirName": "effect",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 104
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 107
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 104
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 104
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 39,
+            "_y": 107
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 40,
+            "_y": 105
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 38,
+            "_y": 105
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 38,
+            "_y": 107
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 38,
+            "_y": 108
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 113
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 117
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 122
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/11"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 37,
+            "_y": 125
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001001/effect/12"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "masterLevel": {
+        "_dirName": "masterLevel",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "processtype": {
+        "_dirName": "processtype",
+        "_dirType": "Int",
+        "_value": 6
+      },
+      "additional_process": {
+        "_dirName": "additional_process",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 114
+        }
+      }
+    },
+    "0001002": {
+      "_dirName": "0001002",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001002/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconMouseOver": {
+        "_dirName": "iconMouseOver",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001002/iconMouseOver"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconDisabled": {
+        "_dirName": "iconDisabled",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 32
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Skill/_Canvas/000.img/skill/0001002/iconDisabled"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "info": {
+        "_dirName": "info",
+        "_dirType": "sub",
+        "type": {
+          "_dirName": "type",
+          "_dirType": "Int",
+          "_value": 10
+        }
+      },
+      "level": {
+        "_dirName": "level",
+        "_dirType": "sub",
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h1"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 180
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h2"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 7
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 20
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 180
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "hs": {
+            "_dirName": "hs",
+            "_dirType": "String",
+            "_value": "h3"
+          },
+          "mpCon": {
+            "_dirName": "mpCon",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "time": {
+            "_dirName": "time",
+            "_dirType": "Int",
+            "_value": 30
+          },
+          "speed": {
+            "_dirName": "speed",
+            "_dirType": "Int",
+            "_value": 10
+          },
+          "cooltime": {
+            "_dirName": "cooltime",
+            "_dirType": "Int",
+            "_value": 180
+          }
+        }
+      },
+      "effect": {
+        "_dirName": "effect",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 53
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 57
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/1"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 34,
+            "_y": 59
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/2"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 35,
+            "_y": 65
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/3"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 36,
+            "_y": 69
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/4"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 35,
+            "_y": 74
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/5"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 87
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/6"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 103
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/7"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 34,
+            "_y": 94
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/8"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 34,
+            "_y": 113
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/9"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 33,
+            "_y": 60
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/10"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 32,
+            "_y": 57
+          },
+          "delay": {
+            "_dirName": "delay",
+            "_dirType": "Int",
+            "_value": 90
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "Skill/_Canvas/000.img/skill/0001002/effect/11"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "masterLevel": {
+        "_dirName": "masterLevel",
+        "_dirType": "Int",
+        "_value": 3
+      },
+      "processtype": {
+        "_dirName": "processtype",
+        "_dirType": "Int",
+        "_value": 6
+      },
+      "additional_process": {
+        "_dirName": "additional_process",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 114
+        }
+      }
+    }
+  }
+}

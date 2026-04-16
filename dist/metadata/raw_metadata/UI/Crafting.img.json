@@ -1,0 +1,1465 @@
+{
+  "backgrnd": {
+    "_dirName": "backgrnd",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/Crafting.img/backgrnd"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "ItemEntry": {
+    "_dirName": "ItemEntry",
+    "_dirType": "sub",
+    "enabled": {
+      "_dirName": "enabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/ItemEntry/enabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/ItemEntry/disabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "empty": {
+      "_dirName": "empty",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/ItemEntry/empty"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "selected": {
+      "_dirName": "selected",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/ItemEntry/selected"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "posName": {
+      "_dirName": "posName",
+      "_dirType": "vector",
+      "_x": 42,
+      "_y": 3
+    },
+    "posValue": {
+      "_dirName": "posValue",
+      "_dirType": "vector",
+      "_x": 42,
+      "_y": 19
+    },
+    "posIcon": {
+      "_dirName": "posIcon",
+      "_dirType": "vector",
+      "_x": 2,
+      "_y": 2
+    }
+  },
+  "check:additive": {
+    "_dirName": "check:additive",
+    "_dirType": "sub",
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 368,
+      "_y": 178
+    },
+    "rb": {
+      "_dirName": "rb",
+      "_dirType": "vector",
+      "_x": 382,
+      "_y": 190
+    },
+    "unchecked": {
+      "_dirName": "unchecked",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/check:additive/unchecked"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "checked": {
+      "_dirName": "checked",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/check:additive/checked"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "unchecked_disabled": {
+      "_dirName": "unchecked_disabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/check:additive/unchecked_disabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "checked_disabled": {
+      "_dirName": "checked_disabled",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/check:additive/checked_disabled"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1005
+    }
+  },
+  "Notice": {
+    "_dirName": "Notice",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -6,
+          "_y": -52
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/Notice/0/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -200,
+          "_y": -176
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/Notice/1/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "Icon": {
+    "_dirName": "Icon",
+    "_dirType": "sub",
+    "unlock": {
+      "_dirName": "unlock",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/unlock"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "smithing": {
+      "_dirName": "smithing",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/smithing"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "leatherworking": {
+      "_dirName": "leatherworking",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/leatherworking"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "tailoring": {
+      "_dirName": "tailoring",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/tailoring"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "woodcrafting": {
+      "_dirName": "woodcrafting",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/woodcrafting"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "weaponcrafting": {
+      "_dirName": "weaponcrafting",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/weaponcrafting"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "arcforge": {
+      "_dirName": "arcforge",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/Crafting.img/Icon/arcforge"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "Guage": {
+    "_dirName": "Guage",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "graduation": {
+        "_dirName": "graduation",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 21,
+          "_y": 32
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/Guage/1/graduation"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "gauge": {
+        "_dirName": "gauge",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 5,
+        "_format": 2,
+        "_format2": 0
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "graduation": {
+        "_dirName": "graduation",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 30,
+          "_y": 41
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/Guage/2/graduation"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "gauge": {
+        "_dirName": "gauge",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_width": 1,
+        "_height": 5,
+        "_format": 2,
+        "_format2": 0
+      }
+    }
+  },
+  "button:craft": {
+    "_dirName": "button:craft",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craft/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craft/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craft/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craft/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1001
+    }
+  },
+  "button:craftAll": {
+    "_dirName": "button:craftAll",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -482,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craftAll/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -482,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craftAll/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -482,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craftAll/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -482,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:craftAll/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1002
+    }
+  },
+  "button:cancel": {
+    "_dirName": "button:cancel",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:cancel/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:cancel/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:cancel/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -414,
+          "_y": -379
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:cancel/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1006
+    }
+  },
+  "button:plus": {
+    "_dirName": "button:plus",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -394,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:plus/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -394,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShopUI.img/checkOut/entity/btPlus/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -394,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShopUI.img/checkOut/entity/btPlus/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -394,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:plus/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1003
+    }
+  },
+  "button:minus": {
+    "_dirName": "button:minus",
+    "_dirType": "sub",
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -339,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:minus/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "pressed": {
+      "_dirName": "pressed",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -339,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShopUI.img/checkOut/entity/btMinus/pressed/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "disabled": {
+      "_dirName": "disabled",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -339,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/CashShopUI.img/checkOut/entity/btMinus/disabled/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "mouseOver": {
+      "_dirName": "mouseOver",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -339,
+          "_y": -381
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/button:minus/mouseOver/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 1004
+    }
+  },
+  "tab:category": {
+    "_dirName": "tab:category",
+    "_dirType": "sub",
+    "selected": {
+      "_dirName": "selected",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/selected/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "normal": {
+      "_dirName": "normal",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/0"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/1"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/2"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/3"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/4"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/Crafting.img/tab:category/normal/5"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 9,
+      "_y": 23
+    },
+    "rb": {
+      "_dirName": "rb",
+      "_dirType": "vector",
+      "_x": 537,
+      "_y": 44
+    },
+    "ID": {
+      "_dirName": "ID",
+      "_dirType": "Int",
+      "_value": 2001
+    }
+  },
+  "edit:count": {
+    "_dirName": "edit:count",
+    "_dirType": "sub",
+    "id": {
+      "_dirName": "id",
+      "_dirType": "String",
+      "_value": "5001"
+    },
+    "number": {
+      "_dirName": "number",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 358,
+      "_y": 380
+    },
+    "rb": {
+      "_dirName": "rb",
+      "_dirType": "vector",
+      "_x": 391,
+      "_y": 394
+    }
+  },
+  "scroll:recipeScroll": {
+    "_dirName": "scroll:recipeScroll",
+    "_dirType": "sub",
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 173,
+      "_y": 124
+    },
+    "length": {
+      "_dirName": "length",
+      "_dirType": "Int",
+      "_value": 269
+    },
+    "wheelRange": {
+      "_dirName": "wheelRange",
+      "_dirType": "Int",
+      "_value": 187
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "String",
+      "_value": "3001"
+    },
+    "path": {
+      "_dirName": "path",
+      "_dirType": "String",
+      "_value": "UI/Basic.img/VScr4"
+    }
+  },
+  "vector:recipeList_lt": {
+    "_dirName": "vector:recipeList_lt",
+    "_dirType": "vector",
+    "_x": 9,
+    "_y": 124
+  },
+  "vector:recipeList_rb": {
+    "_dirName": "vector:recipeList_rb",
+    "_dirType": "vector",
+    "_x": 168,
+    "_y": 397
+  },
+  "vector:requireItemList_lt": {
+    "_dirName": "vector:requireItemList_lt",
+    "_dirType": "vector",
+    "_x": 205,
+    "_y": 260
+  },
+  "vector:requireItemList_rb": {
+    "_dirName": "vector:requireItemList_rb",
+    "_dirType": "vector",
+    "_x": 535,
+    "_y": 374
+  },
+  "vector:additiveIcon": {
+    "_dirName": "vector:additiveIcon",
+    "_dirType": "vector",
+    "_x": 371,
+    "_y": 197
+  },
+  "recipeEntryMargin": {
+    "_dirName": "recipeEntryMargin",
+    "_dirType": "Int",
+    "_value": 4
+  },
+  "ingredientsEntryMargin": {
+    "_dirName": "ingredientsEntryMargin",
+    "_dirType": "Int",
+    "_value": 3
+  },
+  "vector:resultIcon": {
+    "_dirName": "vector:resultIcon",
+    "_dirType": "vector",
+    "_x": 218,
+    "_y": 132
+  },
+  "vector:resultTitle": {
+    "_dirName": "vector:resultTitle",
+    "_dirType": "vector",
+    "_x": 268,
+    "_y": 131
+  },
+  "vector:resultExplain": {
+    "_dirName": "vector:resultExplain",
+    "_dirType": "vector",
+    "_x": 268,
+    "_y": 150
+  },
+  "vector:craftIcon": {
+    "_dirName": "vector:craftIcon",
+    "_dirType": "vector",
+    "_x": 0,
+    "_y": 0
+  },
+  "gaugeBar:skill": {
+    "_dirName": "gaugeBar:skill",
+    "_dirType": "sub",
+    "lt": {
+      "_dirName": "lt",
+      "_dirType": "vector",
+      "_x": 107,
+      "_y": 60
+    },
+    "rb": {
+      "_dirName": "rb",
+      "_dirType": "vector",
+      "_x": 529,
+      "_y": 74
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 2,
+      "_height": 14,
+      "_format": 2,
+      "_format2": 0
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 1,
+      "_height": 14,
+      "_format": 2,
+      "_format2": 0
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_width": 2,
+      "_height": 14,
+      "_format": 2,
+      "_format2": 0
+    },
+    "id": {
+      "_dirName": "id",
+      "_dirType": "Int",
+      "_value": 4001
+    },
+    "createOverlay": {
+      "_dirName": "createOverlay",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "vector:categoryIcon": {
+    "_dirName": "vector:categoryIcon",
+    "_dirType": "vector",
+    "_x": 19,
+    "_y": 58
+  },
+  "vector:categoryMsg": {
+    "_dirName": "vector:categoryMsg",
+    "_dirType": "vector",
+    "_x": 15,
+    "_y": 88
+  },
+  "vector:skillLevel": {
+    "_dirName": "vector:skillLevel",
+    "_dirType": "vector",
+    "_x": 47,
+    "_y": 60
+  },
+  "vector:npcName": {
+    "_dirName": "vector:npcName",
+    "_dirType": "vector",
+    "_x": 207,
+    "_y": 210
+  },
+  "flashTime": {
+    "_dirName": "flashTime",
+    "_dirType": "Int",
+    "_value": 300
+  },
+  "flashCount": {
+    "_dirName": "flashCount",
+    "_dirType": "Int",
+    "_value": 1
+  }
+}

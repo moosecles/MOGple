@@ -1,0 +1,637 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Building a New House For Blackbull"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard that \"#p501#\" in #m10004000# is building a new house..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into \"#p501#\" again, the guy whose house I helped fix. He was surprised at how strong I looked and asked me for a much harder favor. His cousins from #m10001000# are all trying to move to #m10004000#, so he needs to build a new house! To build a new house, he said he needed #b100 #t4000043#s, 30 #t4003000#s, 30 #t4003001#, and #t4001006##k. His son had the deed to the land, but it was stolen by #o31#s near #m10005000#... hmmm... I should be looking for those wandering around the deep forest..."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "So that all of \"#p501#'s\" cousins could move to #m10004000#, I got him the items he requested. It was really tough, and I hope he doesn't ask me to BUILD a house for him next time... "
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#t4000043# #b#c4000043##k / 100\\n#t4003000# #b#c4003000##k / 30\\n#t4003001# #b#c4003001##k / 30\\n#t4001006# #b#c4001006##k / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 501
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 48
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 10
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10400
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 501
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 100
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 7425
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1404
+      },
+      "pop": {
+        "_dirName": "pop",
+        "_dirType": "Int",
+        "_value": 2
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -100
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4001006
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043102
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043202
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044102
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044202
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044302
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044402
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043702
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 4
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043802
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 4
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044502
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 8
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044602
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 8
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2043302
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 16
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 2044702
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "prop": {
+            "_dirName": "prop",
+            "_dirType": "Int",
+            "_value": -1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 16
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey, it's you! Got pretty famous since the last time I saw you, huh? Well thanks to you, I got my house fixed just fine. But hmm... there's a problem... all my relatives from #m10001000# want to move to this town. I need to build a new house for them, but I don't even have the materials to build with..."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Well hey! Sorry to ask you for a favor, but can you get the stuff necessary to build the house for my cousins? So many relatives are coming in that the #t4000005#es or #t4000011#s that you got for me last time won't do. So can you do that for me? I'll tell you what to get."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "I'll need #b100 #t4000043#s#k, #b30 #t4003000#s#k, and #b30 #b#t4003001#s#k. But with only these... well, a couple of days ago, a #b#t4001006##k that I purchased disappeared... My son said he was attacked by monsters while carrying the land deed."
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "Reptiles called #r#o31##k that live in the forests took the deed to the land. Can you help me get the deed and the necessary materials to build the house? If so, then you'll be handsomely rewarded for your work... good luck!"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "THIS is the deed to the land that my son lost! And you brought all the necessary materials to build the house! Thank you so much... my relatives can all move in and live in #m10004000#! As a sign of appreciation..."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Okay, now choose the scroll of your liking... Their success rates are all 10%."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Hopefully the scroll I gave you helps. Here's also a little bit of money if that helps. I'll never forget the fact that you helped me. For that, I'll be spreading the good news about your good deed all over the town. What do you think? Anyway, thank you so much for helping me out. We'll probably meet again..."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Looks like you haven't gotten all the materials needed. Please get #b100 #t4000043#s, 30 #b#t4003000#s, 30 #b#t4003001#s and the lost #b#t4001006##k#k. Please hurry, before they eat the deed..."
+          }
+        }
+      }
+    }
+  }
+}

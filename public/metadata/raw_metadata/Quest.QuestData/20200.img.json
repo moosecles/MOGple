@@ -1,0 +1,131 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "The Bowman's Next Journey"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Bowman's Next Journey"
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Having reached level 30 and mastered the way of the Archer, I feel the urge to learn even more."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Perhaps #b#p221##k of #b#m10001000##k could teach me greater lessons."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p221##k said that if I can pass the test she gives, she’ll gladly teach me more. I’m no longer the weakling I once was, but hearing that I still have to face a trial makes me a bit nervous."
+    },
+    "selfStart": {
+      "_dirName": "selfStart",
+      "_dirType": "Int",
+      "_value": 1
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 102
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 221
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 221
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 300
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3150
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 20201
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Finally, I’ve reached level 30! It hasn’t been easy, but now I’m confident I can stand as a true Archer who won’t lose to anyone. Still… is this really enough? The world is vast, and I find myself wanting to learn more."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I should probably visit #b#p221##k in #b#m10001000##k again. She might be able to teach me things I’ve never known."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hmmm...you have grown a lot since I last saw you. I don't see the weakling I saw before, and instead, look much more like a bowman now."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "No need for a long explanation—you’re here for greater teachings, aren’t you? Seeing someone like you rekindles my own spirit."
+      }
+    }
+  }
+}

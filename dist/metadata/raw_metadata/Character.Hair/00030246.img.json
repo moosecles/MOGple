@@ -1,0 +1,1627 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Hr"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "H1H2H3H4H5H6HfHsHb"
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "default": {
+    "_dirName": "default",
+    "_dirType": "sub",
+    "hairOverHead": {
+      "_dirName": "hairOverHead",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 24,
+        "_y": 15
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": 5
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "hairOverHead"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Hair/_Canvas/00030246.img/default/hairOverHead"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "hair": {
+      "_dirName": "hair",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 17,
+        "_y": 11
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": -3,
+          "_y": 1
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "hair"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Hair/_Canvas/00030246.img/default/hair"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "backDefault": {
+    "_dirName": "backDefault",
+    "_dirType": "sub",
+    "backHair": {
+      "_dirName": "backHair",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 13,
+        "_y": 7
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 11
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "backHair"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Hair/_Canvas/00030246.img/backDefault/backHair"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backHairBelowCap": {
+      "_dirName": "backHairBelowCap",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 17,
+        "_y": 16
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": -4,
+          "_y": -4
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "backHairBelowCap"
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Hair/_Canvas/00030246.img/backDefault/backHairBelowCap"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "walk1": {
+    "_dirName": "walk1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "walk2": {
+    "_dirName": "walk2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stand2": {
+    "_dirName": "stand2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingO1": {
+    "_dirName": "swingO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingO2": {
+    "_dirName": "swingO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingO3": {
+    "_dirName": "swingO3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingOF": {
+    "_dirName": "swingOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingT1": {
+    "_dirName": "swingT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingT2": {
+    "_dirName": "swingT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingT3": {
+    "_dirName": "swingT3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingTF": {
+    "_dirName": "swingTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingP1": {
+    "_dirName": "swingP1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingP2": {
+    "_dirName": "swingP2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "swingPF": {
+    "_dirName": "swingPF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabO1": {
+    "_dirName": "stabO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabO2": {
+    "_dirName": "stabO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabOF": {
+    "_dirName": "stabOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabT1": {
+    "_dirName": "stabT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabT2": {
+    "_dirName": "stabT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "stabTF": {
+    "_dirName": "stabTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "shoot1": {
+    "_dirName": "shoot1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "shoot2": {
+    "_dirName": "shoot2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "shootF": {
+    "_dirName": "shootF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "proneStab": {
+    "_dirName": "proneStab",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "heal": {
+    "_dirName": "heal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "sit": {
+    "_dirName": "sit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "hairOverHead": {
+        "_dirName": "hairOverHead",
+        "_dirType": "uol",
+        "_value": "../../default/hairOverHead"
+      },
+      "hair": {
+        "_dirName": "hair",
+        "_dirType": "uol",
+        "_value": "../../default/hair"
+      }
+    }
+  },
+  "ladder": {
+    "_dirName": "ladder",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    }
+  },
+  "rope": {
+    "_dirName": "rope",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backHair": {
+        "_dirName": "backHair",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHair"
+      },
+      "backHairBelowCap": {
+        "_dirName": "backHairBelowCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backHairBelowCap"
+      }
+    }
+  }
+}

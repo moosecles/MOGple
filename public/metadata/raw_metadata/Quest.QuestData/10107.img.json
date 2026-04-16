@@ -1,0 +1,163 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Finding Sophia"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Maya and the Weird Medicine"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 12
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Near the ship The Victoria in #m10000000#, I met a heavily bearded crewmember named #p102#. He does have some #b#t4031009##k, but says that in order to use it properly, he needs a #b#t4031011##k. He promised that if I bring it to him, he’ll gladly hand it over. To obtain the #b#t4031011##k, I should head to #m10004002# and speak with #b#p510##k, the daughter of the inn’s owner."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I met #p510#. To make the #t4031011#, she said she needs #b#t4031010##k."
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 510
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 102
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 21
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10106
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10108
+      },
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 2193
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 614
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Well, I do happen to have some #b#t4031009##k, but I can’t just give it to you for free. You see, I’ve tried using this potion several times, but I realized it doesn’t work properly without an item called #b#t4031011##k. If you bring that to me, then I’d be more than willing to hand it over."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Want to know how to get that stone? I wouldn't be asking for your help if I knew! Here's the deal, head over to the general store in #b#m10004002##k, ask for the daughter of the owner, #b#p510##k, and ask her about its whereabouts. She may have a clue..."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "You know how to get to #m10004000#, don't you? Take the exit on the right from the harbor, go past #m10003000# up northwest, and then keep going east, and you'll find #m10004000#. Sorry, was that too obvious? "
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Oh, hello. How can I help you?"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Didn't get the #b#t4031011##k yet? Oh well, it's not the easiest thing to acquire. Ah, so gorgeous when it shines like a star... Hurry and go see #b#p510##k at #b#m10004002##k."
+          }
+        }
+      }
+    }
+  }
+}

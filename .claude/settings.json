@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm run:*)",
       "Bash(node -e ':*)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); skills=[s for s in d if 'Slash' in s.get\\('name',''\\)]; print\\(json.dumps\\(skills, indent=2\\)\\)\")"
     ]
   }
 }

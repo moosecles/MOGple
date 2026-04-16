@@ -1,0 +1,781 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Fc"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "Fc"
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "default": {
+    "_dirName": "default",
+    "_dirType": "sub",
+    "face": {
+      "_dirName": "face",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 16,
+        "_y": 8
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": -5,
+          "_y": -14
+        }
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "face"
+      },
+      "_width": 24,
+      "_height": 14,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "blink": {
+    "_dirName": "blink",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 14,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 14,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 60
+      },
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 14,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "hit": {
+    "_dirName": "hit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 16,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "smile": {
+    "_dirName": "smile",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 23,
+        "_height": 15,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "troubled": {
+    "_dirName": "troubled",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 25,
+        "_height": 15,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "cry": {
+    "_dirName": "cry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 25,
+        "_height": 10,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "angry": {
+    "_dirName": "angry",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -11
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 25,
+        "_height": 22,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "bewildered": {
+    "_dirName": "bewildered",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 20,
+        "_height": 19,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "stunned": {
+    "_dirName": "stunned",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -3,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 23,
+        "_height": 15,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "vomit": {
+    "_dirName": "vomit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 24
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -30
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 27,
+        "_height": 46,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 25
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -31
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 27,
+        "_height": 46,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 120
+      }
+    }
+  },
+  "oops": {
+    "_dirName": "oops",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 7
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -1,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 14,
+        "_format": 1,
+        "_format2": 0
+      }
+    },
+    "delay": {
+      "_dirName": "delay",
+      "_dirType": "Int",
+      "_value": 1640
+    }
+  },
+  "cheers": {
+    "_dirName": "cheers",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -13
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 23,
+        "_height": 19,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "chu": {
+    "_dirName": "chu",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 14,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "wink": {
+    "_dirName": "wink",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": -2,
+            "_y": -14
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 24,
+        "_height": 15,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "pain": {
+    "_dirName": "pain",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 1,
+            "_y": -8
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 30,
+        "_height": 19,
+        "_format": 1,
+        "_format2": 0
+      }
+    }
+  },
+  "glitter": {
+    "_dirName": "glitter",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 27,
+        "_height": 18,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "face": {
+        "_dirName": "face",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": 13,
+          "_y": 8
+        },
+        "map": {
+          "_dirName": "map",
+          "_dirType": "sub",
+          "brow": {
+            "_dirName": "brow",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": -10
+          }
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "String",
+          "_value": "face"
+        },
+        "_width": 27,
+        "_height": 18,
+        "_format": 1,
+        "_format2": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 150
+      }
+    }
+  }
+}

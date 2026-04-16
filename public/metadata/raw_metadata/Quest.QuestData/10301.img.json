@@ -1,0 +1,432 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Talking to Stan"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Alex the Runaway Kid"
+    },
+    "order": {
+      "_dirName": "order",
+      "_dirType": "Int",
+      "_value": 2
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "At the entrance of #m10001000#, I meet #p402#'s father, #p202#, the chief of Henesys. Before I can even start a conversation, he asks for #b15 #t4000013#s and 15 #t4000016#s#k. "
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "Only after I brought the #t4000013#s and the #t4000019#s did #p202# start talking to me."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#o13# #a103011#\\n#o16# #a103012#\\n#i4000013:# #t4000013:# #c4000013# / 15\\n#i4000016:# #t4000016:# #c4000016# / 15"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 202
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 18
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10300
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 202
+      },
+      "mob": {
+        "_dirName": "mob",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 13
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 25
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000013
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000016
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          },
+          "order": {
+            "_dirName": "order",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 1371
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10302
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 526
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000013
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000016
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          },
+          "potentialGrade": {
+            "_dirName": "potentialGrade",
+            "_dirType": "String",
+            "_value": "normal"
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "You want to talk to me? I'm the elder of this town—I don't have time to waste chatting with someone like you. If you really want a word with me, bring something needed for the town. Hunt #b25 #o13#s#k and #b25 #o16#s#k, and collect #b15 #t4000013#s#k and #b15 #t4000016#s#k. Maybe then I'll have a moment to spare."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Who are you? I don't think we've met.\\n\\n#b#L0# I'm just a traveler. Don't mind me.#l\\n#L1# I'm here on #p402#'s behalf. Just give me five minutes.#l\\n#L2# Haha... isn't it beautiful today?#l"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "#p402#? Ha, I no longer have a son with that name. Get out of here!\\n\\n#b#L0# Ah... Yes, sir. Sorry for bothering you.#l\\n#L1# But #p402# wants to come home.#l\\n#L2# Cut it out! #p402# is sorry for running away!#l"
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "Eh? Confronting me now? Yelling at me in public? Hmm, you must be somebody important. Fine. How's #p402# doing?\\n\\n#b#L0# #p402# is having a hard time since he ran away.#l\\n#L1# #p402# is getting sick of wandering around.#l\\n#L2# Why don't you ask #p402# yourself?#l"
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "String",
+        "_value": "Ask him myself? Hahahaha! I like you. That makes me wonder. What do YOU think of ME?\\n\\n#b#L0# I think you are a great chief.#l\\n#b#L1# I think you are too harsh on Alex.#l\\n#b#L2# I think you hide the fact that you're actually a person of warmth.#l"
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "String",
+        "_value": "Yes, like you said, I'm the chief, but ever since #p402# left, I've been losing face!\\n\\n#b#L0# #p402# knows he made poor decisions, but now he's asking for forgiveness. What he needs right now is a compassionate father.#l\\n#b#L1# Are you worried less about your son and more about your image in this town? You've got to be kidding me!#l\\n#b#L2# #p402#'s been unsettled since his mother passed away. Your strict nature hasn't helped him any. How about forgiving him?#l"
+      },
+      "5": {
+        "_dirName": "5",
+        "_dirType": "String",
+        "_value": "You know THAT much? I suppose it's true that #p402# has been more rebellious since Anna passed away. I've been busy with my chiefly duties, and perhaps I've neglected him. Maybe this is my fault...\\n\\n#b#L0# If you truly believe that, you should try to reconcile with him.#l"
+      },
+      "6": {
+        "_dirName": "6",
+        "_dirType": "String",
+        "_value": "Thank you. Thanks to you, I think I can finally clear up the misunderstanding with #p402#. Please tell him he’s welcome to return to the town. Of course, I’ll still be taking the materials I asked for earlier. Oh, and one more thing… this is #t4031006#, a keepsake of his mother—Anna. Please give it to him. He’ll understand what it means. Here, take it."
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "What do you think I am, a tourist attraction? Shame on you... and get out of my face."
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "Ah yes, such a beautiful day... or not! I have no time for idle chit chat. Scram!"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "What a chicken. You tell me you know #p402# and then want to flee when I get angry? I don't even want to speak to you. Get out of here."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "He wants to come home? Hahaha...! That's a lie! I'm sure he's happy that he can do whatever he wants now, especially since he took my money."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "He's having a hard time? Good! Please give him this message: #bStay away. Feel the pain. Experience the hard life! Then maybe you'll learn a thing or two about being independent."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Sick of it?! He wants to come home now that he's sick of living alone? Hahahahahahha! As of this moment, I know no #p402#! What an ungrateful... Argh."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You are brutally honest. I usually like honesty, but I don't appreciate your candor one bit right now. Are you trying to make me mad?"
+          },
+          "2": {
+            "_dirName": "2",
+            "_dirType": "String",
+            "_value": "Hahaha! You're either very observant or you're a kiss-up. Either way, it doesn't matter. I'm busy. Scram."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 3
+          },
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You don't know #p402# like I do. What were you offered in return for helping #p402#? It doesn't matter, I can never forgive him. Please leave..."
+          },
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "Maybe, maybe not! But I have responsibilities! I've served longer as chief of this town than you've been alive. Who are you to chastise ME?"
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You want to talk to me? I am an elder of this town, I don't have the time to sit around and chat with someone like you. If you really want to talk to me, bring me some materials to repair the town. I might be able to spare some time if you can hunt #b#e25#n #o13#s#k and #b#e25#n #o16#s#k, and bring me #b15 #t4000013#s#k and #b15 #t4000016#s#k..."
+          }
+        },
+        "mob": {
+          "_dirName": "mob",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You want to talk to me? I am an elder of this town, I don't have the time to sit around and chat with someone like you. If you really want to talk to me, bring me some materials to repair the town. I might be able to spare some time if you can hunt #b#e25#n #o13#s#k and #b#e25#n #o16#s#k, and bring me #b15 #t4000013#s#k and #b15 #t4000016#s#k..."
+          }
+        }
+      }
+    }
+  }
+}

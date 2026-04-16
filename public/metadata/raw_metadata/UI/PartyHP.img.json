@@ -1,0 +1,326 @@
+{
+  "nw": {
+    "_dirName": "nw",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 5,
+      "_y": 7
+    },
+    "_width": 5,
+    "_height": 7,
+    "_format": 1,
+    "_format2": 0
+  },
+  "ne": {
+    "_dirName": "ne",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 7
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/ne"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "sw": {
+    "_dirName": "sw",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 5,
+      "_y": 0
+    },
+    "_width": 5,
+    "_height": 7,
+    "_format": 1,
+    "_format2": 0
+  },
+  "se": {
+    "_dirName": "se",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/se"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "n": {
+    "_dirName": "n",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 7
+    },
+    "_width": 1,
+    "_height": 7,
+    "_format": 1,
+    "_format2": 0
+  },
+  "s": {
+    "_dirName": "s",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_width": 1,
+    "_height": 7,
+    "_format": 1,
+    "_format2": 0
+  },
+  "w": {
+    "_dirName": "w",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 5,
+      "_y": 0
+    },
+    "_width": 5,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "e": {
+    "_dirName": "e",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/e"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "c": {
+    "_dirName": "c",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "GaugeBar": {
+    "_dirName": "GaugeBar",
+    "_dirType": "sub",
+    "graduation": {
+      "_dirName": "graduation",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/PartyHP.img/GaugeBar/graduation"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "bar": {
+      "_dirName": "bar",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -3,
+        "_y": -3
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/PartyHP.img/GaugeBar/bar"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "gauge": {
+      "_dirName": "gauge",
+      "_dirType": "canvas",
+      "_width": 1,
+      "_height": 7,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "GaugeBar2": {
+    "_dirName": "GaugeBar2",
+    "_dirType": "sub",
+    "graduation": {
+      "_dirName": "graduation",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 26,
+        "_y": 5
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/PartyHP.img/GaugeBar2/graduation"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "gauge": {
+      "_dirName": "gauge",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 0,
+        "_y": 2
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_width": 1,
+      "_height": 4,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "userOn": {
+    "_dirName": "userOn",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/userOn"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "userOff": {
+    "_dirName": "userOff",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": 0,
+      "_y": 0
+    },
+    "z": {
+      "_dirName": "z",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/userOff"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "bossOn": {
+    "_dirName": "bossOn",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -1,
+      "_y": -1
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/bossOn"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  },
+  "bossOff": {
+    "_dirName": "bossOff",
+    "_dirType": "canvas",
+    "origin": {
+      "_dirName": "origin",
+      "_dirType": "vector",
+      "_x": -1,
+      "_y": -1
+    },
+    "_outlink": {
+      "_dirName": "_outlink",
+      "_dirType": "String",
+      "_value": "UI/_Canvas/PartyHP.img/bossOff"
+    },
+    "_width": 1,
+    "_height": 1,
+    "_format": 1,
+    "_format2": 0
+  }
+}

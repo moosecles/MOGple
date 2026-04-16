@@ -107,8 +107,17 @@ export function calcDamage(input: DamageInput): DamageResult {
   const cappedMastery = Math.min(masteryLevel, 10)
   const masteryFactor = (0.1 + cappedMastery / 10) * 0.8
 
+  // ── Determine formula ─────────────────────────────────────────────────────
+  // Explicit animation overrides class config:
+  //   'magic'              → always use magic formula (even non-mage with a magic element)
+  //   'swing'|'stab'|'ranged' → always use physical (e.g. mage doing a basic attack with a Mace)
+  //   undefined            → fall back to class config (current behavior)
+  const forceMagic    = input.animation === 'magic'
+  const forcePhysical = input.animation === 'swing' || input.animation === 'stab' || input.animation === 'ranged'
+  const useMagicFormula = forceMagic || (!forcePhysical && config.isMagic)
+
   // ── Magic formula ──────────────────────────────────────────────────────────
-  if (config.isMagic) {
+  if (useMagicFormula) {
     const matk = input.weaponMAD  // Meditation bonus is already folded into weaponMAD by computeDerived
     if (matk <= 0) return { max: 0, min: 0, avg: 0 }
     const matkMod = matk * input.stats.INT / 10
@@ -126,10 +135,13 @@ export function calcDamage(input: DamageInput): DamageResult {
   }
 
   // ── Physical formula ───────────────────────────────────────────────────────
+  // When a magic-class uses a physical weapon (e.g. Mage + Mace basic attack),
+  // fall back to STR-based config because INT doesn't contribute to melee hits.
+  const physConfig = config.isMagic ? CLASS_STAT_CONFIG.Beginner : config
   const anim = input.animation === 'stab' ? 'stab' : 'swing'
-  const mult = config.weaponMult(input.weaponType, anim)
-  const primary = config.primary(input.stats)
-  const secondary = config.secondary(input.stats)
+  const mult = physConfig.weaponMult(input.weaponType, anim)
+  const primary = physConfig.primary(input.stats)
+  const secondary = physConfig.secondary(input.stats)
   const ap = input.flatAttackPower
 
   if (weaponATK <= 0) return { max: 0, min: 0, avg: 0 }
@@ -153,23 +165,88 @@ export function computeMastery(className: string, masterySkillLevel: number): nu
 
 // ─── Accuracy ─────────────────────────────────────────────────────────────────
 
+// ─── Accuracy formulas by class ────────────────────────────────────────────────
+// Reverse-engineered from CBT data: Beginner with DEX=31, LUK=4, gear ACC=1 → in-game 16
+//   floor(31 × 0.5) + 1 = 15 + 1 = 16 ✓ (old formula floor(31×0.8 + 4×0.5) + 1 = 27 ✗)
+//
+// Warriors/Mages/Beginner: ACC = floor(DEX × 0.5) + gearACC  (LUK does NOT contribute)
+// Bowmen/Thieves:          formulas not yet verified — left as-is pending CBT data
+
 const WARRIOR_MAGE_CLASSES = ['Warrior','Fighter','Page','Spearman','Magician','F/P Wizard','I/L Wizard','Cleric','Beginner']
+const THIEF_CLASSES = ['Rogue','Assassin','Bandit']
 
 export function computeAccuracy(stats: CharStats, accFromGear: number, className: string): number {
-  const base = WARRIOR_MAGE_CLASSES.includes(className)
-    ? stats.DEX * 0.8 + stats.LUK * 0.5
-    : stats.DEX * 0.6 + stats.LUK * 0.3
-  return Math.floor(base + accFromGear)
+  let base: number
+  if (WARRIOR_MAGE_CLASSES.includes(className)) {
+    // Verified against CBT: DEX/2, LUK gives no accuracy for Warriors/Mages
+    base = Math.floor(stats.DEX * 0.5)
+  } else if (THIEF_CLASSES.includes(className)) {
+    // Thieves are LUK-primary — formula pending CBT verification
+    base = Math.floor(stats.DEX * 0.25 + stats.LUK * 0.5)
+  } else {
+    // Archers/Crossbowmen — formula pending CBT verification
+    base = Math.floor(stats.DEX * 0.6 + stats.LUK * 0.15)
+  }
+  return base + accFromGear
 }
 
+/**
+ * Compute physical hit rate (0–1).
+ *
+ * Empirically verified against live CBT data (50-swing trials, Lv20 player).
+ * DB EVA values confirmed by checking actual monsters.json:
+ *   vs Ribbon Pig     (DB EVA=4):  0% at ACC≤8,  100% at ACC=13
+ *   vs Octopus        (DB EVA=7):  0% at ACC≤14, 100% at ACC=22
+ *   vs Green Mushroom (DB EVA=9):  0% at ACC≤18, 100% at ACC=29
+ *
+ * Formula (no level-gap adjustment — data shows negligible effect up to ±11 levels):
+ *   floor   = 2.0 × mobEva   (0%   when ACC ≤ floor)
+ *   ceiling = 3.2 × mobEva   (100% when ACC ≥ ceiling)
+ *   linear ramp between the two thresholds
+ *
+ * Shoutout to Littlefoot for the empirical accuracy testing data.
+ */
+export function computeHitRate(
+  playerAcc: number,
+  _playerLevel: number,
+  _mobLevel: number,
+  mobEva: number,
+): number {
+  const floor   = 2.0 * mobEva
+  const ceiling = 3.2 * mobEva
+  if (playerAcc >= ceiling) return 1.0
+  if (playerAcc <= floor)   return 0.0
+  return (playerAcc - floor) / (ceiling - floor)
+}
+
+/**
+ * Hit rate from player ACC and the precomputed guaranteed-hit threshold.
+ * Used by training.ts: accReq = accuracyRequired(...); hr = hitRate(derived.accuracy, accReq)
+ * Floor is 2/3.2 = 0.625 of the ceiling.
+ */
+export function hitRate(playerAcc: number, accRequired: number): number {
+  if (accRequired <= 0) return 1.0
+  const floor = (2.0 / 3.2) * accRequired   // = 0.625 × ceiling
+  if (playerAcc >= accRequired) return 1.0
+  if (playerAcc <= floor)       return 0.0
+  return (playerAcc - floor) / (accRequired - floor)
+}
+
+/** Minimum ACC needed for any chance to hit (first integer above 2 × mobEva). */
+export function accForAnyHit(_playerLevel: number, _mobLevel: number, mobEva: number): number {
+  return Math.floor(2.0 * mobEva) + 1
+}
+
+/** ACC needed for guaranteed hits (ceiling = 3.2 × mobEva, rounded up). */
+export function accForGuaranteedHit(_playerLevel: number, _mobLevel: number, mobEva: number): number {
+  return Math.ceil(3.2 * mobEva)
+}
+
+/**
+ * Minimum ACC for guaranteed hits — alias used by training.ts.
+ */
 export function accuracyRequired(playerLevel: number, mobLevel: number, mobEva: number): number {
-  const levelGap = mobLevel - playerLevel
-  return Math.ceil((55 + 2 * Math.max(0, levelGap)) * mobEva / 15)
-}
-
-export function hitRate(playerAcc: number, required: number): number {
-  if (required === 0) return 1.0
-  return Math.min(1.0, playerAcc / required)
+  return accForGuaranteedHit(playerLevel, mobLevel, mobEva)
 }
 
 // ─── Element multiplier ────────────────────────────────────────────────────────

@@ -1,0 +1,1115 @@
+{
+  "list": {
+    "_dirName": "list",
+    "_dirType": "sub",
+    "ChannelList": {
+      "_dirName": "ChannelList",
+      "_dirType": "sub",
+      "class": {
+        "_dirName": "class",
+        "_dirType": "String",
+        "_value": "LabelList"
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1001
+      },
+      "item_id_begin": {
+        "_dirName": "item_id_begin",
+        "_dirType": "Int",
+        "_value": 10000
+      },
+      "lt": {
+        "_dirName": "lt",
+        "_dirType": "vector",
+        "_x": 10,
+        "_y": 114
+      },
+      "rb": {
+        "_dirName": "rb",
+        "_dirType": "vector",
+        "_x": 254,
+        "_y": 294
+      },
+      "normalFont": {
+        "_dirName": "normalFont",
+        "_dirType": "sub",
+        "name": {
+          "_dirName": "name",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "size": {
+          "_dirName": "size",
+          "_dirType": "Int",
+          "_value": 12
+        },
+        "color": {
+          "_dirName": "color",
+          "_dirType": "String",
+          "_value": "FF000000"
+        },
+        "bold": {
+          "_dirName": "bold",
+          "_dirType": "Short",
+          "_value": -1
+        }
+      },
+      "selectedFont": {
+        "_dirName": "selectedFont",
+        "_dirType": "sub",
+        "name": {
+          "_dirName": "name",
+          "_dirType": "String",
+          "_value": "Arial"
+        },
+        "size": {
+          "_dirName": "size",
+          "_dirType": "Int",
+          "_value": 12
+        },
+        "color": {
+          "_dirName": "color",
+          "_dirType": "String",
+          "_value": "FFFFFFFF"
+        },
+        "bold": {
+          "_dirName": "bold",
+          "_dirType": "Short",
+          "_value": -1
+        }
+      },
+      "normalBKColor": {
+        "_dirName": "normalBKColor",
+        "_dirType": "Int",
+        "_value": -1
+      },
+      "selectedBKColor": {
+        "_dirName": "selectedBKColor",
+        "_dirType": "Int",
+        "_value": -16777216
+      },
+      "active": {
+        "_dirName": "active",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -198,
+          "_y": -135
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/active"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "highlight": {
+        "_dirName": "highlight",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -12,
+          "_y": -154
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/highlight"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "backgrnd": {
+        "_dirName": "backgrnd",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -10,
+          "_y": -134
+        },
+        "z": {
+          "_dirName": "z",
+          "_dirType": "Int",
+          "_value": 0
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/backgrnd"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "BtNo": {
+        "_dirName": "BtNo",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -10,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 5
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtNo/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -10,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtNo/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -10,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtNo/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -10,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtNo/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 10011
+        }
+      },
+      "BtGroup": {
+        "_dirName": "BtGroup",
+        "_dirType": "sub",
+        "normal": {
+          "_dirName": "normal",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -49,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 5
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtGroup/normal/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "pressed": {
+          "_dirName": "pressed",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -49,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtGroup/pressed/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "disabled": {
+          "_dirName": "disabled",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -49,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtGroup/disabled/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "mouseOver": {
+          "_dirName": "mouseOver",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "canvas",
+            "origin": {
+              "_dirName": "origin",
+              "_dirType": "vector",
+              "_x": -49,
+              "_y": -115
+            },
+            "z": {
+              "_dirName": "z",
+              "_dirType": "Int",
+              "_value": 0
+            },
+            "_outlink": {
+              "_dirName": "_outlink",
+              "_dirType": "String",
+              "_value": "UI/_Canvas/UIChatChannelList.img/list/ChannelList/BtGroup/mouseOver/0"
+            },
+            "_width": 1,
+            "_height": 1,
+            "_format": 1,
+            "_format2": 0
+          }
+        },
+        "id": {
+          "_dirName": "id",
+          "_dirType": "Int",
+          "_value": 10012
+        }
+      },
+      "Scroll": {
+        "_dirName": "Scroll",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 243,
+          "_y": 114
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 254,
+          "_y": 294
+        }
+      },
+      "item_info": {
+        "_dirName": "item_info",
+        "_dirType": "sub",
+        "lt": {
+          "_dirName": "lt",
+          "_dirType": "vector",
+          "_x": 12,
+          "_y": 134
+        },
+        "rb": {
+          "_dirName": "rb",
+          "_dirType": "vector",
+          "_x": 239,
+          "_y": 153
+        },
+        "count": {
+          "_dirName": "count",
+          "_dirType": "Int",
+          "_value": 8
+        },
+        "number": {
+          "_dirName": "number",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 15,
+            "_y": 137
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 45,
+            "_y": 150
+          }
+        },
+        "name": {
+          "_dirName": "name",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 50,
+            "_y": 135
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 238,
+            "_y": 152
+          }
+        },
+        "margin": {
+          "_dirName": "margin",
+          "_dirType": "sub",
+          "bottom": {
+            "_dirName": "bottom",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "BtOut": {
+      "_dirName": "BtOut",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -243,
+            "_y": -6
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/BtOut/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -243,
+            "_y": -6
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/BtOut/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -243,
+            "_y": -6
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/BtOut/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -245,
+            "_y": -8
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/BtOut/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1000
+      },
+      "class": {
+        "_dirName": "class",
+        "_dirType": "String",
+        "_value": "button"
+      }
+    },
+    "backgrnd": {
+      "_dirName": "backgrnd",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 1,
+        "_y": 0
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIChatChannelList.img/list/backgrnd"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd2": {
+      "_dirName": "backgrnd2",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -6,
+        "_y": -22
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIChatChannelList.img/list/backgrnd2"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd3": {
+      "_dirName": "backgrnd3",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -8,
+        "_y": -25
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIChatChannelList.img/list/backgrnd3"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "backgrnd4": {
+      "_dirName": "backgrnd4",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -33,
+        "_y": -46
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "UI/_Canvas/UIChatChannelList.img/list/backgrnd4"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "btJoin": {
+      "_dirName": "btJoin",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btJoin/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btJoin/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btJoin/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btJoin/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1002
+      },
+      "class": {
+        "_dirName": "class",
+        "_dirType": "String",
+        "_value": "button"
+      }
+    },
+    "btLeave": {
+      "_dirName": "btLeave",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btLeave/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btLeave/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btLeave/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -74,
+            "_y": -316
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/btLeave/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1003
+      },
+      "class": {
+        "_dirName": "class",
+        "_dirType": "String",
+        "_value": "button"
+      }
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "sub",
+      "images": {
+        "_dirName": "images",
+        "_dirType": "sub",
+        "msg": {
+          "_dirName": "msg",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": -17,
+            "_y": -102
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/list/msg/images/msg"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "id": {
+        "_dirName": "id",
+        "_dirType": "Int",
+        "_value": 1004
+      },
+      "class": {
+        "_dirName": "class",
+        "_dirType": "String",
+        "_value": "MultiImage"
+      }
+    }
+  },
+  "chatbutton": {
+    "_dirName": "chatbutton",
+    "_dirType": "sub",
+    "BtOut": {
+      "_dirName": "BtOut",
+      "_dirType": "sub",
+      "normal": {
+        "_dirName": "normal",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 5
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/chatbutton/BtOut/normal/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "pressed": {
+        "_dirName": "pressed",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/chatbutton/BtOut/pressed/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "disabled": {
+        "_dirName": "disabled",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/chatbutton/BtOut/disabled/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      },
+      "mouseOver": {
+        "_dirName": "mouseOver",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "canvas",
+          "origin": {
+            "_dirName": "origin",
+            "_dirType": "vector",
+            "_x": 0,
+            "_y": 0
+          },
+          "z": {
+            "_dirName": "z",
+            "_dirType": "Int",
+            "_value": 0
+          },
+          "_outlink": {
+            "_dirName": "_outlink",
+            "_dirType": "String",
+            "_value": "UI/_Canvas/UIChatChannelList.img/chatbutton/BtOut/mouseOver/0"
+          },
+          "_width": 1,
+          "_height": 1,
+          "_format": 1,
+          "_format2": 0
+        }
+      }
+    }
+  },
+  "message": {
+    "_dirName": "message",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "100레벨 미만 캐릭터로 월드 접속시 출력"
+      },
+      "msg": {
+        "_dirName": "msg",
+        "_dirType": "String",
+        "_value": "Not sure what to do first in this big exciting world? Why not get a tip from another Mapler? Just click {Newbies}<< and join the 'Newbies' Chat Channels right now!"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "info": {
+        "_dirName": "info",
+        "_dirType": "String",
+        "_value": "자유시장 입구맵(910000000) 입장시 출력"
+      },
+      "msg": {
+        "_dirName": "msg",
+        "_dirType": "String",
+        "_value": "Join the 'Trade' Chat Channel right now to start trading by clicking {Trade} <<< Whee!"
+      }
+    }
+  }
+}

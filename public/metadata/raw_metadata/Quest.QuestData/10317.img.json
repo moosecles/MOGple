@@ -1,0 +1,299 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Icarus's Hang Glider"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Icarus’s Dream"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 14
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Apparently there's someone in #m10003000# by the name of #p407# that stands on top of a building just staring at the sky 24/7."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I got to meet #b#p407##k on top of a building at #m10003000#. He seems like a nice guy who has an unquenchable thirst for flying, and he wants to create a hang glider to fulfill his dream of flying. He asks me if I can gather up the materials for the hang glider, and even though the process of making the hang glider seems dubious at best, I can't say no to his sincere desire to fly. I'll need to get him #b30 #t4000017#s, 10 #t4003001#s, and 15 #t4003002#s#k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got the materials needed for #p407# to make the hang glider and realize his dream of flying. I just wonder if Stirge wings are enough to make the hang glider. I don't know if this will really work, but he might end up succeeding, so I should check up on him around the time the hang glider should be ready to take flight."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4003001# #t4003001# #c4003001# / 10\\n#i4000017# #t4000017# #c4000017# / 30\\n#i4003002# #t4003002# #b#c4003002##k / 15"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 31
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10316
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 407
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000017
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 30
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 15
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3318
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 906
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003001
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000017
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -30
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4003002
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -15
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Wouldn't it be incredible to swim in those clouds and fly your way through freedom? I wonder what it's like to fly, free as a bird. Even if it's only for a few minutes, I'd be more than happy to just be up there! \\r\\n#L0##bCan humans really fly?#k#l\\r\\n#L1##bGrow up, you know we can't fly..#k"
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh yeah, I truly believe we're meant to fly, and I will try my hardest to make that wish come true! That got me thinking, in order to fulfill my dream, I should make a huge hang glider! I read about it in a book, and it said we can fly like a bird using a hang glider. All I need now are the materials to build it, and... do you want to help me out here? If you get me the materials, I'll definitely let you ride on it. What do you think?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I knew you'd help me out! Together we can make the most awesome hang glider ever! I was thinking, in order to make it happen, I'll need #b30 #t4000017#s#k for the wings, #b10 #t4003001#s#k for the framework, and #b15 #t4003002#s#k to make the flight as smooth as possible. You'll see a lot of #o17#'s in the subway station nearby, so you should check it out!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I can't believe you're giving up on a golden opportunity to fly. If that's the case, then I'm going to try to make it myself! You'll see!!!"
+        }
+      },
+      "ask": {
+        "_dirName": "ask",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "1": {
+            "_dirName": "1",
+            "_dirType": "String",
+            "_value": "You're just like everyone else living in a box. Wake up, think outside the box! You'll see... you'll see me flying around here some day."
+          },
+          "answer": {
+            "_dirName": "answer",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "I've been waiting for a loooong time! While you were out gathering up the materials, I drew up the perfect blueprint for it! All we need now is to follow through with the plan, and we'll be up in the skies in no time! Did you gather all the materials?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Wow, that's a lot!! Well, I'll have to get started on making the hang glider. Drop by sometime later, I should be done by then. We'll be flying in no time!"
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "Did you get all the materials I asked for? I don't think you have all of them! Please gather #b30 #t4000017#s, 10 #t4003001#s, and 15 #t4003002#s#k! The faster you get them for me, the earlier we'll be flying up in the air!"
+          }
+        }
+      }
+    }
+  }
+}

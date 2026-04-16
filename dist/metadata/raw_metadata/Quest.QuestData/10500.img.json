@@ -1,0 +1,162 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "A Clue to the Secret Book"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Mr. Wetbottom's Secret Book"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 16
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "I heard #b#p608##k in #m10005000# is going through hard times... I should go check on him."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "At the VIP sauna in #m10005000#, I met this bald man called #b#p608##k. He has a son, and apparently he ran away from home one day with a book that he cares deeply for. He requested that I find his son and get the book back from him. For a reward, he's offering me a nice sauna robe. He also told me his son #b#p320##k hangs out at a tree tunnel around #m10002000#, so maybe I can find him there. Anyway, is that book more important to him than his son?? What kind of a book is it anyway...????"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I found #b#p320##k in the tree tunnel of #m10002000#, as requested by #p608#, whom I met at the #m10005003#."
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3487
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 936
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10501
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Good job getting here. Actually, I have a favor to ask you. If you accept it, I'll give you a piece of clothing that you'll need in return. I think you are more than capable of doing it. Even if you don't care, please just listen to my story first."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I have a son that can do me no wrong. But one day he took a book of mine that is very dear to me and left. That book... hmmm... I can't tell you the details, but it is a very, very important book to me..."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "If you get me that book back safely, I'll give you a comfortable article of clothing, perfect for saunas like this. What do you think? Will you find my son and take back that book?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Ohhh... thank you so much. It won't be easy locating my son in this humongous Victoria Island. I'm guessing that he may be in a passage made of trees near the forest at #m10002000#, because that's his favorite spot... best of luck to you!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I see... I guess you're busy with things here and there... but I'll definitely reward you handsomely for your work so if you ever change your mind, please let me know."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Hey who are you? You know my dad well?"
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven't found out my son yet, huh. He took a very important book with him. I'll definitely reward you handsomely for your work. He may be in a passage made of trees near the forest at #m10002000#."
+          }
+        }
+      }
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 320
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 608
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 32
+      }
+    }
+  }
+}

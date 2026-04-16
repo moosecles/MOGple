@@ -1,0 +1,4764 @@
+{
+  "Game": {
+    "_dirName": "Game",
+    "_dirType": "sub",
+    "Button": {
+      "_dirName": "Button",
+      "_dirType": "sub",
+      "Shop": {
+        "_dirName": "Shop",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Cash Shop"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "It's a place where, armed with Cash, you'll be able to purchase accessories, clothes, messenger item, hair salon coupons, coupons for plastic surgery, and other various items."
+        }
+      },
+      "Item": {
+        "_dirName": "Item",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Item Inventory (I)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that allows the character to see the items it owns.\\nThe items are categorized under Equip., Use, Set-Up, and Etc. items."
+        }
+      },
+      "Equip": {
+        "_dirName": "Equip",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Equipment Window (E)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that shows the equipped items, and allowing the character to equip/unequip them.\\nOpen the item inventory alongside it to use the equip. items."
+        }
+      },
+      "Stat": {
+        "_dirName": "Stat",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Ability Window (S)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that shows detailed character info and its abilities.\\nUse AP to enhance many different kinds of abilities. "
+        }
+      },
+      "Skill": {
+        "_dirName": "Skill",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Skill Window (K)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that shows the detailed look of the skillbook owned by the character.\\nUse skill points to learn the skills available."
+        }
+      },
+      "Chat": {
+        "_dirName": "Chat",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Messenger Window"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that lets you chat with buddies within a world."
+        }
+      },
+      "Menu": {
+        "_dirName": "Menu",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Menu"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "The window that lets you change the options or game infos.\\nCan change game and system option.\\nCan also see quest info, party info, and the community info."
+        }
+      },
+      "Whisper": {
+        "_dirName": "Whisper",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Whisper"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Press the button to choose the character you want to whisper to.\\nPress it once more to disable whisper."
+        }
+      },
+      "MapTransfer": {
+        "_dirName": "MapTransfer",
+        "_dirType": "sub",
+        "Register": {
+          "_dirName": "Register",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Register Map"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Registers the map the character is at to the teleport list. Can save up to 5 maps."
+          }
+        },
+        "RegisterEx": {
+          "_dirName": "RegisterEx",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Register Map"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Registers the map where the character is located into the Teleport List. Can register upto 10 different places."
+          }
+        },
+        "Delete": {
+          "_dirName": "Delete",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Delete Map"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Delete the chosen map from the list."
+          }
+        },
+        "Move": {
+          "_dirName": "Move",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Move"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Teleports to the map of your choice, or to the map where the chosen character is."
+          }
+        }
+      },
+      "KeySet": {
+        "_dirName": "KeySet",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Key Config."
+        }
+      },
+      "QuickSlot": {
+        "_dirName": "QuickSlot",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Show Quick Slot"
+        }
+      },
+      "QuickSlotD": {
+        "_dirName": "QuickSlotD",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Hide Quick Slot"
+        }
+      },
+      "Claim": {
+        "_dirName": "Claim",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Alert GM"
+        }
+      },
+      "QuestAlarm": {
+        "_dirName": "QuestAlarm",
+        "_dirType": "sub",
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Click the Quest Helper button to track the currently selected quest. Up to 5 quests can be tracked at once."
+        }
+      },
+      "StatAuto": {
+        "_dirName": "StatAuto",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Distributes the remaining AP according to your level and class."
+        }
+      },
+      "StatAuto1": {
+        "_dirName": "StatAuto1",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign (Brawler)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Distributes the remaining AP according to Brawler requirements."
+        }
+      },
+      "StatAuto2": {
+        "_dirName": "StatAuto2",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign (Gunslinger)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Distributes the remaining AP according to Gunslinger requirements."
+        }
+      },
+      "PvPBtRookie": {
+        "_dirName": "PvPBtRookie",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Rookie Channel"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You must be between Lv. 30 and Lv. 69 to participate in this channel. You can use up to your 2nd job skills (5th for Evan and 3rd for Dual Blade). Item potential is not used."
+        }
+      },
+      "PvPBtSuperRookie": {
+        "_dirName": "PvPBtSuperRookie",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Gladiator Channel"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You must be Lv. 70+ to participate in this channel. You can use up to your 3rd job skills (8th for Evan and 3rd + for Dual Blade). Item potential is not used."
+        }
+      },
+      "PvPBtMajor": {
+        "_dirName": "PvPBtMajor",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Veteran Channel"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You must be Lv. 120+ to participate in this channel. Item potential is not used."
+        }
+      },
+      "PvPBtLegend": {
+        "_dirName": "PvPBtLegend",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Legend Channel"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You must be Lv. 180+ to participate in this channel. Item potential can be used, but special Battle Mode items will not spawn."
+        }
+      },
+      "PvPRoomOut": {
+        "_dirName": "PvPRoomOut",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Leave Room"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "I will leave this place."
+        }
+      },
+      "btAswanOccupation": {
+        "_dirName": "btAswanOccupation",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Occupy Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "In this mode, you must secure territories taken over by Hilla. Victory is obtained when you destroy the enemy's Guardian Tower."
+        }
+      },
+      "btAswanAttack": {
+        "_dirName": "btAswanAttack",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Attack Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "In this mode, you must attack other lands and steal their territory. Destroy the enemy's Guardian Tower to claim your victory."
+        }
+      },
+      "btAswanDefence": {
+        "_dirName": "btAswanDefence",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Defend Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "In this mode, you must defend your territory against attacks. Protect your Cygnus Faith Stone until the timer runs out or destroy the enemy's Mega Ballistas to claim victory."
+        }
+      },
+      "btAswanSuppot": {
+        "_dirName": "btAswanSuppot",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Supply Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "In this mode, complete quests by hunting monsters on a normal map. You can turn the tide by using the Supply Points you accumulate."
+        }
+      },
+      "btAswanEasy": {
+        "_dirName": "btAswanEasy",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "EASY: Easy Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Easy enough for anyone to play, but the rewards are less than stellar."
+        }
+      },
+      "btAswanNormal": {
+        "_dirName": "btAswanNormal",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "NORMAL: Normal Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Difficulty that requires a decent grasp on the rules of Azwan Liberation. You can receive above average rewards."
+        }
+      },
+      "btAswanHard": {
+        "_dirName": "btAswanHard",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "HARD: Hard Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "For players who have fully mastered the mechanics of Azwan Liberation. The rewards are great."
+        }
+      },
+      "btAswanHell": {
+        "_dirName": "btAswanHell",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "HELL: Hell Mode"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "For masters of Azwan Liberation. What magnificent rewards await?"
+        }
+      },
+      "btAswanSolo": {
+        "_dirName": "btAswanSolo",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "SOLO: Solo Play"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Allows you to play alone."
+        }
+      },
+      "btAswanParty": {
+        "_dirName": "btAswanParty",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "PARTY: Party Play"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "If you are currently in a party, your party will enter the game. If you are alone, a party will be found for you.\\n\\nSupply Mode excluded"
+        }
+      },
+      "btAswanHelp": {
+        "_dirName": "btAswanHelp",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Help: Azwan Liberation"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Click here for a detailed explanation on how to play Azwan Liberation."
+        }
+      },
+      "btAlbaRelax": {
+        "_dirName": "btAlbaRelax",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Part-Time Job: Rest"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Allows your character to rest.\\n\\rYou receive various buffs that will aid you in battle. You can obtain #cadditional EXP# benefit as the special reward."
+        }
+      },
+      "btAlbaGatherHerb": {
+        "_dirName": "btAlbaGatherHerb",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Part-Time Job: Herbalism"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can obtain various herbs.\\n\\rYou can receive #crare Alchemy recipes# as the special reward.\\n\\rIf your character has the Herbalism Profession, you will get better rewards."
+        }
+      },
+      "btAlbaGatherMine": {
+        "_dirName": "btAlbaGatherMine",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Part-Time Job: Mining"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can obtain various ores needed for forging equipment and accessory items.\\n\\rYou can receive #crare equipment and accessory recipes# as the special reward.\\n\\rIf your character has the Mining Profession, you will get better rewards."
+        }
+      },
+      "btAlbaConsumeShop": {
+        "_dirName": "btAlbaConsumeShop",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Part-Time Job: General Store"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can obtain useful potions from the General Store Part-Time Job.\\n\\rYou can obtain #cvarious scrolls# as a special reward."
+        }
+      },
+      "btAlbaEquipShop": {
+        "_dirName": "btAlbaEquipShop",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Part-Time Job: Weapon / Armor Store"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can get buffs that increase the drop rate of items from the  Weapon/Armor Store Part-Time Job. Grants various #cweapons and armors# as the special reward."
+        }
+      },
+      "StatAutoXenon": {
+        "_dirName": "StatAutoXenon",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign (Power Stance: STR)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "AP is automatically assigned\\nto STR for Power Stance."
+        }
+      },
+      "StatAutoXenon1": {
+        "_dirName": "StatAutoXenon1",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign (Elemental and Abnormal Status defense: DEX)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "AP is automatically assigned\\nto DEX for Elemental and Abnormal Status defense."
+        }
+      },
+      "StatAutoXenon2": {
+        "_dirName": "StatAutoXenon2",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Stat Auto-Assign (Avoidability: LUK)"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "AP is automatically assigned\\nto LUK for Avoidability."
+        }
+      },
+      "BtExitDungeon": {
+        "_dirName": "BtExitDungeon",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Leave Dungeon"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Exit the dungeon and return to town."
+        }
+      },
+      "btMapleTalk": {
+        "_dirName": "btMapleTalk",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Maple Talk"
+        }
+      },
+      "btMapleTalkInvite": {
+        "_dirName": "btMapleTalkInvite",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Invite Friend"
+        }
+      },
+      "btMapleTalkExit": {
+        "_dirName": "btMapleTalkExit",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Exit Chat Room"
+        }
+      },
+      "SkillAlert": {
+        "_dirName": "SkillAlert",
+        "_dirType": "sub",
+        "hyper": {
+          "_dirName": "hyper",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Hyper Skill"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "These powerful skills become available after Lv. 140. \\n\\n#cPassive Hyper Skills# boost your existing skills in different ways. You'll gain 1 SP at Levels 140, 150, 165, 180, and 190. \\n\\n#cActive Hyper Skills# are powerful active skills. A new one is unlocked at Levels 140, 160, and 190. Hyper Skills are not affected by effects that would reset cooldown and increase their duration, including Ability."
+          }
+        },
+        "5th": {
+          "_dirName": "5th",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "V Matrix"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Place Nodes on the V Matrix to equip 5th Job Skills, Skill Boosts, and Special Skills. 5th Job Skills are not affected by cooldown reset, buff duration increase effects, or summon duration increase effects."
+          }
+        },
+        "6th": {
+          "_dirName": "6th",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "HEXA Matrix"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "This is the HEXA Matrix to manage your HEXA Nodes.\\nYou can activate the Node to earn HEXA Skills and HEXA Stats, and enhance the Node to enhance those HEXA Skills and HEXA Stats.\\nHEXA Skills are not affected by cooldown reset, buff duration increase effects, or summon duration increase effects.\\nAlso, HEXA Skills receive the effects of Hyper Passive Skills and 5th Job Boost Nodes (excluding some skills)."
+          }
+        }
+      },
+      "QuestLocation": {
+        "_dirName": "QuestLocation",
+        "_dirType": "sub",
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Shows you where you need to go to do this quest."
+        }
+      },
+      "BtSailingOut": {
+        "_dirName": "BtSailingOut",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Exit Voyage"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Stop the voyage and go back to Trading Post."
+        }
+      },
+      "BtFeedbackHelp": {
+        "_dirName": "BtFeedbackHelp",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Beefy's Kitchen"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Increases character stats based on your total points.\\r\\n(Weapon ATT +1, Magic ATT +1, All Stats +1 for each star)"
+        }
+      }
+    },
+    "UIWnd": {
+      "_dirName": "UIWnd",
+      "_dirType": "sub",
+      "Stat": {
+        "_dirName": "Stat",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 31
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 47
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Character Name"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You can change it with help from Mr. Newname who is located in every town."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 50
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 63
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Character Job"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You can advance your character to a different upper level job after reaching a certain level."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Guild"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "This is your current Guild. Press the G key to see your Guild's information."
+          },
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 68
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 68,
+            "_y": 83
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Fame"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your fame increases or decreases based on other users. Some equipment and quests require a certain level of fame."
+          },
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 86
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 99
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 105
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 135
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Stat that shows your actual Damage. Magic Attack will be displayed when you're equipped with a Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet, and Weapon Attack will be displayed when you're equipped with other weapons."
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 140
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 151
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Health Point"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You will be incapacitated if your HP reaches 0. Monster attacks, some special skills, and even standing in dangerous areas will decrease your HP. Max HP: 500,000"
+          },
+          "TitleAvenger": {
+            "_dirName": "TitleAvenger",
+            "_dirType": "String",
+            "_value": "Health Point"
+          },
+          "DescAvenger": {
+            "_dirName": "DescAvenger",
+            "_dirType": "String",
+            "_value": "You will be incapacitated if your HP reaches 0. Enemy attacks, some special skills, and even standing in dangerous areas will decrease your HP. This is the most important stat for the Demon Avenger's attacks. Max HP: 500,000"
+          },
+          "DescAvenger2": {
+            "_dirName": "DescAvenger2",
+            "_dirType": "String",
+            "_value": "You will be incapacitated if your HP reaches 0. Enemy attacks, some special skills, and even standing in dangerous areas will decrease your HP. This is the most important stat for the Demon Avenger's attacks. Max HP: 500,000 (actual HP %d if there are no restrictions)"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 159
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 170
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mana Points"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Required for many skills. Max: 500,000"
+          },
+          "TitleDemon": {
+            "_dirName": "TitleDemon",
+            "_dirType": "String",
+            "_value": "Demon Fury"
+          },
+          "DescDemon": {
+            "_dirName": "DescDemon",
+            "_dirType": "String",
+            "_value": "Used for all Demon Slayer skills. This stat can only be increased through the use of a Demon Aegis."
+          },
+          "TitleZero": {
+            "_dirName": "TitleZero",
+            "_dirType": "String",
+            "_value": "Time Force"
+          },
+          "DescZero": {
+            "_dirName": "DescZero",
+            "_dirType": "String",
+            "_value": "Required for Zero skills. Restores 10 Time Force (TF) every second."
+          },
+          "NoToolTipJob": {
+            "_dirName": "NoToolTipJob",
+            "_dirType": "sub",
+            "0": {
+              "_dirName": "0",
+              "_dirType": "String",
+              "_value": "3101"
+            },
+            "1": {
+              "_dirName": "1",
+              "_dirType": "String",
+              "_value": "3120"
+            },
+            "2": {
+              "_dirName": "2",
+              "_dirType": "String",
+              "_value": "3121"
+            },
+            "3": {
+              "_dirName": "3",
+              "_dirType": "String",
+              "_value": "3122"
+            },
+            "4": {
+              "_dirName": "4",
+              "_dirType": "String",
+              "_value": "6001"
+            },
+            "5": {
+              "_dirName": "5",
+              "_dirType": "String",
+              "_value": "6500"
+            },
+            "6": {
+              "_dirName": "6",
+              "_dirType": "String",
+              "_value": "6510"
+            },
+            "7": {
+              "_dirName": "7",
+              "_dirType": "String",
+              "_value": "6511"
+            },
+            "8": {
+              "_dirName": "8",
+              "_dirType": "String",
+              "_value": "6512"
+            }
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 8,
+            "_y": 176
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 96,
+            "_y": 219
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "AP (Ability Point)"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to increase STR, DEX, INT, LUK, HP, and MP. For STR, DEX, INT, and LUK, every 1 AP used will increase the stat by 1. For HP and MP, the increase will differ based on your character and job. You will receive 5 AP each time you level up."
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 224
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 238
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "STR"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "STR determines the power of your physical attacks. It's the Warrior and some Pirates' main attack stat."
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 243
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 258
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "DEX"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "As this stat increases, Avoidability increases. It determines the attack strength of Bowmen and some Pirates."
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 261
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 278
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "INT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "INT determines the power of magic attacks. It's the Magician's main attack stat."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 279
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 294
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "LUK"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "As this stat increases, Avoidability increases. It determines the attack strength of Thieves."
+          }
+        }
+      },
+      "Stat_Xenon": {
+        "_dirName": "Stat_Xenon",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 31
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 47
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Character Name"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You can change it with help from Mr. Newname who is located in every town."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 50
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 63
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Character Job"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You can advance to an upper level job after reaching a certain level."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Guild"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "This is your current Guild. Press the G key to see your Guild's information."
+          },
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 13,
+            "_y": 68
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 68,
+            "_y": 83
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Fame"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your fame increases or decreases based on other users. Some equipment and quests require a certain level of fame."
+          },
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 86
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 99
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 105
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 135
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Stat that shows your actual Damage. Magic Attack will be displayed when you're equipped with a Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet, and Weapon Attack will be displayed when you're equipped with other weapons."
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 140
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 151
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Health Point"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You will be incapacitated if your HP reaches 0. Monster attacks, some special skills, and even standing in dangerous areas will decrease your HP. Max HP: 500,000"
+          },
+          "DescAvenger": {
+            "_dirName": "DescAvenger",
+            "_dirType": "String",
+            "_value": "You will be incapacitated if your HP reaches 0. Enemy attacks, some special skills, and even standing in dangerous areas will decrease your HP. This is the most important stat for the Demon Avenger's attacks. Max HP: 500,000"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 159
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 170
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mana Points"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Required for many skills. Max: 500,000"
+          },
+          "TitleDemon": {
+            "_dirName": "TitleDemon",
+            "_dirType": "String",
+            "_value": "Demon Fury"
+          },
+          "DescDemon": {
+            "_dirName": "DescDemon",
+            "_dirType": "String",
+            "_value": "Used for all Demon Slayer skills. This stat can only be increased through the use of a Demon Aegis."
+          },
+          "TitleZero": {
+            "_dirName": "TitleZero",
+            "_dirType": "String",
+            "_value": "Time Force"
+          },
+          "DescZero": {
+            "_dirName": "DescZero",
+            "_dirType": "String",
+            "_value": "Required for Zero skills. Restores 10 Time Force (TF) every second."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 8,
+            "_y": 176
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 96,
+            "_y": 240
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "AP (Ability Point)"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to increase STR, DEX, INT, LUK, HP, and MP. For STR, DEX, INT, and LUK, every 1 AP used will increase the stat by 1. For HP and MP, the increase will differ based on your character and job. You will receive 5 AP each time you level up."
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 244
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 260
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "STR"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Strength determines the attack strength of Xenon's melee weapon."
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 262
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 278
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "DEX"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher this stat is, the higher your Avoidability. Affects Xenon's Attack Power."
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 280
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 296
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "INT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "INT determines the power of magic attacks but does not affect Xenon's attacks."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 298
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 69,
+            "_y": 314
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "LUK"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher this stat is, the higher your Avoidability. Affects Xenon's Attack Power."
+          }
+        }
+      },
+      "StatDetail": {
+        "_dirName": "StatDetail",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 41
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 74
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your actual damage range, accounting for both Damage Bonus and Final Damage bonuses. For Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet weapons, this is calculated using Magic ATT. For all other weapons, your damage is calculated using Attack Power."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Bonus"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier value used to calculate your Damage Range. Determined by the total combined Damage of your skills and equipment. Values that only apply to specific skills are not included in this calculation."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Boss Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Boss Damage, the greater your damage against Boss monsters. This value does not affect normal Damage. Determined by the total combined Boss Damage bonuses of your skills and equipment."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Final Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier that increases your total Damage Range. Determined by multiplying the Final Damage of all your skills."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ignore Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Ignore Enemy DEF value, the better your attacks penetrate enemy defenses. Determined by multiplying the Ignore Defense values of all your skills and equipment. Values that only apply to specific skills are not included in this calculation. \\r\\nApplies up to 100%"
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance of performing a Critical attack. You can enhance this value with skills or items.  \\r\\nMax: 100%"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Critical Damage, the more damage your Critical attacks inflict. This value is added to your base Critical Damage multiplier of 20-50%. This value does not affect normal Damage. You can enhance this value with skills or items."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Status Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your Status Resistance determines the amount of time Abnormal Statuses affect you. Higher values result in shorter durations. You can enhance this value with skills or items.\\nAbnormal Status durations are currently reduced by %d%%."
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Abnormal Status Resistance string must be fixed at number 7"
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 75,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 146
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Critical Rate"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 183,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 227,
+            "_y": 200
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Knockback Resistance"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Knockback Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance to resist being pushed back by monster attacks. You can enhance this value with skills (max: 100%)."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Defense, the less damage you take from enemies. Some enemy attacks can pierce through Defense. Determined by adding the total combined Defense of your equipment to your base Defense."
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your movement speed. Can be increased to a max of 140% normally. Skills and equipment can boost this even further. Can be increased to 190% while riding a mount."
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 239
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 254
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Jump"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "How high you can jump. Can be increased to a max of 123%. Skills and equipment can be used to increase or decrease your Jump."
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 270
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 230,
+            "_y": 294
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your latent abilities. These abilities open up upon reaching level 50, and can be reset with Honor EXP or a Circulator."
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 358
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 368
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Honor EXP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to reset your abilities. Honor EXP can be obtained by leveling up normally or finding Medal of Honor drops from monsters."
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Buff Duration"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Buff Duration, the longer buffs will last. Does not apply to certain skills. Determined by the total combined Buff Duration value of your skills and equipment. Values that only apply to the duration of specific skills are not included in this calculation."
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Item Drop Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Item Drop Rate, the more likely that items will drop from defeated monsters. All values are summed to determine the final value. Item Drop Rates can increase, in total, up to 400%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value up to 100%. Item potential can increase the value up to 200%. Does not apply to certain items. Effects that only apply to specific items is not included in the calculation."
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mesos Obtained"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          },
+          "DescReboot": {
+            "_dirName": "DescReboot",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value and Heroic passive value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Power. The final value is determined by the Attack Power sum and the Attack Power % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Attack Power increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Magic ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Magic ATT. The final value is determined by the Magic ATT sum and the Magic ATT % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Magic ATT increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "21": {
+          "_dirName": "21",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Attack Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Speed. Attack Speed +1 is the slowest while +10 is the highest. It increases with the equipped weapon's Attack Speed, skills, consumables, and Ability. However, Magician jobs are not affected by the weapon Attack Speed."
+          }
+        }
+      },
+      "StatDetail2": {
+        "_dirName": "StatDetail2",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 41
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 74
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your actual damage range, accounting for both Damage Bonus and Final Damage bonuses. For Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet weapons, this is calculated using Magic ATT. For all other weapons, your damage is calculated using Attack Power."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Bonus"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier value used to calculate your Damage Range. Determined by the total combined Damage of your skills and equipment. Values that only apply to specific skills are not included in this calculation."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Boss Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Boss Damage, the greater your damage against Boss monsters. This value does not affect normal Damage. Determined by the total combined Boss Damage bonuses of your skills and equipment."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Final Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier that increases your total Damage Range. Determined by multiplying the Final Damage of all your skills."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ignore Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Ignore Enemy DEF value, the better your attacks penetrate enemy defenses. Determined by multiplying the Ignore Defense values of all your skills and equipment. Values that only apply to specific skills are not included in this calculation. \\r\\nApplies up to 100%"
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance of performing a Critical attack. You can enhance this value with skills or items.  \\r\\nMax: 100%"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Critical Damage, the more damage your Critical attacks inflict. This value is added to your base Critical Damage multiplier of 20-50%. This value does not affect normal Damage. You can enhance this value with skills or items."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Status Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your Status Resistance determines the amount of time Abnormal Statuses affect you. Higher values result in shorter durations. You can enhance this value with skills or items.\\nAbnormal Status durations are currently reduced by %d%%."
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Abnormal Status Resistance string must be fixed at number 7"
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 75,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 146
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Critical Rate"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 183,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 227,
+            "_y": 200
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Knockback Resistance"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Knockback Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance to resist being pushed back by monster attacks. You can enhance this value with skills (max: 100%)."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Defense, the less damage you take from enemies. Some enemy attacks can pierce through Defense. Determined by adding the total combined Defense of your equipment to your base Defense."
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your movement speed. Can be increased to a max of 140% normally. Skills and equipment can boost this even further. Can be increased to 190% while riding a mount."
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 239
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 254
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Jump"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "How high you can jump. Can be increased to a max of 123%. Skills and equipment can be used to increase or decrease your Jump."
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 270
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 230,
+            "_y": 294
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your latent abilities. These abilities open up upon reaching level 50, and can be reset with Honor EXP or a Circulator."
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 358
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 368
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Honor EXP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to reset your abilities. Honor EXP can be obtained by leveling up normally or finding Medal of Honor drops from monsters."
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Buff Duration"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Buff Duration, the longer buffs will last. Does not apply to certain skills. Determined by the total combined Buff Duration value of your skills and equipment. Values that only apply to the duration of specific skills are not included in this calculation."
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Item Drop Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Item Drop Rate, the more likely that items will drop from defeated monsters. All values are summed to determine the final value. Item Drop Rates can increase, in total, by up to 400%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 200%. Does not apply to certain items. Effects that only apply to specific items is not included in the calculation."
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mesos Obtained"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          },
+          "DescReboot": {
+            "_dirName": "DescReboot",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value and Heroic passive value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Power. The final value is determined by the Attack Power sum and the Attack Power % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Attack Power increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Magic ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Magic ATT. The final value is determined by the Magic ATT sum and the Magic ATT % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Magic ATT increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "21": {
+          "_dirName": "21",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Attack Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Speed. Attack Speed +1 is the slowest while +10 is the highest. It increases with the equipped weapon's Attack Speed, skills, consumables, and Ability. However, Magician jobs are not affected by the weapon Attack Speed."
+          }
+        },
+        "22": {
+          "_dirName": "22",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Star Force"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Star Force areas, if you have less Star Force than the monsters do, you'll deal less damage to them. When you have more Star Force than a monster, you can attack through that monster's shield. Can be increased by equipping items with Star Force enhancement. Doubled for Overall equipment."
+          }
+        }
+      },
+      "StatDetail3": {
+        "_dirName": "StatDetail3",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 41
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 74
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your actual damage range, accounting for both Damage Bonus and Final Damage bonuses. For Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet weapons, this is calculated using Magic ATT. For all other weapons, your damage is calculated using Attack Power."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Bonus"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier value used to calculate your Damage Range. Determined by the total combined Damage of your skills and equipment. Values that only apply to specific skills are not included in this calculation."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Boss Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Boss Damage, the greater your damage against Boss monsters. This value does not affect normal Damage. Determined by the total combined Boss Damage bonuses of your skills and equipment."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Final Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier that increases your total Damage Range. Determined by multiplying the Final Damage of all your skills."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ignore Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Ignore Enemy DEF value, the better your attacks penetrate enemy defenses. Determined by multiplying the Ignore Defense values of all your skills and equipment. Values that only apply to specific skills are not included in this calculation. \\r\\nApplies up to 100%"
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance of performing a Critical attack. You can enhance this value with skills or items.  \\r\\nMax: 100%"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Critical Damage, the more damage your Critical attacks inflict. This value is added to your base Critical Damage multiplier of 20-50%. This value does not affect normal Damage. You can enhance this value with skills or items."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Status Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your Status Resistance determines the amount of time Abnormal Statuses affect you. Higher values result in shorter durations. You can enhance this value with skills or items.\\nAbnormal Status durations are currently reduced by %d%%."
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Abnormal Status Resistance string must be fixed at number 7"
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 75,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 146
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Critical Rate"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 183,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 227,
+            "_y": 200
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Knockback Resistance"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Knockback Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance to resist being pushed back by monster attacks. You can enhance this value with skills (max: 100%)."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Defense, the less damage you take from enemies. Some enemy attacks can pierce through Defense. Determined by adding the total combined Defense of your equipment to your base Defense."
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your movement speed. Can be increased to a max of 140% normally. Skills and equipment can boost this even further. Can be increased to 190% while riding a mount."
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 239
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 254
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Jump"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "How high you can jump. Can be increased to a max of 123%. Skills and equipment can be used to increase or decrease your Jump."
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 270
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 230,
+            "_y": 294
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your latent abilities. These abilities open up upon reaching level 50, and can be reset with Honor EXP or a Circulator."
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 358
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 368
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Honor EXP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to reset your abilities. Honor EXP can be obtained by leveling up normally or finding Medal of Honor drops from monsters."
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Buff Duration"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Buff Duration, the longer buffs will last. Does not apply to certain skills. Determined by the total combined Buff Duration value of your skills and equipment. Values that only apply to the duration of specific skills are not included in this calculation."
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Item Drop Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Item Drop Rate, the more likely that items will drop from defeated monsters. All values are summed to determine the final value. Item Drop Rates can increase, in total, by up to 400%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 200%. Does not apply to certain items. Effects that only apply to specific items is not included in the calculation."
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mesos Obtained"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          },
+          "DescReboot": {
+            "_dirName": "DescReboot",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value and Heroic passive value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Power. The final value is determined by the Attack Power sum and the Attack Power % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Attack Power increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Magic ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Magic ATT. The final value is determined by the Magic ATT sum and the Magic ATT % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Magic ATT increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "21": {
+          "_dirName": "21",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Attack Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Speed. Attack Speed +1 is the slowest while +10 is the highest. It increases with the equipped weapon's Attack Speed, skills, consumables, and Ability. However, Magician jobs are not affected by the weapon Attack Speed."
+          }
+        },
+        "22": {
+          "_dirName": "22",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Star Force"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Star Force areas, if you have less Star Force than the monsters do, you'll deal less damage to them. When you have more Star Force than a monster, you can attack through that monster's shield. Can be increased by equipping items with Star Force enhancement. Doubled for Overall equipment."
+          }
+        },
+        "23": {
+          "_dirName": "23",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Arcane Power"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Arcane River areas, if you have less Arcane Power than the monsters do, you'll deal less damage to them. When you have more Arcane Power than a monster, you can attack through that monster's shield. Can be increased by obtaining and enhancing Arcane Symbols."
+          }
+        }
+      },
+      "StatDetail4": {
+        "_dirName": "StatDetail4",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 41
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 74
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage Range"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your actual damage range, accounting for both Damage Bonus and Final Damage bonuses. For Wand, Staff, Shining Rod, Fan, Psy-limiter, or Lucent Gauntlet weapons, this is calculated using Magic ATT. For all other weapons, your damage is calculated using Attack Power."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier value used to calculate your Damage Range. Determined by the total combined Damage of your skills and equipment. Values that only apply to specific skills are not included in this calculation."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 77
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 92
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Boss Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Boss Damage, the greater your damage against Boss monsters. This value does not affect normal Damage. Determined by the total combined Boss Damage bonuses of your skills and equipment."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Final Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The damage multiplier that increases your total Damage Range. Determined by multiplying the Final Damage of all your skills."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ignore Enemy DEF"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Ignore Enemy DEF value, the better your attacks penetrate enemy defenses. Determined by multiplying the Ignore Defense values of all your skills and equipment. Values that only apply to specific skills are not included in this calculation. \\r\\nApplies up to 100%"
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance of performing a Critical attack. You can enhance this value with skills or items.  \\r\\nMax: 100%"
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Critical Damage"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Critical Damage, the more damage your Critical attacks inflict. This value is added to your base Critical Damage multiplier of 20-50%. This value does not affect normal Damage. You can enhance this value with skills or items."
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Abnormal Status Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your Abnormal Status Resistance determines the amount of time Abnormal Statuses affect you. Higher values result in shorter durations. You can enhance this value with skills or items.\\nAbnormal Status durations are currently reduced by %d%%."
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Abnormal Status Resistance string must be fixed at number 7"
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 75,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 146
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Critical Rate"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 183,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 227,
+            "_y": 200
+          },
+          "info": {
+            "_dirName": "info",
+            "_dirType": "String",
+            "_value": "Displays excess of 100% Knockback Resistance"
+          },
+          "NoTitle": {
+            "_dirName": "NoTitle",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 185
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 200
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Knockback Resistance"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your chance to resist being pushed back by monster attacks. You can enhance this value with skills (max: 100%)."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Defense"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher your Defense, the less damage you take from enemies. Some enemy attacks can pierce through Defense. Determined by adding the total combined Defense of your equipment to your base Defense."
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your movement speed. Can be increased to a max of 140% normally. Skills and equipment can boost this even further. Can be increased to 190% while riding a mount."
+          }
+        },
+        "13": {
+          "_dirName": "13",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 239
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 254
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Jump"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "How high you can jump. Can be increased to a max of 123%. Skills and equipment can be used to increase or decrease your Jump."
+          }
+        },
+        "14": {
+          "_dirName": "14",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 270
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 230,
+            "_y": 294
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your latent abilities. These abilities open up upon reaching level 50, and can be reset with Honor EXP or a Circulator."
+          }
+        },
+        "15": {
+          "_dirName": "15",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 358
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 368
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Honor EXP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Used to reset your abilities. Honor EXP can be obtained by leveling up normally or finding Medal of Honor drops from monsters."
+          }
+        },
+        "16": {
+          "_dirName": "16",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 95
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 110
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Buff Duration"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Buff Duration, the longer buffs will last. Does not apply to certain skills. Determined by the total combined Buff Duration value of your skills and equipment. Values that only apply to the duration of specific skills are not included in this calculation."
+          }
+        },
+        "17": {
+          "_dirName": "17",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 113
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 128
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Item Drop Rate"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Item Drop Rate, the more likely that items will drop from defeated monsters. All values are summed to determine the final value. Item Drop Rates can increase, in total, by up to 400%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 200%. Does not apply to certain items. Effects that only apply to specific items is not included in the calculation."
+          }
+        },
+        "18": {
+          "_dirName": "18",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 131
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 146
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Mesos Obtained"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          },
+          "DescReboot": {
+            "_dirName": "DescReboot",
+            "_dirType": "String",
+            "_value": "The higher the Mesos Obtained, the more Mesos monsters drop when defeated. The final value is determined by multiplying the basic obtainable Mesos by any Wealth Acquisition Potion value and Heroic passive value, then by additionally multiplying the sum of the remaining values. Additive values can combine to increase the value by up to 300%. Consumable items, with the exception of the Wealth Acquisition Potion, can only increase the value by up to 100%. Item potential can increase the value by up to 100%."
+          }
+        },
+        "19": {
+          "_dirName": "19",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 12,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 73,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Power. The final value is determined by the Attack Power sum and the Attack Power % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Attack Power increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "20": {
+          "_dirName": "20",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 167
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 182
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Magic ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Magic ATT. The final value is determined by the Magic ATT sum and the Magic ATT % increase multiplication. However, Pipsqueak Luminous (Equilibrium) from Monster Life and the Magic ATT increase per level stat from Ability are excluded from the multiplication."
+          }
+        },
+        "21": {
+          "_dirName": "21",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 149
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 164
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Attack Speed"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Displays the current character's Attack Speed. Attack Speed +1 is the slowest while +10 is the highest. It increases with the equipped weapon's Attack Speed, skills, consumables, and Ability. However, Magician jobs are not affected by the weapon Attack Speed."
+          }
+        },
+        "22": {
+          "_dirName": "22",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 203
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 218
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Star Force"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Star Force areas, if you have less Star Force than the monsters do, you'll deal less damage to them. When you have more Star Force than a monster, you can attack through that monster's shield. Can be increased by equipping items with Star Force enhancement. Doubled for Overall equipment."
+          }
+        },
+        "23": {
+          "_dirName": "23",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 221
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 236
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Arcane Power"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Arcane River areas, if you have less Arcane Power than the monsters do, you'll deal less damage to them. When you have more Arcane Power than a monster, you can attack through that monster's shield. Can be increased by obtaining and enhancing Arcane Symbols."
+          }
+        },
+        "24": {
+          "_dirName": "24",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 124,
+            "_y": 239
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 185,
+            "_y": 254
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Sacred Power"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "In Grandis areas, if you have less Sacred Power than the monsters do, you'll deal less damage to them. When you have more Sacred Power than a monster, you can attack through that monster's shield. Can be increased by obtaining and enhancing Sacred Symbols."
+          }
+        }
+      },
+      "DKtransForm": {
+        "_dirName": "DKtransForm",
+        "_dirType": "sub",
+        "kaiserGaugeGuide": {
+          "_dirName": "kaiserGaugeGuide",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "Title": {
+              "_dirName": "Title",
+              "_dirType": "String",
+              "_value": "Morph Gauge"
+            },
+            "Desc": {
+              "_dirName": "Desc",
+              "_dirType": "String",
+              "_value": "Activate the Dragon Link skill to fill up the Morph Gauge quicker than from using normal skills.\\n#cTransfiguration skill effects# will activate, based on how full the Morph Gauge is."
+            },
+            "lt": {
+              "_dirName": "lt",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "rb": {
+              "_dirName": "rb",
+              "_dirType": "vector",
+              "_x": 96,
+              "_y": 96
+            }
+          }
+        },
+        "kaiserTransformGuide": {
+          "_dirName": "kaiserTransformGuide",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "Title": {
+              "_dirName": "Title",
+              "_dirType": "String",
+              "_value": "Final Transfiguration"
+            },
+            "Desc": {
+              "_dirName": "Desc",
+              "_dirType": "String",
+              "_value": "Only certain skills can be used while Final Trance is active."
+            },
+            "lt": {
+              "_dirName": "lt",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 100
+            },
+            "rb": {
+              "_dirName": "rb",
+              "_dirType": "vector",
+              "_x": 97,
+              "_y": 185
+            }
+          }
+        }
+      },
+      "DisabledZero": {
+        "_dirName": "DisabledZero",
+        "_dirType": "sub",
+        "gaugeGuide": {
+          "_dirName": "gaugeGuide",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "Title": {
+              "_dirName": "Title",
+              "_dirType": "String",
+              "_value": "Waiting Zero"
+            },
+            "Desc": {
+              "_dirName": "Desc",
+              "_dirType": "String",
+              "_value": "Zero's HP and TF during the Tag standby mode."
+            },
+            "lt": {
+              "_dirName": "lt",
+              "_dirType": "vector",
+              "_x": 0,
+              "_y": 0
+            },
+            "rb": {
+              "_dirName": "rb",
+              "_dirType": "vector",
+              "_x": 50,
+              "_y": 72
+            }
+          }
+        },
+        "hpGauge": {
+          "_dirName": "hpGauge",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "Title": {
+              "_dirName": "Title",
+              "_dirType": "String",
+              "_value": "Health Point"
+            },
+            "Desc": {
+              "_dirName": "Desc",
+              "_dirType": "String",
+              "_value": "Zero's HP during the Tag standby mode. 16% Max HP is restored every 4 seconds."
+            },
+            "lt": {
+              "_dirName": "lt",
+              "_dirType": "vector",
+              "_x": 50,
+              "_y": 45
+            },
+            "rb": {
+              "_dirName": "rb",
+              "_dirType": "vector",
+              "_x": 152,
+              "_y": 55
+            }
+          }
+        },
+        "tfGauge": {
+          "_dirName": "tfGauge",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "sub",
+            "Title": {
+              "_dirName": "Title",
+              "_dirType": "String",
+              "_value": "Time Force"
+            },
+            "Desc": {
+              "_dirName": "Desc",
+              "_dirType": "String",
+              "_value": "Zero's Time Force (TF) during the Tag standby mode. 20 TF is restored every second."
+            },
+            "lt": {
+              "_dirName": "lt",
+              "_dirType": "vector",
+              "_x": 50,
+              "_y": 55
+            },
+            "rb": {
+              "_dirName": "rb",
+              "_dirType": "vector",
+              "_x": 152,
+              "_y": 65
+            }
+          }
+        }
+      },
+      "MonsterBattle": {
+        "_dirName": "MonsterBattle",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 85
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 99
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Level"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The Battle Monster's level. Basic stats will increase at higher levels, and monsters will have access to more skills."
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 103
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 117
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "EXP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Reach the EXP target to raise levels. The main Battle Monster will receive EXP when you defeat monsters. Less EXP will be gained if the defeated monster's level is low, and no EXP will be rewarded for hunting monsters that are 20 or more levels below you."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 121
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 135
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "HP"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The Battle Monster's max HP. You will lose if your monster's HP reaches 0 first. You can raise this by increasing the monster's level and equipping Battle Monster equipment."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 139
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 153
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "ATT"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "This will determine the damage you deal in battles. You can raise this by increasing the monster's level and equipping Battle Monster equipment."
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 157
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 171
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "DEF"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "This will determine the damage you receive in battles. Equip defensive equipment to raise this value."
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 175
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 189
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Skill Cost"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The cap for your attack and defense skills when you configure Battle Monster skills. The cap will increase as you increase your monster's level."
+          }
+        },
+        "6": {
+          "_dirName": "6",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 193
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 207
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Monster Captured"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "The total number of Battle Monsters you've captured. The number of Level 60 Battle Monsters will determine the bonus stat given to all Battle Monsters.\\r\\n+1% to all stats per Level 60 Battle Monster (max +20%)"
+          }
+        },
+        "7": {
+          "_dirName": "7",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 238
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 252
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Group"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Group placement is based on your Ladder Points. Ladder Point requirements are as follows.\\nBeginner: 1599 or lower\\nAmateur: 1600 - 1699\\nSemi-pro: 1700 - 1799\\nPro: 1800 - 1899\\nAll-star: 1900 - 1999\\nSuperstar: 2000 - 2199\\nLegendary: 2200 - 2499\\nMythical: 2500 or above"
+          }
+        },
+        "8": {
+          "_dirName": "8",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 256
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 270
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Ladder Points"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Your League Battle score. You'll start off at 1500 points, and the points will either increase or decrease depending on your victories and losses. You'll earn more points for winning against opponents with more points than you, and lose more points for losing against opponents with less points than you."
+          }
+        },
+        "9": {
+          "_dirName": "9",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 274
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 288
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Battle Charge"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "You'll use up 1 Battle Charge every time you enter a League Battle. The cap for Battle Charges is 10, and you'll earn 1 every 5 minutes."
+          }
+        },
+        "10": {
+          "_dirName": "10",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 292
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 306
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "PVP Cost"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Cost for requesting a League Battle with a target. You can fight up to 3 times a day."
+          }
+        },
+        "11": {
+          "_dirName": "11",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 337
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 351
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Unique Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Affects Battle Monster stats in battles. Abilities are randomly set when you capture a Battle Monster. Other abilities may be added when you release and recapture the monster. Each Battle Monster will have 2 Unique Abilities."
+          }
+        },
+        "12": {
+          "_dirName": "12",
+          "_dirType": "sub",
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 330,
+            "_y": 355
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 416,
+            "_y": 369
+          },
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Unique Ability"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Affects Battle Monster stats in battles. Abilities are randomly set when you capture a Battle Monster. Other abilities may be added when you release and recapture the monster. Each Battle Monster will have 2 Unique Abilities."
+          }
+        }
+      },
+      "WaterSmashScoreBoard": {
+        "_dirName": "WaterSmashScoreBoard",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "Title": {
+            "_dirName": "Title",
+            "_dirType": "String",
+            "_value": "Scores camp"
+          },
+          "Desc": {
+            "_dirName": "Desc",
+            "_dirType": "String",
+            "_value": "Resistance : %d   Cygnus : %d"
+          },
+          "lt": {
+            "_dirName": "lt",
+            "_dirType": "vector",
+            "_x": 21,
+            "_y": 58
+          },
+          "rb": {
+            "_dirName": "rb",
+            "_dirType": "vector",
+            "_x": 181,
+            "_y": 71
+          }
+        }
+      }
+    }
+  },
+  "Shop": {
+    "_dirName": "Shop",
+    "_dirType": "sub",
+    "Button": {
+      "_dirName": "Button",
+      "_dirType": "sub",
+      "BuyAvatar": {
+        "_dirName": "BuyAvatar",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Buy All Equipped"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Purchase the items currently previewed on your character (excludes items already equipped prior to entering the Cash Shop)."
+        }
+      },
+      "DefaultAvatar": {
+        "_dirName": "DefaultAvatar",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Reset Preview"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Resets your character's appearance in the preview window to your current equipment."
+        }
+      },
+      "Rebate": {
+        "_dirName": "Rebate",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Rebate"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Deletes a Cash Item and refunds a fixed percent of its price as Maple Points."
+        }
+      },
+      "ExEquip": {
+        "_dirName": "ExEquip",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Extending Equip. Inventory"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Adds 4 slots (1 row) to Equip Inventory\\n3800 NX"
+        }
+      },
+      "ExConsume": {
+        "_dirName": "ExConsume",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Extending Use Inventory"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Adds 4 slots (1 row) to Use Inventory\\n3800 NX"
+        }
+      },
+      "ExInstall": {
+        "_dirName": "ExInstall",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Extending Set-Up Inventory"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Adds 4 slots (1 row) to Set-up Inventory\\n3800 NX"
+        }
+      },
+      "ExEtc": {
+        "_dirName": "ExEtc",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Extending Etc. Inventory"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Adds 4 slots (1 row) to Etc Inventory\\n3800 NX"
+        }
+      },
+      "Charge": {
+        "_dirName": "Charge",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Charging NX"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "NX can be added through various means - mobile device, credit card, real-time account transfers, various gift certificates, etc...\\nIf you don't have enough NX, you must purchase some before attempting an item purchase."
+        }
+      },
+      "Check": {
+        "_dirName": "Check",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Refresh NX"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Refresh to update your remaining NX Cash"
+        }
+      },
+      "Coupon": {
+        "_dirName": "Coupon",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Redeem Coupon"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Redeem coupon codes to receive items."
+        }
+      },
+      "TakeoffAvatar": {
+        "_dirName": "TakeoffAvatar",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Remove All"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Remove all the items that the character is wearing."
+        }
+      },
+      "GiftToken": {
+        "_dirName": "GiftToken",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Gift Token"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Click to see \"How to Gift\" Details"
+        }
+      },
+      "Refund": {
+        "_dirName": "Refund",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Refund"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can receive a refund of the item purchased with NX by pressing Refund unless there was a separate notice indicating that the item could not be withdrawn, 7 days have passed since the purchase, part of the package item has been used, or if the item was moved into your game Inventory."
+        }
+      },
+      "Wish": {
+        "_dirName": "Wish",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Check Cart"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Check items in my cart."
+        }
+      },
+      "Storage": {
+        "_dirName": "Storage",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Save to My Outfits"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Save this preview to My Outfits."
+        }
+      },
+      "Inventory": {
+        "_dirName": "Inventory",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Cash Inventory"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Check the Cash Inventory and Inventory."
+        }
+      },
+      "Coordination": {
+        "_dirName": "Coordination",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Check My Outfit"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "Check my saved outfits."
+        }
+      },
+      "Mileage": {
+        "_dirName": "Mileage",
+        "_dirType": "sub",
+        "Title": {
+          "_dirName": "Title",
+          "_dirType": "String",
+          "_value": "Mileage"
+        },
+        "Desc": {
+          "_dirName": "Desc",
+          "_dirType": "String",
+          "_value": "You can use Mileage points along with Nexon Cash to buy items."
+        }
+      }
+    }
+  }
+}

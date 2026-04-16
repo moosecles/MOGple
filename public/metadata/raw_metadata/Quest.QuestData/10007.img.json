@@ -1,0 +1,345 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "[Deep Forest of Patience] John's Present"
+    },
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "[Deep Forest of Patience] John's Present"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 11
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Let's go see #p100# in #m10000000# again."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I ran into #p100# the fisherman again in #m10000000#. This time, he wanted to get his wife #t4031043#s for her birthday. He asked me to get #b20 #t4031043#s#k for him. The scent of #t4031043# last over 500 years... and according to #p100#, they can be found in the #p609# again, where the flower may be found. Man... do I HAVE to go in there again??"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I got #p100# all #b20 #t4031043#s#k. They have a nice scent, but 20 of them? Makes my head spin... As a sign of appreciation, #p100# gave me a nice glove he found inside the ship. I mean, it looks like someone accidentally left that glove in there... is he allowed to give it to me like that? What if I wear this around town and run into its actual owner??"
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4031043# #t4031043# #b#c4031043# / 20"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 45
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10006
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 100
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 20
+          }
+        }
+      },
+      "order": {
+        "_dirName": "order",
+        "_dirType": "Int",
+        "_value": 1
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 6581
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1316
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4031043
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -20
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1082000
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1082054
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 2
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1082057
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 4
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1082060
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 8
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1082063
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          },
+          "job": {
+            "_dirName": "job",
+            "_dirType": "Int",
+            "_value": 16
+          },
+          "gender": {
+            "_dirName": "gender",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhhh, you're the one that helped me out the other day. You look much stronger now. How's traveling these days? I actually have another favor to ask you... this time, my wife's birthday is coming up and I need more flowers. Can you get them for me?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Thank you! This time I'd like to give my wife #b#t4031043#s#k... They have a very pleasant scent, and I heard they're found deep in the forest... I heard the place where they exist doesn't let everyone in; only a selected few, I think. Something about a #p609# in #m10005000# and something something..."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "Please get me #b20 #t4031043#s#k. I think 20 will cover the house with that pleasant scent. Please hurry!"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I understand... my wife's birthday is coming up and I am screwed! Please come back if you have some spare time."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Ohhh... you got me #b20 #b#t4031043#s#k~! This is awesome... I can't believe you went deep into the forest and got these flowers... there's a story about this flower where it supposedly doesn't die for 500 years. With this, I can make the whole house smell like flowers."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "Oh, and... since you have worked hard for me, I should reward you well. I found this glove in the ship. Some travelers leave things here and there. It looks like something you might need, so take it."
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "If you have time, why not try going back into the forest? You might find an important item in there. I can't guarantee it since obviously I've never been there before, so please don't come back complaining if all you can find is trash."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You haven't gotten the #b#t4031043#s#k yet. There's a #p609# in #m10005000# and I heard that with that you can go to the place where the #t4031043#s#k are. Please go into the forest and collect the #t4031043#s#k for me. I need 20 to make my wife's birthday present."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "The Magician's Next Journey"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Magician's Next Journey"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 101
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Having reached level 30 and mastered the way of the Magician, I feel the urge to learn even more."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "Perhaps #b#p313##k of #b#m10002000##k could teach me greater lessons."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "#b#p313##k said that if I can pass the test he gives, he’ll gladly teach me more. I’m no longer the weakling I once was, but hearing that I still have to face a trial makes me a bit nervous."
+    },
+    "selfStart": {
+      "_dirName": "selfStart",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 3150
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 20101
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Finally, I’ve reached level 30! It hasn’t been easy, but now I’m confident I can stand as a true Magician who won’t lose to anyone. Still… is this really enough? The world is vast, and I find myself wanting to learn more."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I should probably visit #b#p313##k in #b#m10002000##k again. He might be able to teach me things I’ve never known."
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Aren’t you that beginner from before? I can see in your bright eyes that the fear you once had is long gone."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "There’s no need for a long explanation—you want to learn more, don’t you? Seeing young people like you... now I'm motivated."
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "String",
+        "_value": "But first, I need to see if you’re truly ready. If you’re prepared to take my test, come speak to me again."
+      }
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 313
+      }
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 313
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 30
+      },
+      "job": {
+        "_dirName": "job",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 200
+        }
+      }
+    }
+  }
+}

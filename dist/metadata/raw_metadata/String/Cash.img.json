@@ -1,0 +1,766 @@
+{
+  "5030000": {
+    "_dirName": "5030000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Mushroom House Elf"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Set up this special store on the Free Market, and this Elf, working as the Hired Merchant, will sell the items for the owner, even if the owner does not log on to the game."
+    }
+  },
+  "5030001": {
+    "_dirName": "5030001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Cashier: Teddy Bear Clerk"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Set up this special store on the Free Market, and this Teddy Bear, working as the Hired Merchant, will sell the items for the owner, even if the owner does not log on to the game."
+    }
+  },
+  "5030002": {
+    "_dirName": "5030002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "The Robot Stand"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Set up this special store on the Free Market, and this Robot, working as the Hired Merchant, will sell the items for the owner, even if the owner does not log on to the game."
+    }
+  },
+  "5030003": {
+    "_dirName": "5030003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Homely Coffeehouse"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Set up this special store on the Free Market, and this Coffeehouse, doubling as the Hired Merchant, will be a place that sells the items for the owner, even if the owner does not log on to the game. #cIf an item is sold, the owner will be notified through the chat box.#"
+    }
+  },
+  "5030004": {
+    "_dirName": "5030004",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Granny's Food Stand"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Set up this special store on the Free Market, and this Granny, working as the Hired Merchant, will sell the items for the owner, even if the owner does not log on to the game. #cIf an item is sold, the owner will be notified through the chat box.#"
+    }
+  },
+  "5050100": {
+    "_dirName": "5050100",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "AP Reset Scroll"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "#cResets all stats#, excluding the #cAP invested in HP/MP#."
+    }
+  },
+  "5051001": {
+    "_dirName": "5051001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "SP Reset Scroll"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "When used, #call skills except for beginner skills will be reset#. "
+    }
+  },
+  "5070000": {
+    "_dirName": "5070000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Megaphone"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Shout to everyone in the channel your character is on with this megaphone. Only available for characters that are over Level 10."
+    }
+  },
+  "5070001": {
+    "_dirName": "5070001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Super Megaphone"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Shout to everyone in the world your character is on with this megaphone. Only available for characters that are over Level 10. "
+    }
+  },
+  "5120000": {
+    "_dirName": "5120000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Snowy Snow"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles snow on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's snow : %s"
+    }
+  },
+  "5120001": {
+    "_dirName": "5120001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Flowers"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles flower on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's flower : %s"
+    }
+  },
+  "5120002": {
+    "_dirName": "5120002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Soap Bubbles"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles bubbles on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's bubbles : %s"
+    }
+  },
+  "5120003": {
+    "_dirName": "5120003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Snowflakes"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles icy snow on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's icy snow : %s"
+    }
+  },
+  "5120004": {
+    "_dirName": "5120004",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Presents"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles presents on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's presents : %s"
+    }
+  },
+  "5120005": {
+    "_dirName": "5120005",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Chocolate"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles chocolate on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's chocolate : %s"
+    }
+  },
+  "5120006": {
+    "_dirName": "5120006",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Flower Petals"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkle flower petals on the map where your character is for 30 seconds. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's petals : %s"
+    }
+  },
+  "5120007": {
+    "_dirName": "5120007",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Candy"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Rains a sweet shower of candy sprinkles all over the map and displays a message of your choosing for 30 seconds!"
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's candies : %s"
+    }
+  },
+  "5120008": {
+    "_dirName": "5120008",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Sprinkled Maple Leaves"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Sprinkles maple leaves on the map where your character is for 30 sec. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's maple leaves : %s"
+    }
+  },
+  "5120009": {
+    "_dirName": "5120009",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Fireworks"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Ignites fireworks on the map where your character is for 30 sec. Enter a message of your choice."
+    },
+    "msg": {
+      "_dirName": "msg",
+      "_dirType": "String",
+      "_value": "%s's fireworks: %s"
+    }
+  },
+  "5140000": {
+    "_dirName": "5140000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Regular Store Permit"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Opens a regular store. Can be used in towns or the Free Market. Allows selling up to 16 items at once."
+    }
+  },
+  "5140001": {
+    "_dirName": "5140001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Summer Store Permit"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special-edition coupon that opens a sky blue tree store. Can be used in towns or the Free Market and sell up to 24 items at once. Available for a limited time only."
+    }
+  },
+  "5140002": {
+    "_dirName": "5140002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Pink Store Permit"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special-edition coupon that opens a pink tree store. Can be used in towns or the Free Market and sell up to 24 items at once. Available for a limited time only."
+    }
+  },
+  "5140003": {
+    "_dirName": "5140003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Fall Store Permit"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special-edition coupon that opens a orange tree store. Can be used in towns or the Free Market and sell up to 24 items at once. Available for a limited time only."
+    }
+  },
+  "5140004": {
+    "_dirName": "5140004",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Spring Store Permit"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special-edition coupon that opens a green tree store. Can be used in towns or the Free Market and sell up to 24 items at once. Available for a limited time only."
+    }
+  },
+  "5150000": {
+    "_dirName": "5150000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Henesys Hair Style Coupon (REG)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Hair Salon# to change your hair style #crandomly#. (one-time use)"
+    }
+  },
+  "5150001": {
+    "_dirName": "5150001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Kerning City Hair Style Coupon (REG)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cKerning City Hair Salon# to change your hair style #crandomly#. (one-time use)"
+    }
+  },
+  "5150100": {
+    "_dirName": "5150100",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Henesys Hair Style Coupon (VIP)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Hair Salon# to change your hair to a style of #cyour choice#. (one-time use)"
+    }
+  },
+  "5150101": {
+    "_dirName": "5150101",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Kerning City Hair Style Coupon (VIP)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cKerning City Hair Salon# to change your hair to a style of #cyour choice#. (one-time use)"
+    }
+  },
+  "5151000": {
+    "_dirName": "5151000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Henesys Hair Color Coupon (REG)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Hair Salon# to change your hair color #crandomly#. (one-time use)"
+    }
+  },
+  "5151001": {
+    "_dirName": "5151001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Kerning City Hair Color Coupon (REG)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cKerning City Hair Salon# to change your hair color #crandomly#. (one-time use)"
+    }
+  },
+  "5151100": {
+    "_dirName": "5151100",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Henesys Hair Color Coupon (VIP)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it on #cHenesys Hair Salon# to change your hair to a color of #cyour choice#. (one-time use)"
+    }
+  },
+  "5151101": {
+    "_dirName": "5151101",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Kerning City Hair Color Coupon (VIP)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cKerning City Hair Salon# to change your hair color of #cyour choice#. (one-time use)"
+    }
+  },
+  "5152000": {
+    "_dirName": "5152000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Face Coupon (REG)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Plastic Surgery# to change your face #crandomly#. (one-time use)"
+    }
+  },
+  "5152200": {
+    "_dirName": "5152200",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Face Coupon (VIP)"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Plastic Surgery# to change your face to a style of #cyour choice#. (one-time use)"
+    }
+  },
+  "5153000": {
+    "_dirName": "5153000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Henesys Skin Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use it at #cHenesys Skin-Care# to change your skin to a color of #cyour choice#. (one-time use)"
+    }
+  },
+  "5170000": {
+    "_dirName": "5170000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Pet Name Tag"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Use this item to name your pet. If you call its name before making an order, your pet will respond much better to your command. \\n ex. Lucky, sit! \\r\\nOnly #cletters and numbers# can be used in names, and #conly 1 blank space is allowed in the text of the name.#"
+    }
+  },
+  "5180000": {
+    "_dirName": "5180000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Water of Life"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A mysterious water gathered from the deepest valleys of Ellinia. It can extend a living pet’s active time, and if you bring it to Mar the fairy in Ellinia, she can restore a pet that has turned into a doll."
+    }
+  },
+  "5190000": {
+    "_dirName": "5190000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Auto HP Potion Skill"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Allows your pet to use HP potions on you when you're hurting. \\n#cAvailable to all pets that do not have this skill.#"
+    }
+  },
+  "5190001": {
+    "_dirName": "5190001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Auto MP Potion Skill"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Allows your pet to use MP potions on you when you're running dry. \\n#cAvailable to all pets that do not have this skill.#"
+    }
+  },
+  "5190002": {
+    "_dirName": "5190002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Auto Move Skill"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Adds a skill that automatically picks up nearby items and mesos without having to move.\\n#cCan be used on pets with Meso Magnet or Item Pouch."
+    }
+  },
+  "5190003": {
+    "_dirName": "5190003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Expanded Auto Move Skill"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "This scroll expands the pet's auto move by 3x.\\n#cCan only be used on pets with the Auto Move Skill. Cannot be stacked for use."
+    }
+  },
+  "5680000": {
+    "_dirName": "5680000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Storage Room 5-slot Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Double-click to expand your Storage Room by 5 slots. You may have up to 150 slots."
+    }
+  },
+  "5680001": {
+    "_dirName": "5680001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Equip Tab 5-slot Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Double-click to expand your Equip tab by 5 slots. You may have up to 150 slots."
+    }
+  },
+  "5680002": {
+    "_dirName": "5680002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Use Tab 5-slot Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Double-click to expand your Use tab by 5 slots. You may have up to 150 slots."
+    }
+  },
+  "5680003": {
+    "_dirName": "5680003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Set-up Tab 5-slot Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Double-click to expand your Set-up tab by 5 slots. You may have up to 150 slots."
+    }
+  },
+  "5680004": {
+    "_dirName": "5680004",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Etc. Tab 5-slot Coupon"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "Double-click to expand your Etc tab by 5 slots. You may have up to 150 slots."
+    }
+  },
+  "5010000": {
+    "_dirName": "5010000",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Smiley Sun"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special effect in which you'll see a brightly smiling sun floating over you. On the KeyConfig, configure this on a button of your choice to turn the effect on/off."
+    }
+  },
+  "5010001": {
+    "_dirName": "5010001",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Moon & the Stars"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special effect in which you'll see a brightly smiling moon floating around in a sea of stars over you. On the KeyConfig, configure this on a button of your choice to turn the effect on/off."
+    }
+  },
+  "5010002": {
+    "_dirName": "5010002",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Colorful Rainbow"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special effect in which you'll see a rainbow in its full 7 colors floating next to you. Designate a HotKey to turn the effect on/off."
+    }
+  },
+  "5010003": {
+    "_dirName": "5010003",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Little Devil"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special effect in which you'll see Lilly the cute little devil floating around next to you. Designate a HotKey to turn the effect on/off."
+    }
+  },
+  "5010004": {
+    "_dirName": "5010004",
+    "_dirType": "sub",
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Underwater"
+    },
+    "desc": {
+      "_dirName": "desc",
+      "_dirType": "String",
+      "_value": "A special effect that shows a submarine under the water.  Designate a HotKey to turn the effect on/off."
+    }
+  }
+}

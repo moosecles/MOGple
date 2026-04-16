@@ -1,0 +1,192 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Special Taste of Florina Beach"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Special Taste of Florina Beach I"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 18
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "A beautiful girl by the name of #p802# from #m10007000# seems to be in need of help..."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "#p802# introduced me to a part time job, where I have to collect #b10 #t4000061#s#k. Why don't I start collecting those delicious looking #t4000061#s over there on the right?"
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I brought back fresh #t4000061#s just like #p802# said. Riel told me I can come back for work anytime I want. I guess I won't be starving here in #m10007000#."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i4000061# #t4000061# #c4000061# / 10"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 802
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 37
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 802
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000061
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 10
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub"
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 4612
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1082
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 4000061
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -10
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Welcome to the #m10007000#, where the beautiful sunshine and the mind-numbingly spectacular ocean await you, and... what? What?? Ah, you're looking for a job? That's awesome! I've been looking for some help, anyway! #m10007000# is renowned for delicious coconut juice, along with tropical fruits and seafood. Your job will be to collect those for me. What do you think?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Alright!! I have to see how good you are first. Don't worry, I'll pay you accordingly. It'll be a good experience for you. Head over to the beach on the right side, and you'll see a number of coconut trees. Please gather up #b10 fresh #t4000061#s#k. I need fresh ones, nothing else, alright?"
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You don't need to start right away, huh? We at the #m10007000# can always use a hand or two, since there are so many tourists that come and go everyday. It's not that difficult of a job, so if you're looking for something that isn't terribly difficult, feel free to come back and talk to me, okay?"
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Did you collect #b10 #t4000061#s#k? If you get me the fresh ones, you'll be working for me, no problem. Well, can I see what you have there?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Wow, they really are fresh! That's just awesome! I can't believe I ran into someone as good as you. This was just a test, so I'll give you 1000 mesos. Don't worry, the future ones will earn you much more money. If you want to work while enjoying life at the beach, then please come see me. YOU will always be welcome here."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I don't think you have enough #t4000061#s. Can't find the fresh ones? Head over to the right side of the beach. The trees there have some of the freshest #t4000061#s you can find."
+          }
+        }
+      }
+    }
+  }
+}

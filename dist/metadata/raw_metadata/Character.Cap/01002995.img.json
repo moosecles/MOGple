@@ -1,0 +1,1222 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "icon": {
+      "_dirName": "icon",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": 25
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Cap/_Canvas/01002995.img/info/icon"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "iconRaw": {
+      "_dirName": "iconRaw",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": -1,
+        "_y": 25
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Cap/_Canvas/01002995.img/info/iconRaw"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    },
+    "islot": {
+      "_dirName": "islot",
+      "_dirType": "String",
+      "_value": "Cp"
+    },
+    "vslot": {
+      "_dirName": "vslot",
+      "_dirType": "String",
+      "_value": "CpH1H5"
+    },
+    "reqJob": {
+      "_dirName": "reqJob",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLevel": {
+      "_dirName": "reqLevel",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "cash": {
+      "_dirName": "cash",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqSTR": {
+      "_dirName": "reqSTR",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqDEX": {
+      "_dirName": "reqDEX",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqINT": {
+      "_dirName": "reqINT",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "reqLUK": {
+      "_dirName": "reqLUK",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "incSTR": {
+      "_dirName": "incSTR",
+      "_dirType": "Int",
+      "_value": 999
+    },
+    "incDEX": {
+      "_dirName": "incDEX",
+      "_dirType": "Int",
+      "_value": 999
+    },
+    "incINT": {
+      "_dirName": "incINT",
+      "_dirType": "Int",
+      "_value": 999
+    },
+    "incLUK": {
+      "_dirName": "incLUK",
+      "_dirType": "Int",
+      "_value": 999
+    },
+    "incPDD": {
+      "_dirName": "incPDD",
+      "_dirType": "Int",
+      "_value": 200
+    },
+    "incMDD": {
+      "_dirName": "incMDD",
+      "_dirType": "Int",
+      "_value": 200
+    },
+    "incACC": {
+      "_dirName": "incACC",
+      "_dirType": "Int",
+      "_value": 200
+    },
+    "incEVA": {
+      "_dirName": "incEVA",
+      "_dirType": "Int",
+      "_value": 200
+    },
+    "incSpeed": {
+      "_dirName": "incSpeed",
+      "_dirType": "Int",
+      "_value": 30
+    },
+    "incJump": {
+      "_dirName": "incJump",
+      "_dirType": "Int",
+      "_value": 20
+    },
+    "tuc": {
+      "_dirName": "tuc",
+      "_dirType": "Int",
+      "_value": 7
+    },
+    "price": {
+      "_dirName": "price",
+      "_dirType": "Int",
+      "_value": 1
+    }
+  },
+  "default": {
+    "_dirName": "default",
+    "_dirType": "sub",
+    "cap": {
+      "_dirName": "cap",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 16,
+        "_y": 17
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "cap"
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Cap/_Canvas/01002995.img/default/cap"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "backDefault": {
+    "_dirName": "backDefault",
+    "_dirType": "sub",
+    "backCap": {
+      "_dirName": "backCap",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 19,
+        "_y": 16
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "String",
+        "_value": "backCap"
+      },
+      "map": {
+        "_dirName": "map",
+        "_dirType": "sub",
+        "brow": {
+          "_dirName": "brow",
+          "_dirType": "vector",
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Character/Cap/_Canvas/01002995.img/backDefault/backCap"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  },
+  "walk1": {
+    "_dirName": "walk1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "walk2": {
+    "_dirName": "walk2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stand1": {
+    "_dirName": "stand1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stand2": {
+    "_dirName": "stand2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "alert": {
+    "_dirName": "alert",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingO1": {
+    "_dirName": "swingO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingO2": {
+    "_dirName": "swingO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingO3": {
+    "_dirName": "swingO3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingOF": {
+    "_dirName": "swingOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingT1": {
+    "_dirName": "swingT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingT2": {
+    "_dirName": "swingT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingT3": {
+    "_dirName": "swingT3",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingTF": {
+    "_dirName": "swingTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingP1": {
+    "_dirName": "swingP1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingP2": {
+    "_dirName": "swingP2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "swingPF": {
+    "_dirName": "swingPF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabO1": {
+    "_dirName": "stabO1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabO2": {
+    "_dirName": "stabO2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabOF": {
+    "_dirName": "stabOF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabT1": {
+    "_dirName": "stabT1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabT2": {
+    "_dirName": "stabT2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "stabTF": {
+    "_dirName": "stabTF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "shoot1": {
+    "_dirName": "shoot1",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "shoot2": {
+    "_dirName": "shoot2",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "3": {
+      "_dirName": "3",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "4": {
+      "_dirName": "4",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "shootF": {
+    "_dirName": "shootF",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "proneStab": {
+    "_dirName": "proneStab",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "prone": {
+    "_dirName": "prone",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "heal": {
+    "_dirName": "heal",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "fly": {
+    "_dirName": "fly",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "jump": {
+    "_dirName": "jump",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "sit": {
+    "_dirName": "sit",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "cap": {
+        "_dirName": "cap",
+        "_dirType": "uol",
+        "_value": "../../default/cap"
+      }
+    }
+  },
+  "ladder": {
+    "_dirName": "ladder",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    }
+  },
+  "rope": {
+    "_dirName": "rope",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "backCap": {
+        "_dirName": "backCap",
+        "_dirType": "uol",
+        "_value": "../../backDefault/backCap"
+      }
+    }
+  }
+}

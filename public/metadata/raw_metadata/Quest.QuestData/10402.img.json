@@ -1,0 +1,281 @@
+{
+  "QuestInfo": {
+    "_dirName": "QuestInfo",
+    "_dirType": "sub",
+    "parent": {
+      "_dirName": "parent",
+      "_dirType": "String",
+      "_value": "Manji's Old Gladius"
+    },
+    "name": {
+      "_dirName": "name",
+      "_dirType": "String",
+      "_value": "Old Gladius"
+    },
+    "area": {
+      "_dirName": "area",
+      "_dirType": "Int",
+      "_value": 15
+    },
+    "0": {
+      "_dirName": "0",
+      "_dirType": "String",
+      "_value": "Find #b#p502##k in #m10004000#."
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "String",
+      "_value": "I came across #b#p502##k again, whom I had first met in #m10004000# when making the medicine for #p207#, the little girl in #m10001000#. Surprised at how much stronger I had become, #p502# asked me for a favor. Long ago, when he was in danger of being struck down by Balrog, he was saved by the legendary hero Tristan, who died in his place. Ever since then, Manji had held onto Tristan’s sword. But the blade, corrupted by Balrog’s evil aura, has become so worn down that it can hardly even be called a sword anymore…\\n#p502# handed me the #b#t1302009##k he had been keeping and asked me to awaken it back to its true form. Once fully awakened, it is said to become the #b#t1302014##k. Just as #p502# said, I should seek out #b#p602##k in #b#m10005000##k."
+    },
+    "2": {
+      "_dirName": "2",
+      "_dirType": "String",
+      "_value": "I met #b#p602##k in #b#m10005000##k and was able to ask him how to awaken the #b#t1302009##k."
+    },
+    "demandSummary": {
+      "_dirName": "demandSummary",
+      "_dirType": "String",
+      "_value": "#i1302009:# #t1302009:# #c1302009# / 1"
+    }
+  },
+  "Check": {
+    "_dirName": "Check",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 502
+      },
+      "lvmin": {
+        "_dirName": "lvmin",
+        "_dirType": "Int",
+        "_value": 50
+      },
+      "quest": {
+        "_dirName": "quest",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 10112
+          },
+          "state": {
+            "_dirName": "state",
+            "_dirType": "Int",
+            "_value": 2
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "npc": {
+        "_dirName": "npc",
+        "_dirType": "Int",
+        "_value": 602
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1302009
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    }
+  },
+  "Act": {
+    "_dirName": "Act",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1302009
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": 1
+          }
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "exp": {
+        "_dirName": "exp",
+        "_dirType": "Int",
+        "_value": 7987
+      },
+      "nextQuest": {
+        "_dirName": "nextQuest",
+        "_dirType": "Int",
+        "_value": 10403
+      },
+      "money": {
+        "_dirName": "money",
+        "_dirType": "Int",
+        "_value": 1462
+      },
+      "item": {
+        "_dirName": "item",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "id": {
+            "_dirName": "id",
+            "_dirType": "Int",
+            "_value": 1302009
+          },
+          "count": {
+            "_dirName": "count",
+            "_dirType": "Int",
+            "_value": -1
+          }
+        }
+      }
+    }
+  },
+  "Say": {
+    "_dirName": "Say",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "Who's bothering me now... hey!! You have a knack for annoying me even at the best of times... well, that's alright. If you have indeed gotten that much stronger, then I'd like to see it firsthand. Did you put #t4031010# to good use? Well, it's all in the past, so..."
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "String",
+        "_value": "I would like you to help me out. Of course, I can take care of it myself, but I can't leave this area. What do you think...? You seem to have gotten strong enough to handle it easily... will you take a crack at it?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Good decision. A few decades ago, I went into a huge cave in the middle of this island. In there I felt this force of evil only I could feel, and I was sucked into it, following it deeper into the cave... I felt a sense of danger inside, but that didn't prevent me from walking further into the cave."
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "String",
+          "_value": "By the time I regained consciousness, everything around me was blue. And in the middle of darkness I saw a pair of piercing eyes staring at me. He was... yeah, the mythical, legendary Balrog. Possessing a huge set of wings and teeth so sharp they could cut through anything..."
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "String",
+          "_value": "I've spent all my life fighting, but his presence was undeniably overwhelming. My mind was telling me it was impossible to beat him, but he was already right in front of me. His weighty tail went up, high up... and starting moving towards me!"
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "String",
+          "_value": "Right at that second, someone stood in my way. This man, with a mysterious aura around his sword, fought Balrog head on, allowing me to escape. After rescuing me, he was struck by Balrog's teeth and fell down the cliff. He was... yes, the legendary hero Tristan."
+        },
+        "4": {
+          "_dirName": "4",
+          "_dirType": "String",
+          "_value": "I went all the way down to where he ultimately fell. He didn't look like he had much of a chance. Before it was too late, he handed me the #b#t1302009##k, worn out by the sheer evil of Balrog, and then passed away. This is that same sword right here. I would love to restore this to its original state."
+        },
+        "5": {
+          "_dirName": "5",
+          "_dirType": "String",
+          "_value": "The sword becomes #b#t1302014##k once it is reawakened. However, as for the details of how to reawaken it, I have no idea. I think you have to eliminate the evil force of Balrog, though... You should go see #b#p602##k from #b#m10005000##k and ask about it."
+        }
+      },
+      "no": {
+        "_dirName": "no",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "Hah... must be still hating the fact that I thought nothing of you before... You can't catch up to me with that mindset! Now I'm not so sure if I'll accept you even if you decide to change your mind... hahah."
+        }
+      }
+    },
+    "1": {
+      "_dirName": "1",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "String",
+        "_value": "#b#t1302009##k... A few decades ago, when I found out that Tristan had passed away, I couldn't believe my ears. I was the one that made the #b#t1302014##k for him. I thought anyone worthy of possessing that sword would have been indestructible. I heard that the sword has since gone bad... has it gone old and rusty?"
+      },
+      "yes": {
+        "_dirName": "yes",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "I will be waiting for you here."
+        }
+      },
+      "stop": {
+        "_dirName": "stop",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub"
+        },
+        "npc": {
+          "_dirName": "npc",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "I want you to awaken the #b#t1302009##k that I gave you into #b#t1302014##k. #r#p602##k of #m10005000# may know how to do it. If you return the reawakened sword to me... I'll definitely reward you for your hard work. Let's see if you can do this..."
+          }
+        },
+        "item": {
+          "_dirName": "item",
+          "_dirType": "sub",
+          "0": {
+            "_dirName": "0",
+            "_dirType": "String",
+            "_value": "You want to know how to awaken a sword? But which sword are you talking about? Don’t tell me you’ve lost it…"
+          }
+        }
+      },
+      "lost": {
+        "_dirName": "lost",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "String",
+          "_value": "You lost the #b#t1302009##k I gave you? You fool! But even your mistake worked out in my favor — I happened to pick up what you dropped. I can’t believe I trusted someone like you with such a precious sword... Don’t lose it again."
+        }
+      }
+    }
+  }
+}

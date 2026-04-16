@@ -1,0 +1,88 @@
+{
+  "0": {
+    "_dirName": "0",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "name": {
+        "_dirName": "name",
+        "_dirType": "String",
+        "_value": "Doraji"
+      },
+      "endPhase": {
+        "_dirName": "endPhase",
+        "_dirType": "Int",
+        "_value": 4
+      },
+      "openUI": {
+        "_dirName": "openUI",
+        "_dirType": "Int",
+        "_value": 263
+      },
+      "rewardPhase": {
+        "_dirName": "rewardPhase",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "Int",
+          "_value": 3
+        }
+      }
+    },
+    "Phase": {
+      "_dirName": "Phase",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "spendTime": {
+          "_dirName": "spendTime",
+          "_dirType": "Int",
+          "_value": 7
+        },
+        "otherProb": {
+          "_dirName": "otherProb",
+          "_dirType": "Int",
+          "_value": 30
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "spendTime": {
+          "_dirName": "spendTime",
+          "_dirType": "Int",
+          "_value": 7
+        }
+      },
+      "2": {
+        "_dirName": "2",
+        "_dirType": "sub",
+        "spendTime": {
+          "_dirName": "spendTime",
+          "_dirType": "Int",
+          "_value": 6
+        }
+      },
+      "3": {
+        "_dirName": "3",
+        "_dirType": "sub",
+        "click": {
+          "_dirName": "click",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      },
+      "4": {
+        "_dirName": "4",
+        "_dirType": "sub",
+        "noMoreToday": {
+          "_dirName": "noMoreToday",
+          "_dirType": "Int",
+          "_value": 1
+        }
+      }
+    }
+  }
+}

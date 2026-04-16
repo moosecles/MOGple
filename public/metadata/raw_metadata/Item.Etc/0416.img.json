@@ -1,0 +1,125 @@
+{
+  "04160000": {
+    "_dirName": "04160000",
+    "_dirType": "sub",
+    "info": {
+      "_dirName": "info",
+      "_dirType": "sub",
+      "icon": {
+        "_dirName": "icon",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -4,
+          "_y": 30
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Etc/_Canvas/0416.img/04160000/info/icon"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "iconRaw": {
+        "_dirName": "iconRaw",
+        "_dirType": "canvas",
+        "origin": {
+          "_dirName": "origin",
+          "_dirType": "vector",
+          "_x": -4,
+          "_y": 30
+        },
+        "_outlink": {
+          "_dirName": "_outlink",
+          "_dirType": "String",
+          "_value": "Item/Etc/_Canvas/0416.img/04160000/info/iconRaw"
+        },
+        "_width": 1,
+        "_height": 1,
+        "_format": 1,
+        "_format2": 0
+      },
+      "cash": {
+        "_dirName": "cash",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "slotMax": {
+        "_dirName": "slotMax",
+        "_dirType": "Int",
+        "_value": 1
+      },
+      "price": {
+        "_dirName": "price",
+        "_dirType": "Int",
+        "_value": 5000
+      }
+    },
+    "book": {
+      "_dirName": "book",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "text": {
+            "_dirName": "text",
+            "_dirType": "String",
+            "_value": "Scroll of Switch Pet Ability"
+          },
+          "align": {
+            "_dirName": "align",
+            "_dirType": "String",
+            "_value": "1"
+          }
+        },
+        "1": {
+          "_dirName": "1",
+          "_dirType": "sub",
+          "text": {
+            "_dirName": "text",
+            "_dirType": "String",
+            "_value": "\\nThis scroll allows one to transfer a pet's level and closeness to any other pet."
+          }
+        },
+        "2": {
+          "_dirName": "2",
+          "_dirType": "sub",
+          "text": {
+            "_dirName": "text",
+            "_dirType": "String",
+            "_value": "But just having this scroll does not guarantee the change in level and closeness between the pets."
+          }
+        },
+        "3": {
+          "_dirName": "3",
+          "_dirType": "sub",
+          "text": {
+            "_dirName": "text",
+            "_dirType": "String",
+            "_value": "Doing so requires a noble sacrifice and a holy procedure. "
+          }
+        }
+      },
+      "1": {
+        "_dirName": "1",
+        "_dirType": "sub",
+        "0": {
+          "_dirName": "0",
+          "_dirType": "sub",
+          "text": {
+            "_dirName": "text",
+            "_dirType": "String",
+            "_value": "This procedure can only take place through #rMar the Fairy#k in Ellinia. "
+          }
+        }
+      }
+    }
+  }
+}

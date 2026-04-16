@@ -1,0 +1,72 @@
+{
+  "info": {
+    "_dirName": "info",
+    "_dirType": "sub",
+    "dcLeft": {
+      "_dirName": "dcLeft",
+      "_dirType": "Int",
+      "_value": -60
+    },
+    "dcTop": {
+      "_dirName": "dcTop",
+      "_dirType": "Int",
+      "_value": -90
+    },
+    "dcRight": {
+      "_dirName": "dcRight",
+      "_dirType": "Int",
+      "_value": 60
+    },
+    "dcBottom": {
+      "_dirName": "dcBottom",
+      "_dirType": "Int",
+      "_value": 0
+    },
+    "script": {
+      "_dirName": "script",
+      "_dirType": "sub",
+      "0": {
+        "_dirName": "0",
+        "_dirType": "sub",
+        "script": {
+          "_dirName": "script",
+          "_dirType": "String",
+          "_value": "cab_henesys_200"
+        }
+      }
+    }
+  },
+  "stand": {
+    "_dirName": "stand",
+    "_dirType": "sub",
+    "0": {
+      "_dirName": "0",
+      "_dirType": "canvas",
+      "origin": {
+        "_dirName": "origin",
+        "_dirType": "vector",
+        "_x": 61,
+        "_y": 90
+      },
+      "z": {
+        "_dirName": "z",
+        "_dirType": "Int",
+        "_value": 0
+      },
+      "delay": {
+        "_dirName": "delay",
+        "_dirType": "Int",
+        "_value": 5000
+      },
+      "_outlink": {
+        "_dirName": "_outlink",
+        "_dirType": "String",
+        "_value": "Npc/_Canvas/0000200.img/stand/0"
+      },
+      "_width": 1,
+      "_height": 1,
+      "_format": 1,
+      "_format2": 0
+    }
+  }
+}
