@@ -6,6 +6,8 @@
  * targets: max mobs hit per cast (1 = single target)
  * weaponTypes: if set, skill only usable with these weapon types
  */
+import { calcDamage } from './damage'
+import type { CharStats } from '../types'
 
 export interface SecondaryHit {
   /** Damage coefficient per hit for the secondary phase (e.g. Poison Breath explosion) */
@@ -183,6 +185,38 @@ export function trainingCoeff(skill: SkillDamageInfo): number {
   return primary + secondary
 }
 
+/** Context needed to rank skills by actual computed damage instead of raw coefficients. */
+export interface SkillRankContext {
+  className: string
+  stats: CharStats
+  weaponType: string
+  weaponATK: number
+  weaponMAD: number
+  flatAttackPower: number
+  masteryLevel: number
+}
+
+/** Avg damage per cast (all hits) for a skill given real character stats. */
+function skillAvgDamage(skill: SkillDamageInfo, ctx: SkillRankContext): number {
+  const result = calcDamage({
+    className: ctx.className,
+    stats: ctx.stats,
+    weaponType: ctx.weaponType,
+    weaponATK: ctx.weaponATK,
+    weaponMAD: ctx.weaponMAD,
+    flatAttackPower: ctx.flatAttackPower,
+    masteryLevel: ctx.masteryLevel,
+    skillPercent: skill.skillPercent,
+    isLucky7: skill.isLucky7,
+    animation: skill.animation,
+  })
+  const primary = result.avg * skill.hits
+  const secondary = skill.secondaryHit
+    ? calcDamage({ ...ctx, className: ctx.className, skillPercent: skill.secondaryHit.skillPercent, isLucky7: false, animation: skill.animation }).avg * skill.secondaryHit.hits
+    : 0
+  return primary + secondary
+}
+
 /** All damage skills available to a given class name. */
 export function getClassSkills(className: string): SkillDamageInfo[] {
   return DAMAGE_SKILLS.filter(s => s.classNames.includes(className))
@@ -197,23 +231,31 @@ export function getCompatibleSkills(className: string, weaponType: string): Skil
 
 /**
  * Best skill for training maps: prefers AoE over single-target.
- * Filters out skills incompatible with the equipped weapon type.
+ * When ctx is provided, ranks by actual computed damage × targets instead of raw coefficients.
  */
-export function getBestTrainingSkill(className: string, weaponType?: string): SkillDamageInfo | undefined {
+export function getBestTrainingSkill(className: string, weaponType?: string, ctx?: SkillRankContext): SkillDamageInfo | undefined {
   const skills = weaponType
     ? getCompatibleSkills(className, weaponType)
     : getClassSkills(className)
+  if (ctx) {
+    return [...skills].sort((a, b) =>
+      skillAvgDamage(b, ctx) * b.targets - skillAvgDamage(a, ctx) * a.targets
+    )[0]
+  }
   return [...skills].sort((a, b) => trainingCoeff(b) - trainingCoeff(a))[0]
 }
 
 /**
  * Best single-target DPS skill for bossing.
- * Filters out skills incompatible with the equipped weapon type.
+ * When ctx is provided, ranks by actual computed damage instead of raw coefficients.
  */
-export function getBestSTSkill(className: string, weaponType?: string): SkillDamageInfo | undefined {
+export function getBestSTSkill(className: string, weaponType?: string, ctx?: SkillRankContext): SkillDamageInfo | undefined {
   const skills = weaponType
     ? getCompatibleSkills(className, weaponType)
     : getClassSkills(className)
+  if (ctx) {
+    return [...skills].sort((a, b) => skillAvgDamage(b, ctx) - skillAvgDamage(a, ctx))[0]
+  }
   return [...skills].sort((a, b) => singleTargetCoeff(b) - singleTargetCoeff(a))[0]
 }
 

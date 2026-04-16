@@ -56,16 +56,26 @@ export default function TrainingAdvisor({ data, character, derived }: TrainingAd
   // Use derived.weaponType directly — it's already computed and always in sync with equipped weapon
   const weaponType = derived.weaponType || undefined
 
+  const skillCtx = useMemo(() => ({
+    className: character.className,
+    stats: derived.totalStats,
+    weaponType: derived.weaponType || 'Sword',
+    weaponATK: derived.weaponATK,
+    weaponMAD: derived.weaponMAD,
+    flatAttackPower: derived.flatAttackPower,
+    masteryLevel: derived.masteryLevel,
+  }), [character.className, derived])
+
   // Best skill for training (AoE-weighted, weapon-compatible)
   const bestTrainingSkill = useMemo(
-    () => getBestTrainingSkill(character.className, weaponType),
-    [character.className, weaponType]
+    () => getBestTrainingSkill(character.className, weaponType, skillCtx),
+    [character.className, weaponType, skillCtx]
   )
 
   // Best single-target DPS skill for bossing (weapon-compatible)
   const bestSTSkill = useMemo(
-    () => getBestSTSkill(character.className, weaponType),
-    [character.className, weaponType]
+    () => getBestSTSkill(character.className, weaponType, skillCtx),
+    [character.className, weaponType, skillCtx]
   )
 
   const tiered = useMemo(

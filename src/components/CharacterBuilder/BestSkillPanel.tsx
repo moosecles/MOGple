@@ -1,8 +1,6 @@
 import type { CharacterState, DerivedStats } from '../../types'
 import { calcDamage } from '../../engine/damage'
-import {
-  getCompatibleSkills, singleTargetCoeff, trainingCoeff,
-} from '../../engine/skills'
+import { getCompatibleSkills } from '../../engine/skills'
 import type { SkillDamageInfo } from '../../engine/skills'
 
 interface Props {
@@ -90,10 +88,14 @@ export default function BestSkillPanel({ character, derived }: Props) {
 
   if (compatible.length === 0) return null
 
-  // Best single-target DPS (for bossing)
-  const bestST = [...compatible].sort((a, b) => singleTargetCoeff(b) - singleTargetCoeff(a))[0]
-  // Best AoE training skill
-  const bestAoE = [...compatible].sort((a, b) => trainingCoeff(b) - trainingCoeff(a))[0]
+  // Best single-target DPS (for bossing) — ranked by actual damage, not raw coefficient
+  const bestST = [...compatible].sort((a, b) =>
+    skillAvgDamage(b, character, derived) - skillAvgDamage(a, character, derived)
+  )[0]
+  // Best AoE training skill — actual damage × targets
+  const bestAoE = [...compatible].sort((a, b) =>
+    skillAvgDamage(b, character, derived) * b.targets - skillAvgDamage(a, character, derived) * a.targets
+  )[0]
 
   const stAvg = skillAvgDamage(bestST, character, derived)
   const aoeAvg = skillAvgDamage(bestAoE, character, derived)
@@ -101,7 +103,7 @@ export default function BestSkillPanel({ character, derived }: Props) {
   // Other skills (exclude the top two, de-duped)
   const topIds = new Set([bestST.id, bestAoE.id])
   const others = [...compatible]
-    .sort((a, b) => singleTargetCoeff(b) - singleTargetCoeff(a))
+    .sort((a, b) => skillAvgDamage(b, character, derived) - skillAvgDamage(a, character, derived))
     .filter(s => !topIds.has(s.id))
 
   const skillsDiffer = bestST.id !== bestAoE.id
@@ -132,7 +134,7 @@ export default function BestSkillPanel({ character, derived }: Props) {
             </div>
             <div className="flex items-center gap-2 mt-1">
               <span className="text-xs text-[#8B8A85]">
-                {(singleTargetCoeff(bestST) * 100).toFixed(0)}% per cast
+                {(bestST.skillPercent * bestST.hits * 100).toFixed(0)}% per cast
               </span>
               {stAvg > 0 && (
                 <span className="text-xs font-medium text-[#E8E6E1]">
@@ -168,7 +170,7 @@ export default function BestSkillPanel({ character, derived }: Props) {
             <div className="flex items-center gap-2 mt-1">
               <span className="text-xs text-[#8B8A85]">
                 {skillsDiffer
-                  ? `${bestAoE.targets > 1 ? `${bestAoE.targets}-target AoE · ` : ''}${(trainingCoeff(bestAoE) * 100).toFixed(0)}% total clear`
+                  ? `${bestAoE.targets > 1 ? `${bestAoE.targets}-target AoE · ` : ''}${(bestAoE.skillPercent * bestAoE.hits * bestAoE.targets * 100).toFixed(0)}% total clear`
                   : 'Same as single-target'
                 }
               </span>
