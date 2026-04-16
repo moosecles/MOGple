@@ -194,7 +194,9 @@ export function scoreMap(
   const survivalRating = worstSurvival
   const isDangerous = survivalRating < 0.1 || mobs.some(m => (m.PADamage - derived.totalPDD) >= derived.totalStats.HP)
 
-  const finalScore = totalExpPerHour * accuracyRating * Math.min(1.0, survivalRating + 0.3)
+  // Penalise maps where the top mob takes many hits to kill — past ~6 hits efficiency drops sharply
+  const hitEfficiencyFactor = Math.min(1.0, 6 / hitsToKillTop)
+  const finalScore = totalExpPerHour * accuracyRating * hitEfficiencyFactor * Math.min(1.0, survivalRating + 0.3)
 
   const tags = computeTags({
     mobs, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount, flyingMobCount: 0
@@ -472,7 +474,9 @@ export function rankMaps(
       ? scoringMobsArr.reduce((acc, m) => acc + levelPenaltyMultiplier(char.level, m.level) * m.count, 0) / scoringCount
       : 0
 
-    const finalScore = totalExpPerHour * accuracyRating * Math.min(1.0, survivalRating + 0.3)
+    // Penalise maps where the top mob takes many hits to kill — past ~6 hits efficiency drops sharply
+    const hitEfficiencyFactor = Math.min(1.0, 6 / hitsToKillTop)
+    const finalScore = totalExpPerHour * accuracyRating * hitEfficiencyFactor * Math.min(1.0, survivalRating + 0.3)
 
     const tags = computeTags({
       mobs: scoringMobsArr, char, accuracyRating, survivalRating, bestElemental, isDangerous, totalMobCount, flyingMobCount
